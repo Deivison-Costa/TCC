@@ -920,6 +920,15 @@ OUTPUT monografia.mw
 OUTPUT monografia.mw
 INPUT monografia.mw
 OUTPUT monografia.mw
+OUTPUT monografia.mw
+INPUT monografia.mw
+OUTPUT monografia.mw
+OUTPUT monografia.mw
+INPUT monografia.mw
+OUTPUT monografia.mw
+OUTPUT monografia.mw
+INPUT monografia.mw
+OUTPUT monografia.mw
 INPUT .\figuras\Carmody.png
 INPUT .\figuras\Carmody.png
 INPUT .\figuras\Carmody.png
@@ -927,6 +936,18 @@ INPUT .\figuras\Carmody.png
 INPUT .\figuras\Carmody.png
 INPUT .\figuras\Carmody.png
 INPUT .\figuras\Carmody.png
+OUTPUT monografia.mw
+INPUT monografia.mw
+OUTPUT monografia.mw
+OUTPUT monografia.mw
+INPUT monografia.mw
+OUTPUT monografia.mw
+OUTPUT monografia.mw
+INPUT monografia.mw
+OUTPUT monografia.mw
+OUTPUT monografia.mw
+INPUT monografia.mw
+OUTPUT monografia.mw
 OUTPUT monografia.mw
 INPUT monografia.mw
 OUTPUT monografia.mw
@@ -951,13 +972,62 @@ OUTPUT monografia.mw
 INPUT C:\Users\Deivison Costa\AppData\Local\Programs\MiKTeX\tex\latex\lm\ts1lmr.fd
 INPUT C:\Users\Deivison Costa\AppData\Local\Programs\MiKTeX\tex\latex\lm\ts1lmr.fd
 INPUT C:\Users\Deivison Costa\AppData\Local\Programs\MiKTeX\tex\latex\lm\ts1lmr.fd
+INPUT C:\Users\Deivison Costa\AppData\Local\Programs\MiKTeX\fonts\tfm\public\lm\ts1-lmr12.tfm
+OUTPUT monografia.mw
+INPUT monografia.mw
+OUTPUT monografia.mw
+OUTPUT monografia.mw
+INPUT monografia.mw
+OUTPUT monografia.mw
+OUTPUT monografia.mw
+INPUT monografia.mw
+OUTPUT monografia.mw
+OUTPUT monografia.mw
+INPUT monografia.mw
+OUTPUT monografia.mw
+OUTPUT monografia.mw
+INPUT monografia.mw
+OUTPUT monografia.mw
+OUTPUT monografia.mw
+INPUT monografia.mw
+OUTPUT monografia.mw
+OUTPUT monografia.mw
+INPUT C:\Users\Deivison Costa\AppData\Local\Programs\MiKTeX\fonts\enc\dvips\lm\lm-mathit.enc
+INPUT C:\Users\Deivison Costa\AppData\Local\Programs\MiKTeX\fonts\enc\dvips\lm\lm-rm.enc
+INPUT C:\Users\Deivison Costa\AppData\Local\Programs\MiKTeX\fonts\enc\dvips\lm\lm-mathsy.enc
+INPUT C:\Users\Deivison Costa\AppData\Local\Programs\MiKTeX\fonts\enc\dvips\lm\lm-ts1.enc
+INPUT monografia.mw
+OUTPUT monografia.mw
+OUTPUT monografia.mw
+INPUT monografia.mw
+OUTPUT monografia.mw
+OUTPUT monografia.mw
+INPUT monografia.mw
+OUTPUT monografia.mw
+OUTPUT monografia.mw
+INPUT monografia.mw
+OUTPUT monografia.mw
+OUTPUT monografia.mw
+INPUT monografia.mw
+OUTPUT monografia.mw
+OUTPUT monografia.mw
+INPUT monografia.mw
+OUTPUT monografia.mw
+OUTPUT monografia.mw
+INPUT monografia.mw
+OUTPUT monografia.mw
+OUTPUT monografia.mw
+INPUT monografia.mw
+OUTPUT monografia.mw
 INPUT C:\Users\Deivison Costa\AppData\Local\Programs\MiKTeX\fonts\tfm\public\lm\ts1-lmbx12.tfm
 OUTPUT monografia.mw
-INPUT C:\Users\Deivison Costa\AppData\Local\Programs\MiKTeX\fonts\enc\dvips\lm\lm-ts1.enc
 INPUT monografia.mw
 OUTPUT monografia.mw
 OUTPUT monografia.toc
 INPUT monografia.aux
+OUTPUT monografia.mw
+INPUT monografia.mw
+OUTPUT monografia.mw
 OUTPUT monografia.mw
 INPUT monografia.mw
 OUTPUT monografia.mw
@@ -1048,11 +1118,21 @@ OUTPUT monografia.run.xml
 OUTPUT monografia.toc
 INPUT C:\Users\Deivison Costa\AppData\Local\Programs\MiKTeX\fonts\type1\public\lm\lmbx12.pfb
 INPUT C:\Users\Deivison Costa\AppData\Local\Programs\MiKTeX\fonts\type1\public\lm\lmbx12.pfb
+INPUT C:\Users\Deivison Costa\AppData\Local\Programs\MiKTeX\fonts\type1\public\lm\lmmi12.pfb
+INPUT C:\Users\Deivison Costa\AppData\Local\Programs\MiKTeX\fonts\type1\public\lm\lmmi12.pfb
+INPUT C:\Users\Deivison Costa\AppData\Local\Programs\MiKTeX\fonts\type1\public\lm\lmmi6.pfb
+INPUT C:\Users\Deivison Costa\AppData\Local\Programs\MiKTeX\fonts\type1\public\lm\lmmi6.pfb
+INPUT C:\Users\Deivison Costa\AppData\Local\Programs\MiKTeX\fonts\type1\public\lm\lmmi8.pfb
+INPUT C:\Users\Deivison Costa\AppData\Local\Programs\MiKTeX\fonts\type1\public\lm\lmmi8.pfb
 INPUT C:\Users\Deivison Costa\AppData\Local\Programs\MiKTeX\fonts\type1\public\lm\lmr10.pfb
 INPUT C:\Users\Deivison Costa\AppData\Local\Programs\MiKTeX\fonts\type1\public\lm\lmr10.pfb
 INPUT C:\Users\Deivison Costa\AppData\Local\Programs\MiKTeX\fonts\type1\public\lm\lmr12.pfb
 INPUT C:\Users\Deivison Costa\AppData\Local\Programs\MiKTeX\fonts\type1\public\lm\lmr12.pfb
+INPUT C:\Users\Deivison Costa\AppData\Local\Programs\MiKTeX\fonts\type1\public\lm\lmr8.pfb
+INPUT C:\Users\Deivison Costa\AppData\Local\Programs\MiKTeX\fonts\type1\public\lm\lmr8.pfb
 INPUT C:\Users\Deivison Costa\AppData\Local\Programs\MiKTeX\fonts\type1\public\lm\lmri10.pfb
 INPUT C:\Users\Deivison Costa\AppData\Local\Programs\MiKTeX\fonts\type1\public\lm\lmri10.pfb
 INPUT C:\Users\Deivison Costa\AppData\Local\Programs\MiKTeX\fonts\type1\public\lm\lmri12.pfb
 INPUT C:\Users\Deivison Costa\AppData\Local\Programs\MiKTeX\fonts\type1\public\lm\lmri12.pfb
+INPUT C:\Users\Deivison Costa\AppData\Local\Programs\MiKTeX\fonts\type1\public\lm\lmsy10.pfb
+INPUT C:\Users\Deivison Costa\AppData\Local\Programs\MiKTeX\fonts\type1\public\lm\lmsy10.pfb

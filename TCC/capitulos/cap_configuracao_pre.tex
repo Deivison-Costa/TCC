@@ -201,20 +201,57 @@ A gestão eficaz da irrigação em regiões de escassez de água é um desafio q
 
 Além disso, é ressaltada a necessidade de adotar tecnologias emergentes para o gerenciamento de água e desenvolver metodologias para analisar os benefícios sociais, econômicos e ambientais da melhoria da gestão da irrigação, como destacado por \textcite{Burton_irrigation2010}.
 
-Essa integração de técnicas, ferramentas computacionais e modelos de distribuição espacial dos atributos do solo, aliada à espacialização dos dados, proporciona uma abordagem mais eficiente para a gestão da irrigação em áreas específicas, melhorando assim o uso da água em escalas como a de um perímetro irrigado \parencite{Ramos_irrigacao2022}.
+Essa integração de técnicas, ferramentas computacionais e modelos de distribuição espacial dos atributos do solo, aliada à espacialização dos dados, proporciona uma abordagem mais eficiente para a gestão da irrigação em áreas específicas, melhorando assim o uso da água em escalas como a de um perímetro irrigado \parencite{Burton_irrigation2010, Ramos_irrigacao2022}.
 
 \section{Gestão baseada no consumo de água}
 
 Segundo \textcite{carmody_fao2023}, a gestão baseada no consumo de água (CBWM) traz uma perspectiva inovadora ao considerar não apenas a entrega de água, mas o uso real da mesma na agricultura, o que contribui para a eficiência do uso dos recursos hídricos e para a sustentabilidade dos sistemas agrícolas. A CBWM reconhece que a água pode ser consumida de forma benéfica, como na transpiração das plantas para a produção de alimentos, ou de forma não benéfica, como na evaporação do solo nu ou superfícies de água nuas. Além disso, destaca a importância dos fluxos de retorno não consumidos, que podem ser recuperados para consumo benéfico ou manter os ecossistemas aquáticos (Figura \ref{figura:ciclo_agua}), contribuindo para o abastecimento de outros usuários a jusante e para a saúde dos rios e lençóis freáticos \parencite{carmody_fao2023}.
 
-\textcite{carmody_fao2023} ainda complementa que para alcançar economias reais de água, é necessário atender a quatro requisitos no contexto de um quadro mais amplo, onde os fluxos ambientais são considerados para sustentar esses sistemas e as pessoas que dependem deles. Esses requisitos incluem a determinação dos requisitos específicos de evapotranspiração para a produção de culturas, a definição dos direitos de água em termos de extração, consumo e fluxos de retorno, o uso do monitoramento de evapotranspiração e cobertura do solo para ajustar as alocações de água, e a comparação da evapotranspiração alvo com a evapotranspiração real para garantir um balanço hídrico adequado.
+\textcite{carmody_fao2023} ainda complementa que para alcançar economias reais de água, é necessário atender a quatro requisitos no contexto de um quadro mais amplo, onde os fluxos ambientais são considerados para sustentar esses sistemas e as pessoas que dependem deles. Esses requisitos incluem a determinação dos requisitos específicos de evapotranspiração (ET) para a produção de culturas, a definição dos direitos de água em termos de extração, consumo e fluxos de retorno, o uso do monitoramento de ET e cobertura do solo para ajustar as alocações de água, e a comparação da ET alvo com a ET real para garantir um balanço hídrico adequado \parencite{Allen_evapotranspiration1998, carmody_fao2023}.
 
 A gestão eficaz da irrigação não apenas envolve a aplicação de técnicas e tecnologias específicas, mas também requer uma compreensão abrangente dos princípios subjacentes ao uso sustentável da água na agricultura, como os propostos pela CBWM \parencite{Ramos_irrigacao2022, carmody_fao2023}.
 
 \begin{figure}[!htb] \centering
-  \caption{Ecossistema aquático} \label{figura:ciclo_agua}
+  \caption{Ciclo Hidrológico} \label{figura:ciclo_agua}
   \begin{varwidth}{\linewidth}
     \includegraphics[width=16cm]{figuras/Carmody.png}
     \fonte{Adaptado de \textcite{carmody_fao2023}.}
   \end{varwidth}
 \end{figure}
+
+\section{Evapotranspiração}
+
+A evapotranspiração (ET) descreve o processo fundamental de transferência de água da superfície da Terra para a atmosfera \cite{carmody_fao2023}. Como ilustrado no ciclo hidrológico (Figura \ref{figura:ciclo_agua}), a ET desempenha um papel essencial na dinâmica hídrica. Foi observado que:
+
+\begin{quote}
+  "Três tipos de superfície são importantes no retorno da chuva à atmosfera. Para extensas áreas de terra, são eles, em ordem de importância: vegetação, na qual as folhas das plantas atuam como superfícies transpirantes; solo nu ou pousio, de onde a água evapora na interface solo-ar ou logo abaixo dela e em águas abertas, a partir das quais a evaporação ocorre diretamente." \parencite{Penman_evapotranspiration1948}
+\end{quote}
+
+\textcite{Penman_evapotranspiration1948} ainda complementa que a irrigação, ao fornecer água ao solo, influencia diretamente a evaporação subsequente, afetando não apenas a quantidade de água disponível para evaporação, mas também a temperatura e a umidade do solo, que por sua vez impactam a taxa de evaporação.
+
+O aumento da ET global é um fenômeno de grande relevância no contexto atual das mudanças climáticas. Como mencionado por \textcite{yang_nature2023}, observa-se uma tendência multi-decadal de aceleração no aumento da ET desde a década de 1980. Essas mudanças são fortemente relacionadas ao crescimento da vegetação e da área plantada, evidenciado pelo aumento do índice de área foliar (LAI).
+
+A ET pode ser estimada por meio do modelo de Penman-Monteith, que é amplamente utilizado para calcular a ET de referência (ETo) em condições padrão. O modelo de Penman-Monteith é definido pela equação apresentada por \textcite{Allen_evapotranspiration1998}:
+
+\begin{equation}
+ET = \frac{\Delta (R_n - G) + \gamma \cdot \frac{C_n}{C_n + \gamma} \cdot (e_s - e_a)}{\Delta + \gamma \cdot (1 + \frac{C_d}{C_n})}
+\end{equation}
+
+Onde:
+\begin{itemize}
+  \item \(ET\) é a taxa de ET (mm/dia)
+  \item \(R_n\) é a radiação líquida (MJ/m\(^2\)/dia)
+  \item \(G\) é o calor do solo (MJ/m\(^2\)/dia)
+  \item \(\Delta\) é o déficit de pressão de vapor (kPa/°C)
+  \item \(\gamma\) é a constante psicrométrica (kPa/°C)
+  \item \(C_n\) é a constante de calor do dossel (mm/°C)
+  \item \(C_d\) é a constante de decréscimo de pressão de vapor (kPa/°C)
+  \item \(e_s\) é a pressão de vapor do ar saturado (kPa)
+  \item \(e_a\) é a pressão de vapor do ar (kPa)
+\end{itemize}
+
+Métodos de medição remota da ET têm mostrado resultados promissores na compreensão desse fenômeno em escalas regional e global. De acordo com as revisões feitas por \textcite{Zhao_evapotranspiration_med2009,Zhang_evapotranspiration_med2016}, esses métodos variam desde modelos de equações simplificadas até modelos de balanço energético de duas fontes mais complexos. Eles frequentemente utilizam dados multiespectrais remotamente detectados, abrangendo desde o visível até as bandas infravermelhas térmicas. 
+
+No entanto, muitos desses modelos dependem, em certa medida, de medições auxiliares baseadas em solo para derivar os fluxos de calor turbulentos em uma escala regional \cite{Zhao_evapotranspiration_med2009, Zhang_evapotranspiration_med2016}.
+
+O método com melhores resultados para medição de ET é apresentado por \textcite{Yang_evapotranspiration_med2022}, em que é realizada a fusão de dados de diferentes satélites (Landsat 8 e o Sentinel-2) com resoluções espaciais e temporais variáveis, o que proporciona uma estimativa mais contínua da ET diária em escala de campo.
