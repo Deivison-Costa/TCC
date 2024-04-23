@@ -221,7 +221,7 @@ A gestão eficaz da irrigação não apenas envolve a aplicação de técnicas e
 
 \section{Evapotranspiração}
 
-A evapotranspiração (ET) descreve o processo fundamental de transferência de água da superfície da Terra para a atmosfera \cite{carmody_fao2023}. Como ilustrado no ciclo hidrológico (Figura \ref{figura:ciclo_agua}), a ET desempenha um papel essencial na dinâmica hídrica. Foi observado que:
+A evapotranspiração (ET) descreve o processo fundamental de transferência de água da superfície da Terra para a atmosfera \parencite{carmody_fao2023}. Como ilustrado no ciclo hidrológico (Figura \ref{figura:ciclo_agua}), a ET desempenha um papel essencial na dinâmica hídrica. Foi observado que:
 
 \begin{quote}
   "Três tipos de superfície são importantes no retorno da chuva à atmosfera. Para extensas áreas de terra, são eles, em ordem de importância: vegetação, na qual as folhas das plantas atuam como superfícies transpirantes; solo nu ou pousio, de onde a água evapora na interface solo-ar ou logo abaixo dela e em águas abertas, a partir das quais a evaporação ocorre diretamente." \parencite{Penman_evapotranspiration1948}
@@ -231,27 +231,33 @@ A evapotranspiração (ET) descreve o processo fundamental de transferência de 
 
 O aumento da ET global é um fenômeno de grande relevância no contexto atual das mudanças climáticas. Como mencionado por \textcite{yang_nature2023}, observa-se uma tendência multi-decadal de aceleração no aumento da ET desde a década de 1980. Essas mudanças são fortemente relacionadas ao crescimento da vegetação e da área plantada, evidenciado pelo aumento do índice de área foliar (LAI).
 
-A ET pode ser estimada por meio do modelo de Penman-Monteith, que é amplamente utilizado para calcular a ET de referência (ETo) em condições padrão. O modelo de Penman-Monteith é definido pela equação apresentada por \textcite{Allen_evapotranspiration1998}:
+A ET de referência (ETo) pode ser calculada utilizando o método recomendado pela FAO-56 \parencite{Allen_evapotranspiration1998}, definido pela equação:
 
 \begin{equation}
-ET = \frac{\Delta (R_n - G) + \gamma \cdot \frac{C_n}{C_n + \gamma} \cdot (e_s - e_a)}{\Delta + \gamma \cdot (1 + \frac{C_d}{C_n})}
+ETo = 0.408 \cdot \frac{\Delta (R_n - G) + \gamma \cdot \frac{900}{T + 273} \cdot u2 \cdot (e_s - e_a)}{\Delta + \gamma \cdot (1 + 0.34 \cdot u2)}
 \end{equation}
 
 Onde:
 \begin{itemize}
-  \item \(ET\) é a taxa de ET (mm/dia)
-  \item \(R_n\) é a radiação líquida (MJ/m\(^2\)/dia)
-  \item \(G\) é o calor do solo (MJ/m\(^2\)/dia)
-  \item \(\Delta\) é o déficit de pressão de vapor (kPa/°C)
-  \item \(\gamma\) é a constante psicrométrica (kPa/°C)
-  \item \(C_n\) é a constante de calor do dossel (mm/°C)
-  \item \(C_d\) é a constante de decréscimo de pressão de vapor (kPa/°C)
-  \item \(e_s\) é a pressão de vapor do ar saturado (kPa)
-  \item \(e_a\) é a pressão de vapor do ar (kPa)
+  \item $ETo$ é a evapotranspiração de referência (mm/dia)
+  \item $R_n$ é a radiação líquida (MJ/m$^2$/dia)
+  \item $G$ é o calor do solo (MJ/m$^2$/dia)
+  \item $\Delta$ é o déficit de pressão de vapor (kPa/°C)
+  \item $\gamma$ é a constante psicrométrica (kPa/°C)
+  \item $T$ é a temperatura média do ar (°C)
+  \item $u2$ é a velocidade do vento a 2 metros de altura (m/s)
+  \item $e_s$ é a pressão de vapor do ar saturado (kPa)
+  \item $e_a$ é a pressão de vapor do ar (kPa)
 \end{itemize}
 
-Métodos de medição remota da ET têm mostrado resultados promissores na compreensão desse fenômeno em escalas regional e global. De acordo com as revisões feitas por \textcite{Zhao_evapotranspiration_med2009,Zhang_evapotranspiration_med2016}, esses métodos variam desde modelos de equações simplificadas até modelos de balanço energético de duas fontes mais complexos. Eles frequentemente utilizam dados multiespectrais remotamente detectados, abrangendo desde o visível até as bandas infravermelhas térmicas. 
+A ET de cultura (ETc) é calculada como o produto da ETo e um coeficiente de cultura ($Kc$) específico para cada cultura, como proposto por \textcite{bernardo_irrigacao2006}:
 
-No entanto, muitos desses modelos dependem, em certa medida, de medições auxiliares baseadas em solo para derivar os fluxos de calor turbulentos em uma escala regional \cite{Zhao_evapotranspiration_med2009, Zhang_evapotranspiration_med2016}.
+\begin{equation}
+ETc = Kc \times ETo
+\end{equation}
 
-O método com melhores resultados para medição de ET é apresentado por \textcite{Yang_evapotranspiration_med2022}, em que é realizada a fusão de dados de diferentes satélites (Landsat 8 e o Sentinel-2) com resoluções espaciais e temporais variáveis, o que proporciona uma estimativa mais contínua da ET diária em escala de campo.
+Métodos de telemetria da ETo têm mostrado resultados promissores na compreensão desse fenômeno em escalas regional e global. De acordo com as revisões feitas por \textcite{Zhang_evapotranspiration_med2016, Zhao_evapotranspiration_med2009}, esses métodos variam desde modelos de equações simplificadas até modelos de balanço energético de duas fontes mais complexos. Eles frequentemente utilizam dados multiespectrais remotamente detectados, abrangendo desde o visível até as bandas infravermelhas térmicas. 
+
+No entanto, muitos desses modelos dependem, em certa medida, de medições auxiliares baseadas em solo para derivar os fluxos de calor turbulentos em uma escala regional \parencite{Zhao_evapotranspiration_med2009, Zhang_evapotranspiration_med2016}.
+
+O método com melhores resultados para medição de ETo é apresentado por \textcite{Yang_evapotranspiration_med2022}, em que é realizada a fusão de dados de diferentes satélites (Landsat 8 e o Sentinel-2) com resoluções espaciais e temporais variáveis, o que proporciona uma estimativa mais contínua da ET diária em escala de campo.
