@@ -1492,60 +1492,6 @@
       \verb https://doi.org/10.1098/rspa.1948.0037
       \endverb
     \endentry
-    \entry{Zhang_evapotranspiration_med2016}{article}{}{}
-      \name{author}{3}{}{%
-        {{un=0,uniquepart=base,hash=ddc1726cf189c15802cf1d5ef196509d}{%
-           family={Zhang},
-           familyi={Z\bibinitperiod},
-           given={Ke},
-           giveni={K\bibinitperiod},
-           givenun=0}}%
-        {{un=0,uniquepart=base,hash=9a0827584ac401f86d1a0b290a97bb6b}{%
-           family={Kimball},
-           familyi={K\bibinitperiod},
-           given={John\bibnamedelima S.},
-           giveni={J\bibinitperiod\bibinitdelim S\bibinitperiod},
-           givenun=0}}%
-        {{un=0,uniquepart=base,hash=ef26b1d07b6ecb7220a6538e773e4146}{%
-           family={Running},
-           familyi={R\bibinitperiod},
-           given={Steven\bibnamedelima W.},
-           giveni={S\bibinitperiod\bibinitdelim W\bibinitperiod},
-           givenun=0}}%
-      }
-      \strng{namehash}{931f5e630500a986d4b68fbaa6b51530}
-      \strng{fullhash}{931f5e630500a986d4b68fbaa6b51530}
-      \strng{fullhashraw}{931f5e630500a986d4b68fbaa6b51530}
-      \strng{bibnamehash}{931f5e630500a986d4b68fbaa6b51530}
-      \strng{authorbibnamehash}{931f5e630500a986d4b68fbaa6b51530}
-      \strng{authornamehash}{931f5e630500a986d4b68fbaa6b51530}
-      \strng{authorfullhash}{931f5e630500a986d4b68fbaa6b51530}
-      \strng{authorfullhashraw}{931f5e630500a986d4b68fbaa6b51530}
-      \field{sortinit}{A}
-      \field{sortinithash}{2f401846e2029bad6b3ecc16d50031e2}
-      \field{extradatescope}{labelyear}
-      \field{labeldatesource}{}
-      \field{labelnamesource}{author}
-      \field{labeltitlesource}{title}
-      \field{journaltitle}{Wiley interdisciplinary reviews: Water}
-      \field{month}{7}
-      \field{number}{6}
-      \field{title}{A review of remote sensing based actual evapotranspiration estimation}
-      \field{urlday}{22}
-      \field{urlmonth}{4}
-      \field{urlyear}{2024}
-      \field{volume}{3}
-      \field{year}{2016}
-      \field{urldateera}{ce}
-      \field{pages}{834\bibrangedash 853}
-      \range{pages}{20}
-      \verb{urlraw}
-      \verb https://doi.org/10.1002/wat2.1168
-      \endverb
-      \verb{url}
-      \verb https://doi.org/10.1002/wat2.1168
-      \endverb
-    \endentry
     \entry{Zhao_evapotranspiration_med2009}{article}{}{}
       \name{author}{8}{}{%
         {{un=0,uniquepart=base,hash=910f5e1a763c6e38948370ba7bf4d1e0}{%
@@ -1628,6 +1574,60 @@
       \endverb
       \verb{url}
       \verb https://doi.org/10.3390/s90503801
+      \endverb
+    \endentry
+    \entry{Zhang_evapotranspiration_med2016}{article}{}{}
+      \name{author}{3}{}{%
+        {{un=0,uniquepart=base,hash=ddc1726cf189c15802cf1d5ef196509d}{%
+           family={Zhang},
+           familyi={Z\bibinitperiod},
+           given={Ke},
+           giveni={K\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=9a0827584ac401f86d1a0b290a97bb6b}{%
+           family={Kimball},
+           familyi={K\bibinitperiod},
+           given={John\bibnamedelima S.},
+           giveni={J\bibinitperiod\bibinitdelim S\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=ef26b1d07b6ecb7220a6538e773e4146}{%
+           family={Running},
+           familyi={R\bibinitperiod},
+           given={Steven\bibnamedelima W.},
+           giveni={S\bibinitperiod\bibinitdelim W\bibinitperiod},
+           givenun=0}}%
+      }
+      \strng{namehash}{931f5e630500a986d4b68fbaa6b51530}
+      \strng{fullhash}{931f5e630500a986d4b68fbaa6b51530}
+      \strng{fullhashraw}{931f5e630500a986d4b68fbaa6b51530}
+      \strng{bibnamehash}{931f5e630500a986d4b68fbaa6b51530}
+      \strng{authorbibnamehash}{931f5e630500a986d4b68fbaa6b51530}
+      \strng{authornamehash}{931f5e630500a986d4b68fbaa6b51530}
+      \strng{authorfullhash}{931f5e630500a986d4b68fbaa6b51530}
+      \strng{authorfullhashraw}{931f5e630500a986d4b68fbaa6b51530}
+      \field{sortinit}{A}
+      \field{sortinithash}{2f401846e2029bad6b3ecc16d50031e2}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{Wiley interdisciplinary reviews: Water}
+      \field{month}{7}
+      \field{number}{6}
+      \field{title}{A review of remote sensing based actual evapotranspiration estimation}
+      \field{urlday}{22}
+      \field{urlmonth}{4}
+      \field{urlyear}{2024}
+      \field{volume}{3}
+      \field{year}{2016}
+      \field{urldateera}{ce}
+      \field{pages}{834\bibrangedash 853}
+      \range{pages}{20}
+      \verb{urlraw}
+      \verb https://doi.org/10.1002/wat2.1168
+      \endverb
+      \verb{url}
+      \verb https://doi.org/10.1002/wat2.1168
       \endverb
     \endentry
     \entry{Yang_evapotranspiration_med2022}{article}{}{}
@@ -2737,7 +2737,7 @@
       \verb https://www.fao.org/3/X0490E/x0490e00.htm
       \endverb
     \endentry
-    \entry{bernardo_irrigacao2006}{book}{}{}
+    \entry{bernardo_irrigacao2008}{book}{}{}
       \name{author}{4}{}{%
         {{un=0,uniquepart=base,hash=e58fa4cf836254e7005deefe2f825946}{%
            family={Bernardo},

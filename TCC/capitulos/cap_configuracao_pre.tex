@@ -231,7 +231,21 @@ A evapotranspiração (ET) descreve o processo fundamental de transferência de 
 
 O aumento da ET global é um fenômeno de grande relevância no contexto atual das mudanças climáticas. Como mencionado por \textcite{yang_nature2023}, observa-se uma tendência multi-decadal de aceleração no aumento da ET desde a década de 1980. Essas mudanças são fortemente relacionadas ao crescimento da vegetação e da área plantada, evidenciado pelo aumento do índice de área foliar (LAI).
 
-A ET de referência (ETo) pode ser calculada utilizando o método recomendado pela FAO-56 \parencite{Allen_evapotranspiration1998}, definido pela equação:
+Métodos de telemetria da ET têm mostrado resultados promissores na compreensão desse fenômeno em escalas regional e global. De acordo com as revisões feitas por \textcite{Zhao_evapotranspiration_med2009, Zhang_evapotranspiration_med2016}, esses métodos variam desde modelos de equações simplificadas até modelos de balanço energético de duas fontes mais complexos. Eles frequentemente utilizam dados multiespectrais remotamente detectados, abrangendo desde o visível até as bandas infravermelhas térmicas. 
+
+No entanto, muitos desses modelos dependem, em certa medida, de medições auxiliares baseadas em solo para derivar os fluxos de calor turbulentos em uma escala regional \parencite{Zhao_evapotranspiration_med2009, Zhang_evapotranspiration_med2016}.
+
+O método com melhores resultados para medição de ET é apresentado por \textcite{Yang_evapotranspiration_med2022}, em que é realizada a fusão de dados de diferentes satélites (Landsat 8 e o Sentinel-2) com resoluções espaciais e temporais variáveis, o que proporciona uma estimativa mais contínua da ET diária em escala de campo.
+
+\section{Evapotranspiração de referência}
+
+A ET de referência (ETo) é definida como:
+
+\begin{quote}
+  "A quantidade de água evaporada da superfície de referência padrão, que consiste em uma cultura específica cobrindo completamente o solo, com altura uniforme e sem estresse hídrico, sob condições climáticas padrão." \parencite{Allen_evapotranspiration1998}
+\end{quote}
+
+Ela pode ser calculada utilizando o método recomendado pela FAO-56, definido pela equação:
 
 \begin{equation}
 ETo = 0.408 \cdot \frac{\Delta (R_n - G) + \gamma \cdot \frac{900}{T + 273} \cdot u2 \cdot (e_s - e_a)}{\Delta + \gamma \cdot (1 + 0.34 \cdot u2)}
@@ -250,14 +264,25 @@ Onde:
   \item $e_a$ é a pressão de vapor do ar (kPa)
 \end{itemize}
 
-A ET de cultura (ETc) é calculada como o produto da ETo e um coeficiente de cultura ($Kc$) específico para cada cultura, como proposto por \textcite{bernardo_irrigacao2006}:
+\section{Evapotranspiração de cultura}
+
+A ET de cultura (ETc), por sua vez, é definida como:
+
+\begin{quote}
+  "A quantidade de água evaporada da superfície do solo e transpirada pelas plantas em uma cultura específica sob condições reais." \parencite{bernardo_irrigacao2008}
+\end{quote}
+
+Ela é calculada como o produto da ETo e um determinado $Kc$ para cada cultura, como proposto por \textcite{bernardo_irrigacao2008}:
 
 \begin{equation}
 ETc = Kc \times ETo
 \end{equation}
 
-Métodos de telemetria da ETo têm mostrado resultados promissores na compreensão desse fenômeno em escalas regional e global. De acordo com as revisões feitas por \textcite{Zhang_evapotranspiration_med2016, Zhao_evapotranspiration_med2009}, esses métodos variam desde modelos de equações simplificadas até modelos de balanço energético de duas fontes mais complexos. Eles frequentemente utilizam dados multiespectrais remotamente detectados, abrangendo desde o visível até as bandas infravermelhas térmicas. 
+Onde:
+\begin{itemize}
+  \item $ETc$ é a evapotranspiração de cultura (mm/dia)
+  \item $Kc$ é o coeficiente de cultura
+  \item $ETo$ é a evapotranspiração de referência (mm/dia)
+\end{itemize}
 
-No entanto, muitos desses modelos dependem, em certa medida, de medições auxiliares baseadas em solo para derivar os fluxos de calor turbulentos em uma escala regional \parencite{Zhao_evapotranspiration_med2009, Zhang_evapotranspiration_med2016}.
-
-O método com melhores resultados para medição de ETo é apresentado por \textcite{Yang_evapotranspiration_med2022}, em que é realizada a fusão de dados de diferentes satélites (Landsat 8 e o Sentinel-2) com resoluções espaciais e temporais variáveis, o que proporciona uma estimativa mais contínua da ET diária em escala de campo.
+O $Kc$ é um fator que leva em consideração as características específicas da cultura, como a fase de desenvolvimento, a densidade de plantio e a cobertura do solo. Ele é determinado experimentalmente e varia ao longo do ciclo de cultivo, conforme discutido por \textcite{bernardo_irrigacao2008}.
