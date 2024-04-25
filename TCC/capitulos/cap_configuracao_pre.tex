@@ -39,7 +39,7 @@ Uma das principais áreas de aplicação do sensoriamento remoto na atualidade �
 
 Da mesma forma, pesquisas ressaltam suas vantagens na monitorização das culturas, estimativa de produtividade e tomada de decisão em diferentes estágios da produção agrícola \parencite{shanmugapriya2019, khanal2020}. Além disso, estudos evidenciam seu papel na obtenção de estatísticas agrícolas, contribuindo para a definição de unidades amostrais, estratificação e alocação de amostras \parencite{carfagna2005}.
 
-\section{Telemetria}
+\subsection{Telemetria}
 A telemetria é um campo complementar ao sensoriamento remoto e é definida como:
 \begin{quote}
 "A indicação, registro ou integração de uma quantidade em um ponto remoto por meios eleitorais e de tradução métrica.  Grandezas de estados elétricos ou mecânicos estão normalmente envolvidas, embora existam outras aplicações diversas para telemedição." \parencite{telemetering1941}
@@ -60,7 +60,14 @@ Há várias concepções propostas para sistemas embarcados, sendo a mais difund
 
 Sua utilização abrange desde dispositivos simples, como controles remotos e eletrodomésticos, até sistemas complexos, como veículos autônomos e equipamentos médicos \parencite{lee2008cyber, kato2018autoware}. Eles desempenham um papel fundamental na automação de processos industriais, na monitoração e controle de dispositivos, na coleta e processamento de dados em tempo real, entre outras funções \parencite{dutta2014comprehensive}.
 
-Segundo \textcite{lee2008cyber}, os microcontroladores são componentes essenciais dos sistemas embarcados. Estes desempenham um papel central na execução de tarefas específicas e no controle de dispositivos em uma variedade de aplicações. Eles são dispositivos de computação completos, contendo não apenas uma unidade central de processamento (CPU), mas também memória, periféricos de entrada e saída (E/S) e, muitas vezes, interfaces de comunicação \parencite{dutta2014comprehensive}. 
+\section{Microcontroladores}
+
+Segundo \textcite{lee2008cyber}, os microcontroladores são componentes essenciais dos sistemas embarcados. Estes desempenham um papel central na execução de tarefas específicas e no controle de dispositivos em uma variedade de aplicações. Ele é composto por:
+
+\begin{quote}
+  "Um microprocessador (CPU), além de uma quantidade fixa de memória principal (RAM), memória de programa (ROM),  interfaces de entrada/saída (I/O) e um temporizador, todos em um único chip." \parencite{Mazid_microcontrolador2011}
+\end{quote}
+
 A Tabela \ref{tab:evolucao_microcontroladores} mostra alguns modelos de microcontroladores e suas finalidades, desde modelos mais antigos até os mais recentes.
 
 \begin{table}[!htb]
@@ -77,23 +84,11 @@ Raspberry Pi 4 & 2019 & Desenvolvimento de sistemas embarcados e IoT  \parencite
 \fonte{Elaborado pelo autor, 2024.}
 \end{table}
 
-\section{Sistemas cyberfísicos}
-
-Os sistemas cyberfísicos (CPSs) representam uma evolução dos sistemas embarcados. Eles são definidos como:
-
-\begin{quote}
-"Integrações de computação com processos físicos. Computadores embarcados e redes que monitoram e controlam os processos físicos, geralmente com loops de \textit{feedback} onde os processos físicos afetam as computações e vice-versa." \parencite{lee2008cyber}
-\end{quote}
-
-Recentemente, tem havido uma tendência crescente no uso de CPSs em aplicações práticas. Por exemplo, \textcite{ahmad2020smart} demonstraram um sistema de monitoramento inteligente de campo que utiliza abordagens para rastrear o comportamento e as atividades de roedores no campo. O sistema auxilia especialistas em controle de pragas e agricultores na aplicação mais eficiente de métodos de controle tradicionais.
-
-Da mesma forma, \textcite{rad2015smart} propuseram um modelo de arquitetura de CPS para o monitoramento inteligente de culturas de batata na agricultura de precisão resultando na melhoria da produtividade. Além disso, \textcite{rijswijk2021digital} discutiram o papel dos sistemas socio-cyberfísicos (SCPSs) na transformação digital da agricultura e das áreas rurais. Eles destacaram a necessidade de compreender as relações entre os aspectos sociais e tecnológicos para uma aplicação bem-sucedida.
-
-\section{ESP32}
+\subsection{ESP32}
 
 O ESP32 é um microcontrolador de baixo custo desenvolvido pela Espressif Systems. De acordo com \textcite{ESP32_usage}, este componente é amplamente utilizado em projetos de IoT devido às suas capacidades de conexão integradas e poder de processamento.
 
-Baseado em um processador \textit{dual-core} Tensilica Xtensa LX6, o ESP32 opera em frequências de até 240 MHz, apresentando uma arquitetura de 32 bits. Além disso, possui uma variedade de periféricos, incluindo GPIOs, UARTs, SPIs e I2Cs, conforme descrito na Tabela \ref{tab:esp32_perifericos}, o que o torna altamente versátil para uma ampla gama de aplicações \parencite{EspressifESP32}.
+Baseado em um microprocessador \textit{dual-core} Tensilica Xtensa LX6, o ESP32 opera em frequências de até 240 MHz, apresentando uma arquitetura de 32 bits. Além disso, possui uma variedade de periféricos, incluindo GPIOs, UARTs, SPIs e I2Cs, conforme descrito na Tabela \ref{tab:esp32_perifericos}, o que o torna altamente versátil para uma ampla gama de aplicações \parencite{EspressifESP32}.
 
 Uma das principais vantagens do ESP32, como destacado por \textcite{ESP32_usage}, é sua capacidade de conexão Wi-Fi e Bluetooth embutida, suportando os padrões 802.11 b/g/n Wi-Fi, Bluetooth 4.2 e Bluetooth Low Energy (BLE). Isso possibilita a comunicação sem fio em ambientes de IoT.
 
@@ -110,6 +105,18 @@ O ESP32 pode ser programado usando o Arduino IDE e o ESP-IDF (Espressif IoT Deve
   \end{tabularx}
   \fonte{Adaptado de \textcite{EspressifESP32}.}
 \end{table}
+
+\section{Sistemas cyberfísicos}
+
+Os sistemas cyberfísicos (CPSs) representam uma evolução dos sistemas embarcados. Eles são definidos como:
+
+\begin{quote}
+"Integrações de computação com processos físicos. Computadores embarcados e redes que monitoram e controlam os processos físicos, geralmente com loops de \textit{feedback} onde os processos físicos afetam as computações e vice-versa." \parencite{lee2008cyber}
+\end{quote}
+
+Recentemente, tem havido uma tendência crescente no uso de CPSs em aplicações práticas. Por exemplo, \textcite{ahmad2020smart} demonstraram um sistema de monitoramento inteligente de campo que utiliza abordagens para rastrear o comportamento e as atividades de roedores no campo. O sistema auxilia especialistas em controle de pragas e agricultores na aplicação mais eficiente de métodos de controle tradicionais.
+
+Da mesma forma, \textcite{rad2015smart} propuseram um modelo de arquitetura de CPS para o monitoramento inteligente de culturas de batata na agricultura de precisão resultando na melhoria da produtividade. Além disso, \textcite{rijswijk2021digital} discutiram o papel dos sistemas socio-cyberfísicos (SCPSs) na transformação digital da agricultura e das áreas rurais. Eles destacaram a necessidade de compreender as relações entre os aspectos sociais e tecnológicos para uma aplicação bem-sucedida.
 
 \section{Internet das coisas}
 A Internet das Coisas (IoT) é um campo multidisciplinar que se desenvolveu ao longo do tempo, com contribuições de diversas áreas, incluindo computação, telecomunicações, eletrônica e engenharia (Figura \ref{figura:evolucao_iot}). Ela é definida como:
@@ -203,7 +210,7 @@ Além disso, é ressaltada a necessidade de adotar tecnologias emergentes para o
 
 Essa integração de técnicas, ferramentas computacionais e modelos de distribuição espacial dos atributos do solo, aliada à espacialização dos dados, proporciona uma abordagem mais eficiente para a gestão da irrigação em áreas específicas, melhorando assim o uso da água em escalas como a de um perímetro irrigado \parencite{Burton_irrigation2010, Ramos_irrigacao2022}.
 
-\section{Gestão baseada no consumo de água}
+\subsection{Gestão baseada no consumo de água}
 
 Segundo \textcite{carmody_fao2023}, a gestão baseada no consumo de água (CBWM) traz uma perspectiva inovadora ao considerar não apenas a entrega de água, mas o uso real da mesma na agricultura, o que contribui para a eficiência do uso dos recursos hídricos e para a sustentabilidade dos sistemas agrícolas. A CBWM reconhece que a água pode ser consumida de forma benéfica, como na transpiração das plantas para a produção de alimentos, ou de forma não benéfica, como na evaporação do solo nu ou superfícies de água nuas. Além disso, destaca a importância dos fluxos de retorno não consumidos, que podem ser recuperados para consumo benéfico ou manter os ecossistemas aquáticos (Figura \ref{figura:ciclo_agua}), contribuindo para o abastecimento de outros usuários a jusante e para a saúde dos rios e lençóis freáticos \parencite{carmody_fao2023}.
 
@@ -237,7 +244,7 @@ No entanto, muitos desses modelos dependem, em certa medida, de medições auxil
 
 O método com melhores resultados para medição de ET é apresentado por \textcite{Yang_evapotranspiration_med2022}, em que é realizada a fusão de dados de diferentes satélites (Landsat 8 e o Sentinel-2) com resoluções espaciais e temporais variáveis, o que proporciona uma estimativa mais contínua da ET diária em escala de campo.
 
-\section{Evapotranspiração de referência}
+\subsection{Evapotranspiração de referência}
 
 A ET de referência (ETo) é definida como:
 
@@ -264,7 +271,7 @@ Onde:
   \item $e_a$ é a pressão de vapor do ar (kPa)
 \end{itemize}
 
-\section{Evapotranspiração de cultura}
+\subsection{Evapotranspiração de cultura}
 
 A ET de cultura (ETc), por sua vez, é definida como:
 
@@ -272,7 +279,7 @@ A ET de cultura (ETc), por sua vez, é definida como:
   "A quantidade de água evaporada da superfície do solo e transpirada pelas plantas em uma cultura específica sob condições reais." \parencite{bernardo_irrigacao2008}
 \end{quote}
 
-Ela é calculada como o produto da ETo e um determinado $Kc$ para cada cultura, como proposto por \textcite{bernardo_irrigacao2008}:
+Ela é calculada como o produto da ETo e um determinado coeficiente de cultura ($Kc$), como proposto por \textcite{bernardo_irrigacao2008}:
 
 \begin{equation}
 ETc = Kc \times ETo
