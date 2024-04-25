@@ -14,17 +14,18 @@
 \setlength {\cftchapterindent }{0em} \setlength {\cftchapternumwidth }{\cftlastnumwidth }
 \contentsline {chapter}{\chapternumberline {2}\MakeTextUppercase []{Fundamentação teórica}}{10}{chapter.2}%
 \contentsline {section}{\numberline {2.1}Sensoriamento remoto}{10}{section.2.1}%
-\contentsline {section}{\numberline {2.2}Telemetria}{11}{section.2.2}%
-\contentsline {section}{\numberline {2.3}Sistemas embarcados}{12}{section.2.3}%
+\contentsline {subsection}{\numberline {2.1.1}Telemetria}{11}{subsection.2.1.1}%
+\contentsline {section}{\numberline {2.2}Sistemas embarcados}{12}{section.2.2}%
+\contentsline {section}{\numberline {2.3}Microcontroladores}{12}{section.2.3}%
+\contentsline {subsection}{\numberline {2.3.1}ESP32}{12}{subsection.2.3.1}%
 \contentsline {section}{\numberline {2.4}Sistemas cyberfísicos}{13}{section.2.4}%
-\contentsline {section}{\numberline {2.5}ESP32}{13}{section.2.5}%
-\contentsline {section}{\numberline {2.6}Internet das coisas}{14}{section.2.6}%
-\contentsline {section}{\numberline {2.7}Protocolo HTTP}{15}{section.2.7}%
-\contentsline {section}{\numberline {2.8}Protocolo MQTT}{16}{section.2.8}%
-\contentsline {section}{\numberline {2.9}Gestão da irrigação}{18}{section.2.9}%
-\contentsline {section}{\numberline {2.10}Gestão baseada no consumo de água}{18}{section.2.10}%
-\contentsline {section}{\numberline {2.11}Evapotranspiração}{19}{section.2.11}%
-\contentsline {section}{\numberline {2.12}Evapotranspiração de referência}{20}{section.2.12}%
-\contentsline {section}{\numberline {2.13}Evapotranspiração de cultura}{21}{section.2.13}%
+\contentsline {section}{\numberline {2.5}Internet das coisas}{14}{section.2.5}%
+\contentsline {section}{\numberline {2.6}Protocolo HTTP}{16}{section.2.6}%
+\contentsline {section}{\numberline {2.7}Protocolo MQTT}{16}{section.2.7}%
+\contentsline {section}{\numberline {2.8}Gestão da irrigação}{17}{section.2.8}%
+\contentsline {subsection}{\numberline {2.8.1}Gestão baseada no consumo de água}{18}{subsection.2.8.1}%
+\contentsline {section}{\numberline {2.9}Evapotranspiração}{20}{section.2.9}%
+\contentsline {subsection}{\numberline {2.9.1}Evapotranspiração de referência}{20}{subsection.2.9.1}%
+\contentsline {subsection}{\numberline {2.9.2}Evapotranspiração de cultura}{21}{subsection.2.9.2}%
 \setlength {\cftchapterindent }{0em} \setlength {\cftchapternumwidth }{0em}
-\contentsline {chapter}{REFERÊNCIAS}{22}{section*.21}%
+\contentsline {chapter}{REFERÊNCIAS}{23}{section*.21}%

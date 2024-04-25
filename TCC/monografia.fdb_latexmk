@@ -1,12 +1,12 @@
 # Fdb version 4
-["biber monografia"] 1713877054.55672 "monografia.bcf" "monografia.bbl" "monografia" 1713877077.16331 0
-  "monografia.bcf" 1713877076 123550 1ab0e40e4d8edd536287b28b3e80a59c "pdflatex"
-  "referencias.bib" 1713876395 25040 f50b2fb1b9f05a1047499ae13e9c3404 ""
+["biber monografia"] 1714049610.64844 "monografia.bcf" "monografia.bbl" "monografia" 1714050436.15313 0
+  "monografia.bcf" 1714050435 123554 802a48ac5ea3fb5e0f3bbf85074f8b79 "pdflatex"
+  "referencias.bib" 1714049548 25432 acaadf956f8a282fa43b23288d830def ""
   (generated)
   "monografia.bbl"
   "monografia.blg"
   (rewritten before read)
-["pdflatex"] 1713877068.28569 "c:/Users/Deivison Costa/OneDrive - Instituto Federal de Minas Gerais/Área de Trabalho/Artigos e TCC/TCC/monografia.tex" "monografia.pdf" "monografia" 1713877077.16559 0
+["pdflatex"] 1714050427.22365 "c:/Users/Deivison Costa/OneDrive - Instituto Federal de Minas Gerais/Área de Trabalho/Artigos e TCC/TCC/monografia.tex" "monografia.pdf" "monografia" 1714050436.15444 0
   "C:/Users/Deivison Costa/AppData/Local/MiKTeX/fonts/map/pdftex/pdftex.map" 1713015406 80909 eab91d9745dd2edfd62a31d53cd5fe15 ""
   "C:/Users/Deivison Costa/AppData/Local/MiKTeX/miktex/data/le/pdftex/pdflatex.fmt" 1713015419 24240331 6563d260a2f3350c6ad58057586e3fd9 ""
   "C:/Users/Deivison Costa/AppData/Local/Programs/MiKTeX/fonts/enc/dvips/lm/lm-ec.enc" 1256929440 2375 baa924870cfb487815765f9094cf3728 ""
@@ -22,6 +22,7 @@
   "C:/Users/Deivison Costa/AppData/Local/Programs/MiKTeX/fonts/tfm/public/cm/cmr10.tfm" 1136765053 1296 45809c5a464d5f32c8f98ba97c1bb47f ""
   "C:/Users/Deivison Costa/AppData/Local/Programs/MiKTeX/fonts/tfm/public/cm/cmr12.tfm" 1136765053 1288 655e228510b4c2a1abe905c368440826 ""
   "C:/Users/Deivison Costa/AppData/Local/Programs/MiKTeX/fonts/tfm/public/lm/ec-lmbx12.tfm" 1256929440 12088 d750ac78274fa7c9f73ba09914c04f8a ""
+  "C:/Users/Deivison Costa/AppData/Local/Programs/MiKTeX/fonts/tfm/public/lm/ec-lmbxi10.tfm" 1256929440 17180 a5723008921cdcb0c5f4ebe997919b73 ""
   "C:/Users/Deivison Costa/AppData/Local/Programs/MiKTeX/fonts/tfm/public/lm/ec-lmr10.tfm" 1256929440 12056 7e13df7fe4cbce21b072ba7c4f4deb6e ""
   "C:/Users/Deivison Costa/AppData/Local/Programs/MiKTeX/fonts/tfm/public/lm/ec-lmr12.tfm" 1256929440 12092 7b1546e2d096cfd5dcbd4049b0b1ec2e ""
   "C:/Users/Deivison Costa/AppData/Local/Programs/MiKTeX/fonts/tfm/public/lm/ec-lmri10.tfm" 1256929440 17148 9556e1b5f936b77a796f68d2d559ba99 ""
@@ -39,6 +40,7 @@
   "C:/Users/Deivison Costa/AppData/Local/Programs/MiKTeX/fonts/tfm/public/lm/ts1-lmbx12.tfm" 1256929440 1600 fec060bf714b3c52e53c0e0df6ae170d ""
   "C:/Users/Deivison Costa/AppData/Local/Programs/MiKTeX/fonts/tfm/public/lm/ts1-lmr12.tfm" 1256929440 1596 1d4548788e389ded56d0b01b28377882 ""
   "C:/Users/Deivison Costa/AppData/Local/Programs/MiKTeX/fonts/type1/public/lm/lmbx12.pfb" 1256929440 116908 9a7a12d1e4df280ea0ab4aad83cdef88 ""
+  "C:/Users/Deivison Costa/AppData/Local/Programs/MiKTeX/fonts/type1/public/lm/lmbxi10.pfb" 1256929440 112766 6259d69aa3d87a505f375e49d8f6bf3a ""
   "C:/Users/Deivison Costa/AppData/Local/Programs/MiKTeX/fonts/type1/public/lm/lmmi12.pfb" 1256929440 30696 3da7e46ecf5615eedebd9f27dab4d9d7 ""
   "C:/Users/Deivison Costa/AppData/Local/Programs/MiKTeX/fonts/type1/public/lm/lmmi8.pfb" 1256929440 30635 833ec815d446ec453a4913fc26d24cbc ""
   "C:/Users/Deivison Costa/AppData/Local/Programs/MiKTeX/fonts/type1/public/lm/lmr10.pfb" 1256929440 119235 05e5c8d6d60439433e50047898c2c0e0 ""
@@ -255,19 +257,19 @@
   "C:/Users/Deivison Costa/AppData/Local/Programs/MiKTeX/tex/latex/xkeyval/xkeyval.sty" 1656236919 4937 4ce600ce9bd4ec84d0250eb6892fcf4f ""
   "C:/Users/Deivison Costa/AppData/Local/Programs/MiKTeX/tex/latex/xpatch/xpatch.sty" 1585221260 8510 7803f78066c4f9d008405191a4b43073 ""
   "c:/Users/Deivison Costa/OneDrive - Instituto Federal de Minas Gerais/Área de Trabalho/Artigos e TCC/TCC/monografia.tex" 1713182822 3932 974a3166f2e0d7d4006adbe6c7e755fb ""
-  "capitulos/cap_configuracao_pre.tex" 1713877044 28839 c39f569604e7c2efa5c26d6c24d1a6ef ""
+  "capitulos/cap_configuracao_pre.tex" 1714050409 28923 2f2ea6dbb740c9f7e58b2c1f40e4a38a ""
   "capitulos/cap_introducao.tex" 1713795098 4124 0e21578166ed3caeefcae254b7ce75a5 ""
   "capitulos/pretextual.tex" 1713026136 3978 7770abed2a6902e19d2c4a6ea42db16c ""
   "config.tex" 1713026136 1871 4c783c67e7fde99c6ae0dabd60d2f12c ""
   "figuras/Carmody.png" 1713632327 1155761 3f51d2ef5d148b4d769bde4c7d1a05ea ""
   "figuras/Datta.png" 1713026136 28789 b3997a2c4325aef51b5141966c86da35 ""
   "iftex2020.cls" 1713016102 29262 fbcd99c30d4e59e935ab077dd4fd26ae ""
-  "monografia.aux" 1713877076 31312 96dd1ef010aa654fc728bf991feac5dc "pdflatex"
-  "monografia.bbl" 1713877058 126239 bf209ca311c42be31a60bcc272286f1e "biber monografia"
-  "monografia.mw" 1713877076 0 d41d8cd98f00b204e9800998ecf8427e "pdflatex"
-  "monografia.run.xml" 1713877076 2486 06a6211b4d5692a3ddabfaa2818e6659 "pdflatex"
+  "monografia.aux" 1714050435 31900 d99de1d1a8f74ecf81736c6b680eef58 "pdflatex"
+  "monografia.bbl" 1714049614 128333 247d9081fd99916b23a8a778ede5924b "biber monografia"
+  "monografia.mw" 1714050435 0 d41d8cd98f00b204e9800998ecf8427e "pdflatex"
+  "monografia.run.xml" 1714050435 2486 06a6211b4d5692a3ddabfaa2818e6659 "pdflatex"
   "monografia.tex" 1713182822 3932 974a3166f2e0d7d4006adbe6c7e755fb ""
-  "monografia.toc" 1713877076 2373 afe3ee60e1d229796991a5f83d5fca6b "pdflatex"
+  "monografia.toc" 1714050435 2494 18ace0658698e2004a68d084d8941614 "pdflatex"
   (generated)
   "monografia.aux"
   "monografia.bcf"

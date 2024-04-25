@@ -867,151 +867,6 @@
       \verb https://fisiologia-animal.es/publicaciones/PublicacionesLibro5Articulo02.pdf
       \endverb
     \endentry
-    \entry{rad2015smart}{article}{}{}
-      \name{author}{4}{}{%
-        {{un=0,uniquepart=base,hash=134b0c7afafebea823219ee81704ac2f}{%
-           family={Rad},
-           familyi={R\bibinitperiod},
-           given={Ciprian\bibnamedelima Radu},
-           giveni={C\bibinitperiod\bibinitdelim R\bibinitperiod},
-           givenun=0}}%
-        {{un=0,uniquepart=base,hash=aafc9321f91b1ab2ce9fd5ce8f569905}{%
-           family={Hancu},
-           familyi={H\bibinitperiod},
-           given={Olimpiu},
-           giveni={O\bibinitperiod},
-           givenun=0}}%
-        {{un=0,uniquepart=base,hash=ba50f8f2f843226134684d3e20324445}{%
-           family={Takacs},
-           familyi={T\bibinitperiod},
-           given={Ioana-Alexandra},
-           giveni={I\bibinithyphendelim A\bibinitperiod},
-           givenun=0}}%
-        {{un=0,uniquepart=base,hash=47204e9380694bdce995e52283a781e0}{%
-           family={Olteanu},
-           familyi={O\bibinitperiod},
-           given={Gheorghe},
-           giveni={G\bibinitperiod},
-           givenun=0}}%
-      }
-      \strng{namehash}{5fee981340e087692cff26997670b649}
-      \strng{fullhash}{5184947cf53eba9a0ce538c6db3bb0de}
-      \strng{fullhashraw}{5184947cf53eba9a0ce538c6db3bb0de}
-      \strng{bibnamehash}{5fee981340e087692cff26997670b649}
-      \strng{authorbibnamehash}{5fee981340e087692cff26997670b649}
-      \strng{authornamehash}{5fee981340e087692cff26997670b649}
-      \strng{authorfullhash}{5184947cf53eba9a0ce538c6db3bb0de}
-      \strng{authorfullhashraw}{5184947cf53eba9a0ce538c6db3bb0de}
-      \field{sortinit}{A}
-      \field{sortinithash}{2f401846e2029bad6b3ecc16d50031e2}
-      \field{extradatescope}{labelyear}
-      \field{labeldatesource}{}
-      \field{labelnamesource}{author}
-      \field{labeltitlesource}{title}
-      \field{journaltitle}{Agriculture and Agricultural Science Procedia}
-      \field{month}{8}
-      \field{title}{Smart monitoring of potato crop: a cyber-physical system architecture model in the field of precision agriculture}
-      \field{urlday}{6}
-      \field{urlmonth}{4}
-      \field{urlyear}{2024}
-      \field{volume}{6}
-      \field{year}{2015}
-      \field{urldateera}{ce}
-      \field{pages}{73\bibrangedash 79}
-      \range{pages}{7}
-      \verb{urlraw}
-      \verb https://doi.org/10.1016/j.aaspro.2015.08.041
-      \endverb
-      \verb{url}
-      \verb https://doi.org/10.1016/j.aaspro.2015.08.041
-      \endverb
-    \endentry
-    \entry{rijswijk2021digital}{article}{}{}
-      \name{author}{8}{}{%
-        {{un=0,uniquepart=base,hash=001fe311c38503be50112474d3ff411f}{%
-           family={Rijswijk},
-           familyi={R\bibinitperiod},
-           given={Kelly},
-           giveni={K\bibinitperiod},
-           givenun=0}}%
-        {{un=0,uniquepart=base,hash=054f5e7f09f183a252125b84fc13c978}{%
-           family={Klerkx},
-           familyi={K\bibinitperiod},
-           given={Laurens},
-           giveni={L\bibinitperiod},
-           givenun=0}}%
-        {{un=0,uniquepart=base,hash=a2255b9503e8f1c36938adbe42e56706}{%
-           family={Bacco},
-           familyi={B\bibinitperiod},
-           given={Manlio},
-           giveni={M\bibinitperiod},
-           givenun=0}}%
-        {{un=0,uniquepart=base,hash=03a5f8d92316a2937f2ac895bea0aedc}{%
-           family={Bartolini},
-           familyi={B\bibinitperiod},
-           given={Fabio},
-           giveni={F\bibinitperiod},
-           givenun=0}}%
-        {{un=0,uniquepart=base,hash=3a7cb3718bb37d97c17eb5df5dc8a6d2}{%
-           family={Bulten},
-           familyi={B\bibinitperiod},
-           given={Lies},
-           giveni={L\bibinitperiod},
-           givenun=0,
-           suffix={Ellen\bibnamedelima Debruyne},
-           suffixi={E\bibinitperiod\bibinitdelim D\bibinitperiod},
-           suffixun=0}}%
-        {{un=0,uniquepart=base,hash=e85a28e9acb7d2d401b9f3a6aaf847a8}{%
-           family={Dessein},
-           familyi={D\bibinitperiod},
-           given={Joost},
-           giveni={J\bibinitperiod},
-           givenun=0}}%
-        {{un=0,uniquepart=base,hash=1479074ed2b5c2a34b058cddc46125ed}{%
-           family={Scotti},
-           familyi={S\bibinitperiod},
-           given={Ivano},
-           giveni={I\bibinitperiod},
-           givenun=0}}%
-        {{un=0,uniquepart=base,hash=7e42223fb9ed885e04f2aff4e729aa4a}{%
-           family={Brunori},
-           familyi={B\bibinitperiod},
-           given={Gianluca},
-           giveni={G\bibinitperiod},
-           givenun=0}}%
-      }
-      \strng{namehash}{0c3e116b41457162f61c8511d0a7eda9}
-      \strng{fullhash}{f1329051ed7d45c08b6f357d719da274}
-      \strng{fullhashraw}{f1329051ed7d45c08b6f357d719da274}
-      \strng{bibnamehash}{0c3e116b41457162f61c8511d0a7eda9}
-      \strng{authorbibnamehash}{0c3e116b41457162f61c8511d0a7eda9}
-      \strng{authornamehash}{0c3e116b41457162f61c8511d0a7eda9}
-      \strng{authorfullhash}{f1329051ed7d45c08b6f357d719da274}
-      \strng{authorfullhashraw}{f1329051ed7d45c08b6f357d719da274}
-      \field{sortinit}{A}
-      \field{sortinithash}{2f401846e2029bad6b3ecc16d50031e2}
-      \field{extradatescope}{labelyear}
-      \field{labeldatesource}{}
-      \field{labelnamesource}{author}
-      \field{labeltitlesource}{title}
-      \field{journaltitle}{Journal of Rural Studies}
-      \field{month}{7}
-      \field{title}{Digital transformation of agriculture and rural areas: A socio-cyber-physical system framework to support responsibilisation}
-      \field{urlday}{6}
-      \field{urlmonth}{4}
-      \field{urlyear}{2024}
-      \field{volume}{85}
-      \field{year}{2021}
-      \field{urldateera}{ce}
-      \field{pages}{79\bibrangedash 90}
-      \range{pages}{12}
-      \verb{urlraw}
-      \verb https://doi.org/10.1016/j.jrurstud.2021.05.003
-      \endverb
-      \verb{url}
-      \verb https://doi.org/10.1016/j.jrurstud.2021.05.003
-      \endverb
-    \endentry
     \entry{ferrandez2018precision}{article}{}{}
       \name{author}{4}{}{%
         {{un=0,uniquepart=base,hash=cf20bec69d46968f4dd1dcf3a7012726}{%
@@ -1202,6 +1057,151 @@
       \endverb
       \verb{url}
       \verb https://doi.org/10.1016/j.suscom.2018.10.006
+      \endverb
+    \endentry
+    \entry{rad2015smart}{article}{}{}
+      \name{author}{4}{}{%
+        {{un=0,uniquepart=base,hash=134b0c7afafebea823219ee81704ac2f}{%
+           family={Rad},
+           familyi={R\bibinitperiod},
+           given={Ciprian\bibnamedelima Radu},
+           giveni={C\bibinitperiod\bibinitdelim R\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=aafc9321f91b1ab2ce9fd5ce8f569905}{%
+           family={Hancu},
+           familyi={H\bibinitperiod},
+           given={Olimpiu},
+           giveni={O\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=ba50f8f2f843226134684d3e20324445}{%
+           family={Takacs},
+           familyi={T\bibinitperiod},
+           given={Ioana-Alexandra},
+           giveni={I\bibinithyphendelim A\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=47204e9380694bdce995e52283a781e0}{%
+           family={Olteanu},
+           familyi={O\bibinitperiod},
+           given={Gheorghe},
+           giveni={G\bibinitperiod},
+           givenun=0}}%
+      }
+      \strng{namehash}{5fee981340e087692cff26997670b649}
+      \strng{fullhash}{5184947cf53eba9a0ce538c6db3bb0de}
+      \strng{fullhashraw}{5184947cf53eba9a0ce538c6db3bb0de}
+      \strng{bibnamehash}{5fee981340e087692cff26997670b649}
+      \strng{authorbibnamehash}{5fee981340e087692cff26997670b649}
+      \strng{authornamehash}{5fee981340e087692cff26997670b649}
+      \strng{authorfullhash}{5184947cf53eba9a0ce538c6db3bb0de}
+      \strng{authorfullhashraw}{5184947cf53eba9a0ce538c6db3bb0de}
+      \field{sortinit}{A}
+      \field{sortinithash}{2f401846e2029bad6b3ecc16d50031e2}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{Agriculture and Agricultural Science Procedia}
+      \field{month}{8}
+      \field{title}{Smart monitoring of potato crop: a cyber-physical system architecture model in the field of precision agriculture}
+      \field{urlday}{6}
+      \field{urlmonth}{4}
+      \field{urlyear}{2024}
+      \field{volume}{6}
+      \field{year}{2015}
+      \field{urldateera}{ce}
+      \field{pages}{73\bibrangedash 79}
+      \range{pages}{7}
+      \verb{urlraw}
+      \verb https://doi.org/10.1016/j.aaspro.2015.08.041
+      \endverb
+      \verb{url}
+      \verb https://doi.org/10.1016/j.aaspro.2015.08.041
+      \endverb
+    \endentry
+    \entry{rijswijk2021digital}{article}{}{}
+      \name{author}{8}{}{%
+        {{un=0,uniquepart=base,hash=001fe311c38503be50112474d3ff411f}{%
+           family={Rijswijk},
+           familyi={R\bibinitperiod},
+           given={Kelly},
+           giveni={K\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=054f5e7f09f183a252125b84fc13c978}{%
+           family={Klerkx},
+           familyi={K\bibinitperiod},
+           given={Laurens},
+           giveni={L\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=a2255b9503e8f1c36938adbe42e56706}{%
+           family={Bacco},
+           familyi={B\bibinitperiod},
+           given={Manlio},
+           giveni={M\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=03a5f8d92316a2937f2ac895bea0aedc}{%
+           family={Bartolini},
+           familyi={B\bibinitperiod},
+           given={Fabio},
+           giveni={F\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=3a7cb3718bb37d97c17eb5df5dc8a6d2}{%
+           family={Bulten},
+           familyi={B\bibinitperiod},
+           given={Lies},
+           giveni={L\bibinitperiod},
+           givenun=0,
+           suffix={Ellen\bibnamedelima Debruyne},
+           suffixi={E\bibinitperiod\bibinitdelim D\bibinitperiod},
+           suffixun=0}}%
+        {{un=0,uniquepart=base,hash=e85a28e9acb7d2d401b9f3a6aaf847a8}{%
+           family={Dessein},
+           familyi={D\bibinitperiod},
+           given={Joost},
+           giveni={J\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=1479074ed2b5c2a34b058cddc46125ed}{%
+           family={Scotti},
+           familyi={S\bibinitperiod},
+           given={Ivano},
+           giveni={I\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=7e42223fb9ed885e04f2aff4e729aa4a}{%
+           family={Brunori},
+           familyi={B\bibinitperiod},
+           given={Gianluca},
+           giveni={G\bibinitperiod},
+           givenun=0}}%
+      }
+      \strng{namehash}{0c3e116b41457162f61c8511d0a7eda9}
+      \strng{fullhash}{f1329051ed7d45c08b6f357d719da274}
+      \strng{fullhashraw}{f1329051ed7d45c08b6f357d719da274}
+      \strng{bibnamehash}{0c3e116b41457162f61c8511d0a7eda9}
+      \strng{authorbibnamehash}{0c3e116b41457162f61c8511d0a7eda9}
+      \strng{authornamehash}{0c3e116b41457162f61c8511d0a7eda9}
+      \strng{authorfullhash}{f1329051ed7d45c08b6f357d719da274}
+      \strng{authorfullhashraw}{f1329051ed7d45c08b6f357d719da274}
+      \field{sortinit}{A}
+      \field{sortinithash}{2f401846e2029bad6b3ecc16d50031e2}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{Journal of Rural Studies}
+      \field{month}{7}
+      \field{title}{Digital transformation of agriculture and rural areas: A socio-cyber-physical system framework to support responsibilisation}
+      \field{urlday}{6}
+      \field{urlmonth}{4}
+      \field{urlyear}{2024}
+      \field{volume}{85}
+      \field{year}{2021}
+      \field{urldateera}{ce}
+      \field{pages}{79\bibrangedash 90}
+      \range{pages}{12}
+      \verb{urlraw}
+      \verb https://doi.org/10.1016/j.jrurstud.2021.05.003
+      \endverb
+      \verb{url}
+      \verb https://doi.org/10.1016/j.jrurstud.2021.05.003
       \endverb
     \endentry
     \entry{kortuem2009things}{article}{}{}
@@ -2504,6 +2504,58 @@
       \endverb
       \verb{url}
       \verb https://books.google.com.br/books?hl=pt-BR&lr=&id=3LK44UI0YCEC&oi=fnd&pg=PR25&dq=telemetry&ots=PhIcD_akyq&sig=F226i8zRr4R9LrIs2vuhk4KinZU&redir_esc=y#v=onepage&q=telemetry&f=false
+      \endverb
+    \endentry
+    \entry{Mazid_microcontrolador2011}{book}{}{}
+      \name{author}{3}{}{%
+        {{un=0,uniquepart=base,hash=6c39c4be0b2c4b8977ce1ad71fedac4b}{%
+           family={Mazidi},
+           familyi={M\bibinitperiod},
+           given={Muhammad\bibnamedelima Ali},
+           giveni={M\bibinitperiod\bibinitdelim A\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=cfe5abc991a6131bf71240aedbd97226}{%
+           family={Naimi},
+           familyi={N\bibinitperiod},
+           given={Sarmad},
+           giveni={S\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=a48af7fe8280ee02a65ee389e3cc27c7}{%
+           family={Naimi},
+           familyi={N\bibinitperiod},
+           given={Sepehr},
+           giveni={S\bibinitperiod},
+           givenun=0}}%
+      }
+      \list{publisher}{1}{%
+        {Pearson Prentice Hall}%
+      }
+      \strng{namehash}{ae99871a5949f3b6024c2a5f4a3c145f}
+      \strng{fullhash}{ae99871a5949f3b6024c2a5f4a3c145f}
+      \strng{fullhashraw}{ae99871a5949f3b6024c2a5f4a3c145f}
+      \strng{bibnamehash}{ae99871a5949f3b6024c2a5f4a3c145f}
+      \strng{authorbibnamehash}{ae99871a5949f3b6024c2a5f4a3c145f}
+      \strng{authornamehash}{ae99871a5949f3b6024c2a5f4a3c145f}
+      \strng{authorfullhash}{ae99871a5949f3b6024c2a5f4a3c145f}
+      \strng{authorfullhashraw}{ae99871a5949f3b6024c2a5f4a3c145f}
+      \field{sortinit}{C}
+      \field{sortinithash}{4d103a86280481745c9c897c925753c0}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{edition}{1}
+      \field{title}{The AVR Microcontroller and Embedded Systems: Using Assembly and C}
+      \field{urlday}{25}
+      \field{urlmonth}{4}
+      \field{urlyear}{2024}
+      \field{year}{2011}
+      \field{urldateera}{ce}
+      \verb{urlraw}
+      \verb https://dl.acm.org/doi/abs/10.5555/3169537
+      \endverb
+      \verb{url}
+      \verb https://dl.acm.org/doi/abs/10.5555/3169537
       \endverb
     \endentry
     \entry{Arduino_usage}{book}{}{}
