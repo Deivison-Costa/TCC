@@ -1702,6 +1702,120 @@
       \verb https://doi.org/10.3390/rs14081772
       \endverb
     \endentry
+    \entry{Gurjeet_smart2022}{article}{}{}
+      \name{author}{5}{}{%
+        {{un=0,uniquepart=base,hash=8e192c311aece21b90815dc7c4fa4d95}{%
+           family={Singh},
+           familyi={S\bibinitperiod},
+           given={Gurjeet},
+           giveni={G\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=f6851441ac87287d90ae8ceb496b8bac}{%
+           family={Kalra},
+           familyi={K\bibinitperiod},
+           given={Naresh},
+           giveni={N\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=ff5e2077bfe692f97520f76ad9c028ea}{%
+           family={Yadav},
+           familyi={Y\bibinitperiod},
+           given={Neetu},
+           giveni={N\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=92a4274bb5308ff64e692d24fcbc91fa}{%
+           family={Sharma},
+           familyi={S\bibinitperiod},
+           given={Ashwani},
+           giveni={A\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=8861684231c71fac3269cc3910d50c48}{%
+           family={Saini},
+           familyi={S\bibinitperiod},
+           given={Manoj},
+           giveni={M\bibinitperiod},
+           givenun=0}}%
+      }
+      \strng{namehash}{34c0d17e199be0eebbb57297927d1b2e}
+      \strng{fullhash}{d1d114d5835091cee14843378431ac46}
+      \strng{fullhashraw}{d1d114d5835091cee14843378431ac46}
+      \strng{bibnamehash}{34c0d17e199be0eebbb57297927d1b2e}
+      \strng{authorbibnamehash}{34c0d17e199be0eebbb57297927d1b2e}
+      \strng{authornamehash}{34c0d17e199be0eebbb57297927d1b2e}
+      \strng{authorfullhash}{d1d114d5835091cee14843378431ac46}
+      \strng{authorfullhashraw}{d1d114d5835091cee14843378431ac46}
+      \field{sortinit}{A}
+      \field{sortinithash}{2f401846e2029bad6b3ecc16d50031e2}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{Siberiam Journal of Life Sciences and Agriculture}
+      \field{month}{12}
+      \field{number}{6}
+      \field{title}{Smart Agriculture: A Review}
+      \field{urlday}{26}
+      \field{urlmonth}{4}
+      \field{urlyear}{2024}
+      \field{volume}{14}
+      \field{year}{2022}
+      \field{urldateera}{ce}
+      \field{pages}{423\bibrangedash 454}
+      \range{pages}{32}
+      \verb{urlraw}
+      \verb https://doi.org/10.12731/2658-6649-2022-14-6-423-454
+      \endverb
+      \verb{url}
+      \verb https://doi.org/10.12731/2658-6649-2022-14-6-423-454
+      \endverb
+    \endentry
+    \entry{Garg_smart2023}{article}{}{}
+      \name{author}{2}{}{%
+        {{un=0,uniquepart=base,hash=502e512b27ef2812cb3191b18c05f360}{%
+           family={Garg},
+           familyi={G\bibinitperiod},
+           given={D.},
+           giveni={D\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=467c984527cf6bfa95db3a0086dca571}{%
+           family={Alam},
+           familyi={A\bibinitperiod},
+           given={M.},
+           giveni={M\bibinitperiod},
+           givenun=0}}%
+      }
+      \strng{namehash}{2a19e31b5a324e1456b8a01c197f4caa}
+      \strng{fullhash}{2a19e31b5a324e1456b8a01c197f4caa}
+      \strng{fullhashraw}{2a19e31b5a324e1456b8a01c197f4caa}
+      \strng{bibnamehash}{2a19e31b5a324e1456b8a01c197f4caa}
+      \strng{authorbibnamehash}{2a19e31b5a324e1456b8a01c197f4caa}
+      \strng{authornamehash}{2a19e31b5a324e1456b8a01c197f4caa}
+      \strng{authorfullhash}{2a19e31b5a324e1456b8a01c197f4caa}
+      \strng{authorfullhashraw}{2a19e31b5a324e1456b8a01c197f4caa}
+      \field{sortinit}{A}
+      \field{sortinithash}{2f401846e2029bad6b3ecc16d50031e2}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{Journal of Management Analytics}
+      \field{month}{5}
+      \field{number}{2}
+      \field{title}{Smart agriculture: a literature review}
+      \field{urlday}{26}
+      \field{urlmonth}{4}
+      \field{urlyear}{2024}
+      \field{volume}{10}
+      \field{year}{2023}
+      \field{urldateera}{ce}
+      \field{pages}{359\bibrangedash 415}
+      \range{pages}{57}
+      \verb{urlraw}
+      \verb https://doi.org/10.1080/23270012.2023.2207184
+      \endverb
+      \verb{url}
+      \verb https://doi.org/10.1080/23270012.2023.2207184
+      \endverb
+    \endentry
     \entry{Vijh_system2024}{inproceedings}{}{}
       \name{author}{5}{}{%
         {{un=0,uniquepart=base,hash=b8c2a3e93388792f4ceadbcbb0f42180}{%
