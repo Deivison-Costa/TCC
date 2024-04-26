@@ -1035,6 +1035,27 @@ OUTPUT monografia.mw
 OUTPUT monografia.mw
 INPUT monografia.mw
 OUTPUT monografia.mw
+OUTPUT monografia.mw
+INPUT monografia.mw
+OUTPUT monografia.mw
+OUTPUT monografia.mw
+INPUT monografia.mw
+OUTPUT monografia.mw
+OUTPUT monografia.mw
+INPUT monografia.mw
+OUTPUT monografia.mw
+OUTPUT monografia.mw
+INPUT monografia.mw
+OUTPUT monografia.mw
+OUTPUT monografia.mw
+INPUT monografia.mw
+OUTPUT monografia.mw
+OUTPUT monografia.mw
+INPUT monografia.mw
+OUTPUT monografia.mw
+OUTPUT monografia.mw
+INPUT monografia.mw
+OUTPUT monografia.mw
 INPUT C:\Users\Deivison Costa\AppData\Local\Programs\MiKTeX\fonts\tfm\public\lm\ts1-lmbx12.tfm
 OUTPUT monografia.mw
 INPUT monografia.mw
@@ -1044,6 +1065,9 @@ INPUT monografia.mw
 OUTPUT monografia.mw
 OUTPUT monografia.toc
 INPUT monografia.aux
+OUTPUT monografia.mw
+INPUT monografia.mw
+OUTPUT monografia.mw
 OUTPUT monografia.mw
 INPUT monografia.mw
 OUTPUT monografia.mw
