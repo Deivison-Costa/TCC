@@ -28,5 +28,6 @@
 \contentsline {subsection}{\numberline {2.9.1}Evapotranspiração de referência}{20}{subsection.2.9.1}%
 \contentsline {subsection}{\numberline {2.9.2}Evapotranspiração de cultura}{21}{subsection.2.9.2}%
 \contentsline {section}{\numberline {2.10}Agricultura inteligente}{22}{section.2.10}%
+\contentsline {section}{\numberline {2.11}Agricultura de precisão}{22}{section.2.11}%
 \setlength {\cftchapterindent }{0em} \setlength {\cftchapternumwidth }{0em}
-\contentsline {chapter}{REFERÊNCIAS}{23}{section*.21}%
+\contentsline {chapter}{REFERÊNCIAS}{24}{section*.21}%
