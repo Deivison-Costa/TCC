@@ -1816,6 +1816,216 @@
       \verb https://doi.org/10.1080/23270012.2023.2207184
       \endverb
     \endentry
+    \entry{Pierce_precision1999}{article}{}{}
+      \name{author}{2}{}{%
+        {{un=0,uniquepart=base,hash=4322887489c26f82e707001efe1572ad}{%
+           family={Pierce},
+           familyi={P\bibinitperiod},
+           given={Francis\bibnamedelima J.},
+           giveni={F\bibinitperiod\bibinitdelim J\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=7e6969136a9aef5b4563e5755f494313}{%
+           family={Nowak},
+           familyi={N\bibinitperiod},
+           given={Peter},
+           giveni={P\bibinitperiod},
+           givenun=0}}%
+      }
+      \strng{namehash}{ba8f488c0c2485ec5177f9f1c099c744}
+      \strng{fullhash}{ba8f488c0c2485ec5177f9f1c099c744}
+      \strng{fullhashraw}{ba8f488c0c2485ec5177f9f1c099c744}
+      \strng{bibnamehash}{ba8f488c0c2485ec5177f9f1c099c744}
+      \strng{authorbibnamehash}{ba8f488c0c2485ec5177f9f1c099c744}
+      \strng{authornamehash}{ba8f488c0c2485ec5177f9f1c099c744}
+      \strng{authorfullhash}{ba8f488c0c2485ec5177f9f1c099c744}
+      \strng{authorfullhashraw}{ba8f488c0c2485ec5177f9f1c099c744}
+      \field{sortinit}{A}
+      \field{sortinithash}{2f401846e2029bad6b3ecc16d50031e2}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{Advances in Agronomy}
+      \field{month}{5}
+      \field{number}{1}
+      \field{title}{Aspects of Precision Agriculture}
+      \field{urlday}{1}
+      \field{urlmonth}{5}
+      \field{urlyear}{2024}
+      \field{volume}{67}
+      \field{year}{1999}
+      \field{urldateera}{ce}
+      \field{pages}{1\bibrangedash 85}
+      \range{pages}{85}
+      \verb{urlraw}
+      \verb https://doi.org/10.1016/S0065-2113(08)60513-1
+      \endverb
+      \verb{url}
+      \verb https://doi.org/10.1016/S0065-2113(08)60513-1
+      \endverb
+    \endentry
+    \entry{Zhang_precision2002}{article}{}{}
+      \name{author}{3}{}{%
+        {{un=0,uniquepart=base,hash=9db39c5b0f922461c1014986f41c10dd}{%
+           family={Zhang},
+           familyi={Z\bibinitperiod},
+           given={Naiqian},
+           giveni={N\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=5c2d091128e69cd0270f4023a4aa39e2}{%
+           family={Wang},
+           familyi={W\bibinitperiod},
+           given={Maohua},
+           giveni={M\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=bc9736b40ca170d1b1ff5b2a9bb2545b}{%
+           family={Wang},
+           familyi={W\bibinitperiod},
+           given={Ning},
+           giveni={N\bibinitperiod},
+           givenun=0}}%
+      }
+      \strng{namehash}{fad3461db5c5631a461fa05c919fc057}
+      \strng{fullhash}{fad3461db5c5631a461fa05c919fc057}
+      \strng{fullhashraw}{fad3461db5c5631a461fa05c919fc057}
+      \strng{bibnamehash}{fad3461db5c5631a461fa05c919fc057}
+      \strng{authorbibnamehash}{fad3461db5c5631a461fa05c919fc057}
+      \strng{authornamehash}{fad3461db5c5631a461fa05c919fc057}
+      \strng{authorfullhash}{fad3461db5c5631a461fa05c919fc057}
+      \strng{authorfullhashraw}{fad3461db5c5631a461fa05c919fc057}
+      \field{sortinit}{A}
+      \field{sortinithash}{2f401846e2029bad6b3ecc16d50031e2}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{Computers and Electronics in Agriculture}
+      \field{month}{11}
+      \field{number}{2}
+      \field{title}{Precision agriculture—a worldwide overview}
+      \field{urlday}{1}
+      \field{urlmonth}{5}
+      \field{urlyear}{2024}
+      \field{volume}{36}
+      \field{year}{2002}
+      \field{urldateera}{ce}
+      \field{pages}{113\bibrangedash 132}
+      \range{pages}{20}
+      \verb{urlraw}
+      \verb https://doi.org/10.1016/S0168-1699(02)00096-0
+      \endverb
+      \verb{url}
+      \verb https://doi.org/10.1016/S0168-1699(02)00096-0
+      \endverb
+    \endentry
+    \entry{Gebbers_precision2010}{article}{}{}
+      \name{author}{2}{}{%
+        {{un=0,uniquepart=base,hash=2a2d6a0bc127cc1db04ab703dfec4522}{%
+           family={Gebbers},
+           familyi={G\bibinitperiod},
+           given={Robin},
+           giveni={R\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=a5b7f99a3816b65f657214327e9e6c10}{%
+           family={Adamchuk},
+           familyi={A\bibinitperiod},
+           given={Viacheslav\bibnamedelima I.},
+           giveni={V\bibinitperiod\bibinitdelim I\bibinitperiod},
+           givenun=0}}%
+      }
+      \strng{namehash}{4b4691344c22c486e0c6a873b8e9d2ea}
+      \strng{fullhash}{4b4691344c22c486e0c6a873b8e9d2ea}
+      \strng{fullhashraw}{4b4691344c22c486e0c6a873b8e9d2ea}
+      \strng{bibnamehash}{4b4691344c22c486e0c6a873b8e9d2ea}
+      \strng{authorbibnamehash}{4b4691344c22c486e0c6a873b8e9d2ea}
+      \strng{authornamehash}{4b4691344c22c486e0c6a873b8e9d2ea}
+      \strng{authorfullhash}{4b4691344c22c486e0c6a873b8e9d2ea}
+      \strng{authorfullhashraw}{4b4691344c22c486e0c6a873b8e9d2ea}
+      \field{sortinit}{A}
+      \field{sortinithash}{2f401846e2029bad6b3ecc16d50031e2}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{Science}
+      \field{month}{2}
+      \field{number}{5967}
+      \field{title}{Precision Agriculture and Food Security}
+      \field{urlday}{1}
+      \field{urlmonth}{5}
+      \field{urlyear}{2024}
+      \field{volume}{327}
+      \field{year}{2010}
+      \field{urldateera}{ce}
+      \field{pages}{828\bibrangedash 831}
+      \range{pages}{4}
+      \verb{urlraw}
+      \verb https://doi.org/10.1126/science.1183899
+      \endverb
+      \verb{url}
+      \verb https://doi.org/10.1126/science.1183899
+      \endverb
+    \endentry
+    \entry{Francisco_precision2024}{article}{}{}
+      \name{author}{4}{}{%
+        {{un=0,uniquepart=base,hash=9fe8d94c87002bb02030727ae71604a1}{%
+           family={Medel-Jiménez},
+           familyi={M\bibinithyphendelim J\bibinitperiod},
+           given={Francisco},
+           giveni={F\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=dd14d49335d9fc9e85b973f7016f8dae}{%
+           family={Krexner},
+           familyi={K\bibinitperiod},
+           given={Theresa},
+           giveni={T\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=f7f67575aca9bd1d6f6a3eb1b61bb63f}{%
+           family={Gronauer},
+           familyi={G\bibinitperiod},
+           given={Andreas},
+           giveni={A\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=c3515d8ad532e1b6e8582cb26fd5f13a}{%
+           family={Kral},
+           familyi={K\bibinitperiod},
+           given={Iris},
+           giveni={I\bibinitperiod},
+           givenun=0}}%
+      }
+      \strng{namehash}{3a0fb99d375261c5457a4ee5707cb5a1}
+      \strng{fullhash}{f7a999f7f4aab4b323761aa9d8c932ce}
+      \strng{fullhashraw}{f7a999f7f4aab4b323761aa9d8c932ce}
+      \strng{bibnamehash}{3a0fb99d375261c5457a4ee5707cb5a1}
+      \strng{authorbibnamehash}{3a0fb99d375261c5457a4ee5707cb5a1}
+      \strng{authornamehash}{3a0fb99d375261c5457a4ee5707cb5a1}
+      \strng{authorfullhash}{f7a999f7f4aab4b323761aa9d8c932ce}
+      \strng{authorfullhashraw}{f7a999f7f4aab4b323761aa9d8c932ce}
+      \field{sortinit}{A}
+      \field{sortinithash}{2f401846e2029bad6b3ecc16d50031e2}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{Journal of Cleaner Production}
+      \field{month}{1}
+      \field{number}{140198}
+      \field{title}{Life cycle assessment of four different precision agriculture technologies and comparison with a conventional scheme}
+      \field{urlday}{1}
+      \field{urlmonth}{5}
+      \field{urlyear}{2024}
+      \field{volume}{434}
+      \field{year}{2024}
+      \field{urldateera}{ce}
+      \field{pages}{1\bibrangedash 11}
+      \range{pages}{11}
+      \verb{urlraw}
+      \verb https://doi.org/10.1016/j.jclepro.2023.140198
+      \endverb
+      \verb{url}
+      \verb https://doi.org/10.1016/j.jclepro.2023.140198
+      \endverb
+    \endentry
     \entry{Vijh_system2024}{inproceedings}{}{}
       \name{author}{5}{}{%
         {{un=0,uniquepart=base,hash=b8c2a3e93388792f4ceadbcbb0f42180}{%
@@ -2962,6 +3172,70 @@
       \endverb
       \verb{url}
       \verb https://www.academia.edu/45657937/Manual_de_Irriga%C3%A7%C3%A3o_8_ed_Salassier_Bernardo_Editora_UFV
+      \endverb
+    \endentry
+    \entry{Lamine_precision2024}{book}{}{}
+      \name{author}{5}{}{%
+        {{un=0,uniquepart=base,hash=8752299d4d1b4e53efc28835cb9a5893}{%
+           family={Lamine},
+           familyi={L\bibinitperiod},
+           given={Salim},
+           giveni={S\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=ab4f1d051b73e63330708a3182ec2776}{%
+           family={Srivastava},
+           familyi={S\bibinitperiod},
+           given={Prashant\bibnamedelima K.},
+           giveni={P\bibinitperiod\bibinitdelim K\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=9ec720e4190b0be54328dd9830271c49}{%
+           family={Kayad},
+           familyi={K\bibinitperiod},
+           given={Ahmed},
+           giveni={A\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=03b07b0eb9b087c6c1e8a5b32ed65831}{%
+           family={Muñoz-Arriola},
+           familyi={M\bibinithyphendelim A\bibinitperiod},
+           given={Francisco},
+           giveni={F\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=4b8899e7a6ddd7ed828b7cb5d9f1dad0}{%
+           family={Pandey},
+           familyi={P\bibinitperiod},
+           given={Prem\bibnamedelima Chandra},
+           giveni={P\bibinitperiod\bibinitdelim C\bibinitperiod},
+           givenun=0}}%
+      }
+      \list{publisher}{1}{%
+        {Academic Press}%
+      }
+      \strng{namehash}{23fbf06aa9635ae408203fdbedee5162}
+      \strng{fullhash}{135b3d44a894b9c29ee7aa2fa619bd23}
+      \strng{fullhashraw}{135b3d44a894b9c29ee7aa2fa619bd23}
+      \strng{bibnamehash}{23fbf06aa9635ae408203fdbedee5162}
+      \strng{authorbibnamehash}{23fbf06aa9635ae408203fdbedee5162}
+      \strng{authornamehash}{23fbf06aa9635ae408203fdbedee5162}
+      \strng{authorfullhash}{135b3d44a894b9c29ee7aa2fa619bd23}
+      \strng{authorfullhashraw}{135b3d44a894b9c29ee7aa2fa619bd23}
+      \field{sortinit}{C}
+      \field{sortinithash}{4d103a86280481745c9c897c925753c0}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{edition}{1}
+      \field{title}{Remote Sensing in Precision Agriculture}
+      \field{urlday}{1}
+      \field{urlmonth}{5}
+      \field{urlyear}{2024}
+      \field{year}{2024}
+      \field{urldateera}{ce}
+      \verb{urlraw}
+      \verb https://doi.org/10.1016/B978-0-323-91068-2.00014-X
+      \endverb
+      \verb{url}
+      \verb https://doi.org/10.1016/B978-0-323-91068-2.00014-X
       \endverb
     \endentry
     \entry{carmody_fao2023}{misc}{}{}
