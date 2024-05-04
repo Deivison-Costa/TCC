@@ -1450,258 +1450,6 @@
       \verb https://doi.org/0.1109/TSC.2018.2847344
       \endverb
     \endentry
-    \entry{Penman_evapotranspiration1948}{article}{}{}
-      \name{author}{1}{}{%
-        {{un=0,uniquepart=base,hash=5d864090d8ad46d81e8e3ccb9fa485b8}{%
-           family={Penman},
-           familyi={P\bibinitperiod},
-           given={Howard\bibnamedelima Latimer},
-           giveni={H\bibinitperiod\bibinitdelim L\bibinitperiod},
-           givenun=0}}%
-      }
-      \strng{namehash}{5d864090d8ad46d81e8e3ccb9fa485b8}
-      \strng{fullhash}{5d864090d8ad46d81e8e3ccb9fa485b8}
-      \strng{fullhashraw}{5d864090d8ad46d81e8e3ccb9fa485b8}
-      \strng{bibnamehash}{5d864090d8ad46d81e8e3ccb9fa485b8}
-      \strng{authorbibnamehash}{5d864090d8ad46d81e8e3ccb9fa485b8}
-      \strng{authornamehash}{5d864090d8ad46d81e8e3ccb9fa485b8}
-      \strng{authorfullhash}{5d864090d8ad46d81e8e3ccb9fa485b8}
-      \strng{authorfullhashraw}{5d864090d8ad46d81e8e3ccb9fa485b8}
-      \field{sortinit}{A}
-      \field{sortinithash}{2f401846e2029bad6b3ecc16d50031e2}
-      \field{extradatescope}{labelyear}
-      \field{labeldatesource}{}
-      \field{labelnamesource}{author}
-      \field{labeltitlesource}{title}
-      \field{journaltitle}{Proceedings of the Royal Society of London. Series A. Mathematical and Physical Sciences}
-      \field{month}{4}
-      \field{number}{1032}
-      \field{title}{Natural evaporation from open water, bare soil and grass}
-      \field{urlday}{22}
-      \field{urlmonth}{4}
-      \field{urlyear}{2024}
-      \field{volume}{193}
-      \field{year}{1948}
-      \field{urldateera}{ce}
-      \field{pages}{120\bibrangedash 145}
-      \range{pages}{26}
-      \verb{urlraw}
-      \verb https://doi.org/10.1098/rspa.1948.0037
-      \endverb
-      \verb{url}
-      \verb https://doi.org/10.1098/rspa.1948.0037
-      \endverb
-    \endentry
-    \entry{Zhao_evapotranspiration_med2009}{article}{}{}
-      \name{author}{8}{}{%
-        {{un=0,uniquepart=base,hash=910f5e1a763c6e38948370ba7bf4d1e0}{%
-           family={Li},
-           familyi={L\bibinitperiod},
-           given={Zhao-Liang},
-           giveni={Z\bibinithyphendelim L\bibinitperiod},
-           givenun=0}}%
-        {{un=0,uniquepart=base,hash=7078b2864063cd10cf6c8300799d42d2}{%
-           family={Tang},
-           familyi={T\bibinitperiod},
-           given={Ronglin},
-           giveni={R\bibinitperiod},
-           givenun=0}}%
-        {{un=0,uniquepart=base,hash=02a7721c9d28e227be69d4962c7c6db1}{%
-           family={Wan},
-           familyi={W\bibinitperiod},
-           given={Zhengming},
-           giveni={Z\bibinitperiod},
-           givenun=0}}%
-        {{un=0,uniquepart=base,hash=421db1c917c9e65ea0c72d9b3cf26e99}{%
-           family={Bi},
-           familyi={B\bibinitperiod},
-           given={Yuyun},
-           giveni={Y\bibinitperiod},
-           givenun=0}}%
-        {{un=0,uniquepart=base,hash=1dac5c499b9613617e07858a6c0a6986}{%
-           family={Zhou},
-           familyi={Z\bibinitperiod},
-           given={Chenghu},
-           giveni={C\bibinitperiod},
-           givenun=0}}%
-        {{un=0,uniquepart=base,hash=4ec4155a21c3b515069a3af7bc69b34a}{%
-           family={Tang},
-           familyi={T\bibinitperiod},
-           given={Bohui},
-           giveni={B\bibinitperiod},
-           givenun=0}}%
-        {{un=0,uniquepart=base,hash=d46a1686d3ce9f8b73694150c2211ac6}{%
-           family={Yan},
-           familyi={Y\bibinitperiod},
-           given={Guangjian},
-           giveni={G\bibinitperiod},
-           givenun=0}}%
-        {{un=0,uniquepart=base,hash=d141807b4214edec2c4ecadc5f4baec6}{%
-           family={Zhang},
-           familyi={Z\bibinitperiod},
-           given={Xiaoyu},
-           giveni={X\bibinitperiod},
-           givenun=0}}%
-      }
-      \strng{namehash}{66ace57968c8f7215a2d09d14fc5f0e8}
-      \strng{fullhash}{3aaaab98078dfe52e6d44d307372e2a4}
-      \strng{fullhashraw}{3aaaab98078dfe52e6d44d307372e2a4}
-      \strng{bibnamehash}{66ace57968c8f7215a2d09d14fc5f0e8}
-      \strng{authorbibnamehash}{66ace57968c8f7215a2d09d14fc5f0e8}
-      \strng{authornamehash}{66ace57968c8f7215a2d09d14fc5f0e8}
-      \strng{authorfullhash}{3aaaab98078dfe52e6d44d307372e2a4}
-      \strng{authorfullhashraw}{3aaaab98078dfe52e6d44d307372e2a4}
-      \field{sortinit}{A}
-      \field{sortinithash}{2f401846e2029bad6b3ecc16d50031e2}
-      \field{extradatescope}{labelyear}
-      \field{labeldatesource}{}
-      \field{labelnamesource}{author}
-      \field{labeltitlesource}{title}
-      \field{journaltitle}{Sensors}
-      \field{month}{3}
-      \field{number}{5}
-      \field{title}{A Review of Current Methodologies for Regional Evapotranspiration Estimation from Remotely Sensed Data}
-      \field{urlday}{22}
-      \field{urlmonth}{4}
-      \field{urlyear}{2024}
-      \field{volume}{9}
-      \field{year}{2009}
-      \field{urldateera}{ce}
-      \field{pages}{3801\bibrangedash 3853}
-      \range{pages}{53}
-      \verb{urlraw}
-      \verb https://doi.org/10.3390/s90503801
-      \endverb
-      \verb{url}
-      \verb https://doi.org/10.3390/s90503801
-      \endverb
-    \endentry
-    \entry{Zhang_evapotranspiration_med2016}{article}{}{}
-      \name{author}{3}{}{%
-        {{un=0,uniquepart=base,hash=ddc1726cf189c15802cf1d5ef196509d}{%
-           family={Zhang},
-           familyi={Z\bibinitperiod},
-           given={Ke},
-           giveni={K\bibinitperiod},
-           givenun=0}}%
-        {{un=0,uniquepart=base,hash=9a0827584ac401f86d1a0b290a97bb6b}{%
-           family={Kimball},
-           familyi={K\bibinitperiod},
-           given={John\bibnamedelima S.},
-           giveni={J\bibinitperiod\bibinitdelim S\bibinitperiod},
-           givenun=0}}%
-        {{un=0,uniquepart=base,hash=ef26b1d07b6ecb7220a6538e773e4146}{%
-           family={Running},
-           familyi={R\bibinitperiod},
-           given={Steven\bibnamedelima W.},
-           giveni={S\bibinitperiod\bibinitdelim W\bibinitperiod},
-           givenun=0}}%
-      }
-      \strng{namehash}{931f5e630500a986d4b68fbaa6b51530}
-      \strng{fullhash}{931f5e630500a986d4b68fbaa6b51530}
-      \strng{fullhashraw}{931f5e630500a986d4b68fbaa6b51530}
-      \strng{bibnamehash}{931f5e630500a986d4b68fbaa6b51530}
-      \strng{authorbibnamehash}{931f5e630500a986d4b68fbaa6b51530}
-      \strng{authornamehash}{931f5e630500a986d4b68fbaa6b51530}
-      \strng{authorfullhash}{931f5e630500a986d4b68fbaa6b51530}
-      \strng{authorfullhashraw}{931f5e630500a986d4b68fbaa6b51530}
-      \field{sortinit}{A}
-      \field{sortinithash}{2f401846e2029bad6b3ecc16d50031e2}
-      \field{extradatescope}{labelyear}
-      \field{labeldatesource}{}
-      \field{labelnamesource}{author}
-      \field{labeltitlesource}{title}
-      \field{journaltitle}{Wiley interdisciplinary reviews: Water}
-      \field{month}{7}
-      \field{number}{6}
-      \field{title}{A review of remote sensing based actual evapotranspiration estimation}
-      \field{urlday}{22}
-      \field{urlmonth}{4}
-      \field{urlyear}{2024}
-      \field{volume}{3}
-      \field{year}{2016}
-      \field{urldateera}{ce}
-      \field{pages}{834\bibrangedash 853}
-      \range{pages}{20}
-      \verb{urlraw}
-      \verb https://doi.org/10.1002/wat2.1168
-      \endverb
-      \verb{url}
-      \verb https://doi.org/10.1002/wat2.1168
-      \endverb
-    \endentry
-    \entry{Yang_evapotranspiration_med2022}{article}{}{}
-      \name{author}{6}{}{%
-        {{un=0,uniquepart=base,hash=a99234563f310d8806b35035e44acb3c}{%
-           family={Anderson},
-           familyi={A\bibinitperiod},
-           given={Martha},
-           giveni={M\bibinitperiod},
-           givenun=0}}%
-        {{un=0,uniquepart=base,hash=83d8c1a36f3dec2cbd7fdc704910f74c}{%
-           family={Yang},
-           familyi={Y\bibinitperiod},
-           given={Yun},
-           giveni={Y\bibinitperiod},
-           givenun=0}}%
-        {{un=0,uniquepart=base,hash=c8c5bb9f8ba6ff0df0521ea75cae9bda}{%
-           family={Gao},
-           familyi={G\bibinitperiod},
-           given={Feng},
-           giveni={F\bibinitperiod},
-           givenun=0}}%
-        {{un=0,uniquepart=base,hash=8a6a8e98827fbc0ffa520ab0a3f8d0dc}{%
-           family={Xue},
-           familyi={X\bibinitperiod},
-           given={Jie},
-           giveni={J\bibinitperiod},
-           givenun=0}}%
-        {{un=0,uniquepart=base,hash=b433ed2505ec0d13e60528efa7e90879}{%
-           family={Knipper},
-           familyi={K\bibinitperiod},
-           given={Kyle},
-           giveni={K\bibinitperiod},
-           givenun=0}}%
-        {{un=0,uniquepart=base,hash=75d6f244f00b5acb40aa90396a42ef7b}{%
-           family={Hain},
-           familyi={H\bibinitperiod},
-           given={Christopher},
-           giveni={C\bibinitperiod},
-           givenun=0}}%
-      }
-      \strng{namehash}{71711caf18ec43bd44db1ecb37f14557}
-      \strng{fullhash}{4250a212f9c93ab6cf90ea15116dc46b}
-      \strng{fullhashraw}{4250a212f9c93ab6cf90ea15116dc46b}
-      \strng{bibnamehash}{71711caf18ec43bd44db1ecb37f14557}
-      \strng{authorbibnamehash}{71711caf18ec43bd44db1ecb37f14557}
-      \strng{authornamehash}{71711caf18ec43bd44db1ecb37f14557}
-      \strng{authorfullhash}{4250a212f9c93ab6cf90ea15116dc46b}
-      \strng{authorfullhashraw}{4250a212f9c93ab6cf90ea15116dc46b}
-      \field{sortinit}{A}
-      \field{sortinithash}{2f401846e2029bad6b3ecc16d50031e2}
-      \field{extradatescope}{labelyear}
-      \field{labeldatesource}{}
-      \field{labelnamesource}{author}
-      \field{labeltitlesource}{title}
-      \field{journaltitle}{Remote Sensing}
-      \field{month}{4}
-      \field{number}{1772}
-      \field{title}{Improved Daily Evapotranspiration Estimation Using Remotely Sensed Data in a Data Fusion System}
-      \field{urlday}{22}
-      \field{urlmonth}{4}
-      \field{urlyear}{2024}
-      \field{volume}{14}
-      \field{year}{2022}
-      \field{urldateera}{ce}
-      \field{pages}{1\bibrangedash 16}
-      \range{pages}{16}
-      \verb{urlraw}
-      \verb https://doi.org/10.3390/rs14081772
-      \endverb
-      \verb{url}
-      \verb https://doi.org/10.3390/rs14081772
-      \endverb
-    \endentry
     \entry{Gurjeet_smart2022}{article}{}{}
       \name{author}{5}{}{%
         {{un=0,uniquepart=base,hash=8e192c311aece21b90815dc7c4fa4d95}{%
@@ -2024,6 +1772,258 @@
       \endverb
       \verb{url}
       \verb https://doi.org/10.1016/j.jclepro.2023.140198
+      \endverb
+    \endentry
+    \entry{Penman_evapotranspiration1948}{article}{}{}
+      \name{author}{1}{}{%
+        {{un=0,uniquepart=base,hash=5d864090d8ad46d81e8e3ccb9fa485b8}{%
+           family={Penman},
+           familyi={P\bibinitperiod},
+           given={Howard\bibnamedelima Latimer},
+           giveni={H\bibinitperiod\bibinitdelim L\bibinitperiod},
+           givenun=0}}%
+      }
+      \strng{namehash}{5d864090d8ad46d81e8e3ccb9fa485b8}
+      \strng{fullhash}{5d864090d8ad46d81e8e3ccb9fa485b8}
+      \strng{fullhashraw}{5d864090d8ad46d81e8e3ccb9fa485b8}
+      \strng{bibnamehash}{5d864090d8ad46d81e8e3ccb9fa485b8}
+      \strng{authorbibnamehash}{5d864090d8ad46d81e8e3ccb9fa485b8}
+      \strng{authornamehash}{5d864090d8ad46d81e8e3ccb9fa485b8}
+      \strng{authorfullhash}{5d864090d8ad46d81e8e3ccb9fa485b8}
+      \strng{authorfullhashraw}{5d864090d8ad46d81e8e3ccb9fa485b8}
+      \field{sortinit}{A}
+      \field{sortinithash}{2f401846e2029bad6b3ecc16d50031e2}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{Proceedings of the Royal Society of London. Series A. Mathematical and Physical Sciences}
+      \field{month}{4}
+      \field{number}{1032}
+      \field{title}{Natural evaporation from open water, bare soil and grass}
+      \field{urlday}{22}
+      \field{urlmonth}{4}
+      \field{urlyear}{2024}
+      \field{volume}{193}
+      \field{year}{1948}
+      \field{urldateera}{ce}
+      \field{pages}{120\bibrangedash 145}
+      \range{pages}{26}
+      \verb{urlraw}
+      \verb https://doi.org/10.1098/rspa.1948.0037
+      \endverb
+      \verb{url}
+      \verb https://doi.org/10.1098/rspa.1948.0037
+      \endverb
+    \endentry
+    \entry{Zhao_evapotranspiration_med2009}{article}{}{}
+      \name{author}{8}{}{%
+        {{un=0,uniquepart=base,hash=910f5e1a763c6e38948370ba7bf4d1e0}{%
+           family={Li},
+           familyi={L\bibinitperiod},
+           given={Zhao-Liang},
+           giveni={Z\bibinithyphendelim L\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=7078b2864063cd10cf6c8300799d42d2}{%
+           family={Tang},
+           familyi={T\bibinitperiod},
+           given={Ronglin},
+           giveni={R\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=02a7721c9d28e227be69d4962c7c6db1}{%
+           family={Wan},
+           familyi={W\bibinitperiod},
+           given={Zhengming},
+           giveni={Z\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=421db1c917c9e65ea0c72d9b3cf26e99}{%
+           family={Bi},
+           familyi={B\bibinitperiod},
+           given={Yuyun},
+           giveni={Y\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=1dac5c499b9613617e07858a6c0a6986}{%
+           family={Zhou},
+           familyi={Z\bibinitperiod},
+           given={Chenghu},
+           giveni={C\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=4ec4155a21c3b515069a3af7bc69b34a}{%
+           family={Tang},
+           familyi={T\bibinitperiod},
+           given={Bohui},
+           giveni={B\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=d46a1686d3ce9f8b73694150c2211ac6}{%
+           family={Yan},
+           familyi={Y\bibinitperiod},
+           given={Guangjian},
+           giveni={G\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=d141807b4214edec2c4ecadc5f4baec6}{%
+           family={Zhang},
+           familyi={Z\bibinitperiod},
+           given={Xiaoyu},
+           giveni={X\bibinitperiod},
+           givenun=0}}%
+      }
+      \strng{namehash}{66ace57968c8f7215a2d09d14fc5f0e8}
+      \strng{fullhash}{3aaaab98078dfe52e6d44d307372e2a4}
+      \strng{fullhashraw}{3aaaab98078dfe52e6d44d307372e2a4}
+      \strng{bibnamehash}{66ace57968c8f7215a2d09d14fc5f0e8}
+      \strng{authorbibnamehash}{66ace57968c8f7215a2d09d14fc5f0e8}
+      \strng{authornamehash}{66ace57968c8f7215a2d09d14fc5f0e8}
+      \strng{authorfullhash}{3aaaab98078dfe52e6d44d307372e2a4}
+      \strng{authorfullhashraw}{3aaaab98078dfe52e6d44d307372e2a4}
+      \field{sortinit}{A}
+      \field{sortinithash}{2f401846e2029bad6b3ecc16d50031e2}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{Sensors}
+      \field{month}{3}
+      \field{number}{5}
+      \field{title}{A Review of Current Methodologies for Regional Evapotranspiration Estimation from Remotely Sensed Data}
+      \field{urlday}{22}
+      \field{urlmonth}{4}
+      \field{urlyear}{2024}
+      \field{volume}{9}
+      \field{year}{2009}
+      \field{urldateera}{ce}
+      \field{pages}{3801\bibrangedash 3853}
+      \range{pages}{53}
+      \verb{urlraw}
+      \verb https://doi.org/10.3390/s90503801
+      \endverb
+      \verb{url}
+      \verb https://doi.org/10.3390/s90503801
+      \endverb
+    \endentry
+    \entry{Zhang_evapotranspiration_med2016}{article}{}{}
+      \name{author}{3}{}{%
+        {{un=0,uniquepart=base,hash=ddc1726cf189c15802cf1d5ef196509d}{%
+           family={Zhang},
+           familyi={Z\bibinitperiod},
+           given={Ke},
+           giveni={K\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=9a0827584ac401f86d1a0b290a97bb6b}{%
+           family={Kimball},
+           familyi={K\bibinitperiod},
+           given={John\bibnamedelima S.},
+           giveni={J\bibinitperiod\bibinitdelim S\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=ef26b1d07b6ecb7220a6538e773e4146}{%
+           family={Running},
+           familyi={R\bibinitperiod},
+           given={Steven\bibnamedelima W.},
+           giveni={S\bibinitperiod\bibinitdelim W\bibinitperiod},
+           givenun=0}}%
+      }
+      \strng{namehash}{931f5e630500a986d4b68fbaa6b51530}
+      \strng{fullhash}{931f5e630500a986d4b68fbaa6b51530}
+      \strng{fullhashraw}{931f5e630500a986d4b68fbaa6b51530}
+      \strng{bibnamehash}{931f5e630500a986d4b68fbaa6b51530}
+      \strng{authorbibnamehash}{931f5e630500a986d4b68fbaa6b51530}
+      \strng{authornamehash}{931f5e630500a986d4b68fbaa6b51530}
+      \strng{authorfullhash}{931f5e630500a986d4b68fbaa6b51530}
+      \strng{authorfullhashraw}{931f5e630500a986d4b68fbaa6b51530}
+      \field{sortinit}{A}
+      \field{sortinithash}{2f401846e2029bad6b3ecc16d50031e2}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{Wiley interdisciplinary reviews: Water}
+      \field{month}{7}
+      \field{number}{6}
+      \field{title}{A review of remote sensing based actual evapotranspiration estimation}
+      \field{urlday}{22}
+      \field{urlmonth}{4}
+      \field{urlyear}{2024}
+      \field{volume}{3}
+      \field{year}{2016}
+      \field{urldateera}{ce}
+      \field{pages}{834\bibrangedash 853}
+      \range{pages}{20}
+      \verb{urlraw}
+      \verb https://doi.org/10.1002/wat2.1168
+      \endverb
+      \verb{url}
+      \verb https://doi.org/10.1002/wat2.1168
+      \endverb
+    \endentry
+    \entry{Yang_evapotranspiration_med2022}{article}{}{}
+      \name{author}{6}{}{%
+        {{un=0,uniquepart=base,hash=a99234563f310d8806b35035e44acb3c}{%
+           family={Anderson},
+           familyi={A\bibinitperiod},
+           given={Martha},
+           giveni={M\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=83d8c1a36f3dec2cbd7fdc704910f74c}{%
+           family={Yang},
+           familyi={Y\bibinitperiod},
+           given={Yun},
+           giveni={Y\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=c8c5bb9f8ba6ff0df0521ea75cae9bda}{%
+           family={Gao},
+           familyi={G\bibinitperiod},
+           given={Feng},
+           giveni={F\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=8a6a8e98827fbc0ffa520ab0a3f8d0dc}{%
+           family={Xue},
+           familyi={X\bibinitperiod},
+           given={Jie},
+           giveni={J\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=b433ed2505ec0d13e60528efa7e90879}{%
+           family={Knipper},
+           familyi={K\bibinitperiod},
+           given={Kyle},
+           giveni={K\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=75d6f244f00b5acb40aa90396a42ef7b}{%
+           family={Hain},
+           familyi={H\bibinitperiod},
+           given={Christopher},
+           giveni={C\bibinitperiod},
+           givenun=0}}%
+      }
+      \strng{namehash}{71711caf18ec43bd44db1ecb37f14557}
+      \strng{fullhash}{4250a212f9c93ab6cf90ea15116dc46b}
+      \strng{fullhashraw}{4250a212f9c93ab6cf90ea15116dc46b}
+      \strng{bibnamehash}{71711caf18ec43bd44db1ecb37f14557}
+      \strng{authorbibnamehash}{71711caf18ec43bd44db1ecb37f14557}
+      \strng{authornamehash}{71711caf18ec43bd44db1ecb37f14557}
+      \strng{authorfullhash}{4250a212f9c93ab6cf90ea15116dc46b}
+      \strng{authorfullhashraw}{4250a212f9c93ab6cf90ea15116dc46b}
+      \field{sortinit}{A}
+      \field{sortinithash}{2f401846e2029bad6b3ecc16d50031e2}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{Remote Sensing}
+      \field{month}{4}
+      \field{number}{1772}
+      \field{title}{Improved Daily Evapotranspiration Estimation Using Remotely Sensed Data in a Data Fusion System}
+      \field{urlday}{22}
+      \field{urlmonth}{4}
+      \field{urlyear}{2024}
+      \field{volume}{14}
+      \field{year}{2022}
+      \field{urldateera}{ce}
+      \field{pages}{1\bibrangedash 16}
+      \range{pages}{16}
+      \verb{urlraw}
+      \verb https://doi.org/10.3390/rs14081772
+      \endverb
+      \verb{url}
+      \verb https://doi.org/10.3390/rs14081772
       \endverb
     \endentry
     \entry{Vijh_system2024}{inproceedings}{}{}
@@ -2566,51 +2566,6 @@
       \verb https://doi.org/10.1109/ICACTE.2010.5579543
       \endverb
     \endentry
-    \entry{Andy_mqtt2004}{inproceedings}{}{}
-      \name{author}{1}{}{%
-        {{un=0,uniquepart=base,hash=6fd105587319ffd0476fffbf4c8968a7}{%
-           family={Stanford-Clark},
-           familyi={S\bibinithyphendelim C\bibinitperiod},
-           given={Andy},
-           giveni={A\bibinitperiod},
-           givenun=0}}%
-      }
-      \list{location}{1}{%
-        {Birmingham, UK}%
-      }
-      \list{publisher}{1}{%
-        {IET}%
-      }
-      \strng{namehash}{6fd105587319ffd0476fffbf4c8968a7}
-      \strng{fullhash}{6fd105587319ffd0476fffbf4c8968a7}
-      \strng{fullhashraw}{6fd105587319ffd0476fffbf4c8968a7}
-      \strng{bibnamehash}{6fd105587319ffd0476fffbf4c8968a7}
-      \strng{authorbibnamehash}{6fd105587319ffd0476fffbf4c8968a7}
-      \strng{authornamehash}{6fd105587319ffd0476fffbf4c8968a7}
-      \strng{authorfullhash}{6fd105587319ffd0476fffbf4c8968a7}
-      \strng{authorfullhashraw}{6fd105587319ffd0476fffbf4c8968a7}
-      \field{sortinit}{B}
-      \field{sortinithash}{d7095fff47cda75ca2589920aae98399}
-      \field{extradatescope}{labelyear}
-      \field{labeldatesource}{}
-      \field{labelnamesource}{author}
-      \field{labeltitlesource}{title}
-      \field{booktitle}{2004 Open Control Systems - The Importance of Industrial Standards}
-      \field{title}{The importance of Internet standards and other topics}
-      \field{urlday}{15}
-      \field{urlmonth}{4}
-      \field{urlyear}{2024}
-      \field{year}{2004}
-      \field{urldateera}{ce}
-      \field{pages}{1\bibrangedash 12}
-      \range{pages}{12}
-      \verb{urlraw}
-      \verb https://doi.org/10.1049/ic:20040131
-      \endverb
-      \verb{url}
-      \verb https://doi.org/10.1049/ic:20040131
-      \endverb
-    \endentry
     \entry{Yassein_mqtt2017}{inproceedings}{}{}
       \name{author}{4}{}{%
         {{un=0,uniquepart=base,hash=0da2b76291c7befe0f900dab74d008d3}{%
@@ -2672,6 +2627,51 @@
       \endverb
       \verb{url}
       \verb https://doi.org/10.1109/ICEMIS.2017.8273112
+      \endverb
+    \endentry
+    \entry{Andy_mqtt2004}{inproceedings}{}{}
+      \name{author}{1}{}{%
+        {{un=0,uniquepart=base,hash=6fd105587319ffd0476fffbf4c8968a7}{%
+           family={Stanford-Clark},
+           familyi={S\bibinithyphendelim C\bibinitperiod},
+           given={Andy},
+           giveni={A\bibinitperiod},
+           givenun=0}}%
+      }
+      \list{location}{1}{%
+        {Birmingham, UK}%
+      }
+      \list{publisher}{1}{%
+        {IET}%
+      }
+      \strng{namehash}{6fd105587319ffd0476fffbf4c8968a7}
+      \strng{fullhash}{6fd105587319ffd0476fffbf4c8968a7}
+      \strng{fullhashraw}{6fd105587319ffd0476fffbf4c8968a7}
+      \strng{bibnamehash}{6fd105587319ffd0476fffbf4c8968a7}
+      \strng{authorbibnamehash}{6fd105587319ffd0476fffbf4c8968a7}
+      \strng{authornamehash}{6fd105587319ffd0476fffbf4c8968a7}
+      \strng{authorfullhash}{6fd105587319ffd0476fffbf4c8968a7}
+      \strng{authorfullhashraw}{6fd105587319ffd0476fffbf4c8968a7}
+      \field{sortinit}{B}
+      \field{sortinithash}{d7095fff47cda75ca2589920aae98399}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{booktitle}{2004 Open Control Systems - The Importance of Industrial Standards}
+      \field{title}{The importance of Internet standards and other topics}
+      \field{urlday}{15}
+      \field{urlmonth}{4}
+      \field{urlyear}{2024}
+      \field{year}{2004}
+      \field{urldateera}{ce}
+      \field{pages}{1\bibrangedash 12}
+      \range{pages}{12}
+      \verb{urlraw}
+      \verb https://doi.org/10.1049/ic:20040131
+      \endverb
+      \verb{url}
+      \verb https://doi.org/10.1049/ic:20040131
       \endverb
     \endentry
     \entry{Ramos_irrigacao2022}{book}{}{}
@@ -3014,6 +3014,70 @@
       \verb https://books.google.com.br/books?hl=pt-BR&lr=&id=wK0xBWfL9GkC&oi=fnd&pg=PP1&dq=Tim+Berners-Lee+http&ots=8hQS8517jw&sig=yZRbgIMcN0xFMVPNTQ33b_5Rt1E&redir_esc=y#v=onepage&q=Tim%20Berners-Lee%20http&f=false
       \endverb
     \endentry
+    \entry{Lamine_precision2024}{book}{}{}
+      \name{author}{5}{}{%
+        {{un=0,uniquepart=base,hash=8752299d4d1b4e53efc28835cb9a5893}{%
+           family={Lamine},
+           familyi={L\bibinitperiod},
+           given={Salim},
+           giveni={S\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=ab4f1d051b73e63330708a3182ec2776}{%
+           family={Srivastava},
+           familyi={S\bibinitperiod},
+           given={Prashant\bibnamedelima K.},
+           giveni={P\bibinitperiod\bibinitdelim K\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=9ec720e4190b0be54328dd9830271c49}{%
+           family={Kayad},
+           familyi={K\bibinitperiod},
+           given={Ahmed},
+           giveni={A\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=03b07b0eb9b087c6c1e8a5b32ed65831}{%
+           family={Muñoz-Arriola},
+           familyi={M\bibinithyphendelim A\bibinitperiod},
+           given={Francisco},
+           giveni={F\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=4b8899e7a6ddd7ed828b7cb5d9f1dad0}{%
+           family={Pandey},
+           familyi={P\bibinitperiod},
+           given={Prem\bibnamedelima Chandra},
+           giveni={P\bibinitperiod\bibinitdelim C\bibinitperiod},
+           givenun=0}}%
+      }
+      \list{publisher}{1}{%
+        {Academic Press}%
+      }
+      \strng{namehash}{23fbf06aa9635ae408203fdbedee5162}
+      \strng{fullhash}{135b3d44a894b9c29ee7aa2fa619bd23}
+      \strng{fullhashraw}{135b3d44a894b9c29ee7aa2fa619bd23}
+      \strng{bibnamehash}{23fbf06aa9635ae408203fdbedee5162}
+      \strng{authorbibnamehash}{23fbf06aa9635ae408203fdbedee5162}
+      \strng{authornamehash}{23fbf06aa9635ae408203fdbedee5162}
+      \strng{authorfullhash}{135b3d44a894b9c29ee7aa2fa619bd23}
+      \strng{authorfullhashraw}{135b3d44a894b9c29ee7aa2fa619bd23}
+      \field{sortinit}{C}
+      \field{sortinithash}{4d103a86280481745c9c897c925753c0}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{edition}{1}
+      \field{title}{Remote Sensing in Precision Agriculture}
+      \field{urlday}{1}
+      \field{urlmonth}{5}
+      \field{urlyear}{2024}
+      \field{year}{2024}
+      \field{urldateera}{ce}
+      \verb{urlraw}
+      \verb https://doi.org/10.1016/B978-0-323-91068-2.00014-X
+      \endverb
+      \verb{url}
+      \verb https://doi.org/10.1016/B978-0-323-91068-2.00014-X
+      \endverb
+    \endentry
     \entry{Burton_irrigation2010}{book}{}{}
       \name{author}{1}{}{%
         {{un=0,uniquepart=base,hash=16a3cadf101fa0f9ee652b09cb8ecffb}{%
@@ -3172,70 +3236,6 @@
       \endverb
       \verb{url}
       \verb https://www.academia.edu/45657937/Manual_de_Irriga%C3%A7%C3%A3o_8_ed_Salassier_Bernardo_Editora_UFV
-      \endverb
-    \endentry
-    \entry{Lamine_precision2024}{book}{}{}
-      \name{author}{5}{}{%
-        {{un=0,uniquepart=base,hash=8752299d4d1b4e53efc28835cb9a5893}{%
-           family={Lamine},
-           familyi={L\bibinitperiod},
-           given={Salim},
-           giveni={S\bibinitperiod},
-           givenun=0}}%
-        {{un=0,uniquepart=base,hash=ab4f1d051b73e63330708a3182ec2776}{%
-           family={Srivastava},
-           familyi={S\bibinitperiod},
-           given={Prashant\bibnamedelima K.},
-           giveni={P\bibinitperiod\bibinitdelim K\bibinitperiod},
-           givenun=0}}%
-        {{un=0,uniquepart=base,hash=9ec720e4190b0be54328dd9830271c49}{%
-           family={Kayad},
-           familyi={K\bibinitperiod},
-           given={Ahmed},
-           giveni={A\bibinitperiod},
-           givenun=0}}%
-        {{un=0,uniquepart=base,hash=03b07b0eb9b087c6c1e8a5b32ed65831}{%
-           family={Muñoz-Arriola},
-           familyi={M\bibinithyphendelim A\bibinitperiod},
-           given={Francisco},
-           giveni={F\bibinitperiod},
-           givenun=0}}%
-        {{un=0,uniquepart=base,hash=4b8899e7a6ddd7ed828b7cb5d9f1dad0}{%
-           family={Pandey},
-           familyi={P\bibinitperiod},
-           given={Prem\bibnamedelima Chandra},
-           giveni={P\bibinitperiod\bibinitdelim C\bibinitperiod},
-           givenun=0}}%
-      }
-      \list{publisher}{1}{%
-        {Academic Press}%
-      }
-      \strng{namehash}{23fbf06aa9635ae408203fdbedee5162}
-      \strng{fullhash}{135b3d44a894b9c29ee7aa2fa619bd23}
-      \strng{fullhashraw}{135b3d44a894b9c29ee7aa2fa619bd23}
-      \strng{bibnamehash}{23fbf06aa9635ae408203fdbedee5162}
-      \strng{authorbibnamehash}{23fbf06aa9635ae408203fdbedee5162}
-      \strng{authornamehash}{23fbf06aa9635ae408203fdbedee5162}
-      \strng{authorfullhash}{135b3d44a894b9c29ee7aa2fa619bd23}
-      \strng{authorfullhashraw}{135b3d44a894b9c29ee7aa2fa619bd23}
-      \field{sortinit}{C}
-      \field{sortinithash}{4d103a86280481745c9c897c925753c0}
-      \field{extradatescope}{labelyear}
-      \field{labeldatesource}{}
-      \field{labelnamesource}{author}
-      \field{labeltitlesource}{title}
-      \field{edition}{1}
-      \field{title}{Remote Sensing in Precision Agriculture}
-      \field{urlday}{1}
-      \field{urlmonth}{5}
-      \field{urlyear}{2024}
-      \field{year}{2024}
-      \field{urldateera}{ce}
-      \verb{urlraw}
-      \verb https://doi.org/10.1016/B978-0-323-91068-2.00014-X
-      \endverb
-      \verb{url}
-      \verb https://doi.org/10.1016/B978-0-323-91068-2.00014-X
       \endverb
     \endentry
     \entry{carmody_fao2023}{misc}{}{}
