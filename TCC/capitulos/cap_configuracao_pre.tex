@@ -35,7 +35,7 @@ Ao longo dos anos, o sensoriamento remoto tem evoluído significativamente, prop
 \fonte{Adaptado de \textcite{campbell2011}.}
 \end{table}
 
-Uma das áreas de aplicação do sensoriamento remoto na atualidade é a agricultura. Estudos recentes, como o de \textcite{weiss2020}, destacam sua importância na adaptação e evolução das práticas agrícolas, fornecendo informações repetitivas sobre o estado das culturas ao longo da temporada, em diferentes escalas e para diferentes partes interessadas (\textit{stakeholders}). 
+Uma das áreas de aplicação do sensoriamento remoto na atualidade é a agricultura. Estudos recentes, como o de \textcite{weiss2020}, destacam sua importância na adaptação e evolução das práticas agrícolas. Eles fornecem informações repetitivas sobre o estado das culturas ao longo da temporada, em diferentes escalas e para diferentes partes interessadas (\textit{stakeholders}).
 
 As pesquisas ressaltam suas vantagens na monitorização das culturas, estimativa de produtividade e tomada de decisão em diferentes estágios da produção agrícola \parencite{shanmugapriya2019, khanal2020}. Entre esses benefícios, destacam-se a capacidade de monitorar vastas extensões de terra de maneira rápida e eficaz, a obtenção de informações em tempo real e a habilidade de integrar dados oriundos de diversas fontes para análises mais abrangentes.
 
@@ -58,7 +58,7 @@ Para \textcite{Lizhuang_telemetry2021}, os avanços na miniaturização de senso
 Neste trabalho, a telemetria é empregada para monitorar variáveis ambientais, tais como umidade do solo, temperatura e umidade relativa do ar, em uma área de cultivo. Os dados são coletados por sensores remotos e transmitidos através de protocolos de comunicação (MQTT e HTTP) para um servidor remoto (\textit{broker}). Nesse \textit{broker}, são processados e analisados para fornecer suporte na gestão da irrigação.
 
 \section{Sistemas embarcados}
-Há várias concepções propostas para sistemas embarcados, mas de forma geral ele pode ser definido como:
+Há várias concepções propostas para sistemas embarcados; no entanto, de forma geral, ele pode ser definido como:
 
 \begin{quote}
 "Aquele que possui \textit{hardware} de computador com \textit{software} embutido como um de seus componentes mais importantes. É um sistema baseado em computador dedicado para uma ou várias aplicações. Pode ser um sistema independente ou parte de um sistema maior." \parencite{dutta2014comprehensive}
@@ -69,7 +69,7 @@ Sua utilização abrange desde dispositivos simples, como controles remotos e el
 Os sistemas embarcados são compostos por diversos componentes, incluindo microcontroladores, sensores, atuadores, interfaces de comunicação e \textit{software} embarcado \parencite{lee2008cyber}.
 Eles são projetados para atender a requisitos específicos de desempenho, consumo de energia, tamanho e custo, dependendo da aplicação \parencite{Mazid_microcontrolador2011}.
 
-Na seção seguinte, serão abordados os microcontroladores e sua importância na implementação de soluções.
+Na seção seguinte, serão abordados os microcontroladores e sua importância na implementação de soluções embarcadas.
 
 \section{Microcontroladores}
 
@@ -79,7 +79,11 @@ Segundo \textcite{lee2008cyber}, os microcontroladores são componentes essencia
   "Um microprocessador (CPU), além de uma quantidade fixa de memória principal (RAM), memória de programa (ROM),  interfaces de entrada/saída (I/O) e um temporizador, todos em um único chip." \parencite{Mazid_microcontrolador2011}
 \end{quote}
 
-A Tabela \ref{tab:evolucao_microcontroladores} mostra alguns modelos de microcontroladores e suas finalidades, desde modelos mais antigos até os mais recentes.
+A Tabela \ref{tab:evolucao_microcontroladores} mostra alguns modelos de microcontroladores e suas finalidades, desde modelos os antigos até os mais recentes.
+
+Neste trabalho específico, a escolha do microcontrolador ESP32 se deu em razão de sua capacidade de comunicação \textit{wireless}. O ESP32 apresenta uma ampla gama de recursos ideais para o desenvolvimento de aplicações de IoT, destacando-se particularmente na área da agricultura de precisão.
+
+A seguir, serão discutidas as características do ESP32 e sua relevância  na implementação de sistemas de monitoramento e controle.
 
 \begin{table}[!htb]
 \caption{Evolução dos microcontroladores.} \label{tab:evolucao_microcontroladores}
@@ -95,19 +99,15 @@ Raspberry Pi 4 & 2019 & Desenvolvimento de sistemas embarcados e IoT.  \parencit
 \fonte{Elaborado pelo autor, 2024.}
 \end{table}
 
-Neste trabalho em específico, o microcontrolador ESP32 foi escolhido devido à sua capacidade de comunicação \textit{wireless}. Há uma ampla gama de recursos disponíveis para o desenvolvimento de aplicações de IoT \parencite{ESP32_usage}, em especial para a gestão da irrigação.
-
-A seguir, serão abordadas as características do ESP32 e sua importância na implementação de sistemas de monitoramento e controle.
-
 \subsection{ESP32}
 
 O ESP32 é um microcontrolador de baixo custo desenvolvido pela Espressif Systems. De acordo com \textcite{ESP32_usage}, este componente é amplamente utilizado em projetos de IoT devido às suas capacidades de conexão integradas e poder de processamento.
 
-Baseado em um microprocessador \textit{dual-core} Tensilica Xtensa LX6, o ESP32 opera em frequências de até 240 MHz, apresentando uma arquitetura de 32 bits. Além disso, possui uma variedade de periféricos, incluindo GPIOs, UARTs, SPIs e I2Cs, conforme descrito na Tabela \ref{tab:esp32_perifericos}, o que o torna altamente versátil para uma ampla gama de aplicações \parencite{EspressifESP32}.
+Baseado em um microprocessador \textit{dual-core} Tensilica Xtensa LX6, o ESP32 opera em frequências de até 240 MHz, apresentando uma arquitetura de 32 bits. Além disso, possui uma variedade de periféricos, incluindo GPIOs, UARTs, SPIs e I2Cs, conforme descrito na Tabela \ref{tab:esp32_perifericos}, o que o torna altamente versátil para uma variedade de aplicações \parencite{EspressifESP32}.
 
 Uma das principais vantagens do ESP32, como destacado por \textcite{ESP32_usage}, é sua capacidade de conexão Wi-Fi e Bluetooth embutida, suportando os padrões 802.11 b/g/n Wi-Fi, Bluetooth 4.2 e Bluetooth Low Energy (BLE). Isso possibilita a comunicação sem fio em ambientes de IoT.
 
-O ESP32 pode ser programado usando o Arduino IDE e o ESP-IDF (Espressif IoT Development Framework), ambos baseados em C/C++. Através dessas plataformas de desenvolvimento (IDEs), os desenvolvedores podem acessar os recursos do ESP32 e criar uma variedade de aplicações. Esses projetos vão desde simples automação residencial até dispositivos complexos de monitoramento e controle \parencite{ferrandez2018precision, junior2022data, hsu2020creative}.
+O ESP32 pode ser programado usando o Arduino IDE e o ESP-IDF (Espressif IoT Development Framework), ambos baseados em C/C++. Através dessas plataformas (IDEs), os desenvolvedores podem acessar os recursos do ESP32 e criar aplicações. Esses projetos vão desde simples automações residenciais até dispositivos complexos de monitoramento \parencite{ferrandez2018precision, junior2022data, hsu2020creative}.
 
 Neste trabalho, o ESP32 atua como um ponto de controle, permitindo a comunicação bidirecional entre o mundo físico (representado pelas variáveis ambientais) e o mundo digital (representado pelo \textit{broker}). Essa capacidade de interação direta entre \textit{hardware}, \textit{software} e o ambiente físico exemplifica a definição de um sistema cyberfísico (CPS), como será abordado na próxima subseção.
 
@@ -135,7 +135,7 @@ Recentemente, tem havido uma tendência crescente no uso de CPSs em aplicações
 
 Da mesma forma, \textcite{rad2015smart} propuseram um modelo de arquitetura de CPS para o monitoramento de culturas de batata, resultando na melhoria da produtividade. \textcite{rijswijk2021digital} discutiram o papel dos sistemas socio-cyberfísicos (SCPSs) na transformação digital da agricultura e das áreas rurais. Eles destacaram a necessidade de compreender as relações entre os aspectos sociais e tecnológicos para uma aplicação bem-sucedida.
 
-O presente trabalho se enquadra na categoria de CPS, pois integra componentes físicos, computacionais e de comunicação para monitorar e controlar um processo físico (a irrigação) de maneira automatizada e em tempo real. A infraestrutura necessária para conectar dispositivos físicos à internet e entre si é definida como IoT, como será abordado na próxima subseção. 
+O presente trabalho se enquadra na categoria de CPS, pois integra componentes físicos, computacionais e de comunicação. Seu papel é monitorar e controlar um processo físico (a irrigação) de maneira automatizada e em tempo real. A infraestrutura necessária para conectar dispositivos físicos à internet e entre si é definida como IoT, como será abordado na próxima subseção. 
 
 \section{Internet das coisas}
 A Internet das Coisas (IoT) é um campo multidisciplinar que se desenvolveu ao longo do tempo, com contribuições de diversas áreas, incluindo computação, telecomunicações, eletrônica e engenharia (Figura \ref{figura:evolucao_iot}). Ela pode ser definida como:
@@ -144,13 +144,14 @@ A Internet das Coisas (IoT) é um campo multidisciplinar que se desenvolveu ao l
 "Um paradigma emergente de objetos cotidianos que, através da interação com o ambiente e com outros dispositivos, coletam e compartilham dados, geralmente utilizando protocolos de comunicação padronizados e interoperáveis, e, em alguns casos, interagindo com usuários ou outros dispositivos." \parencite{kortuem2009things}
 \end{quote}
 
-A ideia de IoT foi proposta pela primeira vez por \textcite{ashton1999things}, que argumentou que poderia revolucionar a maneira como interage-se com o mundo físico, permitindo que artefatos se comuniquem entre si e com sistemas de computador.
+
+A ideia de IoT foi proposta pela primeira vez por  \textcite{ashton1999things}. Ele argumentou que poderia revolucionar a maneira como interage-se com o mundo físico, permitindo que artefatos se comuniquem entre si e com sistemas de computador.
 
 Ao longo dos anos 2000, avanços significativos em tecnologias de comunicação sem fio, sensores e sistemas embarcados possibilitaram o desenvolvimento prático da IoT, como destacado por \textcite{kortuem2009things}. Na década de 2010, a IoT começou a ganhar tração em uma variedade de setores, incluindo saúde, manufatura, transporte e agricultura. Vários autores discutem como essas tecnologias abriram caminho para a criação de redes de dispositivos interconectados em diversos campos \parencite{kortuem2009things, tan2010things, minerva2015towards}.
 
 Atualmente, a IoT continua a evoluir rapidamente, com o surgimento de novas tecnologias como a computação em névoa (\textit{fog computing}) e a integração de IA \parencite{junior2022data}. Na agricultura, essa evolução tem sido especialmente significativa, com a IoT sendo empregada para melhorar a eficiência e a produtividade.
 
-Conforme apresentado por \textcite{ferrandez2018precision}, sensores conectados podem monitorar variáveis ambientais como umidade do solo, temperatura e umidade relativa do ar, permitindo aos agricultores tomar decisões mais informadas em relação ao plantio, irrigação e aplicação de fertilizantes.
+Conforme apresentado por \textcite{ferrandez2018precision}, sensores conectados podem monitorar variáveis ambientais, como umidade do solo, temperatura e umidade relativa do ar. Isso permite aos agricultores tomar decisões mais informadas em relação ao plantio, irrigação e aplicação de fertilizantes.
 
 Combinados à computação em névoa, é possibilitado o processamento local dos dados coletados pelos sensores, reduzindo a latência e os custos de transmissão de dados \parencite{hsu2020creative}. Por último, a IA permite a análise preditiva e a otimização desses sistemas, oferecendo informações para aumentar a produtividade e reduzir o desperdício.
 
@@ -200,13 +201,13 @@ O MQTT (Message Queuing Telemetry Transport) foi introduzido pela primeira vez e
 "Um método de transporte de dados leve para publicação e assinatura sobre TCP/IP com várias garantias de entrega. Otimizado para uso mínimo de largura de banda de rede e facilidade de implementação em sistemas embarcados, ele serve como um mecanismo de transporte onde é possível decidir o que enviar e quais ações tomar ao receber os dados." \parencite{Andy_mqtt2004}
 \end{quote}
 
-Nos sistemas embarcados, o MQTT é implementado nos dispositivos para permitir a troca de dados \parencite{Andy_mqtt2004}. Os dispositivos podem publicar dados de sensores e status usando tópicos MQTT, enquanto as aplicações podem se inscrever nesses tópicos para receber e processar os dados em tempo real \parencite{Yassein_mqtt2017}.
+Nos sistemas embarcados, o MQTT é implementado nos dispositivos para permitir a troca de dados \parencite{Andy_mqtt2004}. Os dispositivos podem publicar dados de sensores e \textit{status} usando tópicos MQTT, enquanto as aplicações podem se inscrever nesses tópicos para receber e processar os dados em tempo real \parencite{Yassein_mqtt2017}.
 
 Do lado do servidor, os \textit{brokers} MQTT são implantados para gerenciar a troca de mensagens entre os dispositivos e as aplicações. Segundo \textcite{Yassein_mqtt2017}, esses \textit{brokers} são responsáveis por rotear as mensagens entre os clientes MQTT, garantindo a entrega dos dados. Além disso, os desenvolvedores podem usar bibliotecas MQTT em suas aplicações para se conectar aos \textit{brokers}, facilitando a implementação de funcionalidades de comunicação em seus sistemas \parencite{MQTT_org}.
 
 Em sistemas IoT, o MQTT é utilizado para conectar dispositivos a plataformas de nuvem, permitindo o monitoramento e controle remoto dos dispositivos \parencite{junior2022data}. As aplicações podem processar os dados recebidos dos dispositivos IoT, realizar análises em tempo real e realizar ações com base nos eventos detectados \parencite{ferrandez2018precision,hsu2020creative}. Suas principais características são definidas na Tabela \ref{tab:caract_mqtt}.
 
-A implementação de sistemas de IoT na zona rural enfrenta desafios significativos devido à baixa disponibilidade de internet e eletricidade na grande maioria dos casos \parencite{rijswijk2021digital}. No entanto, o MQTT se destaca como uma solução eficaz para esses cenários. Ele oferece uma comunicação assíncrona entre dispositivos, reduzindo a dependência de conexões de alta velocidade e garantindo entrega confiável de mensagens \parencite{Andy_mqtt2004, Yassein_mqtt2017}. Essa característica o torna uma opção promissora para superar limitações de infraestrutura em áreas remotas. 
+A implementação de sistemas de IoT na zona rural enfrenta desafios significativos devido à baixa disponibilidade de internet e eletricidade na grande maioria dos casos \parencite{rijswijk2021digital}. No entanto, o MQTT se destaca como uma solução eficaz para esses cenários. Ele oferece uma comunicação assíncrona entre dispositivos, reduzindo a dependência de conexões de alta velocidade e garantindo a entrega confiável de mensagens \parencite{Andy_mqtt2004, Yassein_mqtt2017}. Essa característica o torna uma opção promissora para superar limitações de infraestrutura em áreas remotas. 
 
 Sua eficiência o posiciona como uma ferramenta vital para a agricultura inteligente \parencite{Gurjeet_smart2022}, tema que será discutido na próxima subseção.
 
@@ -233,11 +234,13 @@ A agricultura passou por uma transformação significativa impulsionada pelo adv
   "Também conhecida como agricultura 4.0 ou agricultura digital, é a próxima fase da agricultura industrial, impulsionada pela integração de tecnologias na agricultura." \parencite{Gurjeet_smart2022}
 \end{quote}
 
-Essa mudança de práticas agrícolas tradicionais para agricultura inteligente, caracterizada pela integração de tecnologias emergentes como a IoT, análise de dados em grande escala (BDA), computação em nuvem e IA, tornou-se imperativa para atender às crescentes demandas por segurança alimentar em uma população global em rápido crescimento \parencite{Gurjeet_smart2022, Garg_smart2023}.
+Essa mudança de práticas agrícolas tradicionais para agricultura inteligente tornou-se imperativa. Ela é caracterizada pela integração de tecnologias emergentes, como a IoT, análise de dados em grande escala (BDA), computação em nuvem e IA. Seu objetivo é atender às crescentes demandas por segurança alimentar em uma população global em rápido crescimento \parencite{Gurjeet_smart2022, Garg_smart2023}.
 
 Segundo \textcite{Garg_smart2023}, a convergência dessas tecnologias possibilitou o paradigma da agricultura orientada por dados, onde a coleta, análise e tomada de decisões em tempo real são centrais para otimizar práticas agrícolas.
 
 \textcite{Gurjeet_smart2022} complementa que, ao elucidar o estado atual da adoção de tecnologia digital na agricultura e identificar perspectivas futuras, são abertos caminhos para práticas agrícolas sustentáveis e eficientes.
+
+A agricultura inteligente, ao incorporar IA e análise avançada de dados, busca orientar decisões mais adaptativas e holísticas \parencite{Garg_smart2023}. Para isso, é necessário a coleta e aplicação precisa de dados para otimizar a produção \parencite{Lamine_precision2024}, a qual será abordada na próxima subseção.
 
 \section{Agricultura de precisão}
 
@@ -247,9 +250,11 @@ A agricultura de precisão pode ser definida como:
   "A aplicação de tecnologias e princípios para gerenciar a variabilidade espacial e temporal associada a todos os aspectos da produção agrícola com o propósito de melhorar o desempenho das culturas e a qualidade ambiental." \parencite{Pierce_precision1999}
 \end{quote}
 
-Segundo \textcite{Pierce_precision1999}, o sucesso da agricultura de precisão está relacionado à sua capacidade de avaliar, gerenciar e avaliar o continuum espaço-tempo na produção de culturas. Ela é habilitada pela tecnologia e integrada por tecnologias específicas que permitem avaliar e gerenciar a variabilidade em níveis de detalhe nunca antes alcançados \parencite{Zhang_precision2002}. No entanto, o sucesso agronômico da agricultura de precisão tem sido limitado e inconsistente, embora bastante convincente em alguns casos, complementa \textcite{Zhang_precision2002}.
+Segundo \textcite{Pierce_precision1999}, o sucesso da agricultura de precisão está relacionado à sua capacidade de avaliar e gerenciar o continuum espaço-tempo na produção de culturas. Ela é habilitada pela tecnologia e integrada por tecnologias específicas que permitem avaliar e gerenciar a variabilidade em níveis de detalhe nunca antes alcançados \parencite{Zhang_precision2002}. No entanto, o sucesso agronômico da agricultura de precisão tem sido limitado e inconsistente, embora bastante convincente em alguns casos, complementa \textcite{Zhang_precision2002}.
 
-Atualmente, de acordo com \textcite{Lamine_precision2024}, a agricultura de precisão é uma prática que envolve observar, medir e responder à variabilidade intra e entre campos. Ela busca tornar o processo de produção mais eficiente, considerando a conservação ambiental \parencite{Lamine_precision2024}. Apesar dos avanços tecnológicos e inovações, a agricultura de precisão ainda enfrenta desafios em países em desenvolvimento, especialmente em agricultura de pequena escala, conforme apontado por \textcite{Lamine_precision2024}. No entanto, existem amplas oportunidades e perspectivas para a adoção de inovações em agricultura de precisão \parencite{Lamine_precision2024}.
+Atualmente, de acordo com \textcite{Lamine_precision2024}, a agricultura de precisão é uma prática que envolve observar, medir e responder à variabilidade intra e entre campos. Ela busca tornar o processo de produção mais eficiente, considerando a conservação ambiental \parencite{Lamine_precision2024}. 
+
+Apesar dos avanços tecnológicos e inovações, a agricultura de precisão ainda enfrenta desafios em países em desenvolvimento, especialmente em agricultura de pequena escala, conforme apontado por \textcite{Lamine_precision2024}. No entanto, existem amplas oportunidades e perspectivas para a adoção de inovações em agricultura de precisão \parencite{Lamine_precision2024}.
 
 Para \textcite{Gebbers_precision2010}, a agricultura de precisão compreende um conjunto de tecnologias que combinam sensores, sistemas de informação, maquinaria aprimorada e gerenciamento informado para otimizar a produção, considerando a variabilidade e incertezas dentro dos sistemas agrícolas. Ela fornece meios para monitorar a cadeia de produção de alimentos e gerenciar tanto a quantidade quanto a qualidade dos produtos agrícolas \parencite{Gebbers_precision2010}.
 
