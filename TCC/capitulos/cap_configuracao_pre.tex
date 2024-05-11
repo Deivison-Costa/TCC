@@ -32,10 +32,10 @@ Ao longo dos anos, o sensoriamento remoto tem evoluído significativamente, prop
 1980s        & Desenvolvimento de sensores hiperespectrais. \\ \hline
 1990s        & Sistemas globais de sensoriamento remoto, lidares. \\ \hline
 \end{tabularx}
-\fonte{Adaptado de \textcite{campbell2011}.}
+\fonte{Retirado de \textcite{campbell2011}.}
 \end{table}
 
-Uma das áreas de aplicação do sensoriamento remoto na atualidade é a agricultura. Estudos recentes, como o de \textcite{weiss2020}, destacam sua importância na adaptação e evolução das práticas agrícolas. Eles fornecem informações repetitivas sobre o estado das culturas ao longo da temporada, em diferentes escalas e para diferentes partes interessadas (\textit{stakeholders}).
+Uma das áreas de aplicação do sensoriamento remoto na atualidade é a agricultura. Estudos recentes, como o de \textcite{weiss2020}, destacam sua importância na adaptação e evolução das práticas agrícolas. Eles fornecem informações repetitivas sobre o estado das culturas ao longo da safra, em diferentes escalas e para diferentes partes interessadas (\textit{stakeholders}).
 
 As pesquisas ressaltam suas vantagens na monitorização das culturas, estimativa de produtividade e tomada de decisão em diferentes estágios da produção agrícola \parencite{shanmugapriya2019, khanal2020}. Entre esses benefícios, destacam-se a capacidade de monitorar vastas extensões de terra de maneira rápida e eficaz, a obtenção de informações em tempo real e a habilidade de integrar dados oriundos de diversas fontes para análises mais abrangentes.
 
@@ -76,7 +76,7 @@ Na seção seguinte, serão abordados os microcontroladores e sua importância n
 Segundo \textcite{lee2008cyber}, os microcontroladores são componentes essenciais dos sistemas embarcados. Estes desempenham um papel central na execução de tarefas específicas e no controle de dispositivos em uma variedade de aplicações. Ele é composto por:
 
 \begin{quote}
-  "Um microprocessador (CPU), além de uma quantidade fixa de memória principal (RAM), memória de programa (ROM),  interfaces de entrada/saída (I/O) e um temporizador, todos em um único chip." \parencite{Mazid_microcontrolador2011}
+  "Um microprocessador (CPU), além de uma quantidade fixa de memória principal (RAM), memória de programa (ROM/Flash),  interfaces de entrada/saída (I/O), temporizadores e conversores analógico-digitais (ADC), todos em um único chip." \parencite{Mazid_microcontrolador2011}
 \end{quote}
 
 A Tabela \ref{tab:evolucao_microcontroladores} mostra alguns modelos de microcontroladores e suas finalidades, desde modelos os antigos até os mais recentes.
@@ -135,7 +135,7 @@ Recentemente, tem havido uma tendência crescente no uso de CPSs em aplicações
 
 Da mesma forma, \textcite{rad2015smart} propuseram um modelo de arquitetura de CPS para o monitoramento de culturas de batata, resultando na melhoria da produtividade. \textcite{rijswijk2021digital} discutiram o papel dos sistemas socio-cyberfísicos (SCPSs) na transformação digital da agricultura e das áreas rurais. Eles destacaram a necessidade de compreender as relações entre os aspectos sociais e tecnológicos para uma aplicação bem-sucedida.
 
-O presente trabalho se enquadra na categoria de CPS, pois integra componentes físicos, computacionais e de comunicação. Seu papel é monitorar e controlar um processo físico (a irrigação) de maneira automatizada e em tempo real. A infraestrutura necessária para conectar dispositivos físicos à internet e entre si é definida como IoT, como será abordado na próxima subseção. 
+O presente trabalho se enquadra na categoria de CPS, pois integra componentes físicos, computacionais e de comunicação. Seu papel é monitorar um processo físico (a irrigação) de maneira automatizada e em tempo real. A infraestrutura necessária para conectar dispositivos físicos à internet e entre si é definida como IoT, como será abordado na próxima subseção. 
 
 \section{Internet das coisas}
 A Internet das Coisas (IoT) é um campo multidisciplinar que se desenvolveu ao longo do tempo, com contribuições de diversas áreas, incluindo computação, telecomunicações, eletrônica e engenharia (Figura \ref{figura:evolucao_iot}). Ela pode ser definida como:
@@ -149,11 +149,11 @@ A ideia de IoT foi proposta pela primeira vez por  \textcite{ashton1999things}. 
 
 Ao longo dos anos 2000, avanços significativos em tecnologias de comunicação sem fio, sensores e sistemas embarcados possibilitaram o desenvolvimento prático da IoT, como destacado por \textcite{kortuem2009things}. Na década de 2010, a IoT começou a ganhar tração em uma variedade de setores, incluindo saúde, manufatura, transporte e agricultura. Vários autores discutem como essas tecnologias abriram caminho para a criação de redes de dispositivos interconectados em diversos campos \parencite{kortuem2009things, tan2010things, minerva2015towards}.
 
-Atualmente, a IoT continua a evoluir rapidamente, com o surgimento de novas tecnologias como a computação em névoa (\textit{fog computing}) e a integração de IA \parencite{junior2022data}. Na agricultura, essa evolução tem sido especialmente significativa, com a IoT sendo empregada para melhorar a eficiência e a produtividade.
+Atualmente, a IoT continua a evoluir rapidamente, com o surgimento de novas tecnologias como a computação em névoa (\textit{fog computing}) e a integração de IA \parencite{junior2022data}. Na agricultura, essa evolução tem sido especialmente significativa, com a IoT sendo utilizada para melhorar a eficiência e a produtividade.
 
-Conforme apresentado por \textcite{ferrandez2018precision}, sensores conectados podem monitorar variáveis ambientais, como umidade do solo, temperatura e umidade relativa do ar. Isso permite aos agricultores tomar decisões mais informadas em relação ao plantio, irrigação e aplicação de fertilizantes.
+O estudo conduzido por \textcite{ferrandez2018precision} exemplifica o uso da IoT para otimizar os processos agrícolas. Através de sensores interconectados, demonstrou-se ser possível monitorar uma série de variáveis físicas, como a umidade do solo, a temperatura e a umidade relativa do ar. Essa abordagem mostrou-se promissora, capacitando os agricultores a tomarem decisões mais embasadas em relação ao momento ideal para o plantio, à irrigação e à aplicação de fertilizantes.
 
-Combinados à computação em névoa, é possibilitado o processamento local dos dados coletados pelos sensores, reduzindo a latência e os custos de transmissão de dados \parencite{hsu2020creative}. Por último, a IA permite a análise preditiva e a otimização desses sistemas, oferecendo informações para aumentar a produtividade e reduzir o desperdício.
+Combinada à computação em névoa, é possibilitado o processamento local dos dados coletados pelos sensores, reduzindo a latência e os custos de transmissão de dados \parencite{hsu2020creative}. Por último, a IA permite a análise preditiva e a otimização desses sistemas, oferecendo informações para aumentar a produtividade e reduzir o desperdício.
 
 Para facilitar a comunicação entre dispositivos, servidores e outros sistemas, são utilizados protocolos como o HTTP e o MQTT. Esses protocolos permitem o acesso remoto e o controle dos dispositivos conectados à IoT, como será abordado nas próximas subseções.
 
@@ -161,14 +161,14 @@ Para facilitar a comunicação entre dispositivos, servidores e outros sistemas,
   \caption{\textit{"Tsunami"} da IoT} \label{figura:evolucao_iot}
   \begin{varwidth}{\linewidth}
     \includegraphics[width=10cm]{figuras/Datta.png}
-    \fonte{Adaptado de \textcite{datta2017}.}
+    \fonte{Retirado de \textcite{datta2017}.}
   \end{varwidth}
 \end{figure}
 
 \section{Protocolo HTTP}
-De acordo com \textcite{RFC2616}, o Protocolo de Transferência de Hipertexto (HTTP) é um protocolo de comunicação utilizado para sistemas de informação distribuídos e colaborativos. Ele foi concebido para possibilitar a comunicação entre clientes e servidores na World Wide Web (WWW).
+De acordo com \textcite{RFC2616}, o Protocolo de Transferência de Hipertexto (HTTP) é um protocolo de comunicação utilizado para sistemas de informação distribuídos e colaborativos. Ele foi concebido para possibilitar a comunicação entre clientes e servidores na \textit{World Wide Web} (WWW).
 
-A concepção do HTTP remonta a 1989, quando Tim Berners-Lee propôs sua criação enquanto trabalhava no CERN, o Laboratório Europeu de Física de Partículas. A necessidade premente de compartilhar e distribuir informações de forma eficiente em uma rede de computadores motivou o desenvolvimento desse protocolo, que se tornou fundamental para a web moderna \parencite{Berners_web}. Ele pode ser definido como:
+O HTTP foi introduzido em 1989 por Tim Berners-Lee enquanto ele trabalhava no CERN, o Laboratório Europeu de Física de Partículas. A necessidade premente de compartilhar e distribuir informações de forma eficiente em uma rede de computadores motivou o desenvolvimento desse protocolo, que se tornou fundamental para a web moderna \parencite{Berners_web}. Ele pode ser definido como:
 
 \begin{quote}
 "Um protocolo de camada de aplicação que define a estrutura de mensagens trocadas entre clientes e servidores. Ele opera sobre o Protocolo de Controle de Transmissão/Protocolo de Internet (TCP/IP), permitindo, nesta instância, a solicitação e transferência de recursos, como documentos HTML, imagens e vídeos, pela web." \parencite{RFC2616}
@@ -176,9 +176,9 @@ A concepção do HTTP remonta a 1989, quando Tim Berners-Lee propôs sua criaç�
 
 No âmbito do desenvolvimento de sistemas, o HTTP desempenha um papel importante na criação de Interfaces de Programação de Aplicativos (APIs), possibilitando a comunicação entre diferentes componentes. Os desenvolvedores têm a capacidade de criar pontos de acesso HTTP (\textit{endpoints}) que aceitam solicitações e respondem com dados formatados, como JSON ou XML \parencite{Newmann_web}.
 
-Na Tabela \ref{tab:metodos_http}, são destacados os principais métodos de solicitação do HTTP, utilizados para a interação entre clientes e servidores.
+Na Tabela \ref{tab:metodos_http}, são destacados os principais métodos de solicitação do HTTP, utilizados para a interação entre clientes e servidores. No cotidiano, esses métodos são usados para a obtenção de informações, o envio de dados e a execução de operações em sistemas distribuídos, como aplicações web e APIs.
 
-Contudo, por si só, o HTTP não é adequado para aplicações de IoT, devido à sua natureza orientada a texto e ao alto consumo de largura de banda \parencite{Yassein_mqtt2017}. Para esses casos, o protocolo MQTT é mais adequado, como será abordado na próxima subseção.
+Contudo, por si só, o HTTP não é adequado para aplicações da IoT, devido à sua natureza orientada a texto e ao alto consumo de largura de banda \parencite{Yassein_mqtt2017}. Para esses casos, o protocolo MQTT é mais adequado, como será abordado na próxima subseção.
 
 \begin{table}[!htb]
   \caption{Métodos HTTP} \label{tab:metodos_http}
@@ -195,7 +195,7 @@ Contudo, por si só, o HTTP não é adequado para aplicações de IoT, devido à
 
 \section{Protocolo MQTT}
 
-O MQTT (Message Queuing Telemetry Transport) foi introduzido pela primeira vez em 1999 por Dr. Andy Stanford-Clark, da IBM, e Arlen Nipper, da Arcom (agora Eurotech). Segundo \textcite{Andy_mqtt2004}, o MQTT foi inicialmente desenvolvido para o monitoramento de oleodutos e gasodutos através de comunicações de telemetria. Ele é definido como:
+O MQTT (\textit{Message Queuing Telemetry Transport}) foi introduzido pela primeira vez em 1999 por Dr. Andy Stanford-Clark, da IBM, e Arlen Nipper, da Arcom (agora Eurotech). Segundo \textcite{Andy_mqtt2004}, o MQTT foi inicialmente desenvolvido para o monitoramento de oleodutos e gasodutos através de comunicações de telemetria. Ele é definido como:
 
 \begin{quote}
 "Um método de transporte de dados leve para publicação e assinatura sobre TCP/IP com várias garantias de entrega. Otimizado para uso mínimo de largura de banda de rede e facilidade de implementação em sistemas embarcados, ele serve como um mecanismo de transporte onde é possível decidir o que enviar e quais ações tomar ao receber os dados." \parencite{Andy_mqtt2004}
