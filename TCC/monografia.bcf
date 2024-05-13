@@ -2584,47 +2584,45 @@
     <bcf:citekey order="126" intorder="1">Francisco_precision2024</bcf:citekey>
     <bcf:citekey order="127" intorder="1">Francisco_precision2024</bcf:citekey>
     <bcf:citekey order="128" intorder="1">Burton_irrigation2010</bcf:citekey>
-    <bcf:citekey order="129" intorder="1">Ramos_irrigacao2022</bcf:citekey>
+    <bcf:citekey order="129" intorder="1">Burton_irrigation2010</bcf:citekey>
     <bcf:citekey order="130" intorder="1">Ramos_irrigacao2022</bcf:citekey>
-    <bcf:citekey order="131" intorder="1">Pereira_irrigation2002</bcf:citekey>
-    <bcf:citekey order="132" intorder="1">Pereira_irrigation2002</bcf:citekey>
+    <bcf:citekey order="131" intorder="1">Ramos_irrigacao2022</bcf:citekey>
+    <bcf:citekey order="132" intorder="1">Ramos_irrigacao2022</bcf:citekey>
     <bcf:citekey order="133" intorder="1">Pereira_irrigation2002</bcf:citekey>
-    <bcf:citekey order="133" intorder="2">Ramos_irrigacao2022</bcf:citekey>
-    <bcf:citekey order="134" intorder="1">Burton_irrigation2010</bcf:citekey>
+    <bcf:citekey order="134" intorder="1">Pereira_irrigation2002</bcf:citekey>
     <bcf:citekey order="135" intorder="1">Burton_irrigation2010</bcf:citekey>
     <bcf:citekey order="136" intorder="1">Burton_irrigation2010</bcf:citekey>
-    <bcf:citekey order="136" intorder="2">Ramos_irrigacao2022</bcf:citekey>
     <bcf:citekey order="137" intorder="1">carmody_fao2023</bcf:citekey>
-    <bcf:citekey order="138" intorder="1">carmody_fao2023</bcf:citekey>
+    <bcf:citekey order="138" intorder="1">Burton_irrigation2010</bcf:citekey>
+    <bcf:citekey order="138" intorder="2">Ramos_irrigacao2022</bcf:citekey>
     <bcf:citekey order="139" intorder="1">carmody_fao2023</bcf:citekey>
     <bcf:citekey order="140" intorder="1">carmody_fao2023</bcf:citekey>
     <bcf:citekey order="141" intorder="1">carmody_fao2023</bcf:citekey>
-    <bcf:citekey order="142" intorder="1">Allen_evapotranspiration1998</bcf:citekey>
-    <bcf:citekey order="142" intorder="2">carmody_fao2023</bcf:citekey>
-    <bcf:citekey order="143" intorder="1">Ramos_irrigacao2022</bcf:citekey>
-    <bcf:citekey order="143" intorder="2">carmody_fao2023</bcf:citekey>
-    <bcf:citekey order="144" intorder="1">carmody_fao2023</bcf:citekey>
+    <bcf:citekey order="142" intorder="1">carmody_fao2023</bcf:citekey>
+    <bcf:citekey order="143" intorder="1">carmody_fao2023</bcf:citekey>
+    <bcf:citekey order="144" intorder="1">Allen_evapotranspiration1998</bcf:citekey>
+    <bcf:citekey order="144" intorder="2">carmody_fao2023</bcf:citekey>
     <bcf:citekey order="145" intorder="1">carmody_fao2023</bcf:citekey>
     <bcf:citekey order="146" intorder="1">carmody_fao2023</bcf:citekey>
-    <bcf:citekey order="147" intorder="1">Penman_evapotranspiration1948</bcf:citekey>
+    <bcf:citekey order="147" intorder="1">carmody_fao2023</bcf:citekey>
     <bcf:citekey order="148" intorder="1">Penman_evapotranspiration1948</bcf:citekey>
     <bcf:citekey order="149" intorder="1">Penman_evapotranspiration1948</bcf:citekey>
-    <bcf:citekey order="150" intorder="1">yang_nature2023</bcf:citekey>
+    <bcf:citekey order="150" intorder="1">Penman_evapotranspiration1948</bcf:citekey>
     <bcf:citekey order="151" intorder="1">yang_nature2023</bcf:citekey>
-    <bcf:citekey order="152" intorder="1">Zhao_evapotranspiration_med2009</bcf:citekey>
-    <bcf:citekey order="152" intorder="2">Zhang_evapotranspiration_med2016</bcf:citekey>
+    <bcf:citekey order="152" intorder="1">yang_nature2023</bcf:citekey>
     <bcf:citekey order="153" intorder="1">Zhao_evapotranspiration_med2009</bcf:citekey>
     <bcf:citekey order="153" intorder="2">Zhang_evapotranspiration_med2016</bcf:citekey>
     <bcf:citekey order="154" intorder="1">Zhao_evapotranspiration_med2009</bcf:citekey>
     <bcf:citekey order="154" intorder="2">Zhang_evapotranspiration_med2016</bcf:citekey>
-    <bcf:citekey order="155" intorder="1">Yang_evapotranspiration_med2022</bcf:citekey>
-    <bcf:citekey order="156" intorder="1">Yang_evapotranspiration_med2022</bcf:citekey>
-    <bcf:citekey order="157" intorder="1">Allen_evapotranspiration1998</bcf:citekey>
-    <bcf:citekey order="158" intorder="1">bernardo_irrigacao2008</bcf:citekey>
-    <bcf:citekey order="159" intorder="1">bernardo_irrigacao2008</bcf:citekey>
+    <bcf:citekey order="155" intorder="1">Zhao_evapotranspiration_med2009</bcf:citekey>
+    <bcf:citekey order="156" intorder="1">Zhang_evapotranspiration_med2016</bcf:citekey>
+    <bcf:citekey order="157" intorder="1">Yang_evapotranspiration_med2022</bcf:citekey>
+    <bcf:citekey order="158" intorder="1">Yang_evapotranspiration_med2022</bcf:citekey>
+    <bcf:citekey order="159" intorder="1">Allen_evapotranspiration1998</bcf:citekey>
     <bcf:citekey order="160" intorder="1">bernardo_irrigacao2008</bcf:citekey>
     <bcf:citekey order="161" intorder="1">bernardo_irrigacao2008</bcf:citekey>
     <bcf:citekey order="162" intorder="1">bernardo_irrigacao2008</bcf:citekey>
+    <bcf:citekey order="163" intorder="1">bernardo_irrigacao2008</bcf:citekey>
   </bcf:section>
   <!-- SORTING TEMPLATES -->
   <bcf:sortingtemplate name="nty">
