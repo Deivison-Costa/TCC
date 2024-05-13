@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.26 (MiKTeX 24.4) (preloaded format=pdflatex 2024.5.10)  11 MAY 2024 10:22
+This is pdfTeX, Version 3.141592653-2.6-1.40.26 (MiKTeX 24.4) (preloaded format=pdflatex 2024.5.10)  13 MAY 2024 14:23
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -2325,6 +2325,10 @@ Package pdftex.def Info: figuras/Datta.png  used on input line 163.
 
 \openout4 = `monografia.mw'.
 
+\openout4 = `monografia.mw'.
+
+\openout4 = `monografia.mw'.
+
  [21] (monografia.mw)
 \openout4 = `monografia.mw'.
 
@@ -2344,18 +2348,10 @@ Package pdftex.def Info: figuras/Datta.png  used on input line 163.
 
 \openout4 = `monografia.mw'.
 
-\openout4 = `monografia.mw'.
-
-\openout4 = `monografia.mw'.
-
-\openout4 = `monografia.mw'.
-
-\openout4 = `monografia.mw'.
-
-<figuras/Carmody.png, id=510, 878.53218pt x 534.49687pt>
+<figuras/Carmody.png, id=504, 878.53218pt x 534.49687pt>
 File: figuras/Carmody.png Graphic file (type png)
 <use figuras/Carmody.png>
-Package pdftex.def Info: figuras/Carmody.png  used on input line 284.
+Package pdftex.def Info: figuras/Carmody.png  used on input line 287.
 (pdftex.def)             Requested size: 455.24408pt x 276.97758pt.
 \openout4 = `monografia.mw'.
 
@@ -2428,13 +2424,7 @@ Package pdftex.def Info: figuras/Carmody.png  used on input line 284.
 
 \openout4 = `monografia.mw'.
 
-\openout4 = `monografia.mw'.
-
-\openout4 = `monografia.mw'.
-
- [23] (monografia.mw)
-\openout4 = `monografia.mw'.
-
+ [23{C:/Users/deivi/AppData/Local/Programs/MiKTeX/fonts/enc/dvips/lm/lm-mathit.enc}{C:/Users/deivi/AppData/Local/Programs/MiKTeX/fonts/enc/dvips/lm/lm-rm.enc}] (monografia.mw)
 \openout4 = `monografia.mw'.
 
 \openout4 = `monografia.mw'.
@@ -2453,24 +2443,26 @@ Package pdftex.def Info: figuras/Carmody.png  used on input line 284.
 
 \openout4 = `monografia.mw'.
 
+\openout4 = `monografia.mw'.
+
+\openout4 = `monografia.mw'.
+
+\openout4 = `monografia.mw'.
+
+ [24{C:/Users/deivi/AppData/Local/Programs/MiKTeX/fonts/enc/dvips/lm/lm-mathsy.enc}] (monografia.mw)
 \openout4 = `monografia.mw'.
 
 )
 \openout4 = `monografia.mw'.
 
- [24{C:/Users/deivi/AppData/Local/Programs/MiKTeX/fonts/enc/dvips/lm/lm-mathit.enc}{C:/Users/deivi/AppData/Local/Programs/MiKTeX/fonts/enc/dvips/lm/lm-rm.enc}{C:/Users/deivi/AppData/Local/Programs/MiKTeX/fonts/enc/dvips/lm/lm-mathsy.enc}] (monografia.mw)
+ [25] (monografia.mw)
 \openout4 = `monografia.mw'.
 
 \openout4 = `monografia.mw'.
 
- [25
+ [26
 
 ] (monografia.mw)
-\openout4 = `monografia.mw'.
-
-\openout4 = `monografia.mw'.
-
- [26] (monografia.mw)
 \openout4 = `monografia.mw'.
 
 \openout4 = `monografia.mw'.
@@ -2491,6 +2483,11 @@ Package pdftex.def Info: figuras/Carmody.png  used on input line 284.
 \openout4 = `monografia.mw'.
 
  [30] (monografia.mw)
+\openout4 = `monografia.mw'.
+
+\openout4 = `monografia.mw'.
+
+ [31] (monografia.mw)
 \openout4 = `monografia.mw'.
 
 \tf@toc=\write132
@@ -2653,17 +2650,17 @@ Package logreq Info: Writing requests to 'monografia.run.xml'.
 
  ) 
 Here is how much of TeX's memory you used:
- 45276 strings out of 474370
- 854010 string characters out of 5740535
- 2002419 words of memory out of 5000000
- 65885 multiletter control sequences out of 15000+600000
- 612343 words of font info for 157 fonts, out of 8000000 for 9000
+ 45264 strings out of 474370
+ 853927 string characters out of 5740535
+ 2001404 words of memory out of 5000000
+ 65881 multiletter control sequences out of 15000+600000
+ 611865 words of font info for 153 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
  113i,13n,121p,1221b,4456s stack positions out of 10000i,1000n,20000p,200000b,200000s
 <C:/Users/deivi/AppData/Local/Programs/MiKTeX/fonts/type1/public/lm/lmbx12.pfb><C:/Users/deivi/AppData/Local/Programs/MiKTeX/fonts/type1/public/lm/lmbxi10.pfb><C:/Users/deivi/AppData/Local/Programs/MiKTeX/fonts/type1/public/lm/lmmi12.pfb><C:/Users/deivi/AppData/Local/Programs/MiKTeX/fonts/type1/public/lm/lmmi8.pfb><C:/Users/deivi/AppData/Local/Programs/MiKTeX/fonts/type1/public/lm/lmr10.pfb><C:/Users/deivi/AppData/Local/Programs/MiKTeX/fonts/type1/public/lm/lmr12.pfb><C:/Users/deivi/AppData/Local/Programs/MiKTeX/fonts/type1/public/lm/lmr8.pfb><C:/Users/deivi/AppData/Local/Programs/MiKTeX/fonts/type1/public/lm/lmri10.pfb><C:/Users/deivi/AppData/Local/Programs/MiKTeX/fonts/type1/public/lm/lmri12.pfb><C:/Users/deivi/AppData/Local/Programs/MiKTeX/fonts/type1/public/lm/lmsy10.pfb>
-Output written on monografia.pdf (31 pages, 1534692 bytes).
+Output written on monografia.pdf (32 pages, 1536338 bytes).
 PDF statistics:
- 859 PDF objects out of 1000 (max. 8388607)
- 147 named destinations out of 1000 (max. 500000)
+ 858 PDF objects out of 1000 (max. 8388607)
+ 148 named destinations out of 1000 (max. 500000)
  28959 words of extra memory for PDF output out of 29859 (max. 10000000)
 
