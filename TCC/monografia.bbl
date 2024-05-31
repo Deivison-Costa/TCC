@@ -2026,6 +2026,156 @@
       \verb https://doi.org/10.3390/rs14081772
       \endverb
     \endentry
+    \entry{Jianting_webeva2009}{article}{}{}
+      \name{author}{5}{}{%
+        {{un=0,uniquepart=base,hash=271964226a41ba453ef7ddd04d25f11f}{%
+           family={Zhang},
+           familyi={Z\bibinitperiod},
+           given={Jianting},
+           giveni={J\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=7cdb6e97751155cc79cb14fdf4274d8a}{%
+           family={Hart},
+           familyi={H\bibinitperiod},
+           given={Quinn},
+           giveni={Q\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=c0d1310e5d4d58ef6c70f697f07a01f1}{%
+           family={Gertz},
+           familyi={G\bibinitperiod},
+           given={Michael},
+           giveni={M\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=30a9d3b83324bc3bd879340e09f3b063}{%
+           family={Rueda},
+           familyi={R\bibinitperiod},
+           given={Carlos},
+           giveni={C\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=dbf9aaca63c6c2d92b718700472bdf13}{%
+           family={Bergamini},
+           familyi={B\bibinitperiod},
+           given={Jeffrey},
+           giveni={J\bibinitperiod},
+           givenun=0}}%
+      }
+      \strng{namehash}{e8e034ced463a5165f3823a15a8127bc}
+      \strng{fullhash}{03a0477e1634cfce8f958ef979ec951e}
+      \strng{fullhashraw}{03a0477e1634cfce8f958ef979ec951e}
+      \strng{bibnamehash}{e8e034ced463a5165f3823a15a8127bc}
+      \strng{authorbibnamehash}{e8e034ced463a5165f3823a15a8127bc}
+      \strng{authornamehash}{e8e034ced463a5165f3823a15a8127bc}
+      \strng{authorfullhash}{03a0477e1634cfce8f958ef979ec951e}
+      \strng{authorfullhashraw}{03a0477e1634cfce8f958ef979ec951e}
+      \field{sortinit}{A}
+      \field{sortinithash}{2f401846e2029bad6b3ecc16d50031e2}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{Civil Engineering and Environmental Systems}
+      \field{month}{2}
+      \field{number}{1}
+      \field{title}{Sensor data dissemination systems using Web-based standards: a case study of publishing data in support of evapotranspiration models in California}
+      \field{urlday}{28}
+      \field{urlmonth}{5}
+      \field{urlyear}{2024}
+      \field{volume}{26}
+      \field{year}{2009}
+      \field{urldateera}{ce}
+      \field{pages}{35\bibrangedash 52}
+      \range{pages}{18}
+      \verb{urlraw}
+      \verb https://doi.org/10.1080/10286600802003567
+      \endverb
+      \verb{url}
+      \verb https://doi.org/10.1080/10286600802003567
+      \endverb
+    \endentry
+    \entry{Fangming_webeva2021}{article}{}{}
+      \name{author}{8}{}{%
+        {{un=0,uniquepart=base,hash=3b5819605c2011ecee54f1b500092e78}{%
+           family={Wu},
+           familyi={W\bibinitperiod},
+           given={Fangming},
+           giveni={F\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=ec178af7e6d4d84b4f62384c896337ea}{%
+           family={Wu},
+           familyi={W\bibinitperiod},
+           given={Bingfang},
+           giveni={B\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=e65b2850f1e32d8047275ae54a6f6a2e}{%
+           family={Zhu},
+           familyi={Z\bibinitperiod},
+           given={Weiwei},
+           giveni={W\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=41090ac3e7a56d521744e134f0de05ee}{%
+           family={Yan},
+           familyi={Y\bibinitperiod},
+           given={Nana},
+           giveni={N\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=a62f4d929eacd9dda2b1f07484a9468b}{%
+           family={Ma},
+           familyi={M\bibinitperiod},
+           given={Zonghan},
+           giveni={Z\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=bde66bbc111be3077a33b8620aa2673c}{%
+           family={Wang},
+           familyi={W\bibinitperiod},
+           given={Linjiang},
+           giveni={L\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=00e42e9164ba1e882952eebf02be9baf}{%
+           family={Lu},
+           familyi={L\bibinitperiod},
+           given={Yuming},
+           giveni={Y\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=0dd99e779d7f6e979841447c0ebe408c}{%
+           family={Xu},
+           familyi={X\bibinitperiod},
+           given={Jiaming},
+           giveni={J\bibinitperiod},
+           givenun=0}}%
+      }
+      \strng{namehash}{54aa65d84f238c52d65a6cb5db4f7a29}
+      \strng{fullhash}{aec13c1226734a2796f8d3b68e10cd0f}
+      \strng{fullhashraw}{aec13c1226734a2796f8d3b68e10cd0f}
+      \strng{bibnamehash}{54aa65d84f238c52d65a6cb5db4f7a29}
+      \strng{authorbibnamehash}{54aa65d84f238c52d65a6cb5db4f7a29}
+      \strng{authornamehash}{54aa65d84f238c52d65a6cb5db4f7a29}
+      \strng{authorfullhash}{aec13c1226734a2796f8d3b68e10cd0f}
+      \strng{authorfullhashraw}{aec13c1226734a2796f8d3b68e10cd0f}
+      \field{sortinit}{A}
+      \field{sortinithash}{2f401846e2029bad6b3ecc16d50031e2}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{Environmental Modelling \& Software}
+      \field{month}{5}
+      \field{number}{105174}
+      \field{title}{ETWatch cloud: APIs for regional actual evapotranspiration data generation}
+      \field{urlday}{28}
+      \field{urlmonth}{5}
+      \field{urlyear}{2024}
+      \field{volume}{145}
+      \field{year}{2021}
+      \field{urldateera}{ce}
+      \field{pages}{1\bibrangedash 16}
+      \range{pages}{16}
+      \verb{urlraw}
+      \verb https://doi.org/10.1016/j.envsoft.2021.105174
+      \endverb
+      \verb{url}
+      \verb https://doi.org/10.1016/j.envsoft.2021.105174
+      \endverb
+    \endentry
     \entry{Vijh_system2024}{inproceedings}{}{}
       \name{author}{5}{}{%
         {{un=0,uniquepart=base,hash=b8c2a3e93388792f4ceadbcbb0f42180}{%
@@ -3236,6 +3386,82 @@
       \endverb
       \verb{url}
       \verb https://www.academia.edu/45657937/Manual_de_Irriga%C3%A7%C3%A3o_8_ed_Salassier_Bernardo_Editora_UFV
+      \endverb
+    \endentry
+    \entry{Jose_webeva2011}{book}{}{}
+      \name{author}{7}{}{%
+        {{un=0,uniquepart=base,hash=006352f14993675b280d7e140e7ddbb6}{%
+           family={Payero},
+           familyi={P\bibinitperiod},
+           given={José\bibnamedelima O.},
+           giveni={J\bibinitperiod\bibinitdelim O\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=706a3ee8e7f56b643a11e4435d6e01af}{%
+           family={Singh},
+           familyi={S\bibinitperiod},
+           given={Dhananjay},
+           giveni={D\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=6e03711b7d78717d79377be26345d221}{%
+           family={Harris},
+           familyi={H\bibinitperiod},
+           given={Graham},
+           giveni={G\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=68c219f295a3d5fd840292d21be3207b}{%
+           family={Vriesema},
+           familyi={V\bibinitperiod},
+           given={Simon},
+           giveni={S\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=247a1c434e499dc62e60cdd789dc9403}{%
+           family={Hare},
+           familyi={H\bibinitperiod},
+           given={Jenelle},
+           giveni={J\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=6708e03969a5b40d60638a0985a9fe7c}{%
+           family={Pendergast},
+           familyi={P\bibinitperiod},
+           given={Lance},
+           giveni={L\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=ad1366dbeeb7505c7c64c9650e26b401}{%
+           family={Chauhan},
+           familyi={C\bibinitperiod},
+           given={Yash},
+           giveni={Y\bibinitperiod},
+           givenun=0}}%
+      }
+      \list{publisher}{1}{%
+        {IntechOpen}%
+      }
+      \strng{namehash}{e3828362a6e13a6cab83766437d16672}
+      \strng{fullhash}{e17eaf119f1356a6dbd7452ed0186b4f}
+      \strng{fullhashraw}{e17eaf119f1356a6dbd7452ed0186b4f}
+      \strng{bibnamehash}{e3828362a6e13a6cab83766437d16672}
+      \strng{authorbibnamehash}{e3828362a6e13a6cab83766437d16672}
+      \strng{authornamehash}{e3828362a6e13a6cab83766437d16672}
+      \strng{authorfullhash}{e17eaf119f1356a6dbd7452ed0186b4f}
+      \strng{authorfullhashraw}{e17eaf119f1356a6dbd7452ed0186b4f}
+      \field{sortinit}{C}
+      \field{sortinithash}{4d103a86280481745c9c897c925753c0}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{edition}{1}
+      \field{title}{Application of a New Web-Based Tool (Crop WaterUse) for Determining Evapotranspiration and Irrigation Requirements of Major Crops at Three Locations in Queensland}
+      \field{urlday}{28}
+      \field{urlmonth}{5}
+      \field{urlyear}{2024}
+      \field{year}{2011}
+      \field{urldateera}{ce}
+      \verb{urlraw}
+      \verb https://books.google.com.br/books?hl=pt-BR&lr=&id=YheaDwAAQBAJ&oi=fnd&pg=PA295&dq=web+application+evapotranspiration&ots=ZbDFqht_7s&sig=tjNS6zBCLOebLDX8Z0SzQ_E9SAk#v=onepage&q=web%20application%20evapotranspiration&f=false
+      \endverb
+      \verb{url}
+      \verb https://books.google.com.br/books?hl=pt-BR&lr=&id=YheaDwAAQBAJ&oi=fnd&pg=PA295&dq=web+application+evapotranspiration&ots=ZbDFqht_7s&sig=tjNS6zBCLOebLDX8Z0SzQ_E9SAk#v=onepage&q=web%20application%20evapotranspiration&f=false
       \endverb
     \endentry
     \entry{carmody_fao2023}{misc}{}{}
