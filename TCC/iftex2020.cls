@@ -49,8 +49,8 @@
 \RequirePackage{tikz}             % Desenhos
 \RequirePackage{adjustbox}        % Reduzir / ampliação
 \RequirePackage[style=abnt,noslsn,%
-giveninits,uniquelist=minyear,    %
-backend=biber]{biblatex}          % Referências
+giveninits,uniquelist=minyear,%
+backend=biber,uniquename=mininit]{biblatex} % Referências
 \RequirePackage{csquotes}         % Correção de aspas em referências
 
 % -----------------------------------------------

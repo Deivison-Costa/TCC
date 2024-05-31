@@ -1,136 +1,27 @@
-Corpos flutuantes são elementos não textuais como figuras e tabelas que complementam as informações do texto. Neste capítulo são expostos breves exemplos dos corpos flutuantes disponíveis na classe {IF\TeX}.
+O monitoramento da ETc é uma prática que possui diversas abordagens e métodos, dependendo do ambiente e do nível de precisão desejado. A ETc pode ser estimada por meio de métodos diretos, como a pesagem de lisímetros, ou indiretos, como a equação de \textcite{bernardo_irrigacao2008} apresentada na seção anterior. Entre essas abordagens, esta pesquisa propõe uma aplicação web para o monitoramento da ETc em tempo real, combinando métodos indiretos para esse fim.
 
-Na Seção \ref{secao:figuras} é mostrado como inserir figuras, a Seção \ref{secao:tabelas_e_quadros} explica como incluir tabelas e quadros e a Seção \ref{secao:algoritmos_e_codigos} demostra como trabalhar com algoritmos e códigos fontes.
+A seguir serão apresentados outros trabalhos com abordagens semelhantes, e como a presente pesquisa supera as limitações encontradas nesses estudos.
 
-\section{Figuras}
-\label{secao:figuras}
+\section{Integração de dados e padrões web para modelos de ETo}
 
-Normalmente, a inserção de figuras é realizada através do comando \comando{begin\{figure\}}.
-A Figura \ref{figura:logomarca_if} exibe a logomarca do IF.
-É interessante usar o ambiente \texttt{varwidth} em todas as figuras para manter a fonte alinhada a esquerda.
-No caso da Figura \ref{figura:logomarca_if}, também foi necessário adicionar uma borda para aumentar o tamanho da figura e manter o alinhamento da fonte.
-No caso de figuras de outros autores a citação na fonte deve ser feita com o comando \comando{citefonte\{\}}.
+\textcite{Jianting_webeva2009} abordam o desenvolvimento de sistemas de disseminação de dados em tempo real baseados na aquisição de dados. Eles fazem uso de dados geoespaciais para estimar a ETo diária, apontando a necessidade de métodos de acesso públicos a esses dados. Isso contrasta com os métodos \textit{ad-hoc} utilizados nos serviços existentes com o mesmo propósito.
 
-\begin{figure}[!htb] \centering
-  \caption{Logomarca do IF} \label{figura:logomarca_if}
-  \begin{varwidth}{\linewidth}
-    \includegraphics[width=6cm]{figuras/if}
-    \fonte{\citefonte{ifmg:2020:manual}.}
-  \end{varwidth}
-\end{figure}
+Os autores desenvolveram um sistema protótipo que utiliza padrões da \textit{Open Geospatial Consortium} (OGC) e o protocolo \textit{Network Data Access Protocol} (OPeNDAP) para publicar dados de estações meteorológicas. A arquitetura desse sistema incorpora diversas fontes de dados distribuídas e heterogêneas, como registros diários e horários de estações geoestacionárias. Além disso, imagens de satélite e resultados de modelos meteorológicos são utilizados para uma análise espacial. 
 
+Através de serviços web construídos sobre essas fontes, o sistema prova a eficácia de uma abordagem distribuída. Isso permite tanto a utilização quanto o desenvolvimento de novos serviços e aplicações sem interferir nos já existentes.
 
-De acordo com as normas ABNT a lista de figuras é um elemento opcional do documento.
-A inclusão de tal lista pode ser feita com o comando \comando{listafiguras} antes do início do documento.
+O trabalho de \textcite{Jianting_webeva2009} promove várias vantagens em relação a interoperabilidade e padronização de dados. No entanto, esse método não considera medições \textit{in situ}, o que em cenários menores, como o de uma propriedade rural, pode ser uma limitação em questão de precisão e custo. Além disso, o sistema proposto não oferece uma interface para a visualização e análise dos dados, o que pode dificultar a interpretação dos resultados por usuários finais.
 
-\section{Tabelas e quadros}
-\label{secao:tabelas_e_quadros}
+\section{Ferramentas web para determinação de ETo}
 
-A inserção de tabelas e quadros é feita de forma semelhante a inserção de figuras, porém são utilizados os ambientes \textit{table} e \textit{quadro}. A principal diferença entre tabelas e quadros, de acordo com \citet{ifmg:2020:manual}, é que as tabelas são destinadas para informações numéricas e os quadros são mais adequados para informações textuais.
+O estudo de \textcite{Fangming_webeva2021} foca no desenvolvimento e implementação de APIs em nuvem, chamadas ETWatch, para a geração de dados regionais da ETo. A pesquisa utiliza imagens de satélite e técnicas de sensoriamento remoto, integrando modelos climáticos e hidrológicos para estimar a evapotranspiração. As APIs baseadas em computação em nuvem são desenvolvidas para proporcionar acesso fácil e em tempo real aos dados de ETo.
 
-Como exemplos foram inseridas a Tabela \ref{tabela:lista_produtos} que exibe uma de lista de produtos e a Tabela \ref{tabela:populacao_america_sul} que mostra a população dos países da América do Sul. Foi inserido também o Quadro \ref{quadro:editores_texto_livres} com alguns editores que podem ser usados para se trabalhar com Latex para demonstrar a inserção de quadros.
+A metodologia combina dados de sensoriamento remoto, medições \textit{in situ} e modelagem matemática para calcular a evapotranspiração. As APIs facilitam a disseminação desses dados para diversos usuários e aplicações. Entre as vantagens do sistema ETWatch, destacam-se o acesso em tempo real aos dados de ETo, permitindo uma resposta rápida para a gestão de recursos hídricos. Além disso, o sistema fornece uma interface web para monitorar os dados, facilitando o acesso e a leitura das informações obtidas.
 
-\begin{table}[!htb]
-\caption{Lista de produtos} \label{tabela:lista_produtos}
-\begin{tabularx}{\textwidth}{X|l|r|r|r} \hline
-Produto      & Unidade & Preço (R\$) & Quantidade & Total (R\$) \\ \hline
-Arroz        & Kg      & 2,00        & 550        & 1.100,00    \\
-Óleo de Soja & L       & 2,50        & 500        & 750,00      \\
-Açucar       & Kg      & 3,00        & 100        & 300,00      \\ \hline
-\end{tabularx}
-\fonte{Elaborado pelo autor, 2020.}
-\end{table}
+Apesar das vantagens, \textcite{Fangming_webeva2021} identificam alguns pontos que necessitam de maior preocupação. A precisão das estimativas pode ser limitada pela qualidade e disponibilidade dos dados de entrada, especialmente em regiões com poucas medições \textit{in situ}. A complexidade de integrar modelos climáticos e hidrológicos pode apresentar desafios computacionais e de implementação. Além disso, há a necessidade de ajustar os modelos para responder a variações e mudanças climáticas contínuas.
 
-\begin{table}[!htb] \centering
-\caption{População dos países da América do Sul} \label{tabela:populacao_america_sul}
-\begin{varwidth}{\linewidth}
-\begin{tabular}{r|l|r}        \hline
-Código  & País            & População   \\ \hline
-1       & Brasil          & 191.480.630 \\
-2       & Argentina       &  39.934.100 \\
-3       & Colômbia        &  46.741.100 \\
-4       & Paraguai        &   9.694.200 \\
-5       & Uruguai         &   3.350.500 \\
-6       & Peru            &  28.221.500 \\
-7       & Equador         &  13.481.200 \\
-8       & Bolívia         &   9.694.200 \\
-9       & Venezuela       &  28.121.700 \\
-10      & Chile           &  16.803.000 \\ \hline
-\end{tabular}
-\fonte{\citefonte{wikipedia:2011:america_sul}.}
-\end{varwidth}
-\end{table}
+Uma abordagem semelhante foi realizada por \textcite{Jose_webeva2011} com o desenvolvimento de uma aplicação \textit{desktop} chamada \textit{CropWaterUse}. Essa aplicação foi desenvolvida para estimar os tempos de irrigação baseados na estimativa de ETc. Assim como \textcite{Fangming_webeva2021}, \textcite{Jose_webeva2011} utilizaram medições e modelos matemáticos para estimar a ETo. Contudo, eles realizaram o cálculo da ETc com base na ETo e em valores de $Kc$ específicos para cada cultura, sendo estes inseridos manualmente pelo usuário na aplicação.
 
-\begin{quadro}[!htb] \centering
-\caption{Editores de Texto Livres} \label{quadro:editores_texto_livres}
-\begin{varwidth}{\linewidth}
-\begin{tabular}{|l|l|r|}        \hline
-Editor     & Multiplataforma & Específico para Latex \\ \hline
-Kwriter    & Sim             & Não                   \\
-Texmaker   & Sim             & Sim                   \\
-Kile       & Sim             & Sim                   \\
-Geany      & Sim             & Não                   \\ \hline
-\end{tabular}
-\fonte{Elaborado pelo autor, 2020.}
-\end{varwidth}
-\end{quadro}
+Contudo, a aplicação \textit{CropWaterUse} não oferece uma interface de acesso distribuído para a visualização dos dados, seja por meio de APIs ou nuvens de dados. Isso limita sua utilização em cenários remotos ou até mesmo restritos, como propriedades rurais.
 
-A lista de tabelas também é um elemento opcional que pode ser incluída com o comando \comando{listatabelas} antes do início do documento. O mesmo acontece com a lista de quadros que pode ser incluída com o comando \comando{listaquadros}.
-
-\section{Algoritmos e códigos} \label{secao:algoritmos_e_codigos}
-
-Além dos corpos flutuantes convencionais para inserir figuras (\comando{begin\{figure\}}) e tabelas (\comando{begin\{figure\}}), a classe {IF\TeX} possui mais dois tipos de corpos flutuantes um para algoritmos (\comando{begin\{algoritmo\}}) e outro para códigos (\comando{begin\{codigo\}}). Como exemplo temos o Algoritmo \ref{algoritmo:mdc} que calcula o máximo divisor comum entre dois números e os Códigos \ref{codigo:notas_alunos} e \ref{codigo:metodo_leitura} que são uma consulta na \textit{Structured Query Language (SQL)} e um método em Java que recebe um texto digitado pelo usuário, respectivamente.
-
-\begin{algoritmo}[!htb]
-\caption{Algoritmo para cálculo de máximo divisor comum MDC($n_1$,$n_2$)} \label{algoritmo:mdc}
-\begin{algorithmic}[1]
- \Require Dois números inteiros ($n_1, n_2$)
- \If{$n_2 > n_1$} \Comment{Garante que o maior número seja $n_1$}
-   \State troca valores de $n_1$ e $n_2$
- \EndIf
- \Repeat
-   \State $r \leftarrow$ resto da divisão de $n_1$ por $n_2$
-   \State $n_1 \leftarrow n_2$
-   \State $n_2 \leftarrow r$
- \Until{$r > 0$}
- \Return $n_1$
-\end{algorithmic}
-\fonte{Elaborado pelo autor, 2020.}
-\end{algoritmo}
-
-\begin{codigo}[!htb]
-\caption{Consulta SQL} \label{codigo:notas_alunos}
-\begin{Verbatim}[frame=lines]
-SELECT a.nome_aluno AS aluno,
-       d.nome_disciplina AS disciplina,
-       m.nota AS nota
-FROM aluno AS a,
-     disciplina AS d,
-     matriculado AS m
-WHERE a.id_aluno = m.id_aluno
-  AND d.id_disciplina = m.id_disciplina
-ORDER BY a.nome_aluno, d.nome_disciplina;
-\end{Verbatim}
-\fonte{Elaborado pelo autor, 2020.}
-\end{codigo}
-
-\begin{codigo}[!htb]
-\caption{Sub-rotina para obter uma entrada do usuário} \label{codigo:metodo_leitura}
-\begin{Verbatim}[frame=lines]
-public static String Leitura(){
-    BufferedReader reader =
-        new BufferedReader(new InputStreamReader(System.in));
-    try {
-        return reader.readLine(); // Lê uma linha pelo teclado
-    } catch (IOException e) {
-        e.printStackTrace();
-        return "";
-    }
-}
-\end{Verbatim}
-\fonte{Elaborado pelo autor, 2020.}
-\end{codigo}
-
-Existem diversos outros pacotes disponíveis para escrever algoritmos e códigos. Nos exemplos anteriormente foram utilizados o pacote \textit{algpseudocode} e \textit{fancyvrb}. O pacote \textit{algpseudocode} é usado para escrever algoritmos em alto nível \cite{janos:2005:algpseudocode}. Já o pacote \textit{fancyvrb} serve para escrever códigos mono-espaçados \cite{zandt:2010:fancyvrb}.
-Caso sejam utilizados os ambientes de algoritmo e código, podem ser incluídos os comandos \comando{listaalgoritmos} e \comando{listacodigos} antes do \comando{begin\{document\}} para que a lista de algoritmos e a lista de código sejam criadas.
-Existem também diversos outros pacotes para formatação de algoritmos e códigos que podem ser usados como o \textit{minted} com suporte a diversas linguagens de programação \cite{poore:2016:minted}.
+\section{Desenvolvimento e aplicação de ferramentas para ETo}
