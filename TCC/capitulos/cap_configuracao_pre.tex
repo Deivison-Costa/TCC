@@ -115,10 +115,10 @@ Neste trabalho, o ESP32 atua como um ponto de controle, permitindo a comunicaç�
   \caption{Periféricos do microcontrolador ESP32} \label{tab:esp32_perifericos}
   \begin{tabularx}{\textwidth}{|c|X|X|} \hline
     \textbf{Abreviação} & \textbf{Nome} & \textbf{Função} \\ \hline
-    GPIO & Entrada/saída de uso geral & Permite a comunicação de propósito geral com dispositivos externos através de sinais de entrada e saída digitais  \\ \hline
-    UART & Receptor/transmissor assíncrono universal & Facilita a comunicação serial assíncrona entre o microcontrolador e outros dispositivos, como sensores e módulos de comunicação \\ \hline
-    SPI & Interface periférica serial & Permite a comunicação serial síncrona de alta velocidade entre o microcontrolador e dispositivos periféricos, como sensores, displays e memórias \\ \hline
-    I2C & Circuito Interintegrado & Oferece uma interface serial de dois fios para comunicação entre vários dispositivos \\ \hline
+    GPIO & Entrada/saída de uso geral. & Permite a comunicação de propósito geral com dispositivos externos através de sinais de entrada e saída digitais.  \\ \hline
+    UART & Receptor/transmissor assíncrono universal. & Facilita a comunicação serial assíncrona entre o microcontrolador e outros dispositivos, como sensores e módulos de comunicação. \\ \hline
+    SPI & Interface periférica serial. & Permite a comunicação serial síncrona de alta velocidade entre o microcontrolador e dispositivos periféricos, como sensores, displays e memórias. \\ \hline
+    I2C & Circuito Interintegrado. & Oferece uma interface serial de dois fios para comunicação entre vários dispositivos. \\ \hline
   \end{tabularx}
   \fonte{Adaptado de \textcite{EspressifESP32}.}
 \end{table}
@@ -184,11 +184,11 @@ Contudo, por si só, o HTTP não é adequado para aplicações da IoT, devido à
   \caption{Métodos HTTP} \label{tab:metodos_http}
   \begin{tabularx}{\textwidth}{|c|X|} \hline
     \textbf{Método} & \textbf{Descrição} \\ \hline
-    GET & Solicita a representação de um recurso específico \\ \hline
-    POST & Envia dados para serem processados por um recurso identificado no servidor \\ \hline
-    PUT & Substitui todas as representações atuais do recurso de destino com os dados enviados na solicitação \\ \hline
-    DELETE & Remove o recurso identificado no URI \\ \hline
-    PATCH & Aplica modificações parciais a um recurso \\ \hline  
+    GET & Solicita a representação de um recurso específico. \\ \hline
+    POST & Envia dados para serem processados por um recurso identificado no servidor. \\ \hline
+    PUT & Substitui todas as representações atuais do recurso de destino com os dados enviados na solicitação. \\ \hline
+    DELETE & Remove o recurso identificado no URI. \\ \hline
+    PATCH & Aplica modificações parciais a um recurso. \\ \hline  
   \end{tabularx}
   \fonte{Adaptado de \textcite{RFC2616}.}
 \end{table}
@@ -215,14 +215,14 @@ Sua eficiência o posiciona como uma ferramenta vital para a agricultura intelig
   \caption{Características do protocolo MQTT} \label{tab:caract_mqtt}
   \begin{tabularx}{\textwidth}{|c|X|} \hline
     \textbf{Característica} & \textbf{Descrição} \\ \hline
-    Leve & É leve e eficiente em termos de largura de banda e recursos de hardware \\ \hline
-    Assíncrono & Dispositivos podem enviar e receber mensagens de forma independente, sem bloqueio ou espera ativa \\ \hline
-    Padrão aberto & É um protocolo aberto e bem documentado \\ \hline
-    Qualidade de Serviço (QoS) & Oferece três níveis de QoS para garantir a entrega confiável das mensagens: QoS 0 (entrega no máximo uma vez), QoS 1 (entrega pelo menos uma vez) e QoS 2 (entrega exatamente uma vez) \\ \hline
-    Tópicos & Usa um modelo de publicação/assinatura, onde os dispositivos podem publicar mensagens em tópicos específicos e se inscrever para receber mensagens de tópicos de interesse \\ \hline  
-    Baixa latência &  É projetado para minimizar a latência de rede, tornando-o adequado para casos de uso em tempo real, como telemetria, monitoramento e controle remoto \\ \hline
-    Segurança & Suporta autenticação e criptografia \\ \hline
-    Retenção de mensagens & Permite que o broker MQTT retenha as últimas mensagens publicadas em um tópico \\ \hline  
+    Leve & É leve e eficiente em termos de largura de banda e recursos de hardware. \\ \hline
+    Assíncrono & Dispositivos podem enviar e receber mensagens de forma independente, sem bloqueio ou espera ativa. \\ \hline
+    Padrão aberto & É um protocolo aberto e bem documentado. \\ \hline
+    Qualidade de Serviço (QoS) & Oferece três níveis de QoS para garantir a entrega confiável das mensagens: QoS 0 (entrega no máximo uma vez), QoS 1 (entrega pelo menos uma vez) e QoS 2 (entrega exatamente uma vez). \\ \hline
+    Tópicos & Usa um modelo de publicação/assinatura, onde os dispositivos podem publicar mensagens em tópicos específicos e se inscrever para receber mensagens de tópicos de interesse. \\ \hline  
+    Baixa latência &  É projetado para minimizar a latência de rede, tornando-o adequado para casos de uso em tempo real, como telemetria, monitoramento e controle remoto. \\ \hline
+    Segurança & Suporta autenticação e criptografia. \\ \hline
+    Retenção de mensagens & Permite que o broker MQTT retenha as últimas mensagens publicadas em um tópico. \\ \hline  
   \end{tabularx}
   \fonte{Adaptado de \textcite{MQTT_org}.}
 \end{table}
@@ -327,7 +327,7 @@ ETo = 0.408 \cdot \frac{\Delta (R_n - G) + \gamma \cdot \frac{900}{T + 273} \cdo
 
 em que: 
 
-A evapotranspiração de referência ($ETo$) é determinada por fatores como radiação líquida ($R_n$), calor do solo ($G$), déficit de pressão de vapor ($\Delta$), constante psicrométrica ($\gamma$), temperatura média do ar ($T$), velocidade do vento a 2 metros de altura ($u2$), pressão de vapor do ar saturado ($e_s$) e pressão de vapor do ar ($e_a$).
+A ETo é determinada por fatores como radiação líquida ($R_n$), calor do solo ($G$), déficit de pressão de vapor ($\Delta$), constante psicrométrica ($\gamma$), temperatura média do ar ($T$), velocidade do vento a 2 metros de altura ($u2$), pressão de vapor do ar saturado ($e_s$) e pressão de vapor do ar ($e_a$).
 
 \subsection{Evapotranspiração de cultura}
 
@@ -337,12 +337,12 @@ A ET de cultura (ETc), por sua vez, é definida como:
   "A quantidade de água evaporada da superfície do solo e transpirada pelas plantas em uma cultura específica sob condições reais." \parencite{bernardo_irrigacao2008}
 \end{quote}
 
-Ela é calculada como o produto da ETo e um determinado coeficiente de cultura ($Kc$), como proposto por \textcite{bernardo_irrigacao2008}:
+Ela é calculada como o produto da ETo e um determinado coeficiente de cultura (Kc), como proposto por \textcite{bernardo_irrigacao2008}:
 
 \begin{equation}
 ETc = Kc \times ETo
 \end{equation}
 
-O $Kc$ é um fator que leva em consideração as características específicas da cultura, como a fase de desenvolvimento, a densidade de plantio e a cobertura do solo. Ele é determinado experimentalmente e varia ao longo do ciclo de cultivo \parencite{bernardo_irrigacao2008}.
+O Kc é um fator que leva em consideração as características específicas da cultura, como a fase de desenvolvimento, a densidade de plantio e a cobertura do solo. Ele é determinado experimentalmente e varia ao longo do ciclo de cultivo \parencite{bernardo_irrigacao2008}.
 
-A determinação da ETo em tempo real é um dos principais objetos de estudo dessa pesquisa. Na próxima seção, serão apresentados trabalhos similares e como a proposta deste trabalho se diferencia deles.
+A determinação da ETc em tempo real é um dos principais objetos de estudo dessa pesquisa. Na próxima seção, serão apresentados trabalhos similares e como a proposta deste trabalho se diferencia deles.
