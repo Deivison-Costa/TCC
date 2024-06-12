@@ -1,13 +1,13 @@
 # Fdb version 4
-["biber monografia"] 1717164159.57003 "monografia.bcf" "monografia.bbl" "monografia" 1717164965.74706 0
-  "monografia.bcf" 1717164965 127101 8a97a6f68b0bfa3f92405df1b70f96ff "pdflatex"
+["biber monografia"] 1718135021.04725 "monografia.bcf" "monografia.bbl" "monografia" 1718137457.39654 0
+  "monografia.bcf" 1718137456 128289 2bac66f3957d658d58dd76da0508f30f "pdflatex"
   "referencias.bib" 1717075149 31136 fa502e59cc2bff36db2150948ff360d9 ""
   (generated)
   "monografia.bbl"
   "monografia.blg"
   (rewritten before read)
-["pdflatex"] 1717164957.70274 "c:/Users/deivi/OneDrive - Instituto Federal de Minas Gerais/TCC/monografia.tex" "monografia.pdf" "monografia" 1717164965.74792 0
-  "C:/Users/deivi/AppData/Local/MiKTeX/fonts/map/pdftex/pdftex.map" 1716417245 82507 a9eef8696c92627b87e9975edea03b2a ""
+["pdflatex"] 1718137448.94182 "c:/Users/deivi/OneDrive - Instituto Federal de Minas Gerais/TCC/monografia.tex" "monografia.pdf" "monografia" 1718137457.39762 0
+  "C:/Users/deivi/AppData/Local/MiKTeX/fonts/map/pdftex/pdftex.map" 1717528097 82507 a9eef8696c92627b87e9975edea03b2a ""
   "C:/Users/deivi/AppData/Local/MiKTeX/miktex/data/le/pdftex/pdflatex.fmt" 1716810953 24240354 72381b0266f063a04121efa86d4fe0da ""
   "C:/Users/deivi/AppData/Local/Programs/MiKTeX/fonts/enc/dvips/lm/lm-ec.enc" 1256929440 2375 baa924870cfb487815765f9094cf3728 ""
   "C:/Users/deivi/AppData/Local/Programs/MiKTeX/fonts/enc/dvips/lm/lm-mathit.enc" 1256929440 2405 5dcf2c1b967ee25cc46c58cd52244aed ""
@@ -257,20 +257,20 @@
   "C:/Users/deivi/AppData/Local/Programs/MiKTeX/tex/latex/xkeyval/xkeyval.sty" 1656236919 4937 4ce600ce9bd4ec84d0250eb6892fcf4f ""
   "C:/Users/deivi/AppData/Local/Programs/MiKTeX/tex/latex/xpatch/xpatch.sty" 1585221260 8510 7803f78066c4f9d008405191a4b43073 ""
   "c:/Users/deivi/OneDrive - Instituto Federal de Minas Gerais/TCC/monografia.tex" 1717073857 3936 ef5ba18d1fb15835b28be382c4b74cad ""
-  "capitulos/cap_configuracao_pre.tex" 1715621366 38776 47d57b06113079fd66eac60292c2e8dd ""
-  "capitulos/cap_corpos_flutuantes.tex" 1717164957 4846 9071b1bf4214680e6d3a54563e245b87 ""
+  "capitulos/cap_configuracao_pre.tex" 1718137302 38754 73a8505a04debf8df0488bbd3f0bc6a9 ""
+  "capitulos/cap_corpos_flutuantes.tex" 1718137448 9084 a0464d65e92691ba454810bcb3c948ca ""
   "capitulos/cap_introducao.tex" 1715622620 3989 ca0308758a69f36a0485066ebe893d8b ""
   "capitulos/pretextual.tex" 1713026136 3978 7770abed2a6902e19d2c4a6ea42db16c ""
   "config.tex" 1713026136 1871 4c783c67e7fde99c6ae0dabd60d2f12c ""
   "figuras/Carmody.png" 1713632327 1155761 3f51d2ef5d148b4d769bde4c7d1a05ea ""
   "figuras/Datta.png" 1713026136 28789 b3997a2c4325aef51b5141966c86da35 ""
   "iftex2020.cls" 1717074137 29268 72ca935fba69c451be955933e8d39ef0 ""
-  "monografia.aux" 1717164965 41655 91f4082860208e91706c0c3465dda5f8 "pdflatex"
-  "monografia.bbl" 1717164162 153348 43cb31d2bd29e6ff5e1e6c8b54c0cd4e "biber monografia"
-  "monografia.mw" 1717164965 0 d41d8cd98f00b204e9800998ecf8427e "pdflatex"
-  "monografia.run.xml" 1717164965 2486 06a6211b4d5692a3ddabfaa2818e6659 "pdflatex"
+  "monografia.aux" 1718137456 43437 921040f0be3d3081a61e70afce7010e9 "pdflatex"
+  "monografia.bbl" 1718135024 157812 a148ed1d8e656d6f3f67190ac4aa6567 "biber monografia"
+  "monografia.mw" 1718137456 0 d41d8cd98f00b204e9800998ecf8427e "pdflatex"
+  "monografia.run.xml" 1718137456 2486 06a6211b4d5692a3ddabfaa2818e6659 "pdflatex"
   "monografia.tex" 1717073857 3936 ef5ba18d1fb15835b28be382c4b74cad ""
-  "monografia.toc" 1717164965 3312 92d18a3ce39e6327177b37bab0c313b8 "pdflatex"
+  "monografia.toc" 1718137456 3312 631027636587028cf16d35fbf8c174d5 "pdflatex"
   (generated)
   "monografia.aux"
   "monografia.bcf"

@@ -2176,6 +2176,114 @@
       \verb https://doi.org/10.1016/j.envsoft.2021.105174
       \endverb
     \endentry
+    \entry{Taison_webeva2019}{article}{}{}
+      \name{author}{4}{}{%
+        {{un=0,uniquepart=base,hash=dfb1c38fce74316977460be570ab8b2a}{%
+           family={Bortolin},
+           familyi={B\bibinitperiod},
+           given={Taison\bibnamedelima Anderson},
+           giveni={T\bibinitperiod\bibinitdelim A\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=66f523ced4578e1caea2e96460055aa6}{%
+           family={Santos},
+           familyi={S\bibinitperiod},
+           given={Lucas\bibnamedelima Moraes},
+           giveni={L\bibinitperiod\bibinitdelim M\bibinitperiod},
+           givenun=0,
+           prefix={dos},
+           prefixi={d\bibinitperiod},
+           prefixun=0}}%
+        {{un=0,uniquepart=base,hash=834665b348a374ca600f22348b1384cd}{%
+           family={Silva},
+           familyi={S\bibinitperiod},
+           given={Adriano\bibnamedelima Gomes},
+           giveni={A\bibinitperiod\bibinitdelim G\bibinitperiod},
+           givenun=0,
+           prefix={da},
+           prefixi={d\bibinitperiod},
+           prefixun=0}}%
+        {{un=0,uniquepart=base,hash=f1341691cc234db48d857dfc4f464bee}{%
+           family={Schneider},
+           familyi={S\bibinitperiod},
+           given={Vania\bibnamedelima Elisabete},
+           giveni={V\bibinitperiod\bibinitdelim E\bibinitperiod},
+           givenun=0}}%
+      }
+      \strng{namehash}{6731b3925ce0a0e1761e501f4249ca79}
+      \strng{fullhash}{7717cfa1109978054622864b6a000974}
+      \strng{fullhashraw}{7717cfa1109978054622864b6a000974}
+      \strng{bibnamehash}{6731b3925ce0a0e1761e501f4249ca79}
+      \strng{authorbibnamehash}{6731b3925ce0a0e1761e501f4249ca79}
+      \strng{authornamehash}{6731b3925ce0a0e1761e501f4249ca79}
+      \strng{authorfullhash}{7717cfa1109978054622864b6a000974}
+      \strng{authorfullhashraw}{7717cfa1109978054622864b6a000974}
+      \field{sortinit}{A}
+      \field{sortinithash}{2f401846e2029bad6b3ecc16d50031e2}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{Ciência e Natura}
+      \field{month}{7}
+      \field{number}{22}
+      \field{title}{Web system for estimation of evapotranspiration potential by different methods}
+      \field{urlday}{28}
+      \field{urlmonth}{5}
+      \field{urlyear}{2024}
+      \field{volume}{41}
+      \field{year}{2019}
+      \field{urldateera}{ce}
+      \field{pages}{1\bibrangedash 14}
+      \range{pages}{14}
+      \verb{urlraw}
+      \verb https://doi.org/10.5902/2179460X36937
+      \endverb
+      \verb{url}
+      \verb https://doi.org/10.5902/2179460X36937
+      \endverb
+    \endentry
+    \entry{Serban_webeva2022}{article}{}{}
+      \name{author}{1}{}{%
+        {{un=0,uniquepart=base,hash=699f262602974e12e7792c32d3b819ef}{%
+           family={Danielescu},
+           familyi={D\bibinitperiod},
+           given={Serban},
+           giveni={S\bibinitperiod},
+           givenun=0}}%
+      }
+      \strng{namehash}{699f262602974e12e7792c32d3b819ef}
+      \strng{fullhash}{699f262602974e12e7792c32d3b819ef}
+      \strng{fullhashraw}{699f262602974e12e7792c32d3b819ef}
+      \strng{bibnamehash}{699f262602974e12e7792c32d3b819ef}
+      \strng{authorbibnamehash}{699f262602974e12e7792c32d3b819ef}
+      \strng{authornamehash}{699f262602974e12e7792c32d3b819ef}
+      \strng{authorfullhash}{699f262602974e12e7792c32d3b819ef}
+      \strng{authorfullhashraw}{699f262602974e12e7792c32d3b819ef}
+      \field{sortinit}{A}
+      \field{sortinithash}{2f401846e2029bad6b3ecc16d50031e2}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{Atmosphere-Ocean}
+      \field{month}{12}
+      \field{number}{3}
+      \field{title}{Development and Application of ETCalc, a Unique Online Tool for Estimation of Daily Evapotranspiration}
+      \field{urlday}{28}
+      \field{urlmonth}{5}
+      \field{urlyear}{2024}
+      \field{volume}{61}
+      \field{year}{2022}
+      \field{urldateera}{ce}
+      \field{pages}{135\bibrangedash 147}
+      \range{pages}{13}
+      \verb{urlraw}
+      \verb https://doi.org/10.1080/07055900.2022.2154191
+      \endverb
+      \verb{url}
+      \verb https://doi.org/10.1080/07055900.2022.2154191
+      \endverb
+    \endentry
     \entry{Vijh_system2024}{inproceedings}{}{}
       \name{author}{5}{}{%
         {{un=0,uniquepart=base,hash=b8c2a3e93388792f4ceadbcbb0f42180}{%
