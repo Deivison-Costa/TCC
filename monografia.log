@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.26 (MiKTeX 24.4) (preloaded format=pdflatex 2024.6.28)  23 JUL 2024 20:16
+This is pdfTeX, Version 3.141592653-2.6-1.40.26 (MiKTeX 24.4) (preloaded format=pdflatex 2024.6.28)  12 AUG 2024 19:38
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -2166,7 +2166,7 @@ Underfull \hbox (badness 1442) in paragraph at lines 120--120
 
 \openout4 = `monografia.mw'.
 
-<figuras/Datta.png, id=438, 496.10344pt x 493.845pt>
+<figuras/Datta.png, id=466, 496.10344pt x 493.845pt>
 File: figuras/Datta.png Graphic file (type png)
 <use figuras/Datta.png>
 Package pdftex.def Info: figuras/Datta.png  used on input line 166.
@@ -2501,7 +2501,7 @@ Package pdftex.def Info: figuras/Datta.png  used on input line 166.
 
 \openout4 = `monografia.mw'.
 
-<figuras/Carmody.png, id=598, 878.53218pt x 534.49687pt>
+<figuras/Carmody.png, id=626, 878.53218pt x 534.49687pt>
 File: figuras/Carmody.png Graphic file (type png)
 <use figuras/Carmody.png>
 Package pdftex.def Info: figuras/Carmody.png  used on input line 299.
@@ -2793,7 +2793,7 @@ Underfull \hbox (badness 7326) in paragraph at lines 48--48
 [34] (monografia.mw)
 \openout4 = `monografia.mw'.
 
-
+ (capitulos/cap_ambientes_matematicos.tex
 
 \openout4 = `monografia.mw'.
 
@@ -2809,32 +2809,125 @@ Underfull \hbox (badness 7326) in paragraph at lines 48--48
 [36] (monografia.mw)
 \openout4 = `monografia.mw'.
 
+<figuras/Anemometer-sensor.png, id=776, 722.7pt x 722.7pt>
+File: figuras/Anemometer-sensor.png Graphic file (type png)
+<use figuras/Anemometer-sensor.png>
+Package pdftex.def Info: figuras/Anemometer-sensor.png  used on input line 60.
+(pdftex.def)             Requested size: 284.52756pt x 284.53154pt.
+\openout4 = `monografia.mw'.
+
+\openout4 = `monografia.mw'.
+
+\openout4 = `monografia.mw'.
+
+\openout4 = `monografia.mw'.
+
+<figuras/DHT22-sensor.png, id=779, 417.05812pt x 188.20313pt>
+File: figuras/DHT22-sensor.png Graphic file (type png)
+<use figuras/DHT22-sensor.png>
+Package pdftex.def Info: figuras/DHT22-sensor.png  used on input line 68.
+(pdftex.def)             Requested size: 284.52756pt x 128.40431pt.
+\openout4 = `monografia.mw'.
+
+\openout4 = `monografia.mw'.
+
+\openout4 = `monografia.mw'.
+
+\openout4 = `monografia.mw'.
+
+<figuras/BMP280-sensor.png, id=782, 376.40625pt x 188.20313pt>
+File: figuras/BMP280-sensor.png Graphic file (type png)
+<use figuras/BMP280-sensor.png>
+Package pdftex.def Info: figuras/BMP280-sensor.png  used on input line 76.
+(pdftex.def)             Requested size: 284.52756pt x 142.27483pt.
+\openout4 = `monografia.mw'.
+
+\openout4 = `monografia.mw'.
+
+\openout4 = `monografia.mw'.
+
+\openout4 = `monografia.mw'.
+
+<figuras/LM393-sensor.png, id=785, 393.72093pt x 235.63031pt>
+File: figuras/LM393-sensor.png Graphic file (type png)
+<use figuras/LM393-sensor.png>
+Package pdftex.def Info: figuras/LM393-sensor.png  used on input line 84.
+(pdftex.def)             Requested size: 284.52756pt x 170.2793pt.
+\openout4 = `monografia.mw'.
+
+\openout4 = `monografia.mw'.
+
+\openout4 = `monografia.mw'.
+
+\openout4 = `monografia.mw'.
+
+<figuras/BH1750-sensor.png, id=788, 385.44pt x 289.08pt>
+File: figuras/BH1750-sensor.png Graphic file (type png)
+<use figuras/BH1750-sensor.png>
+Package pdftex.def Info: figuras/BH1750-sensor.png  used on input line 92.
+(pdftex.def)             Requested size: 284.52756pt x 213.39534pt.
+\openout4 = `monografia.mw'.
+
+\openout4 = `monografia.mw'.
+
+\openout4 = `monografia.mw'.
+
+\openout4 = `monografia.mw'.
+
+<figuras/ESP32-micro.jpg, id=791, 663.98062pt x 462.22687pt>
+File: figuras/ESP32-micro.jpg Graphic file (type jpg)
+<use figuras/ESP32-micro.jpg>
+Package pdftex.def Info: figuras/ESP32-micro.jpg  used on input line 100.
+(pdftex.def)             Requested size: 284.52756pt x 198.06953pt.
+\openout4 = `monografia.mw'.
+
+\openout4 = `monografia.mw'.
+
+\openout4 = `monografia.mw'.
+
+\openout4 = `monografia.mw'.
+
+<figuras/Jumpers-cabos.png, id=794, 602.25pt x 602.25pt>
+File: figuras/Jumpers-cabos.png Graphic file (type png)
+<use figuras/Jumpers-cabos.png>
+Package pdftex.def Info: figuras/Jumpers-cabos.png  used on input line 108.
+(pdftex.def)             Requested size: 284.52756pt x 284.53705pt.
+\openout4 = `monografia.mw'.
+
+\openout4 = `monografia.mw'.
+
+\openout4 = `monografia.mw'.
+
+\openout4 = `monografia.mw'.
+
+)
+
+\openout4 = `monografia.mw'.
+
+[37 <./figuras/Anemometer-sensor.png> <./figuras/DHT22-sensor.png>] (monografia.mw)
+\openout4 = `monografia.mw'.
+
 
 
 \openout4 = `monografia.mw'.
 
-[37] (monografia.mw)
+[38 <./figuras/BMP280-sensor.png> <./figuras/LM393-sensor.png> <./figuras/BH1750-sensor.png>] (monografia.mw)
 \openout4 = `monografia.mw'.
 
 
 
 \openout4 = `monografia.mw'.
 
-[38] (monografia.mw)
+[39 <./figuras/ESP32-micro.jpg> <./figuras/Jumpers-cabos.png>] (monografia.mw)
 \openout4 = `monografia.mw'.
 
 
 
 \openout4 = `monografia.mw'.
 
-[39] (monografia.mw)
-\openout4 = `monografia.mw'.
+[40
 
-
-
-\openout4 = `monografia.mw'.
-
-[40] (monografia.mw)
+] (monografia.mw)
 \openout4 = `monografia.mw'.
 
 
@@ -2842,6 +2935,41 @@ Underfull \hbox (badness 7326) in paragraph at lines 48--48
 \openout4 = `monografia.mw'.
 
 [41] (monografia.mw)
+\openout4 = `monografia.mw'.
+
+
+
+\openout4 = `monografia.mw'.
+
+[42] (monografia.mw)
+\openout4 = `monografia.mw'.
+
+
+
+\openout4 = `monografia.mw'.
+
+[43] (monografia.mw)
+\openout4 = `monografia.mw'.
+
+
+
+\openout4 = `monografia.mw'.
+
+[44] (monografia.mw)
+\openout4 = `monografia.mw'.
+
+
+
+\openout4 = `monografia.mw'.
+
+[45] (monografia.mw)
+\openout4 = `monografia.mw'.
+
+
+
+\openout4 = `monografia.mw'.
+
+[46] (monografia.mw)
 \openout4 = `monografia.mw'.
 
 \tf@lof=\write132
@@ -2856,6 +2984,66 @@ Underfull \hbox (badness 7326) in paragraph at lines 48--48
  
 enddocument/afterlastpage: lastpage setting LastPage.
 (monografia.aux
+\openout4 = `monografia.mw'.
+
+\openout4 = `monografia.mw'.
+
+\openout4 = `monografia.mw'.
+
+\openout4 = `monografia.mw'.
+
+\openout4 = `monografia.mw'.
+
+\openout4 = `monografia.mw'.
+
+\openout4 = `monografia.mw'.
+
+\openout4 = `monografia.mw'.
+
+\openout4 = `monografia.mw'.
+
+\openout4 = `monografia.mw'.
+
+\openout4 = `monografia.mw'.
+
+\openout4 = `monografia.mw'.
+
+\openout4 = `monografia.mw'.
+
+\openout4 = `monografia.mw'.
+
+\openout4 = `monografia.mw'.
+
+\openout4 = `monografia.mw'.
+
+\openout4 = `monografia.mw'.
+
+\openout4 = `monografia.mw'.
+
+\openout4 = `monografia.mw'.
+
+\openout4 = `monografia.mw'.
+
+\openout4 = `monografia.mw'.
+
+\openout4 = `monografia.mw'.
+
+\openout4 = `monografia.mw'.
+
+\openout4 = `monografia.mw'.
+
+\openout4 = `monografia.mw'.
+
+\openout4 = `monografia.mw'.
+
+\openout4 = `monografia.mw'.
+
+\openout4 = `monografia.mw'.
+
+\openout4 = `monografia.mw'.
+
+\openout4 = `monografia.mw'.
+
 \openout4 = `monografia.mw'.
 
 \openout4 = `monografia.mw'.
@@ -3082,17 +3270,17 @@ Package logreq Info: Writing requests to 'monografia.run.xml'.
 
  ) 
 Here is how much of TeX's memory you used:
- 45744 strings out of 473919
- 862322 string characters out of 5726953
- 2018997 words of memory out of 5000000
- 66516 multiletter control sequences out of 15000+600000
- 613204 words of font info for 164 fonts, out of 8000000 for 9000
+ 45962 strings out of 473919
+ 866848 string characters out of 5726953
+ 2019680 words of memory out of 5000000
+ 66595 multiletter control sequences out of 15000+600000
+ 613398 words of font info for 166 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
  113i,17n,121p,1385b,4456s stack positions out of 10000i,1000n,20000p,200000b,200000s
 <C:/Users/deivi/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmbx10.pfb><C:/Users/deivi/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmr10.pfb><C:/Users/deivi/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmti10.pfb><C:/Users/deivi/AppData/Local/Programs/MiKTeX/fonts/type1/public/lm/lmbx12.pfb><C:/Users/deivi/AppData/Local/Programs/MiKTeX/fonts/type1/public/lm/lmbxi10.pfb><C:/Users/deivi/AppData/Local/Programs/MiKTeX/fonts/type1/public/lm/lmmi12.pfb><C:/Users/deivi/AppData/Local/Programs/MiKTeX/fonts/type1/public/lm/lmmi8.pfb><C:/Users/deivi/AppData/Local/Programs/MiKTeX/fonts/type1/public/lm/lmr10.pfb><C:/Users/deivi/AppData/Local/Programs/MiKTeX/fonts/type1/public/lm/lmr12.pfb><C:/Users/deivi/AppData/Local/Programs/MiKTeX/fonts/type1/public/lm/lmr8.pfb><C:/Users/deivi/AppData/Local/Programs/MiKTeX/fonts/type1/public/lm/lmri10.pfb><C:/Users/deivi/AppData/Local/Programs/MiKTeX/fonts/type1/public/lm/lmri12.pfb><C:/Users/deivi/AppData/Local/Programs/MiKTeX/fonts/type1/public/lm/lmsy10.pfb>
-Output written on monografia.pdf (42 pages, 1652616 bytes).
+Output written on monografia.pdf (47 pages, 2909694 bytes).
 PDF statistics:
- 1063 PDF objects out of 1200 (max. 8388607)
- 182 named destinations out of 1000 (max. 500000)
- 29027 words of extra memory for PDF output out of 29859 (max. 10000000)
+ 1168 PDF objects out of 1200 (max. 8388607)
+ 202 named destinations out of 1000 (max. 500000)
+ 29118 words of extra memory for PDF output out of 29859 (max. 10000000)
 

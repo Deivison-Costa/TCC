@@ -1,15 +1,15 @@
 [0] Config.pm:308> INFO - This is Biber 2.20
-[0] Config.pm:311> INFO - Logfile is 'monografia.blg'
-[139] biber-MSWIN64:340> INFO - === 
-[182] Biber.pm:420> INFO - Reading 'monografia.bcf'
-[363] Biber.pm:994> INFO - Found 66 citekeys in bib section 0
-[382] Biber.pm:4463> INFO - Processing section 0
-[395] Biber.pm:4654> INFO - Looking for bibtex file 'referencias.bib' for section 0
-[461] bibtex.pm:1713> INFO - LaTeX decoding ...
-[601] bibtex.pm:1519> INFO - Found BibTeX data source 'referencias.bib'
-[1183] UCollate.pm:68> INFO - Overriding locale 'pt-BR' defaults 'variable = shifted' with 'variable = non-ignorable'
-[1183] UCollate.pm:68> INFO - Overriding locale 'pt-BR' defaults 'normalization = NFD' with 'normalization = prenormalized'
-[1183] Biber.pm:4283> INFO - Sorting list 'nty/global//global/global/global' of type 'entry' with template 'nty' and locale 'pt-BR'
-[1183] Biber.pm:4289> INFO - No sort tailoring available for locale 'pt-BR'
-[1261] bbl.pm:676> INFO - Writing 'monografia.bbl' with encoding 'UTF-8'
-[1337] bbl.pm:779> INFO - Output to monografia.bbl
+[1] Config.pm:311> INFO - Logfile is 'monografia.blg'
+[206] biber-MSWIN64:340> INFO - === 
+[291] Biber.pm:420> INFO - Reading 'monografia.bcf'
+[469] Biber.pm:994> INFO - Found 67 citekeys in bib section 0
+[485] Biber.pm:4463> INFO - Processing section 0
+[513] Biber.pm:4654> INFO - Looking for bibtex file 'referencias.bib' for section 0
+[571] bibtex.pm:1713> INFO - LaTeX decoding ...
+[702] bibtex.pm:1519> INFO - Found BibTeX data source 'referencias.bib'
+[1286] UCollate.pm:68> INFO - Overriding locale 'pt-BR' defaults 'variable = shifted' with 'variable = non-ignorable'
+[1290] UCollate.pm:68> INFO - Overriding locale 'pt-BR' defaults 'normalization = NFD' with 'normalization = prenormalized'
+[1290] Biber.pm:4283> INFO - Sorting list 'nty/global//global/global/global' of type 'entry' with template 'nty' and locale 'pt-BR'
+[1290] Biber.pm:4289> INFO - No sort tailoring available for locale 'pt-BR'
+[1399] bbl.pm:676> INFO - Writing 'monografia.bbl' with encoding 'UTF-8'
+[1461] bbl.pm:779> INFO - Output to monografia.bbl

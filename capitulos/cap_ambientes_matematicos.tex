@@ -1,24 +1,112 @@
-A classe {IF\TeX} provê os seguintes ambientes matemáticos:
+Nesta seção, são apresentados os materiais e métodos utilizados no desenvolvimento do sistema. Isso inclui as ferramentas e tecnologias empregadas, a arquitetura do sistema, as integrações realizadas, as APIs desenvolvidas e os métodos de validação dos resultados.
+
+\section{Descrição da Área de Estudo}
+O sistema em questão foi implementado no Instituto Federal de Minas Gerais (IFMG), \textit{campus} Bambuí, especificamente no laboratório de elétrica. Esse local foi escolhido por possuir uma infraestrutura adequada para a instalação de sensores e equipamentos necessários para a captura e transmissão de dados. A escolha do laboratório também se deve à disponibilidade de recursos tecnológicos e ao suporte institucional para o desenvolvimento do projeto.
+
+\section{Sistema de Monitoramento Meteorológico}
+O sistema desenvolvido utiliza uma série de sensores para monitorar em tempo real diferentes parâmetros meteorológicos. Os componentes do sistema incluem:
+
 \begin{itemize}
- \item Teoremas (\comando{begin\{teorema\}[\ ]} ... \comando{begin\{teorema\}});
- \item Proposição (\comando{begin\{proposicao\}[\ ]} ... \comando{begin\{proposicao\}});
- \item Lema (\comando{begin\{lema\}[\ ]} ... \comando{begin\{lema\}});
- \item Corolário (\comando{begin\{corolario\}[\ ]} ... \comando{begin\{corolario\}});
- \item Exemplo (\comando{begin\{exemplo\}[\ ]} ... \comando{begin\{exemplo\}});
- \item Observação (\comando{begin\{observacao\}[\ ]} ... \comando{begin\{observacao\}});
- \item Definição (\comando{begin\{definicao\}[\ ]} ... \comando{begin\{definicao\}});
- \item demonstracao (\comando{begin\{demonstracao\}[\ ]} ... \comando{begin\{demonstracao\}}).
+\item Anemômetro (Figura \ref{figura:anemometro});
+\item Sensor de temperatura e umidade do ar DHT22 (Figura \ref{figura:sensor_dht22});
+\item Sensor de pressão barométrica BMP280 (Figura \ref{figura:sensor_bmp280});
+\item Sensor de umidade do solo LM393 (Figura \ref{figura:sensor_lm393});
+\item Sensor de luminosidade BH1750 (Figura \ref{figura:sensor_bh1750});
+\item Microcontrolador ESP32 (Figura \ref{figura:esp32});
+\item \textit{Jumpers} e cabos (Figura \ref{figura:jumpers}).
 \end{itemize}
 
-Abaixo temos um exemplo de proposição com sua demonstração:
-\begin{proposicao}
- Sejam $a$ e $b$ reais, tais que $0<a<b$. Então $a^2<b^2$.
-\end{proposicao}
-\begin{demonstracao}
- Pela hipótese concluímos que $(b+a)>0$ e $(b-a)>0$.
+Esses componentes foram integrados para fornecer dados em tempo real, que são transmitidos para o servidor do sistema para processamento e análise contínua.
 
-Como $b^2-a^2=(b+a)(b-a)$ concluímos que $b^2-a^2>0$, ou seja, $a^2<b^2$.
-\end{demonstracao}
+\section{Ferramentas e Tecnologias Utilizadas}
+As ferramentas e tecnologias empregadas para o desenvolvimento, análise, processamento e visualização dos dados são:
 
-Neste documento tratamos brevemente apenas dos ambientes mencionados anteriormente. Contudo, para escrever expressões matemáticas complexas é preciso estudar uma documentações mais específicas\footnote{\url{https://en.wikibooks.org/wiki/LaTeX/Mathematics}}\footnote{\url{https://en.wikibooks.org/wiki/LaTeX/Advanced_Mathematics}}.
-Alguns dos ambientes matemáticos da classe {IF\TeX} podem ser usados também para outras finalidades como exemplos e definições.
+\begin{itemize}
+\item \textit{Node.js} como ambiente de execução do \textit{backend};
+\item \textit{React} como biblioteca de desenvolvimento de interfaces para o \textit{frontend};
+\item \textit{Nest.js} como \textit{framework} para o \textit{backend};
+\item \textit{Vitest} como \textit{framework} de testes;
+\item \textit{Prisma} como mapeador objeto-relacional (ORM);
+\item \textit{Shadcn/ui} como biblioteca de componentes para o \textit{frontend};
+\item \textit{Tailwind CSS} como \textit{framework} de estilização;
+\item MQTT como protocolo de comunicação entre os sensores e o \textit{backend};
+\item HTTP como protocolo de comunicação entre o \textit{backend} e o \textit{frontend};
+\item \textit{MySQL} como banco de dados relacional;
+\item Visual Studio Code para desenvolvimento web;
+\item Arduino IDE para desenvolvimento embarcado.
+\end{itemize}
+
+Essas tecnologias foram selecionadas por sua capacidade de suportar um sistema de monitoramento robusto e eficiente, garantindo a precisão e a escalabilidade necessárias para o monitoramento em tempo real.
+
+\section{Métodos de Análise de Dados}
+Os dados meteorológicos são processados e analisados utilizando as tecnologias mencionadas. A análise é realizada de forma contínua para apresentar medições e cálculos estimativos de ETo e ETc locais. Esse método de análise permite a interpretação e avaliação dos dados de forma rápida, além de gerar relatórios periódicos para a tomada de decisões.
+
+\section{Desenvolvimento da Aplicação}
+A aplicação foi desenvolvida utilizando uma arquitetura baseada em microserviços, que permite uma integração modular e escalável dos diferentes componentes do sistema. O desenvolvimento envolveu a implementação dos seguintes sistemas e APIs:
+
+\begin{itemize}
+\item \textbf{Integrações}: Os sensores foram integrados ao sistema utilizando protocolos como MQTT, que permite a transmissão de dados em tempo real para o servidor central. A integração com o banco de dados MySQL permite o armazenamento e a recuperação eficiente dos dados coletados.
+\item \textbf{APIs}: Foram desenvolvidas APIs para a comunicação entre o frontend e o backend, possibilitando a visualização dos dados em tempo real através de interfaces amigáveis e interativas.
+\end{itemize}
+
+O fluxo de trabalho do sistema inclui a captura dos dados pelos sensores, a transmissão via MQTT para o backend, onde os dados são processados e armazenados, e a apresentação dos resultados ao usuário final através do frontend desenvolvido em React.
+
+\section{Validação dos Resultados}
+Para garantir a confiabilidade do sistema, foram implementados métodos de validação contínua dos dados. Isso inclui a comparação dos dados em tempo real com valores de referência e a verificação de consistência entre as diferentes variáveis medidas. Além disso, testes automatizados foram implementados usando Vitest, assegurando a robustez do sistema e a precisão dos resultados apresentados.
+
+\begin{figure}[!htb] \centering
+\caption{Anemômetro} \label{figura:anemometro}
+\begin{varwidth}{\linewidth}
+\includegraphics[width=10cm]{figuras/Anemometer-sensor.png}
+\fonte{Retirado de \textcite{Eletrogate}.}
+\end{varwidth}
+\end{figure}
+
+\begin{figure}[!htb] \centering
+\caption{Sensor DHT22} \label{figura:sensor_dht22}
+\begin{varwidth}{\linewidth}
+\includegraphics[width=10cm]{figuras/DHT22-sensor.png}
+\fonte{Retirado de \textcite{Eletrogate}.}
+\end{varwidth}
+\end{figure}
+
+\begin{figure}[!htb] \centering
+\caption{Sensor BMP280} \label{figura:sensor_bmp280}
+\begin{varwidth}{\linewidth}
+\includegraphics[width=10cm]{figuras/BMP280-sensor.png}
+\fonte{Retirado de \textcite{Eletrogate}.}
+\end{varwidth}
+\end{figure}
+
+\begin{figure}[!htb] \centering
+\caption{Sensor LM393} \label{figura:sensor_lm393}
+\begin{varwidth}{\linewidth}
+\includegraphics[width=10cm]{figuras/LM393-sensor.png}
+\fonte{Retirado de \textcite{Eletrogate}.}
+\end{varwidth}
+\end{figure}
+
+\begin{figure}[!htb] \centering
+\caption{Sensor BH1750} \label{figura:sensor_bh1750}
+\begin{varwidth}{\linewidth}
+\includegraphics[width=10cm]{figuras/BH1750-sensor.png}
+\fonte{Retirado de \textcite{Eletrogate}.}
+\end{varwidth}
+\end{figure}
+
+\begin{figure}[!htb] \centering
+\caption{Microcontrolador ESP32} \label{figura:esp32}
+\begin{varwidth}{\linewidth}
+\includegraphics[width=10cm]{figuras/ESP32-micro.jpg}
+\fonte{Retirado de \textcite{Eletrogate}.}
+\end{varwidth}
+\end{figure}
+
+\begin{figure}[!htb] \centering
+\caption{\textit{Jumpers}} \label{figura:jumpers}
+\begin{varwidth}{\linewidth}
+\includegraphics[width=10cm]{figuras/Jumpers-cabos.png}
+\fonte{Retirado de \textcite{Eletrogate}.}
+\end{varwidth}
+\end{figure}
+
