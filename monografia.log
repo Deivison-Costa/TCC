@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.26 (MiKTeX 24.4) (preloaded format=pdflatex 2024.6.28)  12 AUG 2024 19:38
+This is pdfTeX, Version 3.141592653-2.6-1.40.26 (MiKTeX 24.4) (preloaded format=pdflatex 2024.6.28)  16 AUG 2024 20:15
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -1544,24 +1544,29 @@ Package biblatex Info: Automatic encoding selection.
 (biblatex)             Assuming data encoding 'utf8'.
 \openout4 = `monografia.bcf'.
 
-\openout4 = `monografia.mw'.
 
-\openout4 = `monografia.mw'.
+
+Package morewrites Warning: File 'monografia.mw' exists, using
+(morewrites)                'monografia1.mw' instead.
+
+\openout4 = `monografia1.mw'.
+
+\openout4 = `monografia1.mw'.
 
 Package biblatex Info: Trying to load bibliographic data...
 Package biblatex Info: ... file 'monografia.bbl' found.
- (monografia.bbl)
+(monografia.bbl)
 Package biblatex Info: Reference section=0 on input line 60.
 Package biblatex Info: Reference segment=0 on input line 60.
 Package hyperref Info: Option `breaklinks' set `true' on input line 60.
 
 
-\openout4 = `monografia.mw'.
+\openout4 = `monografia1.mw'.
 
 [1
 
-{C:/Users/deivi/AppData/Local/MiKTeX/fonts/map/pdftex/pdftex.map}{C:/Users/deivi/AppData/Local/Programs/MiKTeX/fonts/enc/dvips/lm/lm-ec.enc}] (monografia.mw)
-\openout4 = `monografia.mw'.
+{C:/Users/deivi/AppData/Local/MiKTeX/fonts/map/pdftex/pdftex.map}{C:/Users/deivi/AppData/Local/Programs/MiKTeX/fonts/enc/dvips/lm/lm-ec.enc}] (monografia1.mw)
+\openout4 = `monografia1.mw'.
 
 
 Underfull \hbox (badness 10000) in paragraph at lines 65--65
@@ -1609,13 +1614,13 @@ pdfTeX warning (ext4): destination with the same identifier (name{page.1}) has b
                    \relax 
 l.65 \maketitle
                
-\openout4 = `monografia.mw'.
+\openout4 = `monografia1.mw'.
 
  [1
 
 
-] (monografia.mw)
-\openout4 = `monografia.mw'.
+] (monografia1.mw)
+\openout4 = `monografia1.mw'.
 
 <ficha_catalografica.pdf, id=20, 614.295pt x 794.97pt>
 File: ficha_catalografica.pdf Graphic file (type pdf)
@@ -1649,1132 +1654,1139 @@ File: ficha_catalografica.pdf Graphic file (type pdf)
 <use ficha_catalografica.pdf, page 1>
 Package pdftex.def Info: ficha_catalografica.pdf , page1 used on input line 65.
 (pdftex.def)             Requested size: 597.78697pt x 773.60669pt.
-\openout4 = `monografia.mw'.
+\openout4 = `monografia1.mw'.
 
 [2
 
- <./ficha_catalografica.pdf>] (monografia.mw)
-\openout4 = `monografia.mw'.
+ <./ficha_catalografica.pdf>] (monografia1.mw)
+\openout4 = `monografia1.mw'.
 
 
 
-\openout4 = `monografia.mw'.
+\openout4 = `monografia1.mw'.
 
-[3] (monografia.mw)
-\openout4 = `monografia.mw'.
+[3] (monografia1.mw)
+\openout4 = `monografia1.mw'.
 
 
 
-\openout4 = `monografia.mw'.
+\openout4 = `monografia1.mw'.
 
 [4
 
 
-] (monografia.mw)
-\openout4 = `monografia.mw'.
+] (monografia1.mw)
+\openout4 = `monografia1.mw'.
 
 
 
-\openout4 = `monografia.mw'.
+\openout4 = `monografia1.mw'.
 
 [5
 
-] (monografia.mw)
-\openout4 = `monografia.mw'.
+] (monografia1.mw)
+\openout4 = `monografia1.mw'.
 
 
 
-\openout4 = `monografia.mw'.
+\openout4 = `monografia1.mw'.
 
 [6
 
 
-] (monografia.mw)
-\openout4 = `monografia.mw'.
+] (monografia1.mw)
+\openout4 = `monografia1.mw'.
 
 
 
-\openout4 = `monografia.mw'.
+\openout4 = `monografia1.mw'.
 
 [7
 
 
-] (monografia.mw)
-\openout4 = `monografia.mw'.
+] (monografia1.mw)
+\openout4 = `monografia1.mw'.
 
  (monografia.lof)
 
-\openout4 = `monografia.mw'.
+\openout4 = `monografia1.mw'.
 
 [8
 
 
-] (monografia.mw)
-\openout4 = `monografia.mw'.
+] (monografia1.mw)
+\openout4 = `monografia1.mw'.
 
  (monografia.lot)
 
-\openout4 = `monografia.mw'.
+\openout4 = `monografia1.mw'.
 
 [9
 
 
-] (monografia.mw)
-\openout4 = `monografia.mw'.
+] (monografia1.mw)
+\openout4 = `monografia1.mw'.
 
 
 
-\openout4 = `monografia.mw'.
+\openout4 = `monografia1.mw'.
 
 [10
 
 
-] (monografia.mw)
-\openout4 = `monografia.mw'.
+] (monografia1.mw)
+\openout4 = `monografia1.mw'.
 
 
 
-\openout4 = `monografia.mw'.
+\openout4 = `monografia1.mw'.
 
-[11] (monografia.mw)
-\openout4 = `monografia.mw'.
+[11] (monografia1.mw)
+\openout4 = `monografia1.mw'.
 
 
 
-\openout4 = `monografia.mw'.
+\openout4 = `monografia1.mw'.
 
 [12
 
 
-{C:/Users/deivi/AppData/Local/Programs/MiKTeX/fonts/enc/dvips/lm/lm-rm.enc}{C:/Users/deivi/AppData/Local/Programs/MiKTeX/fonts/enc/dvips/lm/lm-mathit.enc}] (monografia.mw)
-\openout4 = `monografia.mw'.
+{C:/Users/deivi/AppData/Local/Programs/MiKTeX/fonts/enc/dvips/lm/lm-rm.enc}{C:/Users/deivi/AppData/Local/Programs/MiKTeX/fonts/enc/dvips/lm/lm-mathit.enc}] (monografia1.mw)
+\openout4 = `monografia1.mw'.
 
- (monografia.toc)
+ (monografia.toc
 
-\openout4 = `monografia.mw'.
+\openout4 = `monografia1.mw'.
 
 [13
 
 
-] (monografia.mw)
-\openout4 = `monografia.mw'.
+] (monografia1.mw)
+\openout4 = `monografia1.mw'.
+
+)
+
+\openout4 = `monografia1.mw'.
+
+[14] (monografia1.mw)
+\openout4 = `monografia1.mw'.
 
  (capitulos/cap_introducao.tex
-\openout4 = `monografia.mw'.
+\openout4 = `monografia1.mw'.
 
-\openout4 = `monografia.mw'.
+\openout4 = `monografia1.mw'.
 
-\openout4 = `monografia.mw'.
+\openout4 = `monografia1.mw'.
 
-\openout4 = `monografia.mw'.
+\openout4 = `monografia1.mw'.
 
-\openout4 = `monografia.mw'.
+\openout4 = `monografia1.mw'.
 
-\openout4 = `monografia.mw'.
+\openout4 = `monografia1.mw'.
 
-\openout4 = `monografia.mw'.
+\openout4 = `monografia1.mw'.
 
-\openout4 = `monografia.mw'.
+\openout4 = `monografia1.mw'.
 
-\openout4 = `monografia.mw'.
+\openout4 = `monografia1.mw'.
 
-\openout4 = `monografia.mw'.
+\openout4 = `monografia1.mw'.
 
-\openout4 = `monografia.mw'.
+\openout4 = `monografia1.mw'.
 
-\openout4 = `monografia.mw'.
+\openout4 = `monografia1.mw'.
 
-\openout4 = `monografia.mw'.
+\openout4 = `monografia1.mw'.
 
-\openout4 = `monografia.mw'.
+\openout4 = `monografia1.mw'.
 
-\openout4 = `monografia.mw'.
+\openout4 = `monografia1.mw'.
 
-\openout4 = `monografia.mw'.
+\openout4 = `monografia1.mw'.
 
-\openout4 = `monografia.mw'.
+\openout4 = `monografia1.mw'.
 
-\openout4 = `monografia.mw'.
+\openout4 = `monografia1.mw'.
 
-\openout4 = `monografia.mw'.
+\openout4 = `monografia1.mw'.
 
-\openout4 = `monografia.mw'.
+\openout4 = `monografia1.mw'.
 
-\openout4 = `monografia.mw'.
+\openout4 = `monografia1.mw'.
 
-\openout4 = `monografia.mw'.
+\openout4 = `monografia1.mw'.
 
-\openout4 = `monografia.mw'.
+\openout4 = `monografia1.mw'.
 
-\openout4 = `monografia.mw'.
+\openout4 = `monografia1.mw'.
 
-\openout4 = `monografia.mw'.
+\openout4 = `monografia1.mw'.
 
-\openout4 = `monografia.mw'.
+\openout4 = `monografia1.mw'.
 
-\openout4 = `monografia.mw'.
+\openout4 = `monografia1.mw'.
 
-\openout4 = `monografia.mw'.
+\openout4 = `monografia1.mw'.
 
-\openout4 = `monografia.mw'.
+\openout4 = `monografia1.mw'.
 
-\openout4 = `monografia.mw'.
-
-
-
-\openout4 = `monografia.mw'.
-
-[14
+\openout4 = `monografia1.mw'.
 
 
-] (monografia.mw)
-\openout4 = `monografia.mw'.
 
-\openout4 = `monografia.mw'.
+\openout4 = `monografia1.mw'.
 
-\openout4 = `monografia.mw'.
+[15
 
-\openout4 = `monografia.mw'.
 
-\openout4 = `monografia.mw'.
+] (monografia1.mw)
+\openout4 = `monografia1.mw'.
+
+\openout4 = `monografia1.mw'.
+
+\openout4 = `monografia1.mw'.
+
+\openout4 = `monografia1.mw'.
+
+\openout4 = `monografia1.mw'.
 
 LaTeX Font Info:    Trying to load font information for TS1+lmr on input line 29.
  (C:\Users\deivi\AppData\Local\Programs\MiKTeX\tex/latex/lm\ts1lmr.fd
 File: ts1lmr.fd 2015/05/01 v1.6.1 Font defs for Latin Modern
 ))
 
-\openout4 = `monografia.mw'.
+\openout4 = `monografia1.mw'.
 
-[15{C:/Users/deivi/AppData/Local/Programs/MiKTeX/fonts/enc/dvips/lm/lm-ts1.enc}] (monografia.mw)
-\openout4 = `monografia.mw'.
+[16{C:/Users/deivi/AppData/Local/Programs/MiKTeX/fonts/enc/dvips/lm/lm-ts1.enc}] (monografia1.mw)
+\openout4 = `monografia1.mw'.
 
  (capitulos/cap_configuracao_pre.tex
-\openout4 = `monografia.mw'.
+\openout4 = `monografia1.mw'.
 
-\openout4 = `monografia.mw'.
+\openout4 = `monografia1.mw'.
 
-\openout4 = `monografia.mw'.
+\openout4 = `monografia1.mw'.
 
-\openout4 = `monografia.mw'.
+\openout4 = `monografia1.mw'.
 
-\openout4 = `monografia.mw'.
+\openout4 = `monografia1.mw'.
 
-\openout4 = `monografia.mw'.
+\openout4 = `monografia1.mw'.
 
-\openout4 = `monografia.mw'.
+\openout4 = `monografia1.mw'.
 
-\openout4 = `monografia.mw'.
+\openout4 = `monografia1.mw'.
 
-\openout4 = `monografia.mw'.
+\openout4 = `monografia1.mw'.
 
-\openout4 = `monografia.mw'.
+\openout4 = `monografia1.mw'.
 
 
 
-\openout4 = `monografia.mw'.
+\openout4 = `monografia1.mw'.
 
-[16
+[17
 
-] (monografia.mw)
-\openout4 = `monografia.mw'.
+] (monografia1.mw)
+\openout4 = `monografia1.mw'.
 
-\openout4 = `monografia.mw'.
+\openout4 = `monografia1.mw'.
 
-\openout4 = `monografia.mw'.
+\openout4 = `monografia1.mw'.
 
-\openout4 = `monografia.mw'.
+\openout4 = `monografia1.mw'.
 
-\openout4 = `monografia.mw'.
+\openout4 = `monografia1.mw'.
 
-\openout4 = `monografia.mw'.
+\openout4 = `monografia1.mw'.
 
-\openout4 = `monografia.mw'.
+\openout4 = `monografia1.mw'.
 
-\openout4 = `monografia.mw'.
+\openout4 = `monografia1.mw'.
 
-\openout4 = `monografia.mw'.
+\openout4 = `monografia1.mw'.
 
-\openout4 = `monografia.mw'.
+\openout4 = `monografia1.mw'.
 
-\openout4 = `monografia.mw'.
+\openout4 = `monografia1.mw'.
 
-\openout4 = `monografia.mw'.
+\openout4 = `monografia1.mw'.
 
-\openout4 = `monografia.mw'.
+\openout4 = `monografia1.mw'.
 
-\openout4 = `monografia.mw'.
+\openout4 = `monografia1.mw'.
 
-\openout4 = `monografia.mw'.
+\openout4 = `monografia1.mw'.
 
-\openout4 = `monografia.mw'.
+\openout4 = `monografia1.mw'.
 
-\openout4 = `monografia.mw'.
+\openout4 = `monografia1.mw'.
 
-\openout4 = `monografia.mw'.
+\openout4 = `monografia1.mw'.
 
-\openout4 = `monografia.mw'.
+\openout4 = `monografia1.mw'.
 
-\openout4 = `monografia.mw'.
+\openout4 = `monografia1.mw'.
 
-\openout4 = `monografia.mw'.
+\openout4 = `monografia1.mw'.
 
-\openout4 = `monografia.mw'.
+\openout4 = `monografia1.mw'.
 
-\openout4 = `monografia.mw'.
+\openout4 = `monografia1.mw'.
 
 
 
-\openout4 = `monografia.mw'.
+\openout4 = `monografia1.mw'.
 
-[17] (monografia.mw)
-\openout4 = `monografia.mw'.
+[18] (monografia1.mw)
+\openout4 = `monografia1.mw'.
 
-\openout4 = `monografia.mw'.
+\openout4 = `monografia1.mw'.
 
-\openout4 = `monografia.mw'.
+\openout4 = `monografia1.mw'.
 
-\openout4 = `monografia.mw'.
+\openout4 = `monografia1.mw'.
 
-\openout4 = `monografia.mw'.
+\openout4 = `monografia1.mw'.
 
-\openout4 = `monografia.mw'.
+\openout4 = `monografia1.mw'.
 
-\openout4 = `monografia.mw'.
+\openout4 = `monografia1.mw'.
 
-\openout4 = `monografia.mw'.
+\openout4 = `monografia1.mw'.
 
-\openout4 = `monografia.mw'.
+\openout4 = `monografia1.mw'.
 
-\openout4 = `monografia.mw'.
+\openout4 = `monografia1.mw'.
 
-\openout4 = `monografia.mw'.
+\openout4 = `monografia1.mw'.
 
-\openout4 = `monografia.mw'.
+\openout4 = `monografia1.mw'.
 
-\openout4 = `monografia.mw'.
+\openout4 = `monografia1.mw'.
 
-\openout4 = `monografia.mw'.
+\openout4 = `monografia1.mw'.
 
-\openout4 = `monografia.mw'.
+\openout4 = `monografia1.mw'.
 
-\openout4 = `monografia.mw'.
+\openout4 = `monografia1.mw'.
 
-\openout4 = `monografia.mw'.
+\openout4 = `monografia1.mw'.
 
-\openout4 = `monografia.mw'.
+\openout4 = `monografia1.mw'.
 
-\openout4 = `monografia.mw'.
+\openout4 = `monografia1.mw'.
 
-\openout4 = `monografia.mw'.
+\openout4 = `monografia1.mw'.
 
-\openout4 = `monografia.mw'.
+\openout4 = `monografia1.mw'.
 
 
 
-\openout4 = `monografia.mw'.
+\openout4 = `monografia1.mw'.
 
-[18] (monografia.mw)
-\openout4 = `monografia.mw'.
+[19] (monografia1.mw)
+\openout4 = `monografia1.mw'.
 
-\openout4 = `monografia.mw'.
+\openout4 = `monografia1.mw'.
 
-\openout4 = `monografia.mw'.
+\openout4 = `monografia1.mw'.
 
-\openout4 = `monografia.mw'.
+\openout4 = `monografia1.mw'.
 
-\openout4 = `monografia.mw'.
+\openout4 = `monografia1.mw'.
 
-\openout4 = `monografia.mw'.
+\openout4 = `monografia1.mw'.
 
-\openout4 = `monografia.mw'.
+\openout4 = `monografia1.mw'.
 
-\openout4 = `monografia.mw'.
+\openout4 = `monografia1.mw'.
 
-\openout4 = `monografia.mw'.
+\openout4 = `monografia1.mw'.
 
-\openout4 = `monografia.mw'.
+\openout4 = `monografia1.mw'.
 
-\openout4 = `monografia.mw'.
+\openout4 = `monografia1.mw'.
 
-\openout4 = `monografia.mw'.
+\openout4 = `monografia1.mw'.
 
-\openout4 = `monografia.mw'.
+\openout4 = `monografia1.mw'.
 
-\openout4 = `monografia.mw'.
+\openout4 = `monografia1.mw'.
 
-\openout4 = `monografia.mw'.
+\openout4 = `monografia1.mw'.
 
-\openout4 = `monografia.mw'.
+\openout4 = `monografia1.mw'.
 
-\openout4 = `monografia.mw'.
+\openout4 = `monografia1.mw'.
 
-\openout4 = `monografia.mw'.
+\openout4 = `monografia1.mw'.
 
-\openout4 = `monografia.mw'.
+\openout4 = `monografia1.mw'.
 
-\openout4 = `monografia.mw'.
+\openout4 = `monografia1.mw'.
 
-\openout4 = `monografia.mw'.
+\openout4 = `monografia1.mw'.
 
-\openout4 = `monografia.mw'.
+\openout4 = `monografia1.mw'.
 
-\openout4 = `monografia.mw'.
+\openout4 = `monografia1.mw'.
 
 
 
-\openout4 = `monografia.mw'.
+\openout4 = `monografia1.mw'.
 
-[19] (monografia.mw)
-\openout4 = `monografia.mw'.
+[20] (monografia1.mw)
+\openout4 = `monografia1.mw'.
 
-\openout4 = `monografia.mw'.
+\openout4 = `monografia1.mw'.
 
-\openout4 = `monografia.mw'.
+\openout4 = `monografia1.mw'.
 
-\openout4 = `monografia.mw'.
+\openout4 = `monografia1.mw'.
 
-\openout4 = `monografia.mw'.
+\openout4 = `monografia1.mw'.
 
-\openout4 = `monografia.mw'.
+\openout4 = `monografia1.mw'.
 
-\openout4 = `monografia.mw'.
+\openout4 = `monografia1.mw'.
 
-\openout4 = `monografia.mw'.
+\openout4 = `monografia1.mw'.
 
-\openout4 = `monografia.mw'.
+\openout4 = `monografia1.mw'.
 
-\openout4 = `monografia.mw'.
+\openout4 = `monografia1.mw'.
 
-\openout4 = `monografia.mw'.
+\openout4 = `monografia1.mw'.
 
 
 Underfull \hbox (badness 1442) in paragraph at lines 120--120
 []|\T1/lmr/m/n/12 (+20) Receptor/transmissor as-sín-crono
  []
 
-\openout4 = `monografia.mw'.
+\openout4 = `monografia1.mw'.
 
-\openout4 = `monografia.mw'.
+\openout4 = `monografia1.mw'.
 
-\openout4 = `monografia.mw'.
+\openout4 = `monografia1.mw'.
 
-\openout4 = `monografia.mw'.
+\openout4 = `monografia1.mw'.
 
-\openout4 = `monografia.mw'.
+\openout4 = `monografia1.mw'.
 
-\openout4 = `monografia.mw'.
-
-
-
-\openout4 = `monografia.mw'.
-
-[20] (monografia.mw)
-\openout4 = `monografia.mw'.
-
-\openout4 = `monografia.mw'.
-
-\openout4 = `monografia.mw'.
-
-\openout4 = `monografia.mw'.
-
-\openout4 = `monografia.mw'.
-
-\openout4 = `monografia.mw'.
-
-\openout4 = `monografia.mw'.
-
-\openout4 = `monografia.mw'.
-
-\openout4 = `monografia.mw'.
-
-\openout4 = `monografia.mw'.
-
-\openout4 = `monografia.mw'.
-
-\openout4 = `monografia.mw'.
-
-\openout4 = `monografia.mw'.
-
-\openout4 = `monografia.mw'.
-
-\openout4 = `monografia.mw'.
-
-\openout4 = `monografia.mw'.
-
-\openout4 = `monografia.mw'.
-
-\openout4 = `monografia.mw'.
-
-\openout4 = `monografia.mw'.
+\openout4 = `monografia1.mw'.
 
 
 
-\openout4 = `monografia.mw'.
+\openout4 = `monografia1.mw'.
 
-[21] (monografia.mw)
-\openout4 = `monografia.mw'.
+[21] (monografia1.mw)
+\openout4 = `monografia1.mw'.
 
-\openout4 = `monografia.mw'.
+\openout4 = `monografia1.mw'.
 
-\openout4 = `monografia.mw'.
+\openout4 = `monografia1.mw'.
 
-\openout4 = `monografia.mw'.
+\openout4 = `monografia1.mw'.
 
-\openout4 = `monografia.mw'.
+\openout4 = `monografia1.mw'.
 
-\openout4 = `monografia.mw'.
+\openout4 = `monografia1.mw'.
 
-\openout4 = `monografia.mw'.
+\openout4 = `monografia1.mw'.
 
-\openout4 = `monografia.mw'.
+\openout4 = `monografia1.mw'.
 
-\openout4 = `monografia.mw'.
+\openout4 = `monografia1.mw'.
 
-\openout4 = `monografia.mw'.
+\openout4 = `monografia1.mw'.
 
-\openout4 = `monografia.mw'.
+\openout4 = `monografia1.mw'.
 
-\openout4 = `monografia.mw'.
+\openout4 = `monografia1.mw'.
 
-\openout4 = `monografia.mw'.
+\openout4 = `monografia1.mw'.
 
-\openout4 = `monografia.mw'.
+\openout4 = `monografia1.mw'.
 
-\openout4 = `monografia.mw'.
+\openout4 = `monografia1.mw'.
 
-\openout4 = `monografia.mw'.
+\openout4 = `monografia1.mw'.
 
-\openout4 = `monografia.mw'.
+\openout4 = `monografia1.mw'.
 
-\openout4 = `monografia.mw'.
+\openout4 = `monografia1.mw'.
 
-\openout4 = `monografia.mw'.
+\openout4 = `monografia1.mw'.
 
-\openout4 = `monografia.mw'.
 
-\openout4 = `monografia.mw'.
 
-\openout4 = `monografia.mw'.
+\openout4 = `monografia1.mw'.
 
-\openout4 = `monografia.mw'.
+[22] (monografia1.mw)
+\openout4 = `monografia1.mw'.
 
-\openout4 = `monografia.mw'.
+\openout4 = `monografia1.mw'.
 
-\openout4 = `monografia.mw'.
+\openout4 = `monografia1.mw'.
 
-\openout4 = `monografia.mw'.
+\openout4 = `monografia1.mw'.
 
-\openout4 = `monografia.mw'.
+\openout4 = `monografia1.mw'.
 
-<figuras/Datta.png, id=466, 496.10344pt x 493.845pt>
+\openout4 = `monografia1.mw'.
+
+\openout4 = `monografia1.mw'.
+
+\openout4 = `monografia1.mw'.
+
+\openout4 = `monografia1.mw'.
+
+\openout4 = `monografia1.mw'.
+
+\openout4 = `monografia1.mw'.
+
+\openout4 = `monografia1.mw'.
+
+\openout4 = `monografia1.mw'.
+
+\openout4 = `monografia1.mw'.
+
+\openout4 = `monografia1.mw'.
+
+\openout4 = `monografia1.mw'.
+
+\openout4 = `monografia1.mw'.
+
+\openout4 = `monografia1.mw'.
+
+\openout4 = `monografia1.mw'.
+
+\openout4 = `monografia1.mw'.
+
+\openout4 = `monografia1.mw'.
+
+\openout4 = `monografia1.mw'.
+
+\openout4 = `monografia1.mw'.
+
+\openout4 = `monografia1.mw'.
+
+\openout4 = `monografia1.mw'.
+
+\openout4 = `monografia1.mw'.
+
+\openout4 = `monografia1.mw'.
+
+<figuras/Datta.png, id=488, 496.10344pt x 493.845pt>
 File: figuras/Datta.png Graphic file (type png)
 <use figuras/Datta.png>
 Package pdftex.def Info: figuras/Datta.png  used on input line 166.
 (pdftex.def)             Requested size: 284.52756pt x 283.23526pt.
-\openout4 = `monografia.mw'.
+\openout4 = `monografia1.mw'.
 
-\openout4 = `monografia.mw'.
+\openout4 = `monografia1.mw'.
 
-\openout4 = `monografia.mw'.
+\openout4 = `monografia1.mw'.
 
-\openout4 = `monografia.mw'.
+\openout4 = `monografia1.mw'.
 
-\openout4 = `monografia.mw'.
+\openout4 = `monografia1.mw'.
 
-\openout4 = `monografia.mw'.
+\openout4 = `monografia1.mw'.
 
-\openout4 = `monografia.mw'.
+\openout4 = `monografia1.mw'.
 
-\openout4 = `monografia.mw'.
+\openout4 = `monografia1.mw'.
 
 
 
-\openout4 = `monografia.mw'.
+\openout4 = `monografia1.mw'.
 
-[22] (monografia.mw)
-\openout4 = `monografia.mw'.
+[23] (monografia1.mw)
+\openout4 = `monografia1.mw'.
 
-\openout4 = `monografia.mw'.
+\openout4 = `monografia1.mw'.
 
-\openout4 = `monografia.mw'.
+\openout4 = `monografia1.mw'.
 
-\openout4 = `monografia.mw'.
+\openout4 = `monografia1.mw'.
 
-\openout4 = `monografia.mw'.
+\openout4 = `monografia1.mw'.
 
-\openout4 = `monografia.mw'.
+\openout4 = `monografia1.mw'.
 
-\openout4 = `monografia.mw'.
+\openout4 = `monografia1.mw'.
 
-\openout4 = `monografia.mw'.
+\openout4 = `monografia1.mw'.
 
-\openout4 = `monografia.mw'.
+\openout4 = `monografia1.mw'.
 
 
 
-\openout4 = `monografia.mw'.
+\openout4 = `monografia1.mw'.
 
-[23 <./figuras/Datta.png>] (monografia.mw)
-\openout4 = `monografia.mw'.
+[24 <./figuras/Datta.png>] (monografia1.mw)
+\openout4 = `monografia1.mw'.
 
-\openout4 = `monografia.mw'.
+\openout4 = `monografia1.mw'.
 
-\openout4 = `monografia.mw'.
+\openout4 = `monografia1.mw'.
 
-\openout4 = `monografia.mw'.
+\openout4 = `monografia1.mw'.
 
-\openout4 = `monografia.mw'.
+\openout4 = `monografia1.mw'.
 
-\openout4 = `monografia.mw'.
+\openout4 = `monografia1.mw'.
 
-\openout4 = `monografia.mw'.
+\openout4 = `monografia1.mw'.
 
-\openout4 = `monografia.mw'.
+\openout4 = `monografia1.mw'.
 
-\openout4 = `monografia.mw'.
+\openout4 = `monografia1.mw'.
 
-\openout4 = `monografia.mw'.
+\openout4 = `monografia1.mw'.
 
-\openout4 = `monografia.mw'.
+\openout4 = `monografia1.mw'.
 
-\openout4 = `monografia.mw'.
+\openout4 = `monografia1.mw'.
 
-\openout4 = `monografia.mw'.
+\openout4 = `monografia1.mw'.
 
-\openout4 = `monografia.mw'.
+\openout4 = `monografia1.mw'.
 
-\openout4 = `monografia.mw'.
+\openout4 = `monografia1.mw'.
 
-\openout4 = `monografia.mw'.
+\openout4 = `monografia1.mw'.
 
-\openout4 = `monografia.mw'.
+\openout4 = `monografia1.mw'.
 
-\openout4 = `monografia.mw'.
+\openout4 = `monografia1.mw'.
 
-\openout4 = `monografia.mw'.
+\openout4 = `monografia1.mw'.
 
-\openout4 = `monografia.mw'.
+\openout4 = `monografia1.mw'.
 
-\openout4 = `monografia.mw'.
+\openout4 = `monografia1.mw'.
 
-\openout4 = `monografia.mw'.
+\openout4 = `monografia1.mw'.
 
-\openout4 = `monografia.mw'.
+\openout4 = `monografia1.mw'.
 
-\openout4 = `monografia.mw'.
+\openout4 = `monografia1.mw'.
 
-\openout4 = `monografia.mw'.
+\openout4 = `monografia1.mw'.
 
-\openout4 = `monografia.mw'.
+\openout4 = `monografia1.mw'.
 
-\openout4 = `monografia.mw'.
+\openout4 = `monografia1.mw'.
 
 
 
-\openout4 = `monografia.mw'.
+\openout4 = `monografia1.mw'.
 
-[24] (monografia.mw)
-\openout4 = `monografia.mw'.
+[25] (monografia1.mw)
+\openout4 = `monografia1.mw'.
 
-\openout4 = `monografia.mw'.
+\openout4 = `monografia1.mw'.
 
-\openout4 = `monografia.mw'.
+\openout4 = `monografia1.mw'.
 
-\openout4 = `monografia.mw'.
+\openout4 = `monografia1.mw'.
 
-\openout4 = `monografia.mw'.
+\openout4 = `monografia1.mw'.
 
-\openout4 = `monografia.mw'.
+\openout4 = `monografia1.mw'.
 
-\openout4 = `monografia.mw'.
+\openout4 = `monografia1.mw'.
 
-\openout4 = `monografia.mw'.
+\openout4 = `monografia1.mw'.
 
-\openout4 = `monografia.mw'.
+\openout4 = `monografia1.mw'.
 
-\openout4 = `monografia.mw'.
+\openout4 = `monografia1.mw'.
 
-\openout4 = `monografia.mw'.
+\openout4 = `monografia1.mw'.
 
-\openout4 = `monografia.mw'.
+\openout4 = `monografia1.mw'.
 
-\openout4 = `monografia.mw'.
+\openout4 = `monografia1.mw'.
 
-\openout4 = `monografia.mw'.
+\openout4 = `monografia1.mw'.
 
-\openout4 = `monografia.mw'.
+\openout4 = `monografia1.mw'.
 
 
 
-\openout4 = `monografia.mw'.
+\openout4 = `monografia1.mw'.
 
-[25] (monografia.mw)
-\openout4 = `monografia.mw'.
+[26] (monografia1.mw)
+\openout4 = `monografia1.mw'.
 
-\openout4 = `monografia.mw'.
+\openout4 = `monografia1.mw'.
 
-\openout4 = `monografia.mw'.
+\openout4 = `monografia1.mw'.
 
-\openout4 = `monografia.mw'.
+\openout4 = `monografia1.mw'.
 
-\openout4 = `monografia.mw'.
+\openout4 = `monografia1.mw'.
 
-\openout4 = `monografia.mw'.
+\openout4 = `monografia1.mw'.
 
-\openout4 = `monografia.mw'.
+\openout4 = `monografia1.mw'.
 
-\openout4 = `monografia.mw'.
+\openout4 = `monografia1.mw'.
 
-\openout4 = `monografia.mw'.
+\openout4 = `monografia1.mw'.
 
-\openout4 = `monografia.mw'.
+\openout4 = `monografia1.mw'.
 
-\openout4 = `monografia.mw'.
+\openout4 = `monografia1.mw'.
 
-\openout4 = `monografia.mw'.
+\openout4 = `monografia1.mw'.
 
-\openout4 = `monografia.mw'.
+\openout4 = `monografia1.mw'.
 
-\openout4 = `monografia.mw'.
+\openout4 = `monografia1.mw'.
 
-\openout4 = `monografia.mw'.
+\openout4 = `monografia1.mw'.
 
-\openout4 = `monografia.mw'.
+\openout4 = `monografia1.mw'.
 
-\openout4 = `monografia.mw'.
+\openout4 = `monografia1.mw'.
 
-\openout4 = `monografia.mw'.
+\openout4 = `monografia1.mw'.
 
-\openout4 = `monografia.mw'.
+\openout4 = `monografia1.mw'.
 
-\openout4 = `monografia.mw'.
+\openout4 = `monografia1.mw'.
 
-\openout4 = `monografia.mw'.
+\openout4 = `monografia1.mw'.
 
-\openout4 = `monografia.mw'.
+\openout4 = `monografia1.mw'.
 
-\openout4 = `monografia.mw'.
+\openout4 = `monografia1.mw'.
 
-\openout4 = `monografia.mw'.
+\openout4 = `monografia1.mw'.
 
-\openout4 = `monografia.mw'.
+\openout4 = `monografia1.mw'.
 
-\openout4 = `monografia.mw'.
+\openout4 = `monografia1.mw'.
 
-\openout4 = `monografia.mw'.
+\openout4 = `monografia1.mw'.
 
-\openout4 = `monografia.mw'.
+\openout4 = `monografia1.mw'.
 
-\openout4 = `monografia.mw'.
+\openout4 = `monografia1.mw'.
 
-\openout4 = `monografia.mw'.
+\openout4 = `monografia1.mw'.
 
-\openout4 = `monografia.mw'.
+\openout4 = `monografia1.mw'.
 
-\openout4 = `monografia.mw'.
+\openout4 = `monografia1.mw'.
 
-\openout4 = `monografia.mw'.
+\openout4 = `monografia1.mw'.
 
-\openout4 = `monografia.mw'.
+\openout4 = `monografia1.mw'.
 
-\openout4 = `monografia.mw'.
+\openout4 = `monografia1.mw'.
 
-\openout4 = `monografia.mw'.
+\openout4 = `monografia1.mw'.
 
-\openout4 = `monografia.mw'.
+\openout4 = `monografia1.mw'.
 
-\openout4 = `monografia.mw'.
+\openout4 = `monografia1.mw'.
 
-\openout4 = `monografia.mw'.
+\openout4 = `monografia1.mw'.
 
-\openout4 = `monografia.mw'.
+\openout4 = `monografia1.mw'.
 
-\openout4 = `monografia.mw'.
+\openout4 = `monografia1.mw'.
 
 
 
-\openout4 = `monografia.mw'.
+\openout4 = `monografia1.mw'.
 
-[26] (monografia.mw)
-\openout4 = `monografia.mw'.
+[27] (monografia1.mw)
+\openout4 = `monografia1.mw'.
 
-\openout4 = `monografia.mw'.
+\openout4 = `monografia1.mw'.
 
-\openout4 = `monografia.mw'.
+\openout4 = `monografia1.mw'.
 
-\openout4 = `monografia.mw'.
+\openout4 = `monografia1.mw'.
 
-\openout4 = `monografia.mw'.
+\openout4 = `monografia1.mw'.
 
-\openout4 = `monografia.mw'.
+\openout4 = `monografia1.mw'.
 
-\openout4 = `monografia.mw'.
+\openout4 = `monografia1.mw'.
 
-\openout4 = `monografia.mw'.
+\openout4 = `monografia1.mw'.
 
-\openout4 = `monografia.mw'.
+\openout4 = `monografia1.mw'.
 
-\openout4 = `monografia.mw'.
+\openout4 = `monografia1.mw'.
 
-\openout4 = `monografia.mw'.
+\openout4 = `monografia1.mw'.
 
-\openout4 = `monografia.mw'.
+\openout4 = `monografia1.mw'.
 
-\openout4 = `monografia.mw'.
+\openout4 = `monografia1.mw'.
 
-\openout4 = `monografia.mw'.
+\openout4 = `monografia1.mw'.
 
-\openout4 = `monografia.mw'.
+\openout4 = `monografia1.mw'.
 
-\openout4 = `monografia.mw'.
+\openout4 = `monografia1.mw'.
 
-\openout4 = `monografia.mw'.
+\openout4 = `monografia1.mw'.
 
-\openout4 = `monografia.mw'.
+\openout4 = `monografia1.mw'.
 
-\openout4 = `monografia.mw'.
+\openout4 = `monografia1.mw'.
 
-\openout4 = `monografia.mw'.
+\openout4 = `monografia1.mw'.
 
-\openout4 = `monografia.mw'.
+\openout4 = `monografia1.mw'.
 
-\openout4 = `monografia.mw'.
+\openout4 = `monografia1.mw'.
 
-\openout4 = `monografia.mw'.
+\openout4 = `monografia1.mw'.
 
-\openout4 = `monografia.mw'.
+\openout4 = `monografia1.mw'.
 
-\openout4 = `monografia.mw'.
+\openout4 = `monografia1.mw'.
 
-\openout4 = `monografia.mw'.
+\openout4 = `monografia1.mw'.
 
-\openout4 = `monografia.mw'.
+\openout4 = `monografia1.mw'.
 
-\openout4 = `monografia.mw'.
+\openout4 = `monografia1.mw'.
 
-\openout4 = `monografia.mw'.
+\openout4 = `monografia1.mw'.
 
-\openout4 = `monografia.mw'.
+\openout4 = `monografia1.mw'.
 
-\openout4 = `monografia.mw'.
+\openout4 = `monografia1.mw'.
 
-\openout4 = `monografia.mw'.
+\openout4 = `monografia1.mw'.
 
-\openout4 = `monografia.mw'.
+\openout4 = `monografia1.mw'.
 
-\openout4 = `monografia.mw'.
+\openout4 = `monografia1.mw'.
 
-\openout4 = `monografia.mw'.
+\openout4 = `monografia1.mw'.
 
-\openout4 = `monografia.mw'.
+\openout4 = `monografia1.mw'.
 
-\openout4 = `monografia.mw'.
+\openout4 = `monografia1.mw'.
 
 
 
-\openout4 = `monografia.mw'.
+\openout4 = `monografia1.mw'.
 
-[27] (monografia.mw)
-\openout4 = `monografia.mw'.
+[28] (monografia1.mw)
+\openout4 = `monografia1.mw'.
 
-\openout4 = `monografia.mw'.
+\openout4 = `monografia1.mw'.
 
-\openout4 = `monografia.mw'.
+\openout4 = `monografia1.mw'.
 
-\openout4 = `monografia.mw'.
+\openout4 = `monografia1.mw'.
 
-\openout4 = `monografia.mw'.
+\openout4 = `monografia1.mw'.
 
-\openout4 = `monografia.mw'.
+\openout4 = `monografia1.mw'.
 
-\openout4 = `monografia.mw'.
+\openout4 = `monografia1.mw'.
 
-\openout4 = `monografia.mw'.
+\openout4 = `monografia1.mw'.
 
-\openout4 = `monografia.mw'.
+\openout4 = `monografia1.mw'.
 
-\openout4 = `monografia.mw'.
+\openout4 = `monografia1.mw'.
 
-\openout4 = `monografia.mw'.
+\openout4 = `monografia1.mw'.
 
-\openout4 = `monografia.mw'.
+\openout4 = `monografia1.mw'.
 
-\openout4 = `monografia.mw'.
+\openout4 = `monografia1.mw'.
 
-<figuras/Carmody.png, id=626, 878.53218pt x 534.49687pt>
+<figuras/Carmody.png, id=648, 878.53218pt x 534.49687pt>
 File: figuras/Carmody.png Graphic file (type png)
 <use figuras/Carmody.png>
 Package pdftex.def Info: figuras/Carmody.png  used on input line 299.
 (pdftex.def)             Requested size: 455.24408pt x 276.97758pt.
-\openout4 = `monografia.mw'.
+\openout4 = `monografia1.mw'.
 
-\openout4 = `monografia.mw'.
+\openout4 = `monografia1.mw'.
 
-\openout4 = `monografia.mw'.
+\openout4 = `monografia1.mw'.
 
-\openout4 = `monografia.mw'.
+\openout4 = `monografia1.mw'.
 
-\openout4 = `monografia.mw'.
+\openout4 = `monografia1.mw'.
 
-\openout4 = `monografia.mw'.
-
-
-
-\openout4 = `monografia.mw'.
-
-[28] (monografia.mw)
-\openout4 = `monografia.mw'.
-
-\openout4 = `monografia.mw'.
-
-\openout4 = `monografia.mw'.
-
-\openout4 = `monografia.mw'.
-
-\openout4 = `monografia.mw'.
-
-\openout4 = `monografia.mw'.
-
-\openout4 = `monografia.mw'.
-
-\openout4 = `monografia.mw'.
-
-\openout4 = `monografia.mw'.
-
-\openout4 = `monografia.mw'.
-
-\openout4 = `monografia.mw'.
+\openout4 = `monografia1.mw'.
 
 
 
-\openout4 = `monografia.mw'.
+\openout4 = `monografia1.mw'.
 
-[29 <./figuras/Carmody.png>] (monografia.mw)
-\openout4 = `monografia.mw'.
+[29] (monografia1.mw)
+\openout4 = `monografia1.mw'.
 
-\openout4 = `monografia.mw'.
+\openout4 = `monografia1.mw'.
 
-\openout4 = `monografia.mw'.
+\openout4 = `monografia1.mw'.
 
-\openout4 = `monografia.mw'.
+\openout4 = `monografia1.mw'.
 
-\openout4 = `monografia.mw'.
+\openout4 = `monografia1.mw'.
 
-\openout4 = `monografia.mw'.
+\openout4 = `monografia1.mw'.
 
-\openout4 = `monografia.mw'.
+\openout4 = `monografia1.mw'.
 
-\openout4 = `monografia.mw'.
+\openout4 = `monografia1.mw'.
 
-\openout4 = `monografia.mw'.
+\openout4 = `monografia1.mw'.
 
-\openout4 = `monografia.mw'.
+\openout4 = `monografia1.mw'.
 
-\openout4 = `monografia.mw'.
-
-\openout4 = `monografia.mw'.
-
-\openout4 = `monografia.mw'.
-
-\openout4 = `monografia.mw'.
-
-\openout4 = `monografia.mw'.
-
-\openout4 = `monografia.mw'.
-
-\openout4 = `monografia.mw'.
-
-\openout4 = `monografia.mw'.
-
-\openout4 = `monografia.mw'.
-
-\openout4 = `monografia.mw'.
-
-\openout4 = `monografia.mw'.
-
-\openout4 = `monografia.mw'.
-
-\openout4 = `monografia.mw'.
+\openout4 = `monografia1.mw'.
 
 
 
-\openout4 = `monografia.mw'.
+\openout4 = `monografia1.mw'.
 
-[30] (monografia.mw)
-\openout4 = `monografia.mw'.
+[30 <./figuras/Carmody.png>] (monografia1.mw)
+\openout4 = `monografia1.mw'.
 
-\openout4 = `monografia.mw'.
+\openout4 = `monografia1.mw'.
 
-\openout4 = `monografia.mw'.
+\openout4 = `monografia1.mw'.
 
-\openout4 = `monografia.mw'.
+\openout4 = `monografia1.mw'.
 
-\openout4 = `monografia.mw'.
+\openout4 = `monografia1.mw'.
 
-\openout4 = `monografia.mw'.
+\openout4 = `monografia1.mw'.
 
-\openout4 = `monografia.mw'.
+\openout4 = `monografia1.mw'.
 
-\openout4 = `monografia.mw'.
+\openout4 = `monografia1.mw'.
 
-\openout4 = `monografia.mw'.
+\openout4 = `monografia1.mw'.
+
+\openout4 = `monografia1.mw'.
+
+\openout4 = `monografia1.mw'.
+
+\openout4 = `monografia1.mw'.
+
+\openout4 = `monografia1.mw'.
+
+\openout4 = `monografia1.mw'.
+
+\openout4 = `monografia1.mw'.
+
+\openout4 = `monografia1.mw'.
+
+\openout4 = `monografia1.mw'.
+
+\openout4 = `monografia1.mw'.
+
+\openout4 = `monografia1.mw'.
+
+\openout4 = `monografia1.mw'.
+
+\openout4 = `monografia1.mw'.
+
+\openout4 = `monografia1.mw'.
+
+\openout4 = `monografia1.mw'.
+
+
+
+\openout4 = `monografia1.mw'.
+
+[31] (monografia1.mw)
+\openout4 = `monografia1.mw'.
+
+\openout4 = `monografia1.mw'.
+
+\openout4 = `monografia1.mw'.
+
+\openout4 = `monografia1.mw'.
+
+\openout4 = `monografia1.mw'.
+
+\openout4 = `monografia1.mw'.
+
+\openout4 = `monografia1.mw'.
+
+\openout4 = `monografia1.mw'.
+
+\openout4 = `monografia1.mw'.
 
 )
 
-\openout4 = `monografia.mw'.
+\openout4 = `monografia1.mw'.
 
-[31{C:/Users/deivi/AppData/Local/Programs/MiKTeX/fonts/enc/dvips/lm/lm-mathsy.enc}] (monografia.mw)
-\openout4 = `monografia.mw'.
+[32{C:/Users/deivi/AppData/Local/Programs/MiKTeX/fonts/enc/dvips/lm/lm-mathsy.enc}] (monografia1.mw)
+\openout4 = `monografia1.mw'.
 
  (capitulos/cap_corpos_flutuantes.tex
-\openout4 = `monografia.mw'.
+\openout4 = `monografia1.mw'.
 
-\openout4 = `monografia.mw'.
+\openout4 = `monografia1.mw'.
 
-\openout4 = `monografia.mw'.
+\openout4 = `monografia1.mw'.
 
-\openout4 = `monografia.mw'.
+\openout4 = `monografia1.mw'.
 
-\openout4 = `monografia.mw'.
+\openout4 = `monografia1.mw'.
 
-\openout4 = `monografia.mw'.
+\openout4 = `monografia1.mw'.
 
-\openout4 = `monografia.mw'.
+\openout4 = `monografia1.mw'.
 
-\openout4 = `monografia.mw'.
+\openout4 = `monografia1.mw'.
 
-\openout4 = `monografia.mw'.
+\openout4 = `monografia1.mw'.
 
-\openout4 = `monografia.mw'.
+\openout4 = `monografia1.mw'.
 
-\openout4 = `monografia.mw'.
+\openout4 = `monografia1.mw'.
 
-\openout4 = `monografia.mw'.
+\openout4 = `monografia1.mw'.
 
-\openout4 = `monografia.mw'.
+\openout4 = `monografia1.mw'.
 
-\openout4 = `monografia.mw'.
+\openout4 = `monografia1.mw'.
 
-\openout4 = `monografia.mw'.
+\openout4 = `monografia1.mw'.
 
-\openout4 = `monografia.mw'.
-
-
-
-\openout4 = `monografia.mw'.
-
-[32
-
-] (monografia.mw)
-\openout4 = `monografia.mw'.
-
-\openout4 = `monografia.mw'.
-
-\openout4 = `monografia.mw'.
-
-\openout4 = `monografia.mw'.
-
-\openout4 = `monografia.mw'.
-
-\openout4 = `monografia.mw'.
-
-\openout4 = `monografia.mw'.
-
-\openout4 = `monografia.mw'.
-
-\openout4 = `monografia.mw'.
-
-\openout4 = `monografia.mw'.
-
-\openout4 = `monografia.mw'.
-
-\openout4 = `monografia.mw'.
-
-\openout4 = `monografia.mw'.
-
-\openout4 = `monografia.mw'.
-
-\openout4 = `monografia.mw'.
-
-\openout4 = `monografia.mw'.
-
-\openout4 = `monografia.mw'.
-
-\openout4 = `monografia.mw'.
-
-\openout4 = `monografia.mw'.
-
-\openout4 = `monografia.mw'.
-
-\openout4 = `monografia.mw'.
-
-\openout4 = `monografia.mw'.
-
-\openout4 = `monografia.mw'.
-
-\openout4 = `monografia.mw'.
-
-\openout4 = `monografia.mw'.
-
-\openout4 = `monografia.mw'.
-
-\openout4 = `monografia.mw'.
-
-\openout4 = `monografia.mw'.
-
-\openout4 = `monografia.mw'.
+\openout4 = `monografia1.mw'.
 
 
 
-\openout4 = `monografia.mw'.
+\openout4 = `monografia1.mw'.
 
-[33] (monografia.mw)
-\openout4 = `monografia.mw'.
+[33
 
-\openout4 = `monografia.mw'.
+] (monografia1.mw)
+\openout4 = `monografia1.mw'.
 
-\openout4 = `monografia.mw'.
+\openout4 = `monografia1.mw'.
 
-\openout4 = `monografia.mw'.
+\openout4 = `monografia1.mw'.
 
-\openout4 = `monografia.mw'.
+\openout4 = `monografia1.mw'.
+
+\openout4 = `monografia1.mw'.
+
+\openout4 = `monografia1.mw'.
+
+\openout4 = `monografia1.mw'.
+
+\openout4 = `monografia1.mw'.
+
+\openout4 = `monografia1.mw'.
+
+\openout4 = `monografia1.mw'.
+
+\openout4 = `monografia1.mw'.
+
+\openout4 = `monografia1.mw'.
+
+\openout4 = `monografia1.mw'.
+
+\openout4 = `monografia1.mw'.
+
+\openout4 = `monografia1.mw'.
+
+\openout4 = `monografia1.mw'.
+
+\openout4 = `monografia1.mw'.
+
+\openout4 = `monografia1.mw'.
+
+\openout4 = `monografia1.mw'.
+
+\openout4 = `monografia1.mw'.
+
+\openout4 = `monografia1.mw'.
+
+\openout4 = `monografia1.mw'.
+
+\openout4 = `monografia1.mw'.
+
+\openout4 = `monografia1.mw'.
+
+\openout4 = `monografia1.mw'.
+
+\openout4 = `monografia1.mw'.
+
+\openout4 = `monografia1.mw'.
+
+\openout4 = `monografia1.mw'.
+
+\openout4 = `monografia1.mw'.
+
+
+
+\openout4 = `monografia1.mw'.
+
+[34] (monografia1.mw)
+\openout4 = `monografia1.mw'.
+
+\openout4 = `monografia1.mw'.
+
+\openout4 = `monografia1.mw'.
+
+\openout4 = `monografia1.mw'.
+
+\openout4 = `monografia1.mw'.
 
 
 Underfull \hbox (badness 4353) in paragraph at lines 48--48
 \T1/lmr/m/n/12 (+20) per-for-mance in-fe-rior em
  []
 
-\openout4 = `monografia.mw'.
+\openout4 = `monografia1.mw'.
 
-\openout4 = `monografia.mw'.
+\openout4 = `monografia1.mw'.
 
-\openout4 = `monografia.mw'.
+\openout4 = `monografia1.mw'.
 
-\openout4 = `monografia.mw'.
+\openout4 = `monografia1.mw'.
 
-\openout4 = `monografia.mw'.
+\openout4 = `monografia1.mw'.
 
-\openout4 = `monografia.mw'.
+\openout4 = `monografia1.mw'.
 
-\openout4 = `monografia.mw'.
+\openout4 = `monografia1.mw'.
 
-\openout4 = `monografia.mw'.
+\openout4 = `monografia1.mw'.
 
-\openout4 = `monografia.mw'.
+\openout4 = `monografia1.mw'.
 
-\openout4 = `monografia.mw'.
+\openout4 = `monografia1.mw'.
 
-\openout4 = `monografia.mw'.
+\openout4 = `monografia1.mw'.
 
-\openout4 = `monografia.mw'.
+\openout4 = `monografia1.mw'.
 
-\openout4 = `monografia.mw'.
+\openout4 = `monografia1.mw'.
 
-\openout4 = `monografia.mw'.
+\openout4 = `monografia1.mw'.
 
-\openout4 = `monografia.mw'.
+\openout4 = `monografia1.mw'.
 
-\openout4 = `monografia.mw'.
+\openout4 = `monografia1.mw'.
 
 
 Underfull \hbox (badness 6542) in paragraph at lines 48--48
@@ -2788,189 +2800,253 @@ Underfull \hbox (badness 7326) in paragraph at lines 48--48
 
 )
 
-\openout4 = `monografia.mw'.
+\openout4 = `monografia1.mw'.
 
-[34] (monografia.mw)
-\openout4 = `monografia.mw'.
+[35] (monografia1.mw)
+\openout4 = `monografia1.mw'.
 
  (capitulos/cap_ambientes_matematicos.tex
+\openout4 = `monografia1.mw'.
 
-\openout4 = `monografia.mw'.
-
-[35
-
-] (monografia.mw)
-\openout4 = `monografia.mw'.
+\openout4 = `monografia1.mw'.
 
 
 
-\openout4 = `monografia.mw'.
+\openout4 = `monografia1.mw'.
 
-[36] (monografia.mw)
-\openout4 = `monografia.mw'.
+[36
 
-<figuras/Anemometer-sensor.png, id=776, 722.7pt x 722.7pt>
+] (monografia1.mw)
+\openout4 = `monografia1.mw'.
+
+
+
+\openout4 = `monografia1.mw'.
+
+[37] (monografia1.mw)
+\openout4 = `monografia1.mw'.
+
+\openout4 = `monografia1.mw'.
+
+\openout4 = `monografia1.mw'.
+
+\openout4 = `monografia1.mw'.
+
+\openout4 = `monografia1.mw'.
+
+\openout4 = `monografia1.mw'.
+
+\openout4 = `monografia1.mw'.
+
+\openout4 = `monografia1.mw'.
+
+\openout4 = `monografia1.mw'.
+
+
+
+\openout4 = `monografia1.mw'.
+
+[38] (monografia1.mw)
+\openout4 = `monografia1.mw'.
+
+\openout4 = `monografia1.mw'.
+
+\openout4 = `monografia1.mw'.
+
+
+
+\openout4 = `monografia1.mw'.
+
+[39] (monografia1.mw)
+\openout4 = `monografia1.mw'.
+
+\openout4 = `monografia1.mw'.
+
+\openout4 = `monografia1.mw'.
+
+
+
+\openout4 = `monografia1.mw'.
+
+[40] (monografia1.mw)
+\openout4 = `monografia1.mw'.
+
+
+
+\openout4 = `monografia1.mw'.
+
+[41] (monografia1.mw)
+\openout4 = `monografia1.mw'.
+
+<figuras/Anemometer-sensor.png, id=834, 722.7pt x 722.7pt>
 File: figuras/Anemometer-sensor.png Graphic file (type png)
 <use figuras/Anemometer-sensor.png>
-Package pdftex.def Info: figuras/Anemometer-sensor.png  used on input line 60.
+Package pdftex.def Info: figuras/Anemometer-sensor.png  used on input line 163.
 (pdftex.def)             Requested size: 284.52756pt x 284.53154pt.
-\openout4 = `monografia.mw'.
+\openout4 = `monografia1.mw'.
 
-\openout4 = `monografia.mw'.
+\openout4 = `monografia1.mw'.
 
-\openout4 = `monografia.mw'.
+\openout4 = `monografia1.mw'.
 
-\openout4 = `monografia.mw'.
+\openout4 = `monografia1.mw'.
 
-<figuras/DHT22-sensor.png, id=779, 417.05812pt x 188.20313pt>
+<figuras/DHT22-sensor.png, id=837, 417.05812pt x 188.20313pt>
 File: figuras/DHT22-sensor.png Graphic file (type png)
 <use figuras/DHT22-sensor.png>
-Package pdftex.def Info: figuras/DHT22-sensor.png  used on input line 68.
+Package pdftex.def Info: figuras/DHT22-sensor.png  used on input line 171.
 (pdftex.def)             Requested size: 284.52756pt x 128.40431pt.
-\openout4 = `monografia.mw'.
+\openout4 = `monografia1.mw'.
 
-\openout4 = `monografia.mw'.
+\openout4 = `monografia1.mw'.
 
-\openout4 = `monografia.mw'.
+\openout4 = `monografia1.mw'.
 
-\openout4 = `monografia.mw'.
+\openout4 = `monografia1.mw'.
 
-<figuras/BMP280-sensor.png, id=782, 376.40625pt x 188.20313pt>
+<figuras/BMP280-sensor.png, id=840, 376.40625pt x 188.20313pt>
 File: figuras/BMP280-sensor.png Graphic file (type png)
 <use figuras/BMP280-sensor.png>
-Package pdftex.def Info: figuras/BMP280-sensor.png  used on input line 76.
+Package pdftex.def Info: figuras/BMP280-sensor.png  used on input line 179.
 (pdftex.def)             Requested size: 284.52756pt x 142.27483pt.
-\openout4 = `monografia.mw'.
+\openout4 = `monografia1.mw'.
 
-\openout4 = `monografia.mw'.
+\openout4 = `monografia1.mw'.
 
-\openout4 = `monografia.mw'.
+\openout4 = `monografia1.mw'.
 
-\openout4 = `monografia.mw'.
+\openout4 = `monografia1.mw'.
 
-<figuras/LM393-sensor.png, id=785, 393.72093pt x 235.63031pt>
+<figuras/LM393-sensor.png, id=843, 393.72093pt x 235.63031pt>
 File: figuras/LM393-sensor.png Graphic file (type png)
 <use figuras/LM393-sensor.png>
-Package pdftex.def Info: figuras/LM393-sensor.png  used on input line 84.
+Package pdftex.def Info: figuras/LM393-sensor.png  used on input line 187.
 (pdftex.def)             Requested size: 284.52756pt x 170.2793pt.
-\openout4 = `monografia.mw'.
+\openout4 = `monografia1.mw'.
 
-\openout4 = `monografia.mw'.
+\openout4 = `monografia1.mw'.
 
-\openout4 = `monografia.mw'.
+\openout4 = `monografia1.mw'.
 
-\openout4 = `monografia.mw'.
+\openout4 = `monografia1.mw'.
 
-<figuras/BH1750-sensor.png, id=788, 385.44pt x 289.08pt>
+<figuras/BH1750-sensor.png, id=846, 385.44pt x 289.08pt>
 File: figuras/BH1750-sensor.png Graphic file (type png)
 <use figuras/BH1750-sensor.png>
-Package pdftex.def Info: figuras/BH1750-sensor.png  used on input line 92.
+Package pdftex.def Info: figuras/BH1750-sensor.png  used on input line 195.
 (pdftex.def)             Requested size: 284.52756pt x 213.39534pt.
-\openout4 = `monografia.mw'.
+\openout4 = `monografia1.mw'.
 
-\openout4 = `monografia.mw'.
+\openout4 = `monografia1.mw'.
 
-\openout4 = `monografia.mw'.
+\openout4 = `monografia1.mw'.
 
-\openout4 = `monografia.mw'.
+\openout4 = `monografia1.mw'.
 
-<figuras/ESP32-micro.jpg, id=791, 663.98062pt x 462.22687pt>
+<figuras/ESP32-micro.jpg, id=849, 663.98062pt x 462.22687pt>
 File: figuras/ESP32-micro.jpg Graphic file (type jpg)
 <use figuras/ESP32-micro.jpg>
-Package pdftex.def Info: figuras/ESP32-micro.jpg  used on input line 100.
+Package pdftex.def Info: figuras/ESP32-micro.jpg  used on input line 203.
 (pdftex.def)             Requested size: 284.52756pt x 198.06953pt.
-\openout4 = `monografia.mw'.
+\openout4 = `monografia1.mw'.
 
-\openout4 = `monografia.mw'.
+\openout4 = `monografia1.mw'.
 
-\openout4 = `monografia.mw'.
+\openout4 = `monografia1.mw'.
 
-\openout4 = `monografia.mw'.
+\openout4 = `monografia1.mw'.
 
-<figuras/Jumpers-cabos.png, id=794, 602.25pt x 602.25pt>
+<figuras/Jumpers-cabos.png, id=852, 602.25pt x 602.25pt>
 File: figuras/Jumpers-cabos.png Graphic file (type png)
 <use figuras/Jumpers-cabos.png>
-Package pdftex.def Info: figuras/Jumpers-cabos.png  used on input line 108.
+Package pdftex.def Info: figuras/Jumpers-cabos.png  used on input line 211.
 (pdftex.def)             Requested size: 284.52756pt x 284.53705pt.
-\openout4 = `monografia.mw'.
+\openout4 = `monografia1.mw'.
 
-\openout4 = `monografia.mw'.
+\openout4 = `monografia1.mw'.
 
-\openout4 = `monografia.mw'.
+\openout4 = `monografia1.mw'.
 
-\openout4 = `monografia.mw'.
+\openout4 = `monografia1.mw'.
 
 )
 
-\openout4 = `monografia.mw'.
+\openout4 = `monografia1.mw'.
 
-[37 <./figuras/Anemometer-sensor.png> <./figuras/DHT22-sensor.png>] (monografia.mw)
-\openout4 = `monografia.mw'.
-
-
-
-\openout4 = `monografia.mw'.
-
-[38 <./figuras/BMP280-sensor.png> <./figuras/LM393-sensor.png> <./figuras/BH1750-sensor.png>] (monografia.mw)
-\openout4 = `monografia.mw'.
+[42 <./figuras/Anemometer-sensor.png>] (monografia1.mw)
+\openout4 = `monografia1.mw'.
 
 
 
-\openout4 = `monografia.mw'.
+\openout4 = `monografia1.mw'.
 
-[39 <./figuras/ESP32-micro.jpg> <./figuras/Jumpers-cabos.png>] (monografia.mw)
-\openout4 = `monografia.mw'.
-
-
-
-\openout4 = `monografia.mw'.
-
-[40
-
-] (monografia.mw)
-\openout4 = `monografia.mw'.
+[43 <./figuras/DHT22-sensor.png> <./figuras/BMP280-sensor.png> <./figuras/LM393-sensor.png>] (monografia1.mw)
+\openout4 = `monografia1.mw'.
 
 
 
-\openout4 = `monografia.mw'.
+\openout4 = `monografia1.mw'.
 
-[41] (monografia.mw)
-\openout4 = `monografia.mw'.
-
-
-
-\openout4 = `monografia.mw'.
-
-[42] (monografia.mw)
-\openout4 = `monografia.mw'.
+[44 <./figuras/BH1750-sensor.png> <./figuras/ESP32-micro.jpg>] (monografia1.mw)
+\openout4 = `monografia1.mw'.
 
 
 
-\openout4 = `monografia.mw'.
+\openout4 = `monografia1.mw'.
 
-[43] (monografia.mw)
-\openout4 = `monografia.mw'.
-
-
-
-\openout4 = `monografia.mw'.
-
-[44] (monografia.mw)
-\openout4 = `monografia.mw'.
+[45 <./figuras/Jumpers-cabos.png>] (monografia1.mw)
+\openout4 = `monografia1.mw'.
 
 
 
-\openout4 = `monografia.mw'.
+\openout4 = `monografia1.mw'.
 
-[45] (monografia.mw)
-\openout4 = `monografia.mw'.
+[46
+
+] (monografia1.mw)
+\openout4 = `monografia1.mw'.
 
 
 
-\openout4 = `monografia.mw'.
+\openout4 = `monografia1.mw'.
 
-[46] (monografia.mw)
-\openout4 = `monografia.mw'.
+[47] (monografia1.mw)
+\openout4 = `monografia1.mw'.
+
+
+
+\openout4 = `monografia1.mw'.
+
+[48] (monografia1.mw)
+\openout4 = `monografia1.mw'.
+
+
+
+\openout4 = `monografia1.mw'.
+
+[49] (monografia1.mw)
+\openout4 = `monografia1.mw'.
+
+
+
+\openout4 = `monografia1.mw'.
+
+[50] (monografia1.mw)
+\openout4 = `monografia1.mw'.
+
+
+
+\openout4 = `monografia1.mw'.
+
+[51] (monografia1.mw)
+\openout4 = `monografia1.mw'.
+
+
+
+\openout4 = `monografia1.mw'.
+
+[52] (monografia1.mw)
+\openout4 = `monografia1.mw'.
 
 \tf@lof=\write132
 \openout4 = `monografia.lof'.
@@ -2984,278 +3060,314 @@ Package pdftex.def Info: figuras/Jumpers-cabos.png  used on input line 108.
  
 enddocument/afterlastpage: lastpage setting LastPage.
 (monografia.aux
-\openout4 = `monografia.mw'.
+\openout4 = `monografia1.mw'.
 
-\openout4 = `monografia.mw'.
+\openout4 = `monografia1.mw'.
 
-\openout4 = `monografia.mw'.
+\openout4 = `monografia1.mw'.
 
-\openout4 = `monografia.mw'.
+\openout4 = `monografia1.mw'.
 
-\openout4 = `monografia.mw'.
+\openout4 = `monografia1.mw'.
 
-\openout4 = `monografia.mw'.
+\openout4 = `monografia1.mw'.
 
-\openout4 = `monografia.mw'.
+\openout4 = `monografia1.mw'.
 
-\openout4 = `monografia.mw'.
+\openout4 = `monografia1.mw'.
 
-\openout4 = `monografia.mw'.
+\openout4 = `monografia1.mw'.
 
-\openout4 = `monografia.mw'.
+\openout4 = `monografia1.mw'.
 
-\openout4 = `monografia.mw'.
+\openout4 = `monografia1.mw'.
 
-\openout4 = `monografia.mw'.
+\openout4 = `monografia1.mw'.
 
-\openout4 = `monografia.mw'.
+\openout4 = `monografia1.mw'.
 
-\openout4 = `monografia.mw'.
+\openout4 = `monografia1.mw'.
 
-\openout4 = `monografia.mw'.
+\openout4 = `monografia1.mw'.
 
-\openout4 = `monografia.mw'.
+\openout4 = `monografia1.mw'.
 
-\openout4 = `monografia.mw'.
+\openout4 = `monografia1.mw'.
 
-\openout4 = `monografia.mw'.
+\openout4 = `monografia1.mw'.
 
-\openout4 = `monografia.mw'.
+\openout4 = `monografia1.mw'.
 
-\openout4 = `monografia.mw'.
+\openout4 = `monografia1.mw'.
 
-\openout4 = `monografia.mw'.
+\openout4 = `monografia1.mw'.
 
-\openout4 = `monografia.mw'.
+\openout4 = `monografia1.mw'.
 
-\openout4 = `monografia.mw'.
+\openout4 = `monografia1.mw'.
 
-\openout4 = `monografia.mw'.
+\openout4 = `monografia1.mw'.
 
-\openout4 = `monografia.mw'.
+\openout4 = `monografia1.mw'.
 
-\openout4 = `monografia.mw'.
+\openout4 = `monografia1.mw'.
 
-\openout4 = `monografia.mw'.
+\openout4 = `monografia1.mw'.
 
-\openout4 = `monografia.mw'.
+\openout4 = `monografia1.mw'.
 
-\openout4 = `monografia.mw'.
+\openout4 = `monografia1.mw'.
 
-\openout4 = `monografia.mw'.
+\openout4 = `monografia1.mw'.
 
-\openout4 = `monografia.mw'.
+\openout4 = `monografia1.mw'.
 
-\openout4 = `monografia.mw'.
+\openout4 = `monografia1.mw'.
 
-\openout4 = `monografia.mw'.
+\openout4 = `monografia1.mw'.
 
-\openout4 = `monografia.mw'.
+\openout4 = `monografia1.mw'.
 
-\openout4 = `monografia.mw'.
+\openout4 = `monografia1.mw'.
 
-\openout4 = `monografia.mw'.
+\openout4 = `monografia1.mw'.
 
-\openout4 = `monografia.mw'.
+\openout4 = `monografia1.mw'.
 
-\openout4 = `monografia.mw'.
+\openout4 = `monografia1.mw'.
 
-\openout4 = `monografia.mw'.
+\openout4 = `monografia1.mw'.
 
-\openout4 = `monografia.mw'.
+\openout4 = `monografia1.mw'.
 
-\openout4 = `monografia.mw'.
+\openout4 = `monografia1.mw'.
 
-\openout4 = `monografia.mw'.
+\openout4 = `monografia1.mw'.
 
-\openout4 = `monografia.mw'.
+\openout4 = `monografia1.mw'.
 
-\openout4 = `monografia.mw'.
+\openout4 = `monografia1.mw'.
 
-\openout4 = `monografia.mw'.
+\openout4 = `monografia1.mw'.
 
-\openout4 = `monografia.mw'.
+\openout4 = `monografia1.mw'.
 
-\openout4 = `monografia.mw'.
+\openout4 = `monografia1.mw'.
 
-\openout4 = `monografia.mw'.
+\openout4 = `monografia1.mw'.
 
-\openout4 = `monografia.mw'.
+\openout4 = `monografia1.mw'.
 
-\openout4 = `monografia.mw'.
+\openout4 = `monografia1.mw'.
 
-\openout4 = `monografia.mw'.
+\openout4 = `monografia1.mw'.
 
-\openout4 = `monografia.mw'.
+\openout4 = `monografia1.mw'.
 
-\openout4 = `monografia.mw'.
+\openout4 = `monografia1.mw'.
 
-\openout4 = `monografia.mw'.
+\openout4 = `monografia1.mw'.
 
-\openout4 = `monografia.mw'.
+\openout4 = `monografia1.mw'.
 
-\openout4 = `monografia.mw'.
+\openout4 = `monografia1.mw'.
 
-\openout4 = `monografia.mw'.
+\openout4 = `monografia1.mw'.
 
-\openout4 = `monografia.mw'.
+\openout4 = `monografia1.mw'.
 
-\openout4 = `monografia.mw'.
+\openout4 = `monografia1.mw'.
 
-\openout4 = `monografia.mw'.
+\openout4 = `monografia1.mw'.
 
-\openout4 = `monografia.mw'.
+\openout4 = `monografia1.mw'.
 
-\openout4 = `monografia.mw'.
+\openout4 = `monografia1.mw'.
 
-\openout4 = `monografia.mw'.
+\openout4 = `monografia1.mw'.
 
-\openout4 = `monografia.mw'.
+\openout4 = `monografia1.mw'.
 
-\openout4 = `monografia.mw'.
+\openout4 = `monografia1.mw'.
 
-\openout4 = `monografia.mw'.
+\openout4 = `monografia1.mw'.
 
-\openout4 = `monografia.mw'.
+\openout4 = `monografia1.mw'.
 
-\openout4 = `monografia.mw'.
+\openout4 = `monografia1.mw'.
 
-\openout4 = `monografia.mw'.
+\openout4 = `monografia1.mw'.
 
-\openout4 = `monografia.mw'.
+\openout4 = `monografia1.mw'.
 
-\openout4 = `monografia.mw'.
+\openout4 = `monografia1.mw'.
 
-\openout4 = `monografia.mw'.
+\openout4 = `monografia1.mw'.
 
-\openout4 = `monografia.mw'.
+\openout4 = `monografia1.mw'.
 
-\openout4 = `monografia.mw'.
+\openout4 = `monografia1.mw'.
 
-\openout4 = `monografia.mw'.
+\openout4 = `monografia1.mw'.
 
-\openout4 = `monografia.mw'.
+\openout4 = `monografia1.mw'.
 
-\openout4 = `monografia.mw'.
+\openout4 = `monografia1.mw'.
 
-\openout4 = `monografia.mw'.
+\openout4 = `monografia1.mw'.
 
-\openout4 = `monografia.mw'.
+\openout4 = `monografia1.mw'.
 
-\openout4 = `monografia.mw'.
+\openout4 = `monografia1.mw'.
 
-\openout4 = `monografia.mw'.
+\openout4 = `monografia1.mw'.
 
-\openout4 = `monografia.mw'.
+\openout4 = `monografia1.mw'.
 
-\openout4 = `monografia.mw'.
+\openout4 = `monografia1.mw'.
 
-\openout4 = `monografia.mw'.
+\openout4 = `monografia1.mw'.
 
-\openout4 = `monografia.mw'.
+\openout4 = `monografia1.mw'.
 
-\openout4 = `monografia.mw'.
+\openout4 = `monografia1.mw'.
 
-\openout4 = `monografia.mw'.
+\openout4 = `monografia1.mw'.
 
-\openout4 = `monografia.mw'.
+\openout4 = `monografia1.mw'.
 
-\openout4 = `monografia.mw'.
+\openout4 = `monografia1.mw'.
 
-\openout4 = `monografia.mw'.
+\openout4 = `monografia1.mw'.
 
-\openout4 = `monografia.mw'.
+\openout4 = `monografia1.mw'.
 
-\openout4 = `monografia.mw'.
+\openout4 = `monografia1.mw'.
 
-\openout4 = `monografia.mw'.
+\openout4 = `monografia1.mw'.
 
-\openout4 = `monografia.mw'.
+\openout4 = `monografia1.mw'.
 
-\openout4 = `monografia.mw'.
+\openout4 = `monografia1.mw'.
 
-\openout4 = `monografia.mw'.
+\openout4 = `monografia1.mw'.
 
-\openout4 = `monografia.mw'.
+\openout4 = `monografia1.mw'.
 
-\openout4 = `monografia.mw'.
+\openout4 = `monografia1.mw'.
 
-\openout4 = `monografia.mw'.
+\openout4 = `monografia1.mw'.
 
-\openout4 = `monografia.mw'.
+\openout4 = `monografia1.mw'.
 
-\openout4 = `monografia.mw'.
+\openout4 = `monografia1.mw'.
 
-\openout4 = `monografia.mw'.
+\openout4 = `monografia1.mw'.
 
-\openout4 = `monografia.mw'.
+\openout4 = `monografia1.mw'.
 
-\openout4 = `monografia.mw'.
+\openout4 = `monografia1.mw'.
 
-\openout4 = `monografia.mw'.
+\openout4 = `monografia1.mw'.
 
-\openout4 = `monografia.mw'.
+\openout4 = `monografia1.mw'.
 
-\openout4 = `monografia.mw'.
+\openout4 = `monografia1.mw'.
 
-\openout4 = `monografia.mw'.
+\openout4 = `monografia1.mw'.
 
-\openout4 = `monografia.mw'.
+\openout4 = `monografia1.mw'.
 
-\openout4 = `monografia.mw'.
+\openout4 = `monografia1.mw'.
 
-\openout4 = `monografia.mw'.
+\openout4 = `monografia1.mw'.
 
-\openout4 = `monografia.mw'.
+\openout4 = `monografia1.mw'.
 
-\openout4 = `monografia.mw'.
+\openout4 = `monografia1.mw'.
 
-\openout4 = `monografia.mw'.
+\openout4 = `monografia1.mw'.
 
-\openout4 = `monografia.mw'.
+\openout4 = `monografia1.mw'.
 
-\openout4 = `monografia.mw'.
+\openout4 = `monografia1.mw'.
 
-\openout4 = `monografia.mw'.
+\openout4 = `monografia1.mw'.
 
-\openout4 = `monografia.mw'.
+\openout4 = `monografia1.mw'.
 
-\openout4 = `monografia.mw'.
+\openout4 = `monografia1.mw'.
 
-\openout4 = `monografia.mw'.
+\openout4 = `monografia1.mw'.
 
-\openout4 = `monografia.mw'.
+\openout4 = `monografia1.mw'.
 
-\openout4 = `monografia.mw'.
+\openout4 = `monografia1.mw'.
 
-\openout4 = `monografia.mw'.
+\openout4 = `monografia1.mw'.
 
-\openout4 = `monografia.mw'.
+\openout4 = `monografia1.mw'.
 
-\openout4 = `monografia.mw'.
+\openout4 = `monografia1.mw'.
 
-\openout4 = `monografia.mw'.
+\openout4 = `monografia1.mw'.
 
-\openout4 = `monografia.mw'.
+\openout4 = `monografia1.mw'.
 
-\openout4 = `monografia.mw'.
+\openout4 = `monografia1.mw'.
 
-\openout4 = `monografia.mw'.
+\openout4 = `monografia1.mw'.
 
-\openout4 = `monografia.mw'.
+\openout4 = `monografia1.mw'.
 
-\openout4 = `monografia.mw'.
+\openout4 = `monografia1.mw'.
 
-\openout4 = `monografia.mw'.
+\openout4 = `monografia1.mw'.
+
+\openout4 = `monografia1.mw'.
+
+\openout4 = `monografia1.mw'.
+
+\openout4 = `monografia1.mw'.
+
+\openout4 = `monografia1.mw'.
+
+\openout4 = `monografia1.mw'.
+
+\openout4 = `monografia1.mw'.
+
+\openout4 = `monografia1.mw'.
+
+\openout4 = `monografia1.mw'.
+
+\openout4 = `monografia1.mw'.
+
+\openout4 = `monografia1.mw'.
+
+\openout4 = `monografia1.mw'.
+
+\openout4 = `monografia1.mw'.
+
+\openout4 = `monografia1.mw'.
+
+\openout4 = `monografia1.mw'.
+
+\openout4 = `monografia1.mw'.
+
+\openout4 = `monografia1.mw'.
+
+\openout4 = `monografia1.mw'.
+
+\openout4 = `monografia1.mw'.
 
 )
  ***********
 LaTeX2e <2024-06-01> patch level 1
 L3 programming layer <2020/03/25>
  ***********
-\openout4 = `monografia.mw'.
+\openout4 = `monografia1.mw'.
 
-\openout4 = `monografia.mw'.
+\openout4 = `monografia1.mw'.
 
 \openout4 = `monografia.bcf'.
 
@@ -3270,17 +3382,17 @@ Package logreq Info: Writing requests to 'monografia.run.xml'.
 
  ) 
 Here is how much of TeX's memory you used:
- 45962 strings out of 473919
- 866848 string characters out of 5726953
- 2019680 words of memory out of 5000000
- 66595 multiletter control sequences out of 15000+600000
- 613398 words of font info for 166 fonts, out of 8000000 for 9000
+ 46109 strings out of 473919
+ 870825 string characters out of 5726953
+ 2030014 words of memory out of 5000000
+ 66634 multiletter control sequences out of 15000+600000
+ 613946 words of font info for 170 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
  113i,17n,121p,1385b,4456s stack positions out of 10000i,1000n,20000p,200000b,200000s
-<C:/Users/deivi/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmbx10.pfb><C:/Users/deivi/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmr10.pfb><C:/Users/deivi/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmti10.pfb><C:/Users/deivi/AppData/Local/Programs/MiKTeX/fonts/type1/public/lm/lmbx12.pfb><C:/Users/deivi/AppData/Local/Programs/MiKTeX/fonts/type1/public/lm/lmbxi10.pfb><C:/Users/deivi/AppData/Local/Programs/MiKTeX/fonts/type1/public/lm/lmmi12.pfb><C:/Users/deivi/AppData/Local/Programs/MiKTeX/fonts/type1/public/lm/lmmi8.pfb><C:/Users/deivi/AppData/Local/Programs/MiKTeX/fonts/type1/public/lm/lmr10.pfb><C:/Users/deivi/AppData/Local/Programs/MiKTeX/fonts/type1/public/lm/lmr12.pfb><C:/Users/deivi/AppData/Local/Programs/MiKTeX/fonts/type1/public/lm/lmr8.pfb><C:/Users/deivi/AppData/Local/Programs/MiKTeX/fonts/type1/public/lm/lmri10.pfb><C:/Users/deivi/AppData/Local/Programs/MiKTeX/fonts/type1/public/lm/lmri12.pfb><C:/Users/deivi/AppData/Local/Programs/MiKTeX/fonts/type1/public/lm/lmsy10.pfb>
-Output written on monografia.pdf (47 pages, 2909694 bytes).
+<C:/Users/deivi/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmbx10.pfb><C:/Users/deivi/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmr10.pfb><C:/Users/deivi/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmti10.pfb><C:/Users/deivi/AppData/Local/Programs/MiKTeX/fonts/type1/public/lm/lmbx12.pfb><C:/Users/deivi/AppData/Local/Programs/MiKTeX/fonts/type1/public/lm/lmbxi10.pfb><C:/Users/deivi/AppData/Local/Programs/MiKTeX/fonts/type1/public/lm/lmmi12.pfb><C:/Users/deivi/AppData/Local/Programs/MiKTeX/fonts/type1/public/lm/lmmi6.pfb><C:/Users/deivi/AppData/Local/Programs/MiKTeX/fonts/type1/public/lm/lmmi8.pfb><C:/Users/deivi/AppData/Local/Programs/MiKTeX/fonts/type1/public/lm/lmr10.pfb><C:/Users/deivi/AppData/Local/Programs/MiKTeX/fonts/type1/public/lm/lmr12.pfb><C:/Users/deivi/AppData/Local/Programs/MiKTeX/fonts/type1/public/lm/lmr6.pfb><C:/Users/deivi/AppData/Local/Programs/MiKTeX/fonts/type1/public/lm/lmr8.pfb><C:/Users/deivi/AppData/Local/Programs/MiKTeX/fonts/type1/public/lm/lmri10.pfb><C:/Users/deivi/AppData/Local/Programs/MiKTeX/fonts/type1/public/lm/lmri12.pfb><C:/Users/deivi/AppData/Local/Programs/MiKTeX/fonts/type1/public/lm/lmsy10.pfb><C:/Users/deivi/AppData/Local/Programs/MiKTeX/fonts/type1/public/lm/lmsy6.pfb><C:/Users/deivi/AppData/Local/Programs/MiKTeX/fonts/type1/public/lm/lmsy8.pfb>
+Output written on monografia.pdf (53 pages, 2974536 bytes).
 PDF statistics:
- 1168 PDF objects out of 1200 (max. 8388607)
- 202 named destinations out of 1000 (max. 500000)
- 29118 words of extra memory for PDF output out of 29859 (max. 10000000)
+ 1289 PDF objects out of 1440 (max. 8388607)
+ 222 named destinations out of 1000 (max. 500000)
+ 29190 words of extra memory for PDF output out of 29859 (max. 10000000)
 

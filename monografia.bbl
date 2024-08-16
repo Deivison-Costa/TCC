@@ -2284,6 +2284,60 @@
       \verb https://doi.org/10.1080/07055900.2022.2154191
       \endverb
     \endentry
+    \entry{Michael_2020}{article}{}{}
+      \name{author}{3}{}{%
+        {{un=0,uniquepart=base,hash=1251e954a4f578c061757a6ec9d504ae}{%
+           family={Michael},
+           familyi={M\bibinitperiod},
+           given={Peter\bibnamedelima R.},
+           giveni={P\bibinitperiod\bibinitdelim R\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=cbd52e6c1b00ee6ac5474ccd1689707f}{%
+           family={Johnston},
+           familyi={J\bibinitperiod},
+           given={Danvers\bibnamedelima E.},
+           giveni={D\bibinitperiod\bibinitdelim E\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=1bc318f973d8623eb7cfa00a1d5ffdbc}{%
+           family={Moreno},
+           familyi={M\bibinitperiod},
+           given={Wilfrido},
+           giveni={W\bibinitperiod},
+           givenun=0}}%
+      }
+      \strng{namehash}{75dbf11b7db3494a3c02e6604309cb79}
+      \strng{fullhash}{75dbf11b7db3494a3c02e6604309cb79}
+      \strng{fullhashraw}{75dbf11b7db3494a3c02e6604309cb79}
+      \strng{bibnamehash}{75dbf11b7db3494a3c02e6604309cb79}
+      \strng{authorbibnamehash}{75dbf11b7db3494a3c02e6604309cb79}
+      \strng{authornamehash}{75dbf11b7db3494a3c02e6604309cb79}
+      \strng{authorfullhash}{75dbf11b7db3494a3c02e6604309cb79}
+      \strng{authorfullhashraw}{75dbf11b7db3494a3c02e6604309cb79}
+      \field{sortinit}{A}
+      \field{sortinithash}{2f401846e2029bad6b3ecc16d50031e2}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{Journal of Measurements in Engineering}
+      \field{month}{12}
+      \field{number}{4}
+      \field{title}{A conversion guide: solar irradiance and lux illuminance}
+      \field{urlday}{16}
+      \field{urlmonth}{8}
+      \field{urlyear}{2024}
+      \field{volume}{8}
+      \field{year}{2020}
+      \field{urldateera}{ce}
+      \field{pages}{153\bibrangedash 166}
+      \range{pages}{14}
+      \verb{urlraw}
+      \verb https://doi.org/10.21595/jme.2020.21667
+      \endverb
+      \verb{url}
+      \verb https://doi.org/10.21595/jme.2020.21667
+      \endverb
+    \endentry
     \entry{Vijh_system2024}{inproceedings}{}{}
       \name{author}{5}{}{%
         {{un=0,uniquepart=base,hash=b8c2a3e93388792f4ceadbcbb0f42180}{%
@@ -3572,6 +3626,132 @@
       \verb https://books.google.com.br/books?hl=pt-BR&lr=&id=YheaDwAAQBAJ&oi=fnd&pg=PA295&dq=web+application+evapotranspiration&ots=ZbDFqht_7s&sig=tjNS6zBCLOebLDX8Z0SzQ_E9SAk#v=onepage&q=web%20application%20evapotranspiration&f=false
       \endverb
     \endentry
+    \entry{thermodynamic_fermi}{book}{}{}
+      \name{author}{1}{}{%
+        {{un=0,uniquepart=base,hash=1d633020d2b7ae0ed2ca559a7b3a165a}{%
+           family={Fermi},
+           familyi={F\bibinitperiod},
+           given={Enrico},
+           giveni={E\bibinitperiod},
+           givenun=0}}%
+      }
+      \list{publisher}{1}{%
+        {Dover Publications}%
+      }
+      \strng{namehash}{1d633020d2b7ae0ed2ca559a7b3a165a}
+      \strng{fullhash}{1d633020d2b7ae0ed2ca559a7b3a165a}
+      \strng{fullhashraw}{1d633020d2b7ae0ed2ca559a7b3a165a}
+      \strng{bibnamehash}{1d633020d2b7ae0ed2ca559a7b3a165a}
+      \strng{authorbibnamehash}{1d633020d2b7ae0ed2ca559a7b3a165a}
+      \strng{authornamehash}{1d633020d2b7ae0ed2ca559a7b3a165a}
+      \strng{authorfullhash}{1d633020d2b7ae0ed2ca559a7b3a165a}
+      \strng{authorfullhashraw}{1d633020d2b7ae0ed2ca559a7b3a165a}
+      \field{sortinit}{C}
+      \field{sortinithash}{4d103a86280481745c9c897c925753c0}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{edition}{1}
+      \field{title}{Thermodynamics}
+      \field{urlday}{16}
+      \field{urlmonth}{8}
+      \field{urlyear}{2024}
+      \field{year}{2012}
+      \field{urldateera}{ce}
+      \verb{urlraw}
+      \verb https://books.google.com.br/books?hl=pt-BR&lr=&id=xCjDAgAAQBAJ&oi=fnd&pg=PP1&dq=thermodynamic&ots=We9W0MSBR3&sig=abrgADTDAGGgH3Xmw80MOb52ifk#v=onepage&q=thermodynamic&f=false
+      \endverb
+      \verb{url}
+      \verb https://books.google.com.br/books?hl=pt-BR&lr=&id=xCjDAgAAQBAJ&oi=fnd&pg=PP1&dq=thermodynamic&ots=We9W0MSBR3&sig=abrgADTDAGGgH3Xmw80MOb52ifk#v=onepage&q=thermodynamic&f=false
+      \endverb
+    \endentry
+    \entry{ddd_eric2004}{book}{}{}
+      \name{author}{1}{}{%
+        {{un=0,uniquepart=base,hash=a8034da9731f447121ee0dbad3354a82}{%
+           family={Evans},
+           familyi={E\bibinitperiod},
+           given={Eric},
+           giveni={E\bibinitperiod},
+           givenun=0}}%
+      }
+      \list{publisher}{1}{%
+        {Pearson Education}%
+      }
+      \strng{namehash}{a8034da9731f447121ee0dbad3354a82}
+      \strng{fullhash}{a8034da9731f447121ee0dbad3354a82}
+      \strng{fullhashraw}{a8034da9731f447121ee0dbad3354a82}
+      \strng{bibnamehash}{a8034da9731f447121ee0dbad3354a82}
+      \strng{authorbibnamehash}{a8034da9731f447121ee0dbad3354a82}
+      \strng{authornamehash}{a8034da9731f447121ee0dbad3354a82}
+      \strng{authorfullhash}{a8034da9731f447121ee0dbad3354a82}
+      \strng{authorfullhashraw}{a8034da9731f447121ee0dbad3354a82}
+      \field{sortinit}{C}
+      \field{sortinithash}{4d103a86280481745c9c897c925753c0}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{edition}{1}
+      \field{title}{Domain-Driven Design}
+      \field{urlday}{16}
+      \field{urlmonth}{8}
+      \field{urlyear}{2024}
+      \field{year}{2004}
+      \field{urldateera}{ce}
+      \verb{urlraw}
+      \verb https://books.google.com.br/books?hl=pt-BR&lr=&id=xColAAPGubgC&oi=fnd&pg=PR9&dq=domain+driven+design&ots=qdUChfWI4w&sig=jfdHj78OvDmrMTWRRm5sMwUr6gc#v=onepage&q=domain%20driven%20design&f=false
+      \endverb
+      \verb{url}
+      \verb https://books.google.com.br/books?hl=pt-BR&lr=&id=xColAAPGubgC&oi=fnd&pg=PR9&dq=domain+driven+design&ots=qdUChfWI4w&sig=jfdHj78OvDmrMTWRRm5sMwUr6gc#v=onepage&q=domain%20driven%20design&f=false
+      \endverb
+    \endentry
+    \entry{pro_git}{book}{}{}
+      \name{author}{2}{}{%
+        {{un=0,uniquepart=base,hash=8f4ee0c97dee95179ce1e79e846dd298}{%
+           family={Chacon},
+           familyi={C\bibinitperiod},
+           given={Scott},
+           giveni={S\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=50418136ff59fed99760e32ba5613c51}{%
+           family={Straub},
+           familyi={S\bibinitperiod},
+           given={Ben},
+           giveni={B\bibinitperiod},
+           givenun=0}}%
+      }
+      \list{publisher}{1}{%
+        {Apress}%
+      }
+      \strng{namehash}{1764b95256df68c84d8a593fc2dfa143}
+      \strng{fullhash}{1764b95256df68c84d8a593fc2dfa143}
+      \strng{fullhashraw}{1764b95256df68c84d8a593fc2dfa143}
+      \strng{bibnamehash}{1764b95256df68c84d8a593fc2dfa143}
+      \strng{authorbibnamehash}{1764b95256df68c84d8a593fc2dfa143}
+      \strng{authornamehash}{1764b95256df68c84d8a593fc2dfa143}
+      \strng{authorfullhash}{1764b95256df68c84d8a593fc2dfa143}
+      \strng{authorfullhashraw}{1764b95256df68c84d8a593fc2dfa143}
+      \field{sortinit}{C}
+      \field{sortinithash}{4d103a86280481745c9c897c925753c0}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{edition}{2}
+      \field{title}{Pro Git}
+      \field{urlday}{16}
+      \field{urlmonth}{8}
+      \field{urlyear}{2024}
+      \field{year}{2024}
+      \field{urldateera}{ce}
+      \verb{urlraw}
+      \verb https://git-scm.com/book/en/v2
+      \endverb
+      \verb{url}
+      \verb https://git-scm.com/book/en/v2
+      \endverb
+    \endentry
     \entry{carmody_fao2023}{misc}{}{}
       \name{author}{2}{}{%
         {{un=0,uniquepart=base,hash=f93f9e9dc8719987de3fe5275e07bd0d}{%
@@ -3809,6 +3989,39 @@
       \endverb
       \verb{url}
       \verb https://www.espressif.com/sites/default/files/documentation/esp32_datasheet_en.pdf
+      \endverb
+    \endentry
+    \entry{EMQX}{manual}{}{}
+      \name{author}{1}{}{%
+        {{un=0,uniquepart=base,hash=e8cb2b5cd89a91bd89b456bb7a67dfea}{%
+           family={{EMQ Technologies Inc.}},
+           familyi={E\bibinitperiod}}}%
+      }
+      \strng{namehash}{e8cb2b5cd89a91bd89b456bb7a67dfea}
+      \strng{fullhash}{e8cb2b5cd89a91bd89b456bb7a67dfea}
+      \strng{fullhashraw}{e8cb2b5cd89a91bd89b456bb7a67dfea}
+      \strng{bibnamehash}{e8cb2b5cd89a91bd89b456bb7a67dfea}
+      \strng{authorbibnamehash}{e8cb2b5cd89a91bd89b456bb7a67dfea}
+      \strng{authornamehash}{e8cb2b5cd89a91bd89b456bb7a67dfea}
+      \strng{authorfullhash}{e8cb2b5cd89a91bd89b456bb7a67dfea}
+      \strng{authorfullhashraw}{e8cb2b5cd89a91bd89b456bb7a67dfea}
+      \field{sortinit}{E}
+      \field{sortinithash}{8da8a182d344d5b9047633dfc0cc9131}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{title}{EMQX Documentation}
+      \field{urlday}{16}
+      \field{urlmonth}{8}
+      \field{urlyear}{2024}
+      \field{year}{2024}
+      \field{urldateera}{ce}
+      \verb{urlraw}
+      \verb https://docs.emqx.com/en/
+      \endverb
+      \verb{url}
+      \verb https://docs.emqx.com/en/
       \endverb
     \endentry
     \entry{Eletrogate}{misc}{}{}
