@@ -178,7 +178,7 @@ backend=biber,uniquename=mininit]{biblatex} % Referências
 
 % Monografia
 \newcommand{\PreambuloMonografia}{%
-Trabalho de conclusão de curso apresentado ao Curso de {\TipoCurso} em {\Curso} do {\InstituicaoCompleto} -- {\Unidade} para obtenção do grau de {\TituloCurso} em {\Curso}.%
+Trabalho de conclusão de curso apresentado ao Curso de {\TipoCurso} em {\Curso} do {\InstituicaoCompleto} -- {\Unidade} como requisito parcial para obtenção do grau de {\TituloCurso} em {\Curso}.%
 }%
 
 \DeclareRobustCommand{\Preambulo}{%

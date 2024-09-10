@@ -3626,46 +3626,6 @@
       \verb https://books.google.com.br/books?hl=pt-BR&lr=&id=YheaDwAAQBAJ&oi=fnd&pg=PA295&dq=web+application+evapotranspiration&ots=ZbDFqht_7s&sig=tjNS6zBCLOebLDX8Z0SzQ_E9SAk#v=onepage&q=web%20application%20evapotranspiration&f=false
       \endverb
     \endentry
-    \entry{thermodynamic_fermi}{book}{}{}
-      \name{author}{1}{}{%
-        {{un=0,uniquepart=base,hash=1d633020d2b7ae0ed2ca559a7b3a165a}{%
-           family={Fermi},
-           familyi={F\bibinitperiod},
-           given={Enrico},
-           giveni={E\bibinitperiod},
-           givenun=0}}%
-      }
-      \list{publisher}{1}{%
-        {Dover Publications}%
-      }
-      \strng{namehash}{1d633020d2b7ae0ed2ca559a7b3a165a}
-      \strng{fullhash}{1d633020d2b7ae0ed2ca559a7b3a165a}
-      \strng{fullhashraw}{1d633020d2b7ae0ed2ca559a7b3a165a}
-      \strng{bibnamehash}{1d633020d2b7ae0ed2ca559a7b3a165a}
-      \strng{authorbibnamehash}{1d633020d2b7ae0ed2ca559a7b3a165a}
-      \strng{authornamehash}{1d633020d2b7ae0ed2ca559a7b3a165a}
-      \strng{authorfullhash}{1d633020d2b7ae0ed2ca559a7b3a165a}
-      \strng{authorfullhashraw}{1d633020d2b7ae0ed2ca559a7b3a165a}
-      \field{sortinit}{C}
-      \field{sortinithash}{4d103a86280481745c9c897c925753c0}
-      \field{extradatescope}{labelyear}
-      \field{labeldatesource}{}
-      \field{labelnamesource}{author}
-      \field{labeltitlesource}{title}
-      \field{edition}{1}
-      \field{title}{Thermodynamics}
-      \field{urlday}{16}
-      \field{urlmonth}{8}
-      \field{urlyear}{2024}
-      \field{year}{2012}
-      \field{urldateera}{ce}
-      \verb{urlraw}
-      \verb https://books.google.com.br/books?hl=pt-BR&lr=&id=xCjDAgAAQBAJ&oi=fnd&pg=PP1&dq=thermodynamic&ots=We9W0MSBR3&sig=abrgADTDAGGgH3Xmw80MOb52ifk#v=onepage&q=thermodynamic&f=false
-      \endverb
-      \verb{url}
-      \verb https://books.google.com.br/books?hl=pt-BR&lr=&id=xCjDAgAAQBAJ&oi=fnd&pg=PP1&dq=thermodynamic&ots=We9W0MSBR3&sig=abrgADTDAGGgH3Xmw80MOb52ifk#v=onepage&q=thermodynamic&f=false
-      \endverb
-    \endentry
     \entry{ddd_eric2004}{book}{}{}
       \name{author}{1}{}{%
         {{un=0,uniquepart=base,hash=a8034da9731f447121ee0dbad3354a82}{%
@@ -4022,40 +3982,6 @@
       \endverb
       \verb{url}
       \verb https://docs.emqx.com/en/
-      \endverb
-    \endentry
-    \entry{Eletrogate}{misc}{}{}
-      \name{author}{1}{}{%
-        {{un=0,uniquepart=base,hash=3b8944ed40903bc5fcf7b96eefffe5d1}{%
-           family={Eletrogate},
-           familyi={E\bibinitperiod}}}%
-      }
-      \strng{namehash}{3b8944ed40903bc5fcf7b96eefffe5d1}
-      \strng{fullhash}{3b8944ed40903bc5fcf7b96eefffe5d1}
-      \strng{fullhashraw}{3b8944ed40903bc5fcf7b96eefffe5d1}
-      \strng{bibnamehash}{3b8944ed40903bc5fcf7b96eefffe5d1}
-      \strng{authorbibnamehash}{3b8944ed40903bc5fcf7b96eefffe5d1}
-      \strng{authornamehash}{3b8944ed40903bc5fcf7b96eefffe5d1}
-      \strng{authorfullhash}{3b8944ed40903bc5fcf7b96eefffe5d1}
-      \strng{authorfullhashraw}{3b8944ed40903bc5fcf7b96eefffe5d1}
-      \field{sortinit}{E}
-      \field{sortinithash}{8da8a182d344d5b9047633dfc0cc9131}
-      \field{extradatescope}{labelyear}
-      \field{labeldatesource}{}
-      \field{labelnamesource}{author}
-      \field{labeltitlesource}{title}
-      \field{note}{Acesso em: 7 ago. 2024}
-      \field{title}{Eletrogate - Loja de Componentes Eletrônicos e Maker}
-      \field{urlday}{7}
-      \field{urlmonth}{8}
-      \field{urlyear}{2024}
-      \field{year}{2024}
-      \field{urldateera}{ce}
-      \verb{urlraw}
-      \verb https://www.eletrogate.com
-      \endverb
-      \verb{url}
-      \verb https://www.eletrogate.com
       \endverb
     \endentry
     \entry{telemetering1941}{report}{}{}

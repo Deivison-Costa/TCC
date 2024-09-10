@@ -3,7 +3,7 @@ trabalho.
 \section{Sensoriamento remoto}
 O sensoriamento remoto é uma disciplina fundamental em vários campos científicos e tecnológicos. Ele pode ser definido  como:
 \begin{quote}
-"A arte ou ciência de dizer algo sobre um objeto sem tocá-lo." \parencite{fischer1976}
+"A arte ou ciência de dizer algo sobre um objeto sem tocá-lo." \parencite[{p. 34}]{fischer1976}
 \end{quote}
 
 Ao longo dos anos, o sensoriamento remoto tem evoluído significativamente, proporcionando uma variedade de aplicações em diversas áreas. Uma visão geral da evolução do sensoriamento remoto pode ser observada na Tabela \ref{tab:evolucao_sr}.
@@ -44,7 +44,7 @@ Além disso, estudos evidenciam seu papel na obtenção de estatísticas agríco
 \subsection{Telemetria}
 A telemetria é um campo complementar ao sensoriamento remoto e é definida como:
 \begin{quote}
-"A indicação, registro ou integração de uma quantidade em um ponto remoto por meios eleitorais e de tradução métrica.  Grandezas de estados elétricos ou mecânicos estão normalmente envolvidas, embora existam outras aplicações diversas para telemedição." \parencite{telemetering1941}
+"A indicação, registro ou integração de uma quantidade em um ponto remoto por meios eleitorais e de tradução métrica.  Grandezas de estados elétricos ou mecânicos estão normalmente envolvidas, embora existam outras aplicações diversas para telemedição." \parencite[{p. 3}]{telemetering1941}
 \end{quote}
 
 De acordo com \textcite{telemetry_systems2002}, ao longo das décadas, os sistemas de telemetria evoluiram gradativamente, impulsionada por avanços tecnológicos em eletrônica, comunicações e processamento de dados. Inicialmente, a telemetria era predominantemente utilizada em aplicações aeroespaciais e militares para monitorar o \textit{status} e o desempenho de aeronaves e foguetes. 
@@ -61,7 +61,7 @@ Neste trabalho, a telemetria é empregada para monitorar variáveis ambientais, 
 Há várias concepções propostas para sistemas embarcados; no entanto, de forma geral, ele pode ser definido como:
 
 \begin{quote}
-"Aquele que possui \textit{hardware} de computador com \textit{software} embutido como um de seus componentes mais importantes. É um sistema baseado em computador dedicado para uma ou várias aplicações. Pode ser um sistema independente ou parte de um sistema maior." \parencite{dutta2014comprehensive}
+"Aquele que possui \textit{hardware} de computador com \textit{software} embutido como um de seus componentes mais importantes. É um sistema baseado em computador dedicado para uma ou várias aplicações. Pode ser um sistema independente ou parte de um sistema maior." \parencite[{p. 39}]{dutta2014comprehensive}
 \end{quote}
 
 Sua utilização abrange desde dispositivos simples, como controles remotos e eletrodomésticos, até sistemas complexos, como veículos autônomos e equipamentos médicos \parencite{lee2008cyber, kato2018autoware}. Eles desempenham um papel fundamental na automação de processos industriais, na monitoração e controle de dispositivos, na coleta e processamento de dados em tempo real, entre outras funções \parencite{dutta2014comprehensive}.
@@ -76,7 +76,7 @@ Na seção seguinte, serão abordados os microcontroladores e sua importância n
 Segundo \textcite{lee2008cyber}, os microcontroladores são componentes essenciais dos sistemas embarcados. Estes desempenham um papel central na execução de tarefas específicas e no controle de dispositivos em uma variedade de aplicações. Ele é composto por:
 
 \begin{quote}
-  "Um microprocessador (CPU), além de uma quantidade fixa de memória principal (RAM), memória de programa (ROM/Flash),  interfaces de entrada/saída (I/O), temporizadores e conversores analógico-digitais (ADC), todos em um único chip." \parencite{Mazid_microcontrolador2011}
+  "Um microprocessador (CPU), além de uma quantidade fixa de memória principal (RAM), memória de programa (ROM/Flash),  interfaces de entrada/saída (I/O), temporizadores e conversores analógico-digitais (ADC), todos em um único chip." \parencite[{p. 40}]{Mazid_microcontrolador2011}
 \end{quote}
 
 A Tabela \ref{tab:evolucao_microcontroladores} mostra alguns modelos de microcontroladores e suas finalidades, desde modelos os antigos até os mais recentes. Neste trabalho específico, a escolha do microcontrolador ESP32 se deu em razão de sua capacidade de comunicação \textit{wireless} embutida. Esse recurso também é nativo em outros microcontroladores como Raspberry Pi 4, porém, o ESP32 se destaca por um menor custo e consumo de energia \parencite{ESP32_usage}.
@@ -126,7 +126,7 @@ Neste trabalho, o ESP32 atua como um ponto de controle, permitindo a comunicaç�
 Os sistemas cyberfísicos (CPSs) representam uma evolução dos sistemas embarcados. Eles são definidos como:
 
 \begin{quote}
-"Integrações de computação com processos físicos. Computadores embarcados e redes que monitoram e controlam os processos físicos, geralmente com loops de \textit{feedback} onde os processos físicos afetam as computações e vice-versa." \parencite{lee2008cyber}
+"Integrações de computação com processos físicos. Computadores embarcados e redes que monitoram e controlam os processos físicos, geralmente com loops de \textit{feedback} onde os processos físicos afetam as computações e vice-versa." \parencite[{p. 363}]{lee2008cyber}
 \end{quote}
 
 Recentemente, tem havido uma tendência crescente no uso de CPSs em aplicações práticas. Por exemplo, \textcite{ahmad2020smart} demonstraram um sistema de monitoramento inteligente que utiliza abordagens para rastrear o comportamento e as atividades de roedores no campo. O sistema auxilia especialistas em controle de pragas e agricultores na aplicação mais eficiente de métodos de controle tradicionais.
@@ -136,7 +136,7 @@ Da mesma forma, \textcite{rad2015smart} propuseram um modelo de arquitetura de C
 O presente trabalho se enquadra na categoria de CPS, pois integra componentes físicos, computacionais e de comunicação. Seu papel é monitorar um processo físico (a irrigação) de maneira automatizada e em tempo real. A infraestrutura necessária para conectar dispositivos físicos à internet e entre si é definida como IoT, como será abordado na próxima subseção. 
 
 \section{Internet das coisas}
-A  IoT é um campo multidisciplinar que se desenvolveu ao longo do tempo, com contribuições de diversas áreas. \textcite{datta2017} representa a chegada da IoT como um \textit{"tsunami"}, que começa com a exploração marítima, seguida pelo desenvolvimento da engenharia, passando pela automação, eletricidade, sensoriamento, e culminando na IoT (Figura \ref{figura:evolucao_iot}). 
+A Internet das Coisas (em inglês: \textit{Internet of Things}, IoT) é um campo multidisciplinar que se desenvolveu ao longo do tempo, com contribuições de diversas áreas. \textcite{datta2017} representa esse campo como um \textit{"tsunami"}, que começa com a exploração marítima, seguida pelo desenvolvimento da engenharia, passando pela automação, eletricidade, sensoriamento, e culminando na IoT (Figura \ref{figura:evolucao_iot}). 
 
 Cada uma dessas etapas representa um avanço significativo na integração de tecnologia e comunicação, resultando em um sistema interconectado e inteligente. A exploração marítima marcou o início do uso de tecnologias para navegação e comunicação a longas distâncias. Com a engenharia, foram estabelecidas as bases para a construção de infraestruturas complexas e sistemas mecânicos. 
 
@@ -145,7 +145,7 @@ A automação trouxe a capacidade de controlar processos e máquinas de forma ef
 Ela pode ser definida como:
 
 \begin{quote}
-"Um paradigma emergente de objetos cotidianos que, através da interação com o ambiente e com outros dispositivos, coletam e compartilham dados, geralmente utilizando protocolos de comunicação padronizados e interoperáveis, e, em alguns casos, interagindo com usuários ou outros dispositivos." \parencite{kortuem2009things}
+"Um paradigma emergente de objetos cotidianos que, através da interação com o ambiente e com outros dispositivos, coletam e compartilham dados, geralmente utilizando protocolos de comunicação padronizados e interoperáveis, e, em alguns casos, interagindo com usuários ou outros dispositivos." \parencite[{p. 44}]{kortuem2009things}
 \end{quote}
 
 Segundo \textcite{minerva2015towards}, a ideia de IoT foi proposta pela primeira vez por \textcite{ashton1999things}. Ele argumentou que poderia revolucionar a maneira como interage-se com o mundo físico, permitindo que artefatos se comuniquem entre si e com sistemas de computador.
@@ -174,7 +174,7 @@ De acordo com \textcite{RFC2616}, o HTTP é um protocolo de comunicação utiliz
 O HTTP foi introduzido em 1989 por Tim Berners-Lee enquanto ele trabalhava no CERN, a Organização Europeia para a Pesquisa Nuclear. A necessidade premente de compartilhar e distribuir informações de forma eficiente em uma rede de computadores motivou o desenvolvimento desse protocolo, que se tornou fundamental para a web moderna \parencite{Berners_web}. Ele pode ser definido como:
 
 \begin{quote}
-"Um protocolo de camada de aplicação que define a estrutura de mensagens trocadas entre clientes e servidores. Ele opera sobre o Protocolo de Controle de Transmissão/Protocolo de Internet (TCP/IP), permitindo, nesta instância, a solicitação e transferência de recursos, como documentos HTML, imagens e vídeos, pela web." \parencite{RFC2616}
+"Um protocolo de camada de aplicação que define a estrutura de mensagens trocadas entre clientes e servidores. Ele opera sobre o Protocolo de Controle de Transmissão/Protocolo de Internet (TCP/IP), permitindo, nesta instância, a solicitação e transferência de recursos, como documentos HTML, imagens e vídeos, pela web." \parencite[{p. 7}]{RFC2616}
 \end{quote}
 
 No âmbito do desenvolvimento de sistemas, o HTTP desempenha um papel importante na criação de Interfaces de Programação de Aplicativos (APIs), possibilitando a comunicação entre diferentes componentes. Os desenvolvedores têm a capacidade de criar pontos de acesso HTTP (\textit{endpoints}) que aceitam solicitações e respondem com dados formatados, como JSON ou XML \parencite{Newmann_web}.
@@ -201,7 +201,7 @@ Contudo, por si só, o HTTP não é adequado para aplicações da IoT, devido à
 O MQTT foi introduzido pela primeira vez em 1999 por Dr. Andy Stanford-Clark, da IBM, e Arlen Nipper, da Arcom (agora Eurotech). Segundo \textcite{Andy_mqtt2004}, o MQTT foi inicialmente desenvolvido para o monitoramento de oleodutos e gasodutos através de comunicações de telemetria. Ele é definido como:
 
 \begin{quote}
-"Um método de transporte de dados leve para publicação e assinatura sobre TCP/IP com várias garantias de entrega. Otimizado para uso mínimo de largura de banda de rede e facilidade de implementação em sistemas embarcados, ele serve como um mecanismo de transporte onde é possível decidir o que enviar e quais ações tomar ao receber os dados." \parencite{Andy_mqtt2004}
+"Um método de transporte de dados leve para publicação e assinatura sobre TCP/IP com várias garantias de entrega. Otimizado para uso mínimo de largura de banda de rede e facilidade de implementação em sistemas embarcados, ele serve como um mecanismo de transporte onde é possível decidir o que enviar e quais ações tomar ao receber os dados." \parencite[{p. 4}]{Andy_mqtt2004}
 \end{quote}
 
 Nos sistemas embarcados, o MQTT é implementado nos dispositivos para permitir a troca de dados \parencite{Andy_mqtt2004}. Os dispositivos podem publicar dados de sensores e \textit{status} usando tópicos MQTT, enquanto as aplicações podem se inscrever nesses tópicos para receber e processar os dados em tempo real \parencite{Yassein_mqtt2017}.
@@ -234,7 +234,7 @@ Sua eficiência o posiciona como uma ferramenta vital para a agricultura intelig
 A agricultura passou por uma transformação significativa impulsionada pelo advento das tecnologias digitais, marcando a era da agricultura inteligente. 
 
 \begin{quote}
-  "Também conhecida como agricultura 4.0 ou agricultura digital, é a próxima fase da agricultura industrial, impulsionada pela integração de tecnologias na agricultura." \parencite{Gurjeet_smart2022}
+  "Também conhecida como agricultura 4.0 ou agricultura digital, é a próxima fase da agricultura industrial, impulsionada pela integração de tecnologias na agricultura." \parencite[{p. 424}]{Gurjeet_smart2022}
 \end{quote}
 
 Essa mudança de práticas agrícolas tradicionais para agricultura inteligente tornou-se imperativa. Ela é caracterizada pela integração de tecnologias emergentes, como a IoT, análise de dados em grande escala (BDA), computação em nuvem e IA. Seu objetivo é atender às crescentes demandas por segurança alimentar em uma população global em rápido crescimento \parencite{Gurjeet_smart2022, Garg_smart2023}.
@@ -250,7 +250,7 @@ A agricultura inteligente, ao incorporar IA e análise avançada de dados, busca
 A agricultura de precisão pode ser definida como: 
 
 \begin{quote}
-  "A aplicação de tecnologias e princípios para gerenciar a variabilidade espacial e temporal associada a todos os aspectos da produção agrícola com o propósito de melhorar o desempenho das culturas e a qualidade ambiental." \parencite{Pierce_precision1999}
+  "A aplicação de tecnologias e princípios para gerenciar a variabilidade espacial e temporal associada a todos os aspectos da produção agrícola com o propósito de melhorar o desempenho das culturas e a qualidade ambiental." \parencite[{p. 1}]{Pierce_precision1999}
 \end{quote}
 
 Segundo \textcite{Pierce_precision1999}, o sucesso da agricultura de precisão está relacionado à sua capacidade de avaliar e gerenciar o continuum espaço-tempo na produção de culturas. Ela é habilitada pela tecnologia e integrada por tecnologias específicas que permitem avaliar e gerenciar a variabilidade em níveis de detalhe nunca antes alcançados \parencite{Zhang_precision2002}. No entanto, o sucesso agronômico da agricultura de precisão tem sido limitado e inconsistente, embora bastante convincente em alguns casos, complementa \textcite{Zhang_precision2002}.
@@ -306,7 +306,7 @@ Para compreender a evapotranspiração e sua importância na gestão da água, �
 A ET descreve o processo fundamental de transferência de água da superfície da Terra para a atmosfera \parencite{carmody_fao2023}. A ET desempenha um papel essencial na dinâmica hídrica. Foi observado que:
 
 \begin{quote}
-  "Três tipos de superfície são importantes no retorno da chuva à atmosfera. Para extensas áreas de terra, são eles, em ordem de importância: vegetação, na qual as folhas das plantas atuam como superfícies transpirantes; solo nu ou pousio, de onde a água evapora na interface solo-ar ou logo abaixo dela e em águas abertas, a partir das quais a evaporação ocorre diretamente." \parencite{Penman_evapotranspiration1948}
+  "Três tipos de superfície são importantes no retorno da chuva à atmosfera. Para extensas áreas de terra, são eles, em ordem de importância: vegetação, na qual as folhas das plantas atuam como superfícies transpirantes; solo nu ou pousio, de onde a água evapora na interface solo-ar ou logo abaixo dela e em águas abertas, a partir das quais a evaporação ocorre diretamente." \parencite[{p. 121}]{Penman_evapotranspiration1948}
 \end{quote}
 
 \textcite{Penman_evapotranspiration1948} explica que a irrigação exerce uma influência direta na evaporação ao fornecer água ao solo. Esse processo não apenas afeta a disponibilidade de água para a evaporação, mas também influencia a temperatura e a umidade do solo, fatores determinantes para a taxa de ET. As interações entre a atividade humana e os ciclos naturais da água são particularmente relevantes no contexto das mudanças climáticas globais. 
@@ -330,13 +330,13 @@ Nas duas próximas subseções, serão abordados conceitos e técnicas complemen
 A ET de referência (ETo) é definida como:
 
 \begin{quote}
-  "A quantidade de água evaporada da superfície de referência padrão, que consiste em uma cultura específica cobrindo completamente o solo, com altura uniforme e sem estresse hídrico, sob condições climáticas padrão." \parencite{Allen_evapotranspiration1998}
+  "A taxa de evapotranspiração de uma superfície de referência, sem falta de água." \parencite[{p. 7}]{Allen_evapotranspiration1998}
 \end{quote}
 
 Para calcular a ETo, pode-se empregar o método da FAO-56, uma abordagem recomendada pela Organização das Nações Unidas para Alimentação e Agricultura (FAO), que é definida pela equação:
 
 \begin{equation}
-ETo = 0.408 \cdot \frac{\Delta (R_n - G) + \gamma \cdot \frac{900}{T + 273} \cdot u2 \cdot (e_s - e_a)}{\Delta + \gamma \cdot (1 + 0.34 \cdot u2)}
+ETo = \frac{0.408 \cdot \Delta (R_n - G) + \gamma \cdot \frac{900}{T + 273} \cdot u2 \cdot (e_s - e_a)}{\Delta + \gamma \cdot (1 + 0.34 \cdot u2)}
 \end{equation}
 
 em que: ETo é a evapotranspiração de referência; $R_n$ é a radiação líquida; $G$ é o calor do solo; $\Delta$ é o déficit de pressão de vapor; $\gamma$ é a constante psicrométrica; $T$ é a temperatura média do ar; $u2$ é a velocidade do vento a 2 metros de altura; $e_s$ é a pressão de vapor do ar saturado; $e_a$ é a pressão de vapor do ar.
@@ -346,13 +346,13 @@ em que: ETo é a evapotranspiração de referência; $R_n$ é a radiação líqu
 A ET de cultura (ETc), por sua vez, é definida como:
 
 \begin{quote}
-  "A quantidade de água evaporada da superfície do solo e transpirada pelas plantas em uma cultura específica sob condições reais." \parencite{bernardo_irrigacao2008}
+  "A evapotranspiração de culturas livres de doenças, bem fertilizadas, cultivadas em grandes campos, sob condições ótimas de água no solo e atingindo plena produção nas condições climáticas dadas." \parencite[{p. 7}]{Allen_evapotranspiration1998}
 \end{quote}
 
-Ela é calculada como o produto da ETo e um determinado coeficiente de cultura (Kc), como proposto por \textcite{bernardo_irrigacao2008}:
+Ela é calculada como o produto da ETo e um determinado coeficiente de cultura (Kc), como proposto por \textcite{Allen_evapotranspiration1998}:
 
 \begin{equation}
-ETc = Kc \times ETo
+ETc = Kc \cdot ETo
 \end{equation}
 
 O Kc é um fator que leva em consideração as características específicas da cultura, como a fase de desenvolvimento, a densidade de plantio e a cobertura do solo. Ele é determinado experimentalmente e varia ao longo do ciclo de cultivo \parencite{bernardo_irrigacao2008}.

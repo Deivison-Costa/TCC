@@ -7,13 +7,13 @@ O sistema em questão foi implementado no Instituto Federal de Minas Gerais (IFM
 O sistema desenvolvido utiliza uma série de sensores para monitorar em tempo real diferentes parâmetros meteorológicos. Os componentes do sistema incluem:
 
 \begin{itemize}
-\item Anemômetro (Figura \ref{figura:anemometro});
-\item Sensor de temperatura e umidade do ar DHT22 (Figura \ref{figura:sensor_dht22});
-\item Sensor de pressão barométrica BMP280 (Figura \ref{figura:sensor_bmp280});
-\item Sensor de umidade do solo LM393 (Figura \ref{figura:sensor_lm393});
-\item Sensor de luminosidade BH1750 (Figura \ref{figura:sensor_bh1750});
-\item Microcontrolador ESP32 (Figura \ref{figura:esp32});
-\item \textit{Jumpers} e cabos (Figura \ref{figura:jumpers}).
+\item Anemômetro;
+\item Sensor de temperatura e umidade do ar DHT22;
+\item Sensor de pressão barométrica BMP280;
+\item Sensor de umidade do solo LM393;
+\item Sensor de luminosidade BH1750;
+\item Microcontrolador ESP32;
+\item \textit{Jumpers} e cabos.
 \end{itemize}
 
 Esses componentes foram integrados em um sistema cyber-físico que publica as leituras individuais de cada sensor em um \textit{broker}. Nesse trabalho optou-se pelo \textit{EMQX}, uma plaforma de código aberto para MQTT de alta performance \parencite{EMQX}.
@@ -48,7 +48,7 @@ Os dados meteorológicos são processados e analisados utilizando as tecnologias
 
 \section{Estimativa da evapotranspiração}
 
-O cálculo da ETo e da ETc é usada para o monitoramento hídrico em tempo real e é realizado com base nas leituras dos sensores. Foram usadas as equações da FAO-56 como modelagem referencial. Cada leitura dos sensores contribui diretamente para o cálculo dessas variáveis ou é convertida de forma a ser utilizada na equação.
+O cálculo da ETo e da ETc é usada para o monitoramento hídrico em tempo real e é realizado com base nas leituras dos sensores. Foram usadas as equações da FAO-56 como modelagem referencial. Cada leitura dos sensores contribui diretamente para o cálculo dessas variáveis, ou, é convertida de forma a ser utilizada na equação.
 
 \subsection{Variáveis meteorológicas e sua obtenção}
 
@@ -58,16 +58,64 @@ As variáveis meteorológicas utilizadas no cálculo da evapotranspiração são
     
     \item A umidade relativa (\(RH\)) também é medida pelo sensor DHT22, em percentual;
     
+    \item A umidade do solo (\(h\)) é medida pelo comparador LM393 com eletrodos externos, em um intervalo analógico;
+    
     \item A pressão atmosférica (\(P\)) é obtida do sensor BMP280, em hPa;
 
     \item A velocidade do vento (\(u_2\)) é medida pelo anemômetro, em m/s.
 \end{itemize}
 
-As demais variáveis são estimadas a partir de cálculos intermediários, obtidos, com excessão da radiação líquida, da obra de \textcite{thermodynamic_fermi}:
+As demais variáveis são estimadas a partir de cálculos intermediários, obtidos em sua maioria da obra de \textcite{Allen_evapotranspiration1998}:
 \begin{itemize}
-    \item A radiação líquida (\(R_n\)) é estimada a partir das leituras do sensor de luminosidade BH1750, que mede a intensidade luminosa em lux. \textcite{Michael_2020} apresenta a conversão de lux para radiação líquida em MJ/m²/dia, dada pela equação:
-    
-    \[ R_n = \frac{Lux}{100000} \times 0.0036 \times 0.0864 \times 1000 \]
+    \item A radiação líquida (\(R_n\)) é estimada a partir das leituras do sensor de luminosidade BH1750, que mede a intensidade luminosa em lux a cada segundo. 
+    \begin{itemize}
+        \item \textcite{Michael_2020} apresentam a conversão de lux para irradiância solar (\(E\)) em W/m², dada pela equação:
+        \[ E \approx \frac{Lux}{120} \]
+
+        \item A irradiância solar por sua vez pode ser convertida em radiação solar (\(R_s\)) através de uma transformação métrica simples:
+        
+        \[ R_s = E \cdot \text{Área (m}^2\text{)} \cdot \text{Tempo (s)} \]
+
+        \item Desta forma é possível determinar a radiação líquida solar (\(R_{ns}\)), dada por:
+        
+        \[ R_{ns} = R_s \cdot 0.77 \]
+
+        \item A última componente necessária para determinar a \(R_n\) é a radiação líquida de longas ondas (\(R_{nl}\)), que é resultante das seguintes equações:
+        
+        \begin{itemize}
+            \item A distância relativa inversa Terra-Sol (\(d_r\)) é calculada como:
+            
+            \[
+            d_r = 1 + 0.033 \cos\left( \frac{2 \pi J}{365} \right)
+            \]
+            onde \(J\) é o dia do ano.
+            
+            \item A radiação extraterrestre por períodos horários ou mais curtos (\(R_a\)) é dada por:
+            
+            \[
+            R_a = \frac{12(60)}{\pi} G_{sc} d_r \left[ (\omega_2 - \omega_1) \sin(\phi) \sin(\delta) + \cos(\phi) \cos(\delta) (\sin(\omega_2) - \sin(\omega_1)) \right]
+            \]
+            onde \(G_{sc} = 0.0820 \, MJ \, m^{-2} \, min^{-1}\), \( \delta = 0.409 \sin\left( \frac{2 \pi J}{365} - 1.39 \right)\), e os ângulos \( \omega_1 \) e \( \omega_2 \) são os ângulos de tempo solar no início e no final do período, respectivamente.
+            
+            \item A radiação solar com céu limpo (\(R_{so}\)) é dada por:
+            
+            \[
+            R_{so} = (0.75 + 2 \cdot 10^{-5} z) R_a
+            \]
+            onde \(z\) é a elevação em metros do nível do mar.
+            
+            \item A radiação líquida de ondas longas (\(R_{nl}\)) é estimada por:
+            
+            \[
+            R_{nl} = \sigma \left( \frac{T_{max,K}^4 + T_{min,K}^4}{2} \right) \left[ 0.34 - 0.14 \sqrt{e_a} \right] \left( 1.35 \frac{R_s}{R_{so}} - 0.35 \right)
+            \]
+            onde \(T_{max,K}\) e \(T_{min,K}\) são as temperaturas máximas e mínimas em Kelvin, \( \sigma \) é a constante de Stefan-Boltzmann (\(4.903 \cdot 10^{-9} \, MJ \, K^{-4} \, m^{-2} \, dia^{-1} \)), e \(e_a\) é a pressão de vapor atual.
+        \end{itemize}
+
+        \item A \(R_n\) resultante é dada por:
+        
+        \[ R_n = R_{ns} - R_{nl} \]
+    \end{itemize}
     
     \item A variação da pressão de saturação (\(\Delta\)) é calculada com a equação:
     \[
@@ -76,21 +124,21 @@ As demais variáveis são estimadas a partir de cálculos intermediários, obtid
     
     \item A pressão de saturação (\(e_s\)) é calculada usando:
     \[
-    e_s = 0.6108 \cdot e^{\frac{17.27 \cdot T}{T + 237.3}}
+    e_s = \frac{0.6108 \cdot e^{\frac{17.27 \cdot T_{max}}{T_{max} + 237.3}} + 0.6108 \cdot e^{\frac{17.27 \cdot T_{min}}{T_{min} + 237.3}}}{2}
     \]
     
     \item A pressão de vapor atual (\(e_a\)) é obtida com:
     \[
-    e_a = \frac{RH}{100} \cdot e_s
+    e_a = 0.6108 \cdot e^{\frac{17.27 \cdot T}{T + 237.3}}
     \]
     
-    \item O fluxo de calor do solo (\(G\)) pode ser assumido como nulo, ou seja, considera-se \(G = 0\);
+    \item O fluxo de calor do solo (\(G\)) é definido pela hora, ou seja, considera-se: \(G = 0.1 \cdot R_n\) durante o dia e \(G = 0.5 \cdot R_n\) durante a noite;
     
     \item A constante psicrométrica (\(\gamma\)) é dada por:
     \[
-    \gamma = \frac{0.665 \times 10^{-3} \times P}{\lambda}
+    \gamma = 0.665 \times 10^{-3} \times P
     \]
-    onde \(\lambda\) é o calor de vaporização da água, aproximadamente 2.45 MJ/kg.
+    onde \(P\) é a pressão atmosféria, fornecida pelo sensor BMP280.
 \end{itemize}
 
 \section{Desenvolvimento da aplicação}
@@ -115,21 +163,21 @@ Essas práticas resultaram em um código mais limpo, testável e resiliente, cap
 
 \subsection{Ciclo de desenvolvimento do software}
 
-O ciclo de desenvolvimento do \textit{software} envolveu tanto a parte \textit{web} quanto a embarcada, seguindo uma abordagem iterativa e incremental, utilizando \textit{Git Workflow} como estratégia principal de controle de versões \parencite{pro_git}.
+O ciclo de desenvolvimento do \textit{software} envolveu tanto a parte \textit{web} quanto a embarcada, seguindo uma abordagem iterativa e incremental. Foi utilizado o \textit{Git Workflow} como estratégia principal de controle de versões \parencite{pro_git}.
 
 Para o desenvolvimento \textit{web}, o fluxo começou com a definição dos requisitos e a modelagem do domínio, seguida pela implementação das funcionalidades em \textit{branches} específicas, alinhadas com as funcionalidades do sistema. Cada \textit{feature branch} era integrada à \textit{branch develop} após a aprovação em revisões de código e a passagem pelos testes automatizados, garantindo a qualidade e a integração contínua do código. O \textit{Git Workflow} utilizado incluía a criação de \textit{feature branches}, \textit{hotfix branches}, e \textit{release branches}, de acordo com o estado de desenvolvimento e manutenção do sistema.
 
-Para o desenvolvimento embarcado, foram utilizados ciclos mais curtos devido à necessidade de validação rápida dos sensores e componentes físicos. Cada ciclo incluía a configuração do \textit{hardware}, programação do \textit{firmware} no ESP32 utilizando a Arduino IDE, e testes físicos para validação dos dados coletados. As versões do código embarcado eram gerenciadas em um repositório \textit{Git} separado, seguindo uma estrutura similar à usada para o desenvolvimento \textit{web}, mas adaptada para as necessidades específicas do desenvolvimento embarcado, incluindo a verificação de integrações entre sensores e o envio dos dados ao EMQX.
+Para o desenvolvimento embarcado, foram utilizados ciclos mais curtos devido à necessidade de validação rápida dos sensores e componentes físicos. Cada ciclo incluía a configuração do \textit{hardware}, programação do \textit{firmware} no ESP32 utilizando a Arduino IDE, e testes físicos para validação dos dados coletados. As versões do código embarcado eram gerenciadas em um repositório \textit{Git} separado, seguindo uma estrutura similar à usada para o desenvolvimento \textit{web}. Nesse caso, foram feitas adaptações para as necessidades específicas do desenvolvimento embarcado, incluindo a verificação de integrações entre sensores e o envio dos dados ao \textit{EMQX}.
 
 A sinergia entre essas duas frentes de desenvolvimento foi usada para garantir que o sistema operasse de forma coesa e integrada, desde a captura dos dados até a sua visualização na interface \textit{web}.
 
 \subsection{Prototipagem e distribuição dos componentes}
 
-A prototipagem do sistema foi uma etapa importante para garantir que os componentes de \textit{hardware} e \textit{software} funcionassem harmoniosamente. O processo começou com a criação de protótipos de baixa fidelidade, utilizando o \textit{Fritzing} para o design dos circuitos e a prototipagem das interações entre os sensores e o microcontrolador ESP32.
+A prototipagem do sistema foi uma etapa importante para garantir que os componentes de \textit{hardware} e \textit{software} funcionassem harmoniosamente. O processo começou com a criação de protótipos de baixa fidelidade, utilizando o \textit{Fritzing} para o \textit{design} dos circuitos e a prototipagem das interações entre os sensores e o microcontrolador ESP32.
 
-O desenvolvimento do protótipo envolveu a montagem dos sensores em uma \textit{breadboard}, permitindo ajustes rápidos e trocas de componentes conforme necessário. O \textit{layout} dos componentes foi projetado no \textit{EasyEDA} de forma a otimizar a coleta de dados, minimizando interferências e garantindo a precisão das medições. Após a validação do protótipo inicial, os componentes foram migrados para uma montagem mais permanente, utilizando uma PCB e cabos soldados, garantindo maior durabilidade e estabilidade nas leituras.
+O desenvolvimento do protótipo envolveu a montagem dos sensores em uma \textit{breadboard}, permitindo ajustes rápidos e trocas de componentes conforme necessário. O \textit{layout} dos componentes foi projetado no \textit{EasyEDA} de forma a otimizar a coleta de dados, minimizando interferências e garantindo a precisão das medições. Após a validação do protótipo inicial, os componentes foram migrados para uma montagem mais permanente. Isso foi feito utilizando uma PCB e cabos soldados, garantindo maior durabilidade e estabilidade nas leituras.
 
-Para a prototipagem do \textit{software}, foram utilizados \textit{mockups} e \textit{wireframes} para definir as interfaces e fluxos de usuário. Ferramentas como \textit{Figma} foram empregadas para criar protótipos de alta fidelidade das telas, que serviram de guia para o desenvolvimento do frontend em \textit{React}. A distribuição dos componentes de \textit{software} seguiu o princípio de modularidade, permitindo que cada módulo fosse desenvolvido e testado isoladamente antes de ser integrado ao sistema principal.
+Para a prototipagem do \textit{software}, foram utilizados \textit{mockups} e \textit{wireframes} para definir as interfaces e fluxos de usuário. Ferramentas como \textit{Figma} foram empregadas para criar protótipos de alta fidelidade das telas, que serviram de guia para o desenvolvimento do \textit{frontend} em \textit{React}. A distribuição dos componentes de \textit{software} seguiu o princípio de modularidade, permitindo que cada módulo fosse desenvolvido e testado isoladamente antes de ser integrado ao sistema principal.
 
 A metodologia adotada permitiu uma transição suave do protótipo para a implementação final, garantindo que todos os componentes do sistema fossem adequadamente validados e integrados antes da implantação no laboratório.
 
@@ -157,59 +205,12 @@ Em relação aos procedimentos técnicos, a pesquisa é classificada como experi
 
 Quanto à abordagem do problema, esta pesquisa é quantitativa. O sistema desenvolvido coleta, processa e analisa dados meteorológicos numéricos, que são quantificados e apresentados em relatórios e gráficos. A análise quantitativa é usada para a interpretação dos dados capturados pelos sensores, permitindo a avaliação precisa de variáveis como temperatura, umidade, pressão, e velocidade do vento, além de possibilitar o cálculo de índices climáticos, como a evapotranspiração. A abordagem quantitativa foi escolhida por sua capacidade de fornecer resultados objetivos e mensuráveis, fundamentais para o monitoramento e a tomada de decisão baseada em dados.
 
-\begin{figure}[!htb] \centering
-\caption{Anemômetro} \label{figura:anemometro}
-\begin{varwidth}{\linewidth}
-\includegraphics[width=10cm]{figuras/Anemometer-sensor.png}
-\fonte{Retirado de \textcite{Eletrogate}.}
-\end{varwidth}
-\end{figure}
+\section{Conclusão}
 
-\begin{figure}[!htb] \centering
-\caption{Sensor DHT22} \label{figura:sensor_dht22}
-\begin{varwidth}{\linewidth}
-\includegraphics[width=10cm]{figuras/DHT22-sensor.png}
-\fonte{Retirado de \textcite{Eletrogate}.}
-\end{varwidth}
-\end{figure}
+O sistema de monitoramento meteorológico desenvolvido neste trabalho mostrou-se eficiente na coleta, transmissão e análise de dados ambientais em tempo real.
 
-\begin{figure}[!htb] \centering
-\caption{Sensor BMP280} \label{figura:sensor_bmp280}
-\begin{varwidth}{\linewidth}
-\includegraphics[width=10cm]{figuras/BMP280-sensor.png}
-\fonte{Retirado de \textcite{Eletrogate}.}
-\end{varwidth}
-\end{figure}
+A arquitetura escolhida e as boas práticas de desenvolvimento adotadas garantiram uma integração eficiente entre o \textit{hardware} e o \textit{software}. Isso permitiu a obtenção de dados confiáveis para o cálculo da evapotranspiração, conforme as equações estabelecidas. O uso de sensores adequados e métodos computacionais permitiu a implementação de um sistema robusto para monitoramento ambiental.
 
-\begin{figure}[!htb] \centering
-\caption{Sensor LM393} \label{figura:sensor_lm393}
-\begin{varwidth}{\linewidth}
-\includegraphics[width=10cm]{figuras/LM393-sensor.png}
-\fonte{Retirado de \textcite{Eletrogate}.}
-\end{varwidth}
-\end{figure}
+O uso de técnicas de prototipagem e ferramentas modernas viabilizou a realização de ajustes durante o processo de desenvolvimento, resultando em um sistema capaz de operar de maneira estável. A modularidade da solução facilita a inclusão de novos sensores ou a implementação de funcionalidades adicionais, permitindo que o sistema evolua conforme novas demandas surgirem.
 
-\begin{figure}[!htb] \centering
-\caption{Sensor BH1750} \label{figura:sensor_bh1750}
-\begin{varwidth}{\linewidth}
-\includegraphics[width=10cm]{figuras/BH1750-sensor.png}
-\fonte{Retirado de \textcite{Eletrogate}.}
-\end{varwidth}
-\end{figure}
-
-\begin{figure}[!htb] \centering
-\caption{Microcontrolador ESP32} \label{figura:esp32}
-\begin{varwidth}{\linewidth}
-\includegraphics[width=10cm]{figuras/ESP32-micro.jpg}
-\fonte{Retirado de \textcite{Eletrogate}.}
-\end{varwidth}
-\end{figure}
-
-\begin{figure}[!htb] \centering
-\caption{\textit{Jumpers}} \label{figura:jumpers}
-\begin{varwidth}{\linewidth}
-\includegraphics[width=10cm]{figuras/Jumpers-cabos.png}
-\fonte{Retirado de \textcite{Eletrogate}.}
-\end{varwidth}
-\end{figure}
-
+O projeto desenvolvido apresenta potencial para ser replicado em outras áreas, além de poder ser expandido para abranger outros tipos de monitoramento meteorológico ou agrícola, evidenciando sua flexibilidade e aplicabilidade prática.
