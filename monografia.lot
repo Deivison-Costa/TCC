@@ -1,7 +1,16 @@
 \babel@toc {brazil}{}\relax
-\contentsline {table}{\numberline {1}{\ignorespaces Evolução do sensoriamento remoto.}}{18}{table.caption.20}%
-\contentsline {table}{\numberline {2}{\ignorespaces Evolução dos microcontroladores.}}{21}{table.caption.21}%
-\contentsline {table}{\numberline {3}{\ignorespaces Periféricos do microcontrolador ESP32}}{22}{table.caption.22}%
-\contentsline {table}{\numberline {4}{\ignorespaces Métodos HTTP}}{26}{table.caption.24}%
-\contentsline {table}{\numberline {5}{\ignorespaces Características do protocolo MQTT}}{27}{table.caption.25}%
-\contentsline {table}{\numberline {6}{\ignorespaces Comparação das tecnologias}}{36}{table.caption.27}%
+\contentsline {table}{\numberline {1}{\ignorespaces Evolução do sensoriamento remoto.}}{19}{table.caption.20}%
+\contentsline {table}{\numberline {2}{\ignorespaces Evolução dos microcontroladores.}}{23}{table.caption.21}%
+\contentsline {table}{\numberline {3}{\ignorespaces Periféricos do microcontrolador ESP32}}{24}{table.caption.22}%
+\contentsline {table}{\numberline {4}{\ignorespaces Métodos HTTP}}{27}{table.caption.24}%
+\contentsline {table}{\numberline {5}{\ignorespaces Características do protocolo MQTT}}{29}{table.caption.25}%
+\contentsline {table}{\numberline {6}{\ignorespaces Comparação das tecnologias}}{38}{table.caption.27}%
+\contentsline {table}{\numberline {7}{\ignorespaces Especificações técnicas do sensor DHT22}}{41}{table.caption.29}%
+\contentsline {table}{\numberline {8}{\ignorespaces Especificações técnicas do sensor BMP280}}{42}{table.caption.31}%
+\contentsline {table}{\numberline {9}{\ignorespaces Especificações técnicas do sensor BH1750}}{43}{table.caption.33}%
+\contentsline {table}{\numberline {10}{\ignorespaces Especificações técnicas do Anemômetro RS-FSJT-N01}}{44}{table.caption.35}%
+\contentsline {table}{\numberline {11}{\ignorespaces Especificações técnicas do Comparador LM393}}{45}{table.caption.37}%
+\contentsline {table}{\numberline {12}{\ignorespaces Especificações técnicas do Módulo GPS NEO-6M V2}}{46}{table.caption.39}%
+\contentsline {table}{\numberline {13}{\ignorespaces Especificações técnicas do Módulo Conversor RS485 para TTL}}{47}{table.caption.41}%
+\contentsline {table}{\numberline {14}{\ignorespaces Comparação dos dados climáticos em Bambuí em 16/10/2024}}{70}{table.caption.61}%
+\contentsline {table}{\numberline {15}{\ignorespaces Valores de ETo e ETc coletados pelo sistema \textit {IrrigaSync}}}{72}{table.caption.63}%

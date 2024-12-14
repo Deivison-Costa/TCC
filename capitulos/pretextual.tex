@@ -2,7 +2,7 @@
 % Resumo e abstract (obrigatórios)
 % --------------------------------------------------
 \resumo{%
-Este trabalho apresenta o desenvolvimento de um sistema de monitoramento em tempo real para a irrigação agrícola, integrando tecnologias modernas com o método científico da Evapotranspiração da Cultura (ETc). A crescente demanda por soluções eficientes na gestão de recursos hídricos e a necessidade de práticas sustentáveis na agricultura motivam esta pesquisa. O sistema desenvolvido utiliza sensores de telemetria para coletar dados ambientais em tempo real, empregando o protocolo MQTT para comunicação entre dispositivos. Além disso, algoritmos de cálculo da ETc são integrados ao sistema para fornecer métricas precisas sobre as necessidades hídricas das culturas. A agricultura de precisão, aliada ao conceito de Internet das Coisas (IoT), permite um monitoramento contínuo e detalhado das condições do solo e das plantas, promovendo uma gestão mais eficaz da irrigação. Espera-se que o sistema proposto contribua significativamente para a redução do desperdício de água, aumento da produtividade agrícola e promoção da sustentabilidade. Testes e validações em campo visam demonstrar a eficácia do sistema em fornecer informações precisas e úteis para os agricultores, facilitando a tomada de decisões informadas e oportunas.
+Este trabalho apresenta o desenvolvimento de um sistema de monitoramento em tempo real para a irrigação agrícola, integrando tecnologias modernas com o método científico da Evapotranspiração da Cultura (ETc). A crescente demanda por soluções eficientes na gestão de recursos hídricos e a necessidade de práticas sustentáveis na agricultura motivam esta pesquisa. O sistema desenvolvido utiliza sensores de telemetria para coletar dados ambientais em tempo real. Além disso, algoritmos de cálculo da ETc são integrados ao sistema para fornecer métricas sobre as necessidades hídricas das culturas. A agricultura de precisão, aliada ao conceito de Internet das Coisas (IoT), permite um monitoramento contínuo e detalhado das condições do solo e das plantas, promovendo uma gestão mais eficaz da irrigação. Espera-se que o sistema proposto contribua para a redução do desperdício de água, aumento da produtividade agrícola e promoção da sustentabilidade. Testes e validações em campo visam demonstrar a eficácia do sistema em fornecer informações úteis para os agricultores, facilitando a tomada de decisões informadas e oportunas.
 }
 \palavraschave{Monitoramento em tempo real. Agricultura de precisão. Evapotranspiração da Cultura (ETc). Protocolo MQTT. Internet das Coisas (IoT).}
 
@@ -11,7 +11,7 @@ Este trabalho apresenta o desenvolvimento de um sistema de monitoramento em temp
 % Keywords e abstract
 % --------------------------------------------------
 \abstract{%
-This work presents the development of a real-time monitoring system for agricultural irrigation, integrating modern technologies with the scientific method of Crop Evapotranspiration (ETc). The increasing demand for efficient water resource management solutions and the need for sustainable agricultural practices motivate this research. The developed system uses telemetry sensors to collect real-time environmental data, employing the MQTT protocol for device communication. Additionally, ETc calculation algorithms are integrated into the system to provide accurate metrics on crop water requirements. Precision agriculture, combined with the concept of the Internet of Things (IoT), allows for continuous and detailed monitoring of soil and plant conditions, promoting more effective irrigation management. It is expected that the proposed system will significantly contribute to reducing water waste, increasing agricultural productivity, and promoting sustainability. Field tests and validations demonstrated the system's effectiveness in providing precise and useful information for farmers, facilitating informed and timely decision-making.
+This work presents the development of a real-time monitoring system for agricultural irrigation, integrating modern technologies with the scientific method of Crop Evapotranspiration (ETc). The increasing demand for efficient water resource management solutions and the need for sustainable agricultural practices motivate this research. The developed system uses telemetry sensors to collect real-time environmental data. Additionally, ETc calculation algorithms are integrated into the system to provide metrics on crop water requirements. Precision agriculture, combined with the concept of the Internet of Things (IoT), allows for continuous and detailed monitoring of soil and plant conditions, promoting more effective irrigation management. It is expected that the proposed system will contribute to reducing water waste, increasing agricultural productivity, and promoting sustainability. Field tests and validations demonstrated the system's effectiveness in providing useful information for farmers, facilitating informed and timely decision-making.
 }
 \keywords{Real-time monitoring. Precision agriculture. Crop Evapotranspiration (ETc). MQTT protocol. Internet of Things (IoT).}
 
@@ -24,7 +24,7 @@ Dedico este trabalho a todos aqueles que acreditaram em mim. À minha família, 
 \textoagradecimentos{%
 Primeiramente, agradeço a Deus por guiar meus passos e iluminar meu caminho ao longo desta caminhada acadêmica. Sem Sua orientação, nada disso seria possível. Agradeço por cada desafio superado, por cada aprendizado adquirido e por cada conquista alcançada.
 
-Expresso minha gratidão a meu orientador Prof. Me. Mateus, pela orientação produtiva, pelos conselhos e pela paciência dedicada na condução deste trabalho. Suas contribuições foram fundamentais para o meu crescimento acadêmico e profissional.
+Expresso minha gratidão a meu orientador Prof. Dr. Mateus, pela orientação produtiva, pelos conselhos e pela paciência dedicada na condução deste trabalho. Suas contribuições foram fundamentais para o meu crescimento acadêmico e profissional.
 
 Agradeço também aos professores e colaboradores desta instituição, que compartilharam seus conhecimentos e experiências, enriquecendo meu percurso acadêmico e contribuindo para o desenvolvimento deste trabalho.
 
@@ -59,6 +59,7 @@ Por fim, dedico um agradecimento especial aos meus amigos e colegas de estudo, p
     \item[IBM] -- International Business Machines
     \item[I2C] -- Circuito Inter-Integrado (\textit{Inter-Integrated Circuit})
     \item[IDE] -- Ambiente de Desenvolvimento Integrado (\textit{Integrated Development Environment})
+    \item[INMET] -- Instituto Nacional de Meteorologia 
     \item[IoT] -- Internet das Coisas (\textit{Internet of Things})
     \item[IP] -- Protocolo de Internet (\textit{Internet Protocol})
     \item[ISP] -- Princípio de Segregação de Interface (\textit{Interface Segregation Principle})
@@ -104,6 +105,7 @@ Por fim, dedico um agradecimento especial aos meus amigos e colegas de estudo, p
     \item[$h$] -- Umidade do solo
     \item[$J$] -- Dia do ano 
     \item[$K_c$] -- Coeficiente de cultura
+    \item[$lx$] -- Lux 
     \item[$P$] -- Pressão atmosféria 
     \item[$R^2$] -- Coeficiente de determinação
     \item[$R_a$] -- Radiação extraterrestre

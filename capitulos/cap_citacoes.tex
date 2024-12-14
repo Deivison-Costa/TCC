@@ -1,101 +1,36 @@
-Em documentos acadêmicos podem existir citações diretas e citações indiretas. As citações indiretas são feitas quando se reescreve uma referência consultada. Nas citações indiretas há duas formatações possíveis dependendo de como ocorre a citação no texto. Quando o autor é mencionado explicitamente na sentença deve ser usado o comando \comando{citet\{\}}, nas demais situações é usado o comando \comando{cite\{\}}. A Figura \ref{figura:citacao_indireta_explicita} mostra um exemplo com o comando \comando{citet\{\}}.
+O sistema \textit{IrrigaSync} oferece uma base para desenvolvimento contínuo e melhorias. Algumas direções futuras incluem:  
 
-% --------------------------------------------------
+\begin{enumerate}
+    \item Otimização do sistema
+        \begin{itemize}
+            \item Melhorar os algoritmos de cálculo da evapotranspiração, incorporando novos métodos e equações adaptadas a diferentes condições climáticas e culturas específicas.  
+            \item Desenvolver rotinas de autoavaliação para o sistema, permitindo diagnósticos automatizados de falhas em sensores e componentes de rede.  
+        \end{itemize}
+    \item Calibração e validação
+        \begin{itemize}
+            \item Realizar calibrações periódicas mais detalhadas para reduzir discrepâncias nos dados coletados, especialmente em relação a fontes oficiais, como o INMET e de outros sistemas de referência. 
+            \item Investigar as influências de microclimas locais de forma mais sistemática, para adequar o sistema a diferentes cenários geográficos.  
+        \end{itemize}
+    \item Expansão funcional  
+        \begin{itemize}
+            \item Integrar sensores adicionais, como medidores de qualidade do ar e sensores de nutrientes para análise do solo.  
+            \item Incorporar funcionalidades preditivas, utilizando algoritmos de aprendizado de máquina para prever demandas hídricas e riscos climáticos.  
+        \end{itemize}
+    \item Interoperabilidade e automação  
+        \begin{itemize}
+            \item Explorar a integração com sistemas de irrigação automatizados, permitindo controle dinâmico baseado em dados em tempo real.  
+            \item Desenvolver conectores para plataformas agrícolas existentes e para dispositivos inteligentes, como assistentes virtuais e \textit{smart hubs}.  
+        \end{itemize}
+    \item Acessibilidade e escalabilidade
+        \begin{itemize}
+            \item Ampliar a cobertura do sistema em áreas com conectividade limitada, utilizando redes LoRa, Sigfox ou sistemas híbridos.  
+            \item Adaptar o sistema para culturas agrícolas de maior escala, analisando seu desempenho em condições de larga produção.  
+        \end{itemize}
+    \item Validação científica e industrial  
+        \begin{itemize}
+            \item Promover estudos de caso com diferentes tipos de cultivo, em parceria com produtores rurais e instituições de pesquisa, para avaliar o impacto do sistema na produtividade e sustentabilidade agrícola.  
+            \item Buscar certificações e validações que permitam a utilização comercial do sistema em larga escala.  
+        \end{itemize}
+\end{enumerate}
 
-\begin{figure}[!htb]
-\caption{Exemplo de citação indireta explícita} \label{figura:citacao_indireta_explicita}
-
-\hrulefill\vspace*{-1em}
-
-\begin{verbatim}
-Segundo \citet{ifmg:2020:manual}, o trabalho de conclusão de curso
-deve seguir as normas da ABNT.
-\end{verbatim}
-
-\vspace*{-1.5em}\hrulefill
-
-Segundo \citet{ifmg:2020:manual}, o trabalho de conclusão de curso deve seguir as normas da ABNT.
-
-\vspace*{-0.5em}\hrulefill
-\fonte{Elaborado pelo autor, 2020.}
-\end{figure}
-
-% --------------------------------------------------
-
-Para especificar a página consultada na referência é preciso acrescentá-la entre colchetes com os comandos \comando{cite[página]\{\}} ou \comando{citet[página]\{\}}. Na Figura \ref{figura:citacao_indireta_pagina} é mostrado um exemplo de citação com página específica.
-
-% --------------------------------------------------
-
-\begin{figure}[!htb]
-\caption{Exemplo de citação indireta não explícita} \label{figura:citacao_indireta_pagina}
-\hrulefill\vspace*{-1em}
-
-\begin{verbatim}
-A folha de aprovação é um elemento obrigatório no trabalho de conclusão
-de curso \cite[p.~22]{ifmg:2020:manual}.
-\end{verbatim}
-
-\vspace*{-1.5em}\hrulefill
-
-A folha de aprovação é um elemento obrigatório no trabalho de conclusão de curso \cite[p.~22]{ifmg:2020:manual}.
-
-\vspace*{-0.5em}\hrulefill
-\fonte{Elaborado pelo autor, 2020.}
-\end{figure}
-
-% --------------------------------------------------
-
-As citações diretas acontecem quando o texto de uma referência é transcrito literalmente. As citações diretas são curtas (até três linhas) são inseridas no texto entre aspas duplas. Como no exemplo mostrado na Figura \ref{figura:citacao_direta_curta}.
-
-% --------------------------------------------------
-
-\begin{figure}[!htb]
-\caption{Exemplo de citação direta curta} \label{figura:citacao_direta_curta}
-\hrulefill\vspace*{-1em}
-
-\begin{verbatim}
-``A tabela deve ser colocada em posição vertical, para facilitar a
-leitura dos dados'' \cite[p.~26]{ifmg:2020:manual}.
-\end{verbatim}
-
-\vspace*{-1.5em}\hrulefill
-
-``A tabela deve ser colocada em posição vertical, para facilitar a leitura dos dados'' \cite[p.~25]{ifmg:2020:manual}.
-
-\vspace*{-0.5em}\hrulefill
-\fonte{Elaborado pelo autor, 2020.}
-\end{figure}
-
-% --------------------------------------------------
-
-As citações longas (com mais de 3 linhas) podem ser inseridas com o ambiente \comando{begin\{citacao\}} como mostra a Figura \ref{figura:citacao_direta_longa}.
-
-% --------------------------------------------------
-
-\begin{figure}[!htb]
-\caption{Exemplo de citação direta longa} \label{figura:citacao_direta_longa}
-\hrulefill\vspace*{-1em}
-
-\begin{verbatim}
-\begin{citacao}
-A tabela deve ser colocada em posição vertical, para facilitar a
-leitura dos dados.
-No caso em que isso seja impossível, deve ser colocada em posição
-horizontal, com o título voltado para a margem esquerda da folha.
-Fontes e notas devem aparecer na parte inferior da
-tabela em tamanho 11 \cite[p.~25]{ifmg:2020:manual}.
-\end{citacao}
-\end{verbatim}
-
-\vspace*{-1.5em}\hrulefill
-
-\begin{citacao}
-A tabela deve ser colocada em posição vertical, para facilitar a leitura dos dados. No
-caso em que isso seja impossível, deve ser colocada em posição horizontal, com o título
-voltado para a margem esquerda da folha. Fontes e notas devem aparecer na parte inferior da
-tabela em tamanho 11 \cite[p.~25]{ifmg:2020:manual}.
-\end{citacao}
-
-\vspace*{-0.5em}\hrulefill
-\fonte{Elaborado pelo autor, 2020.}
-\end{figure}
+Essas melhorias e expansões podem consolidar o \textit{IrrigaSync} como uma solução de referência para monitoramento agrícola, contribuindo para uma agricultura mais sustentável, eficiente e tecnológica.

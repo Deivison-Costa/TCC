@@ -1,53 +1,7 @@
-O monitoramento da ETc é uma prática que possui diversas abordagens e métodos, dependendo do ambiente e do nível de precisão desejado. A ETc pode ser estimada por meio de métodos diretos, como a pesagem de lisímetros, ou indiretos, como a equação de \textcite{bernardo_irrigacao2008} apresentada na seção anterior. Entre essas abordagens, esta pesquisa propõe uma aplicação web para o monitoramento da ETc em tempo real, combinando métodos indiretos para esse fim.
+A realização deste trabalho apresentou um sistema  para monitoramento agrícola em tempo real, abordando as necessidades específicas de manejo hídrico e climático para culturas agrícolas. O desenvolvimento da solução baseou-se em boas práticas de engenharia de \textit{software} e \textit{hardware}, garantindo uma integração consistente entre os componentes físicos e computacionais. Além disso, o sistema permitiu a coleta de dados ambientais relevantes, como temperatura, umidade, radiação solar, pressão atmosférica e velocidade do vento, utilizados para calcular a evapotranspiração (ETo e ETc) com base no método FAO-56 \parencite{Allen_evapotranspiration1998}.
 
-A seguir serão apresentados outros trabalhos com abordagens semelhantes.
+Os resultados obtidos demonstraram que o sistema atende aos objetivos propostos, especialmente no que tange à usabilidade, flexibilidade e capacidade de adaptação a diferentes cenários agrícolas. A interface intuitiva contribuiu para a acessibilidade e compreensão dos dados pelos usuários finais, enquanto a modularidade da solução oferece espaço para melhorias e expansões futuras.
 
-\section{Integração de dados e padrões web para modelos de ETo}
+Contudo, algumas limitações foram identificadas, como a necessidade de calibração mais frequente do sensor de umidade do solo e a dependência de conectividade Wi-Fi no raio de acesso. Apesar dessas questões, o sistema mostrou-se promissor e funcional dentro das condições de teste na microcultura observada, com potencial significativo para aplicação em escalas maiores.
 
-\textcite{Jianting_webeva2009} abordam o desenvolvimento de sistemas de disseminação de dados em tempo real baseados na aquisição de dados. Eles fazem uso de dados geoespaciais para estimar a ETo diária, apontando a necessidade de métodos de acesso públicos a esses dados. Isso contrasta com os métodos \textit{ad-hoc} utilizados nos serviços existentes com o mesmo propósito.
-
-Os autores desenvolveram um sistema que utiliza padrões da \textit{Open Geospatial Consortium} (OGC) e o protocolo \textit{Network Data Access Protocol} (OPeNDAP) para publicar dados de estações meteorológicas. A arquitetura desse sistema incorpora diversas fontes de dados distribuídas e heterogêneas, como registros diários e horários de estações geoestacionárias. Além disso, imagens de satélite e resultados de modelos meteorológicos são utilizados para uma análise espacial. 
-
-Através de serviços construídos sobre essas fontes, o sistema prova a eficácia de uma abordagem distribuída. Isso permite tanto a utilização quanto o desenvolvimento de novos serviços e aplicações sem interferir nos já existentes.
-
-O trabalho de \textcite{Jianting_webeva2009} promove várias vantagens em relação à interoperabilidade e padronização de dados. No entanto, esse método não considera medições realizadas diretamente no local de interesse (\textit{in situ}). Isso, em cenários menores, como o de uma propriedade rural, pode ser uma limitação em questão de precisão e custo. Além disso, o sistema proposto não oferece uma interface para a visualização e análise dos dados, o que pode dificultar a interpretação dos resultados por usuários finais.
-
-\section{Ferramentas web para determinação de ETo}
-
-O estudo de \textcite{Fangming_webeva2021} foca no desenvolvimento e implementação de APIs em nuvem, chamadas \textit{ETWatch}, para a geração de dados regionais da ETo. Essas APIs são desenvolvidas para proporcionar acesso fácil e em tempo real aos dados de ETo.
-
-A metodologia combina dados de sensoriamento remoto, medições \textit{in situ} e modelagem matemática para calcular a evapotranspiração. As APIs facilitam a disseminação desses dados para diversos usuários e aplicações. Entre as vantagens do sistema \textit{ETWatch}, destacam-se o acesso em tempo real aos dados de ETo, permitindo uma resposta rápida para a gestão de recursos hídricos. Além disso, o sistema fornece uma interface para monitorar os dados, facilitando o acesso e a leitura das informações obtidas.
-
-Apesar das vantagens, \textcite{Fangming_webeva2021} identificam alguns pontos que necessitam de maior preocupação. A precisão das estimativas pode ser limitada pela qualidade e disponibilidade dos dados de entrada, especialmente em regiões com poucas medições \textit{in situ}. A complexidade de integrar modelos climáticos e hidrológicos pode apresentar desafios computacionais e de implementação. Além disso, há a necessidade de ajustar os modelos para responder a variações e mudanças climáticas contínuas.
-
-Uma abordagem semelhante foi realizada por \textcite{Jose_webeva2011} com o desenvolvimento de uma aplicação \textit{desktop} chamada \textit{CropWaterUse}. Essa aplicação foi desenvolvida para estimar os tempos de irrigação baseados na estimativa de ETc. Assim como \textcite{Fangming_webeva2021}, \textcite{Jose_webeva2011} utilizaram medições e modelos matemáticos para estimar a ETo. Contudo, eles realizaram o cálculo da ETc com base na ETo e em valores de Kc específicos para cada cultura, sendo estes inseridos manualmente pelo usuário na aplicação.
-
-Porém, a aplicação \textit{CropWaterUse} não oferece uma interface de acesso distribuído para a visualização dos dados, seja por meio de APIs ou nuvens de dados. Isso limita sua utilização em cenários remotos ou até mesmo restritos, como propriedades rurais.
-
-\section{Desenvolvimento e aplicação de ferramentas para ETo}
-No estudo de \textcite{Taison_webeva2019}, foi desenvolvido um sistema que automatiza o cálculo da ETo, integrando dados de estações meteorológicas e métodos matemáticos. Diferente das pesquisas apresentadas, esse sistema adota o padrão de arquitetura \textit{Model-View-Controller} (\textit{MVC}) para o projeto. Esse \textit{design} separa a lógica de negócio, definida como \textit{Model}, da interface gráfica, chamada de \textit{View}. O \textit{Controller} é responsável por intermediar a comunicação entre o \textit{Model} e a \textit{View}. Dessa forma, é possível desacoplar as camadas do sistema, facilitando a manutenção e a evolução do mesmo.
-
-A aplicação de \textcite{Taison_webeva2019} é eficiente quanto a interface e a arquitetura. No entanto, o sistema não considera medições \textit{in situ} para o cálculo da ETo, o que pode limitar a precisão dos resultados para pequenas áreas como já mencionado. 
-
-Uma abordagem que contorna esse problema é apresentada por \textcite{Serban_webeva2022}. Ele destaca a criação e funcionalidade do \textit{ETCalc}, uma ferramenta gratuita para estimativa de ETo. Seu diferencial está na possibilidade de fornecer dados meteorológicos de múltiplas fontes. Ele permite que os usuários calculem a ETo em suas propriedades, com base em dados fornecidos de estações e medições locais. O \textit{ETCalc}, dentre as pesquisas encontradas, é a aplicação que possui o processamento matemático mais robusto, considerando diferentes métodos e parâmetros. Também fornece uma interface para a inserção e visualização dos dados, facilitando o acesso e o uso da ferramenta.
-
-Apesar das vantagens, o \textit{ETCalc} falha como processo automatizado e em tempo real. O usuário precisa inserir manualmente os dados de entrada, o que pode ser um processo demorado e propenso a erros. Além disso, a ferramenta não oferece APIs para a integração com outros sistemas, o que limita sua utilização em cenários mais complexos.
-
-Com base nas pesquisas apresentadas, na tabela \ref{tab:comparacao}, é possível observar as tecnologias e métodos utilizados em cada uma delas. Também é possível identificar as limitações de cada abordagem, que servirão de base para o desenvolvimento da aplicação proposta nesta pesquisa.
-
-\begin{table}[!htb]
-    \caption{Comparação das tecnologias} \label{tab:comparacao}
-    \begin{tabularx}{\textwidth}{|X|X|X|} \hline
-        \textbf{Referência} & \textbf{Tecnologias} & \textbf{Limitações} \\ \hline
-        \textcite{Taison_webeva2019} & \textit{PHP}, \textit{Smarty Template Engine}, \textit{HTML5}, \textit{CSS3}, \textit{JavaScript}, \textit{Bootstrap}, \textit{OpenLayers} e \textit{PostgreSQL}. & Escalabilidade limitada e performance inferior em aplicações complexas. \\ \hline
-        \textcite{Serban_webeva2022} & \textit{Python}, \textit{Django}, \textit{HTML5}, \textit{CSS3}, \textit{JavaScript}, \textit{jQuery}, \textit{Bootstrap} e \textit{PostgreSQL}. & Menor performance em aplicações de alta carga e necessidade de alto conhecimento técnico em \textit{Python}. \\ \hline
-        \textcite{Jose_webeva2011} & \textit{C\#}, \textit{ASP.Net}, \textit{Visual Studio.NET}, \textit{JavaScript}, \textit{TeeChart} e \textit{SQL Server}. & Dependência de plataforma \textit{Windows} e custos elevados de licenciamento. \\ \hline
-        \textcite{Fangming_webeva2021} & \textit{Python}, \textit{Bootstrap}, \textit{jQuery}, \textit{Alibaba Cloud}, \textit{IDL}, \textit{Docker}, \textit{JSON} e \textit{PostgreSQL}. & Complexidade na integração e maior curva de aprendizado para configuração. \\ \hline
-        \textcite{Jianting_webeva2009} & \textit{OGC standards}, \textit{OPeNDAP standards}, \textit{WMS}, \textit{WCS}, \textit{WFS}, \textit{GIS}, \textit{DODS}, \textit{DAS}, \textit{DDS} e \textit{Middleware components}. & Alta complexidade de implementação e necessidade de especialização em padrões \textit{OGC}. \\ \hline
-        Presente pesquisa & \textit{Node.js}, \textit{React}, \textit{Nest.js}, \textit{Shadcn/ui}, \textit{Tailwind CSS}, MQTT e \textit{MySQL}. & Alto consumo de memória em aplicações de alta carga e maior curva de aprendizado inicial para integração do MQTT. \\ \hline
-    \end{tabularx}
-    \fonte{Elaborado pelo autor, 2024.}
-\end{table}
-
-    
-    
+Em suma, este trabalho apresenta uma contribuição para o manejo sustentável da agricultura, ao propor uma ferramenta prática e acessível que alia tecnologia e ciência no auxílio à tomada de decisões em campo. As perspectivas de evolução do sistema, descritas na próxima seção, reforçam a viabilidade de ampliação do impacto deste projeto para diferentes cenários e culturas agrícolas.

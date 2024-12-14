@@ -333,6 +333,120 @@
       \verb https://doi.org/10.1051/e3sconf/202449201003
       \endverb
     \endentry
+    \entry{Garg_smart2023}{article}{}{}
+      \name{author}{2}{}{%
+        {{un=0,uniquepart=base,hash=502e512b27ef2812cb3191b18c05f360}{%
+           family={Garg},
+           familyi={G\bibinitperiod},
+           given={D.},
+           giveni={D\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=467c984527cf6bfa95db3a0086dca571}{%
+           family={Alam},
+           familyi={A\bibinitperiod},
+           given={M.},
+           giveni={M\bibinitperiod},
+           givenun=0}}%
+      }
+      \strng{namehash}{2a19e31b5a324e1456b8a01c197f4caa}
+      \strng{fullhash}{2a19e31b5a324e1456b8a01c197f4caa}
+      \strng{fullhashraw}{2a19e31b5a324e1456b8a01c197f4caa}
+      \strng{bibnamehash}{2a19e31b5a324e1456b8a01c197f4caa}
+      \strng{authorbibnamehash}{2a19e31b5a324e1456b8a01c197f4caa}
+      \strng{authornamehash}{2a19e31b5a324e1456b8a01c197f4caa}
+      \strng{authorfullhash}{2a19e31b5a324e1456b8a01c197f4caa}
+      \strng{authorfullhashraw}{2a19e31b5a324e1456b8a01c197f4caa}
+      \field{sortinit}{A}
+      \field{sortinithash}{2f401846e2029bad6b3ecc16d50031e2}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{Journal of Management Analytics}
+      \field{month}{5}
+      \field{number}{2}
+      \field{title}{Smart agriculture: a literature review}
+      \field{urlday}{26}
+      \field{urlmonth}{4}
+      \field{urlyear}{2024}
+      \field{volume}{10}
+      \field{year}{2023}
+      \field{urldateera}{ce}
+      \field{pages}{359\bibrangedash 415}
+      \range{pages}{57}
+      \verb{urlraw}
+      \verb https://doi.org/10.1080/23270012.2023.2207184
+      \endverb
+      \verb{url}
+      \verb https://doi.org/10.1080/23270012.2023.2207184
+      \endverb
+    \endentry
+    \entry{Gurjeet_smart2022}{article}{}{}
+      \name{author}{5}{}{%
+        {{un=0,uniquepart=base,hash=8e192c311aece21b90815dc7c4fa4d95}{%
+           family={Singh},
+           familyi={S\bibinitperiod},
+           given={Gurjeet},
+           giveni={G\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=f6851441ac87287d90ae8ceb496b8bac}{%
+           family={Kalra},
+           familyi={K\bibinitperiod},
+           given={Naresh},
+           giveni={N\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=ff5e2077bfe692f97520f76ad9c028ea}{%
+           family={Yadav},
+           familyi={Y\bibinitperiod},
+           given={Neetu},
+           giveni={N\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=92a4274bb5308ff64e692d24fcbc91fa}{%
+           family={Sharma},
+           familyi={S\bibinitperiod},
+           given={Ashwani},
+           giveni={A\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=8861684231c71fac3269cc3910d50c48}{%
+           family={Saini},
+           familyi={S\bibinitperiod},
+           given={Manoj},
+           giveni={M\bibinitperiod},
+           givenun=0}}%
+      }
+      \strng{namehash}{34c0d17e199be0eebbb57297927d1b2e}
+      \strng{fullhash}{d1d114d5835091cee14843378431ac46}
+      \strng{fullhashraw}{d1d114d5835091cee14843378431ac46}
+      \strng{bibnamehash}{34c0d17e199be0eebbb57297927d1b2e}
+      \strng{authorbibnamehash}{34c0d17e199be0eebbb57297927d1b2e}
+      \strng{authornamehash}{34c0d17e199be0eebbb57297927d1b2e}
+      \strng{authorfullhash}{d1d114d5835091cee14843378431ac46}
+      \strng{authorfullhashraw}{d1d114d5835091cee14843378431ac46}
+      \field{sortinit}{A}
+      \field{sortinithash}{2f401846e2029bad6b3ecc16d50031e2}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{Siberiam Journal of Life Sciences and Agriculture}
+      \field{month}{12}
+      \field{number}{6}
+      \field{title}{Smart Agriculture: A Review}
+      \field{urlday}{26}
+      \field{urlmonth}{4}
+      \field{urlyear}{2024}
+      \field{volume}{14}
+      \field{year}{2022}
+      \field{urldateera}{ce}
+      \field{pages}{423\bibrangedash 454}
+      \range{pages}{32}
+      \verb{urlraw}
+      \verb https://doi.org/10.12731/2658-6649-2022-14-6-423-454
+      \endverb
+      \verb{url}
+      \verb https://doi.org/10.12731/2658-6649-2022-14-6-423-454
+      \endverb
+    \endentry
     \entry{fischer1976}{article}{}{}
       \name{author}{3}{}{%
         {{un=0,uniquepart=base,hash=1161b4291d733d48677749db2e79213b}{%
@@ -1448,120 +1562,6 @@
       \endverb
       \verb{url}
       \verb https://doi.org/0.1109/TSC.2018.2847344
-      \endverb
-    \endentry
-    \entry{Gurjeet_smart2022}{article}{}{}
-      \name{author}{5}{}{%
-        {{un=0,uniquepart=base,hash=8e192c311aece21b90815dc7c4fa4d95}{%
-           family={Singh},
-           familyi={S\bibinitperiod},
-           given={Gurjeet},
-           giveni={G\bibinitperiod},
-           givenun=0}}%
-        {{un=0,uniquepart=base,hash=f6851441ac87287d90ae8ceb496b8bac}{%
-           family={Kalra},
-           familyi={K\bibinitperiod},
-           given={Naresh},
-           giveni={N\bibinitperiod},
-           givenun=0}}%
-        {{un=0,uniquepart=base,hash=ff5e2077bfe692f97520f76ad9c028ea}{%
-           family={Yadav},
-           familyi={Y\bibinitperiod},
-           given={Neetu},
-           giveni={N\bibinitperiod},
-           givenun=0}}%
-        {{un=0,uniquepart=base,hash=92a4274bb5308ff64e692d24fcbc91fa}{%
-           family={Sharma},
-           familyi={S\bibinitperiod},
-           given={Ashwani},
-           giveni={A\bibinitperiod},
-           givenun=0}}%
-        {{un=0,uniquepart=base,hash=8861684231c71fac3269cc3910d50c48}{%
-           family={Saini},
-           familyi={S\bibinitperiod},
-           given={Manoj},
-           giveni={M\bibinitperiod},
-           givenun=0}}%
-      }
-      \strng{namehash}{34c0d17e199be0eebbb57297927d1b2e}
-      \strng{fullhash}{d1d114d5835091cee14843378431ac46}
-      \strng{fullhashraw}{d1d114d5835091cee14843378431ac46}
-      \strng{bibnamehash}{34c0d17e199be0eebbb57297927d1b2e}
-      \strng{authorbibnamehash}{34c0d17e199be0eebbb57297927d1b2e}
-      \strng{authornamehash}{34c0d17e199be0eebbb57297927d1b2e}
-      \strng{authorfullhash}{d1d114d5835091cee14843378431ac46}
-      \strng{authorfullhashraw}{d1d114d5835091cee14843378431ac46}
-      \field{sortinit}{A}
-      \field{sortinithash}{2f401846e2029bad6b3ecc16d50031e2}
-      \field{extradatescope}{labelyear}
-      \field{labeldatesource}{}
-      \field{labelnamesource}{author}
-      \field{labeltitlesource}{title}
-      \field{journaltitle}{Siberiam Journal of Life Sciences and Agriculture}
-      \field{month}{12}
-      \field{number}{6}
-      \field{title}{Smart Agriculture: A Review}
-      \field{urlday}{26}
-      \field{urlmonth}{4}
-      \field{urlyear}{2024}
-      \field{volume}{14}
-      \field{year}{2022}
-      \field{urldateera}{ce}
-      \field{pages}{423\bibrangedash 454}
-      \range{pages}{32}
-      \verb{urlraw}
-      \verb https://doi.org/10.12731/2658-6649-2022-14-6-423-454
-      \endverb
-      \verb{url}
-      \verb https://doi.org/10.12731/2658-6649-2022-14-6-423-454
-      \endverb
-    \endentry
-    \entry{Garg_smart2023}{article}{}{}
-      \name{author}{2}{}{%
-        {{un=0,uniquepart=base,hash=502e512b27ef2812cb3191b18c05f360}{%
-           family={Garg},
-           familyi={G\bibinitperiod},
-           given={D.},
-           giveni={D\bibinitperiod},
-           givenun=0}}%
-        {{un=0,uniquepart=base,hash=467c984527cf6bfa95db3a0086dca571}{%
-           family={Alam},
-           familyi={A\bibinitperiod},
-           given={M.},
-           giveni={M\bibinitperiod},
-           givenun=0}}%
-      }
-      \strng{namehash}{2a19e31b5a324e1456b8a01c197f4caa}
-      \strng{fullhash}{2a19e31b5a324e1456b8a01c197f4caa}
-      \strng{fullhashraw}{2a19e31b5a324e1456b8a01c197f4caa}
-      \strng{bibnamehash}{2a19e31b5a324e1456b8a01c197f4caa}
-      \strng{authorbibnamehash}{2a19e31b5a324e1456b8a01c197f4caa}
-      \strng{authornamehash}{2a19e31b5a324e1456b8a01c197f4caa}
-      \strng{authorfullhash}{2a19e31b5a324e1456b8a01c197f4caa}
-      \strng{authorfullhashraw}{2a19e31b5a324e1456b8a01c197f4caa}
-      \field{sortinit}{A}
-      \field{sortinithash}{2f401846e2029bad6b3ecc16d50031e2}
-      \field{extradatescope}{labelyear}
-      \field{labeldatesource}{}
-      \field{labelnamesource}{author}
-      \field{labeltitlesource}{title}
-      \field{journaltitle}{Journal of Management Analytics}
-      \field{month}{5}
-      \field{number}{2}
-      \field{title}{Smart agriculture: a literature review}
-      \field{urlday}{26}
-      \field{urlmonth}{4}
-      \field{urlyear}{2024}
-      \field{volume}{10}
-      \field{year}{2023}
-      \field{urldateera}{ce}
-      \field{pages}{359\bibrangedash 415}
-      \range{pages}{57}
-      \verb{urlraw}
-      \verb https://doi.org/10.1080/23270012.2023.2207184
-      \endverb
-      \verb{url}
-      \verb https://doi.org/10.1080/23270012.2023.2207184
       \endverb
     \endentry
     \entry{Pierce_precision1999}{article}{}{}
@@ -3430,6 +3430,58 @@
       \verb https://books.google.com.br/books?hl=pt-BR&lr=&id=n3Il28LP2usC&oi=fnd&pg=PR5&dq=irrigation+management&ots=JWhCdIR0XG&sig=8zuy2jlLkX2zsVoMBJK283jmBLE&redir_esc=y#v=onepage&q=irrigation%20management&f=false
       \endverb
     \endentry
+    \entry{mood1974}{book}{}{}
+      \name{author}{3}{}{%
+        {{un=0,uniquepart=base,hash=b819a06fef6c3c2e042f22377a2bce41}{%
+           family={Mood},
+           familyi={M\bibinitperiod},
+           given={Alexander\bibnamedelima McFarlane},
+           giveni={A\bibinitperiod\bibinitdelim M\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=6bb4d5c16f803670e615d13733e4bfd5}{%
+           family={Graybill},
+           familyi={G\bibinitperiod},
+           given={Franklin\bibnamedelima A.},
+           giveni={F\bibinitperiod\bibinitdelim A\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=cc1cfd007ae25d0a0f673dc705fb0ae8}{%
+           family={Boes},
+           familyi={B\bibinitperiod},
+           given={Duane\bibnamedelima C.},
+           giveni={D\bibinitperiod\bibinitdelim C\bibinitperiod},
+           givenun=0}}%
+      }
+      \list{publisher}{1}{%
+        {McGraw Hill}%
+      }
+      \strng{namehash}{c8d2b05fa88b9119a37a34bf77627671}
+      \strng{fullhash}{c8d2b05fa88b9119a37a34bf77627671}
+      \strng{fullhashraw}{c8d2b05fa88b9119a37a34bf77627671}
+      \strng{bibnamehash}{c8d2b05fa88b9119a37a34bf77627671}
+      \strng{authorbibnamehash}{c8d2b05fa88b9119a37a34bf77627671}
+      \strng{authornamehash}{c8d2b05fa88b9119a37a34bf77627671}
+      \strng{authorfullhash}{c8d2b05fa88b9119a37a34bf77627671}
+      \strng{authorfullhashraw}{c8d2b05fa88b9119a37a34bf77627671}
+      \field{sortinit}{C}
+      \field{sortinithash}{4d103a86280481745c9c897c925753c0}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{edition}{3}
+      \field{title}{Introduction to the Theory of Statistics}
+      \field{urlday}{6}
+      \field{urlmonth}{12}
+      \field{urlyear}{2024}
+      \field{year}{1974}
+      \field{urldateera}{ce}
+      \verb{urlraw}
+      \verb https://sistemas.fciencias.unam.mx/~misraim/Mood.pdf
+      \endverb
+      \verb{url}
+      \verb https://sistemas.fciencias.unam.mx/~misraim/Mood.pdf
+      \endverb
+    \endentry
     \entry{Allen_evapotranspiration1998}{book}{}{}
       \name{author}{4}{}{%
         {{un=0,uniquepart=base,hash=c7e1f2e381849d152477e3779f195e37}{%
@@ -3624,6 +3676,46 @@
       \endverb
       \verb{url}
       \verb https://books.google.com.br/books?hl=pt-BR&lr=&id=YheaDwAAQBAJ&oi=fnd&pg=PA295&dq=web+application+evapotranspiration&ots=ZbDFqht_7s&sig=tjNS6zBCLOebLDX8Z0SzQ_E9SAk#v=onepage&q=web%20application%20evapotranspiration&f=false
+      \endverb
+    \endentry
+    \entry{Vuolo_erro1996}{book}{}{}
+      \name{author}{1}{}{%
+        {{un=0,uniquepart=base,hash=a615d9f168efc7e0cf1182e769c2daaf}{%
+           family={Vuolo},
+           familyi={V\bibinitperiod},
+           given={José\bibnamedelima Henrique},
+           giveni={J\bibinitperiod\bibinitdelim H\bibinitperiod},
+           givenun=0}}%
+      }
+      \list{publisher}{1}{%
+        {Blucher}%
+      }
+      \strng{namehash}{a615d9f168efc7e0cf1182e769c2daaf}
+      \strng{fullhash}{a615d9f168efc7e0cf1182e769c2daaf}
+      \strng{fullhashraw}{a615d9f168efc7e0cf1182e769c2daaf}
+      \strng{bibnamehash}{a615d9f168efc7e0cf1182e769c2daaf}
+      \strng{authorbibnamehash}{a615d9f168efc7e0cf1182e769c2daaf}
+      \strng{authornamehash}{a615d9f168efc7e0cf1182e769c2daaf}
+      \strng{authorfullhash}{a615d9f168efc7e0cf1182e769c2daaf}
+      \strng{authorfullhashraw}{a615d9f168efc7e0cf1182e769c2daaf}
+      \field{sortinit}{C}
+      \field{sortinithash}{4d103a86280481745c9c897c925753c0}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{edition}{2}
+      \field{title}{Fundamentos da Teoria de Erros}
+      \field{urlday}{21}
+      \field{urlmonth}{9}
+      \field{urlyear}{2024}
+      \field{year}{1996}
+      \field{urldateera}{ce}
+      \verb{urlraw}
+      \verb https://books.google.com.br/books?hl=pt-BR&lr=&id=q-uyDwAAQBAJ&oi=fnd&pg=PA1&dq=Fundamentos+da+Teoria+de+Erro&ots=ekWOlUyVLx&sig=MIY-uL3XrAGMCb_gb93fBQBsezw#v=onepage&q=Fundamentos%20da%20Teoria%20de%20Erro&f=false
+      \endverb
+      \verb{url}
+      \verb https://books.google.com.br/books?hl=pt-BR&lr=&id=q-uyDwAAQBAJ&oi=fnd&pg=PA1&dq=Fundamentos+da+Teoria+de+Erro&ots=ekWOlUyVLx&sig=MIY-uL3XrAGMCb_gb93fBQBsezw#v=onepage&q=Fundamentos%20da%20Teoria%20de%20Erro&f=false
       \endverb
     \endentry
     \entry{ddd_eric2004}{book}{}{}
@@ -3918,6 +4010,41 @@
       \verb https://docs.oasis-open.org/mqtt/mqtt/v5.0/mqtt-v5.0.html
       \endverb
     \endentry
+    \entry{inmet2024}{misc}{}{}
+      \name{author}{1}{}{%
+        {{un=0,uniquepart=base,hash=3697c801d5f28b68607d5e0232c8447c}{%
+           family={{Instituto Nacional de Meteorologia (INMET)}},
+           familyi={I\bibinitperiod}}}%
+      }
+      \strng{namehash}{3697c801d5f28b68607d5e0232c8447c}
+      \strng{fullhash}{3697c801d5f28b68607d5e0232c8447c}
+      \strng{fullhashraw}{3697c801d5f28b68607d5e0232c8447c}
+      \strng{bibnamehash}{3697c801d5f28b68607d5e0232c8447c}
+      \strng{authorbibnamehash}{3697c801d5f28b68607d5e0232c8447c}
+      \strng{authornamehash}{3697c801d5f28b68607d5e0232c8447c}
+      \strng{authorfullhash}{3697c801d5f28b68607d5e0232c8447c}
+      \strng{authorfullhashraw}{3697c801d5f28b68607d5e0232c8447c}
+      \field{sortinit}{D}
+      \field{sortinithash}{6f385f66841fb5e82009dc833c761848}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{howpublished}{INMET}
+      \field{month}{10}
+      \field{title}{{Dados meteorológicos de Bambuí, MG – 16/10/2024}}
+      \field{urlday}{16}
+      \field{urlmonth}{10}
+      \field{urlyear}{2024}
+      \field{year}{2024}
+      \field{urldateera}{ce}
+      \verb{urlraw}
+      \verb https://www.inmet.gov.br
+      \endverb
+      \verb{url}
+      \verb https://www.inmet.gov.br
+      \endverb
+    \endentry
     \entry{EspressifESP32}{manual}{}{}
       \name{author}{1}{}{%
         {{un=0,uniquepart=base,hash=66589871a3c3f27bcbf3891133af42b1}{%
@@ -3949,6 +4076,237 @@
       \endverb
       \verb{url}
       \verb https://www.espressif.com/sites/default/files/documentation/esp32_datasheet_en.pdf
+      \endverb
+    \endentry
+    \entry{DHT22}{manual}{}{}
+      \name{author}{1}{}{%
+        {{un=0,uniquepart=base,hash=f9dcdbddc9ae0afa94b16b923c1c3f47}{%
+           family={{Aosong Electronics}},
+           familyi={A\bibinitperiod}}}%
+      }
+      \strng{namehash}{f9dcdbddc9ae0afa94b16b923c1c3f47}
+      \strng{fullhash}{f9dcdbddc9ae0afa94b16b923c1c3f47}
+      \strng{fullhashraw}{f9dcdbddc9ae0afa94b16b923c1c3f47}
+      \strng{bibnamehash}{f9dcdbddc9ae0afa94b16b923c1c3f47}
+      \strng{authorbibnamehash}{f9dcdbddc9ae0afa94b16b923c1c3f47}
+      \strng{authornamehash}{f9dcdbddc9ae0afa94b16b923c1c3f47}
+      \strng{authorfullhash}{f9dcdbddc9ae0afa94b16b923c1c3f47}
+      \strng{authorfullhashraw}{f9dcdbddc9ae0afa94b16b923c1c3f47}
+      \field{sortinit}{E}
+      \field{sortinithash}{8da8a182d344d5b9047633dfc0cc9131}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{title}{Digital-output relative humidity \& temperature sensor/module DHT22 (DHT22 also named as AM2302)}
+      \field{urlday}{21}
+      \field{urlmonth}{9}
+      \field{urlyear}{2024}
+      \field{year}{2024}
+      \field{urldateera}{ce}
+      \verb{urlraw}
+      \verb https://www.sparkfun.com/datasheets/Sensors/Temperature/DHT22.pdf
+      \endverb
+      \verb{url}
+      \verb https://www.sparkfun.com/datasheets/Sensors/Temperature/DHT22.pdf
+      \endverb
+    \endentry
+    \entry{BMP280}{manual}{}{}
+      \name{author}{1}{}{%
+        {{un=0,uniquepart=base,hash=d2691bddb971d727ae403cee120362a3}{%
+           family={{Bosch Sensortec}},
+           familyi={B\bibinitperiod}}}%
+      }
+      \strng{namehash}{d2691bddb971d727ae403cee120362a3}
+      \strng{fullhash}{d2691bddb971d727ae403cee120362a3}
+      \strng{fullhashraw}{d2691bddb971d727ae403cee120362a3}
+      \strng{bibnamehash}{d2691bddb971d727ae403cee120362a3}
+      \strng{authorbibnamehash}{d2691bddb971d727ae403cee120362a3}
+      \strng{authornamehash}{d2691bddb971d727ae403cee120362a3}
+      \strng{authorfullhash}{d2691bddb971d727ae403cee120362a3}
+      \strng{authorfullhashraw}{d2691bddb971d727ae403cee120362a3}
+      \field{sortinit}{E}
+      \field{sortinithash}{8da8a182d344d5b9047633dfc0cc9131}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{title}{BMP280: Digital Pressure Sensor}
+      \field{urlday}{21}
+      \field{urlmonth}{9}
+      \field{urlyear}{2024}
+      \field{year}{2015}
+      \field{urldateera}{ce}
+      \verb{urlraw}
+      \verb https://cdn-shop.adafruit.com/datasheets/BST-BMP280-DS001-11.pdf
+      \endverb
+      \verb{url}
+      \verb https://cdn-shop.adafruit.com/datasheets/BST-BMP280-DS001-11.pdf
+      \endverb
+    \endentry
+    \entry{BH1750}{manual}{}{}
+      \name{author}{1}{}{%
+        {{un=0,uniquepart=base,hash=fcf40878c9ba79abb0a061f8f26abff9}{%
+           family={{Rohm Semiconductor}},
+           familyi={R\bibinitperiod}}}%
+      }
+      \strng{namehash}{fcf40878c9ba79abb0a061f8f26abff9}
+      \strng{fullhash}{fcf40878c9ba79abb0a061f8f26abff9}
+      \strng{fullhashraw}{fcf40878c9ba79abb0a061f8f26abff9}
+      \strng{bibnamehash}{fcf40878c9ba79abb0a061f8f26abff9}
+      \strng{authorbibnamehash}{fcf40878c9ba79abb0a061f8f26abff9}
+      \strng{authornamehash}{fcf40878c9ba79abb0a061f8f26abff9}
+      \strng{authorfullhash}{fcf40878c9ba79abb0a061f8f26abff9}
+      \strng{authorfullhashraw}{fcf40878c9ba79abb0a061f8f26abff9}
+      \field{sortinit}{E}
+      \field{sortinithash}{8da8a182d344d5b9047633dfc0cc9131}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{title}{BH1750: Digital 16bit Serial Output Type Ambient Light Sensor IC}
+      \field{urlday}{21}
+      \field{urlmonth}{9}
+      \field{urlyear}{2024}
+      \field{year}{2011}
+      \field{urldateera}{ce}
+      \verb{urlraw}
+      \verb https://www.mouser.com/datasheet/2/348/bh1750fvi-e-186247.pdf
+      \endverb
+      \verb{url}
+      \verb https://www.mouser.com/datasheet/2/348/bh1750fvi-e-186247.pdf
+      \endverb
+    \endentry
+    \entry{ANEMOMETER}{manual}{}{}
+      \name{author}{1}{}{%
+        {{un=0,uniquepart=base,hash=798b449d5b2a01eabe65a73089d61bb3}{%
+           family={{Renke}},
+           familyi={R\bibinitperiod}}}%
+      }
+      \strng{namehash}{798b449d5b2a01eabe65a73089d61bb3}
+      \strng{fullhash}{798b449d5b2a01eabe65a73089d61bb3}
+      \strng{fullhashraw}{798b449d5b2a01eabe65a73089d61bb3}
+      \strng{bibnamehash}{798b449d5b2a01eabe65a73089d61bb3}
+      \strng{authorbibnamehash}{798b449d5b2a01eabe65a73089d61bb3}
+      \strng{authornamehash}{798b449d5b2a01eabe65a73089d61bb3}
+      \strng{authorfullhash}{798b449d5b2a01eabe65a73089d61bb3}
+      \strng{authorfullhashraw}{798b449d5b2a01eabe65a73089d61bb3}
+      \field{sortinit}{E}
+      \field{sortinithash}{8da8a182d344d5b9047633dfc0cc9131}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{title}{RS-FSJT-N01 Wind speed transmitter user's Guide (Type 485)}
+      \field{urlday}{21}
+      \field{urlmonth}{9}
+      \field{urlyear}{2024}
+      \field{year}{2024}
+      \field{urldateera}{ce}
+      \verb{urlraw}
+      \verb https://instrucenter.com/wp-content/uploads/2022/03/RS-FSJT-No1.pdf
+      \endverb
+      \verb{url}
+      \verb https://instrucenter.com/wp-content/uploads/2022/03/RS-FSJT-No1.pdf
+      \endverb
+    \endentry
+    \entry{LM393}{manual}{}{}
+      \name{author}{1}{}{%
+        {{un=0,uniquepart=base,hash=e53a96542e62222130baf6a1ffa923e2}{%
+           family={{ON Semiconductor}},
+           familyi={O\bibinitperiod}}}%
+      }
+      \strng{namehash}{e53a96542e62222130baf6a1ffa923e2}
+      \strng{fullhash}{e53a96542e62222130baf6a1ffa923e2}
+      \strng{fullhashraw}{e53a96542e62222130baf6a1ffa923e2}
+      \strng{bibnamehash}{e53a96542e62222130baf6a1ffa923e2}
+      \strng{authorbibnamehash}{e53a96542e62222130baf6a1ffa923e2}
+      \strng{authornamehash}{e53a96542e62222130baf6a1ffa923e2}
+      \strng{authorfullhash}{e53a96542e62222130baf6a1ffa923e2}
+      \strng{authorfullhashraw}{e53a96542e62222130baf6a1ffa923e2}
+      \field{sortinit}{E}
+      \field{sortinithash}{8da8a182d344d5b9047633dfc0cc9131}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{title}{LM393, LM393E, LM293, LM2903, LM2903E, LM2903V, NCV2903 - LoW Offset Voltage Dual Comparators}
+      \field{urlday}{20}
+      \field{urlmonth}{11}
+      \field{urlyear}{2024}
+      \field{year}{2024}
+      \field{urldateera}{ce}
+      \verb{urlraw}
+      \verb https://docs.rs-online.com/943a/0900766b8170d70c.pdf
+      \endverb
+      \verb{url}
+      \verb https://docs.rs-online.com/943a/0900766b8170d70c.pdf
+      \endverb
+    \endentry
+    \entry{NEO6M}{manual}{}{}
+      \name{author}{1}{}{%
+        {{un=0,uniquepart=base,hash=b1754e5cb767b09c247d1f51b41d4ce5}{%
+           family={{u-blox}},
+           familyi={u\bibinitperiod}}}%
+      }
+      \strng{namehash}{b1754e5cb767b09c247d1f51b41d4ce5}
+      \strng{fullhash}{b1754e5cb767b09c247d1f51b41d4ce5}
+      \strng{fullhashraw}{b1754e5cb767b09c247d1f51b41d4ce5}
+      \strng{bibnamehash}{b1754e5cb767b09c247d1f51b41d4ce5}
+      \strng{authorbibnamehash}{b1754e5cb767b09c247d1f51b41d4ce5}
+      \strng{authornamehash}{b1754e5cb767b09c247d1f51b41d4ce5}
+      \strng{authorfullhash}{b1754e5cb767b09c247d1f51b41d4ce5}
+      \strng{authorfullhashraw}{b1754e5cb767b09c247d1f51b41d4ce5}
+      \field{sortinit}{E}
+      \field{sortinithash}{8da8a182d344d5b9047633dfc0cc9131}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{title}{NEO-6 u-blox 6 GPS Modules}
+      \field{urlday}{20}
+      \field{urlmonth}{11}
+      \field{urlyear}{2024}
+      \field{year}{2011}
+      \field{urldateera}{ce}
+      \verb{urlraw}
+      \verb https://content.u-blox.com/sites/default/files/products/documents/NEO-6_DataSheet_%28GPS.G6-HW-09005%29.pdf
+      \endverb
+      \verb{url}
+      \verb https://content.u-blox.com/sites/default/files/products/documents/NEO-6_DataSheet_%28GPS.G6-HW-09005%29.pdf
+      \endverb
+    \endentry
+    \entry{RS485TTL}{manual}{}{}
+      \name{author}{1}{}{%
+        {{un=0,uniquepart=base,hash=8b3bb6ce11f9beae62b04bd11b631263}{%
+           family={{PCB Power Market}},
+           familyi={P\bibinitperiod}}}%
+      }
+      \strng{namehash}{8b3bb6ce11f9beae62b04bd11b631263}
+      \strng{fullhash}{8b3bb6ce11f9beae62b04bd11b631263}
+      \strng{fullhashraw}{8b3bb6ce11f9beae62b04bd11b631263}
+      \strng{bibnamehash}{8b3bb6ce11f9beae62b04bd11b631263}
+      \strng{authorbibnamehash}{8b3bb6ce11f9beae62b04bd11b631263}
+      \strng{authornamehash}{8b3bb6ce11f9beae62b04bd11b631263}
+      \strng{authorfullhash}{8b3bb6ce11f9beae62b04bd11b631263}
+      \strng{authorfullhashraw}{8b3bb6ce11f9beae62b04bd11b631263}
+      \field{sortinit}{E}
+      \field{sortinithash}{8da8a182d344d5b9047633dfc0cc9131}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{title}{RS485-TTL Module}
+      \field{urlday}{20}
+      \field{urlmonth}{11}
+      \field{urlyear}{2024}
+      \field{year}{2024}
+      \field{urldateera}{ce}
+      \verb{urlraw}
+      \verb https://login.pcbpower.com/Documents/0252d3ac-d61f-43a7-9b96-010299e5181c/PM14058.pdf
+      \endverb
+      \verb{url}
+      \verb https://login.pcbpower.com/Documents/0252d3ac-d61f-43a7-9b96-010299e5181c/PM14058.pdf
       \endverb
     \endentry
     \entry{EMQX}{manual}{}{}
@@ -4024,6 +4382,130 @@
       \endverb
       \verb{url}
       \verb https://babel.hathitrust.org/cgi/pt?id=mdp.39015002957788&seq=4
+      \endverb
+    \endentry
+    \entry{rodrigues2013}{article}{}{}
+      \name{author}{4}{}{%
+        {{un=0,uniquepart=base,hash=f40fc04c53c37f0975ab5fa9cf164a59}{%
+           family={Rodrigues},
+           familyi={R\bibinitperiod},
+           given={Wilson\bibnamedelima L.},
+           giveni={W\bibinitperiod\bibinitdelim L\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=762ea40780d25ffe74821d6646c47607}{%
+           family={Bragança},
+           familyi={B\bibinitperiod},
+           given={Marcelo\bibnamedelima S.},
+           giveni={M\bibinitperiod\bibinitdelim S\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=637cad923e828873cebc001e9827163e}{%
+           family={Guimarães},
+           familyi={G\bibinitperiod},
+           given={Rubens\bibnamedelima J.},
+           giveni={R\bibinitperiod\bibinitdelim J\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=55294ae8f763ebe19407d123e2431396}{%
+           family={Silva},
+           familyi={S\bibinitperiod},
+           given={Allan\bibnamedelima P.},
+           giveni={A\bibinitperiod\bibinitdelim P\bibinitperiod},
+           givenun=0}}%
+      }
+      \strng{namehash}{b35ea24f87e38b83151413cacb2e84e7}
+      \strng{fullhash}{1d955a08cf18436ef33296d822068b9d}
+      \strng{fullhashraw}{1d955a08cf18436ef33296d822068b9d}
+      \strng{bibnamehash}{b35ea24f87e38b83151413cacb2e84e7}
+      \strng{authorbibnamehash}{b35ea24f87e38b83151413cacb2e84e7}
+      \strng{authornamehash}{b35ea24f87e38b83151413cacb2e84e7}
+      \strng{authorfullhash}{1d955a08cf18436ef33296d822068b9d}
+      \strng{authorfullhashraw}{1d955a08cf18436ef33296d822068b9d}
+      \field{sortinit}{R}
+      \field{sortinithash}{5e1c39a9d46ffb6bebd8f801023a9486}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{Engenharia Agrícola}
+      \field{number}{4}
+      \field{title}{Índice de área foliar, coeficiente de cultura e produtividade de cafeeiro fertirrigado}
+      \field{urlday}{24}
+      \field{urlmonth}{10}
+      \field{urlyear}{2024}
+      \field{volume}{33}
+      \field{year}{2013}
+      \field{urldateera}{ce}
+      \field{pages}{794\bibrangedash 804}
+      \range{pages}{11}
+      \verb{doi}
+      \verb 10.1590/S0100-69162013000400014
+      \endverb
+      \verb{urlraw}
+      \verb https://doi.org/10.1590/S0100-69162013000400014
+      \endverb
+      \verb{url}
+      \verb https://doi.org/10.1590/S0100-69162013000400014
+      \endverb
+    \endentry
+    \entry{souza2005}{article}{}{}
+      \name{author}{4}{}{%
+        {{un=0,uniquepart=base,hash=a2e2dcee3ff92ff3a04a0a33ad26f5da}{%
+           family={Souza},
+           familyi={S\bibinitperiod},
+           given={Carlos\bibnamedelima F.},
+           giveni={C\bibinitperiod\bibinitdelim F\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=4e3d7073c951f624f56ef393b04607d6}{%
+           family={Almeida},
+           familyi={A\bibinitperiod},
+           given={B.\bibnamedelimi W.},
+           giveni={B\bibinitperiod\bibinitdelim W\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=1efc8c48036ab37ef3efe0a50e828c8c}{%
+           family={Costa},
+           familyi={C\bibinitperiod},
+           given={João\bibnamedelima L.},
+           giveni={J\bibinitperiod\bibinitdelim L\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=249b9fc78814128417b67675b6288252}{%
+           family={Oliveira},
+           familyi={O\bibinitperiod},
+           given={Mauro\bibnamedelima A.},
+           giveni={M\bibinitperiod\bibinitdelim A\bibinitperiod},
+           givenun=0}}%
+      }
+      \strng{namehash}{98f6f1cd5cc4a12a15a77b97ee3a748c}
+      \strng{fullhash}{029ccb8fd640bbedf061ba66774ab5fb}
+      \strng{fullhashraw}{029ccb8fd640bbedf061ba66774ab5fb}
+      \strng{bibnamehash}{98f6f1cd5cc4a12a15a77b97ee3a748c}
+      \strng{authorbibnamehash}{98f6f1cd5cc4a12a15a77b97ee3a748c}
+      \strng{authornamehash}{98f6f1cd5cc4a12a15a77b97ee3a748c}
+      \strng{authorfullhash}{029ccb8fd640bbedf061ba66774ab5fb}
+      \strng{authorfullhashraw}{029ccb8fd640bbedf061ba66774ab5fb}
+      \field{sortinit}{S}
+      \field{sortinithash}{b164b07b29984b41daf1e85279fbc5ab}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{Revista Brasileira de Engenharia Agrícola e Ambiental}
+      \field{number}{4}
+      \field{title}{Evapotranspiração e coeficiente de cultura do cafeeiro irrigado por pivô central}
+      \field{urlday}{24}
+      \field{urlmonth}{10}
+      \field{urlyear}{2024}
+      \field{volume}{9}
+      \field{year}{2005}
+      \field{urldateera}{ce}
+      \field{pages}{533\bibrangedash 539}
+      \range{pages}{7}
+      \verb{doi}
+      \verb 10.1590/S1415-43662005000400018
+      \endverb
+      \verb{urlraw}
+      \verb https://doi.org/10.1590/S1415-43662005000400018
+      \endverb
+      \verb{url}
+      \verb https://doi.org/10.1590/S1415-43662005000400018
       \endverb
     \endentry
   \enddatalist

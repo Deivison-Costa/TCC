@@ -1,3 +1,30 @@
 \babel@toc {brazil}{}\relax
-\contentsline {figure}{\numberline {1}{\ignorespaces \textit {"Tsunami"} da IoT}}{25}{figure.caption.23}%
-\contentsline {figure}{\numberline {2}{\ignorespaces Ciclo Hidrológico}}{31}{figure.caption.26}%
+\contentsline {figure}{\numberline {1}{\ignorespaces \textit {"Tsunami"} da IoT}}{26}{figure.caption.23}%
+\contentsline {figure}{\numberline {2}{\ignorespaces Ciclo Hidrológico}}{33}{figure.caption.26}%
+\contentsline {figure}{\numberline {3}{\ignorespaces Sensor de temperatura e umidade DHT22}}{41}{figure.caption.28}%
+\contentsline {figure}{\numberline {4}{\ignorespaces Sensor de pressão barométrica BMP280}}{42}{figure.caption.30}%
+\contentsline {figure}{\numberline {5}{\ignorespaces Sensor de luminosidade BH1750}}{43}{figure.caption.32}%
+\contentsline {figure}{\numberline {6}{\ignorespaces Anemômetro RS-FSJT-N01}}{44}{figure.caption.34}%
+\contentsline {figure}{\numberline {7}{\ignorespaces Comparador de umidade do solo LM393}}{45}{figure.caption.36}%
+\contentsline {figure}{\numberline {8}{\ignorespaces Módulo GPS NEO-6M V2}}{46}{figure.caption.38}%
+\contentsline {figure}{\numberline {9}{\ignorespaces Módulo Conversor RS485 para TTL}}{47}{figure.caption.40}%
+\contentsline {figure}{\numberline {10}{\ignorespaces Interface da plataforma EMQX}}{48}{figure.caption.42}%
+\contentsline {figure}{\numberline {11}{\ignorespaces Interface da aplicação Figma}}{54}{figure.caption.43}%
+\contentsline {figure}{\numberline {12}{\ignorespaces Interface do Visual Studio Code}}{55}{figure.caption.44}%
+\contentsline {figure}{\numberline {13}{\ignorespaces Interface do Arduino IDE}}{55}{figure.caption.45}%
+\contentsline {figure}{\numberline {14}{\ignorespaces Interface da aplicação Fritzing}}{56}{figure.caption.46}%
+\contentsline {figure}{\numberline {15}{\ignorespaces Interface da aplicação EasyEDA}}{57}{figure.caption.47}%
+\contentsline {figure}{\numberline {16}{\ignorespaces \textit {Layout} do protótipo}}{62}{figure.caption.48}%
+\contentsline {figure}{\numberline {17}{\ignorespaces Matriz exportada do EasyEDA}}{62}{figure.caption.49}%
+\contentsline {figure}{\numberline {18}{\ignorespaces Matriz impressa em papel filme}}{63}{figure.caption.50}%
+\contentsline {figure}{\numberline {19}{\ignorespaces PCB finalizada}}{63}{figure.caption.51}%
+\contentsline {figure}{\numberline {20}{\ignorespaces PCB pós corrosão}}{64}{figure.caption.52}%
+\contentsline {figure}{\numberline {21}{\ignorespaces \textit {IrrigaSync desktop}}}{65}{figure.caption.53}%
+\contentsline {figure}{\numberline {22}{\ignorespaces \textit {IrrigaSync mobile}}}{66}{figure.caption.54}%
+\contentsline {figure}{\numberline {23}{\ignorespaces Gabinete com PCB instalado}}{67}{figure.caption.55}%
+\contentsline {figure}{\numberline {24}{\ignorespaces Evolução da temperatura em 12 horas (06:00 - 18:00)}}{68}{figure.caption.56}%
+\contentsline {figure}{\numberline {25}{\ignorespaces Evolução da umidade em 12 horas (06:00 - 18:00)}}{68}{figure.caption.57}%
+\contentsline {figure}{\numberline {26}{\ignorespaces Evolução da velocidade do vento em 12 horas (06:00 - 18:00)}}{69}{figure.caption.58}%
+\contentsline {figure}{\numberline {27}{\ignorespaces Evolução da luminosidade em 12 horas (06:00 - 18:00)}}{69}{figure.caption.59}%
+\contentsline {figure}{\numberline {28}{\ignorespaces Evolução das variáveis meteorológicas ao longo de 12 horas (06:00 - 18:00)}}{70}{figure.caption.60}%
+\contentsline {figure}{\numberline {29}{\ignorespaces Microcultura de café arábica do IFMG - \textit {Campus} Bambuí}}{71}{figure.caption.62}%
