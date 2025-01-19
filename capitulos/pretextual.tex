@@ -1,0 +1,130 @@
+% --------------------------------------------------
+% Resumo e abstract (obrigatórios)
+% --------------------------------------------------
+\resumo{%
+Este trabalho apresenta o desenvolvimento de um sistema de monitoramento em tempo real para a irrigação agrícola. O sistema integra tecnologias modernas, como Sistemas Cyberfísicos (CPS), aplicações web e protocolos de comunicação (HTTP e MQTT), com o método da Evapotranspiração da Cultura (ETc). A crescente demanda por soluções eficientes na gestão de recursos hídricos e a necessidade de práticas sustentáveis na agricultura motivam esta pesquisa. O sistema desenvolvido utiliza sensores de telemetria para coletar dados ambientais em tempo real. Além disso, algoritmos de cálculo da ETc são integrados ao sistema para fornecer métricas sobre as necessidades hídricas das culturas. A agricultura de precisão, aliada ao conceito de Internet das Coisas (IoT), permite um monitoramento contínuo e detalhado das condições do solo e das plantas, promovendo uma gestão mais eficaz da irrigação. Espera-se que o sistema proposto contribua para a redução do desperdício de água, aumento da produtividade agrícola e promoção da sustentabilidade. Testes e validações em campo visam demonstrar a eficácia do sistema em fornecer informações úteis para os agricultores, facilitando a tomada de decisões.
+}
+\palavraschave{Monitoramento em tempo real. Agricultura de precisão. Evapotranspiração da Cultura (ETc). Protocolo MQTT. Internet das Coisas (IoT).}
+
+
+% --------------------------------------------------
+% Keywords e abstract
+% --------------------------------------------------
+\abstract{%
+This work presents the development of a real-time monitoring system for agricultural irrigation. The system integrates modern technologies such as Cyber-Physical Systems (CPS), web applications, and communication protocols (HTTP and MQTT) with the Crop Evapotranspiration (ETc) method. The increasing demand for efficient water resource management solutions and the need for sustainable agricultural practices motivate this research. The developed system uses telemetry sensors to collect real-time environmental data. Additionally, ETc calculation algorithms are integrated into the system to provide metrics on crop water requirements. Precision agriculture, combined with the concept of the Internet of Things (IoT), allows for continuous and detailed monitoring of soil and plant conditions, promoting more effective irrigation management. It is expected that the proposed system will contribute to reducing water waste, increasing agricultural productivity, and promoting sustainability. Field tests and validations aim to demonstrate the system's effectiveness in providing useful information to farmers, facilitating decision-making.
+}
+\keywords{Real-time monitoring. Precision agriculture. Crop Evapotranspiration (ETc). MQTT protocol. Internet of Things (IoT).}
+
+% Dedicatória (opcional)
+\textodedicatoria{%
+Dedico este trabalho a todos aqueles que acreditaram em mim. À minha família, pelo apoio e incentivo ao longo desta trajetória. Às minhas amizades, pelas palavras de encorajamento e momentos de descontração que me ajudaram a manter o equilíbrio. A todos os que de alguma forma contribuíram para a minha formação acadêmica e pessoal, o meu mais sincero agradecimento.
+}
+
+% Agradecimentos (opcional)
+\textoagradecimentos{%
+Primeiramente, agradeço a Deus por guiar meus passos e iluminar meu caminho ao longo desta caminhada acadêmica. Sem sua orientação, nada disso seria possível. Agradeço por cada desafio superado, por cada aprendizado e por cada conquista.
+
+Expresso minha gratidão ao meu orientador Prof. Dr. Mateus, pela orientação produtiva, pelos conselhos e pela paciência dedicada na condução deste trabalho. Suas contribuições foram fundamentais para o meu crescimento acadêmico e profissional.
+
+Agradeço também aos professores e colaboradores desta instituição, que compartilharam seus conhecimentos e experiências, enriquecendo meu percurso acadêmico e contribuindo para o desenvolvimento deste trabalho.
+
+Aos meus pais e familiares, expresso minha profunda gratidão pelo apoio e pela compreensão durante todo este período. Eles foram minha âncora nos momentos difíceis e minha maior fonte de inspiração.
+
+Por fim, dedico um agradecimento especial aos meus amigos e colegas de estudo, pela amizade e pela colaboração mútua. O apoio deles foi essencial.
+}
+
+% Epígrafe (opcional)
+\textoepigrafe{%
+    ``Bem-aventurado o homem que acha sabedoria, e o homem que produz conhecimento.''\\
+    (Provérbios 3:13 - Bíblia Sagrada)
+}
+
+\listasiglas{%
+ \begin{description}[leftmargin=3cm, labelindent=0cm]
+    \item[ADC] -- Conversor Analógico-Digital (\textit{Analog-to-Digital Converter})
+    \item[API] -- Interface de Programação de Aplicações (\textit{Application Programming Interface})
+    \item[BDA] -- Análise de grandes dados (\textit{Big Data Analytics})
+    \item[BLE] -- Bluetooth de Baixa Energia (\textit{Bluetooth Low Energy})
+    \item[CERN] -- Organização Europeia para a Pesquisa Nuclear (\textit{Conseil Européen pour la Recherche Nucléaire})
+    \item[CPU] -- Unidade Central de Processamento (\textit{Central Processing Unit})
+    \item[CPS] -- Sistemas Ciberfísicos (\textit{Cyber-Physical Systems})
+    \item[DDD] -- \textit{Design} Orientado a Domínio (\textit{Domain-Driven Design})
+    \item[DIP] -- Princípio de Inversão de Dependência (\textit{Dependency Inversion Principle})
+    \item[ETc] -- Evapotranspiração da Cultura
+    \item[ETo] -- Evapotranspiração de Referência
+    \item[GPIO] -- Pinos de Entrada/Saída Gerais (\textit{General-Purpose Input/Output})
+    \item[HTML] -- Linguagem de Marcação de Hipertexto (\textit{HyperText Markup Language})
+    \item[HTTP] -- Protocolo de Transferência de Hipertexto (\textit{Hypertext Transfer Protocol})
+    \item[IA] -- Inteligência Artificial
+    \item[IBM] -- International Business Machines
+    \item[I2C] -- Circuito Inter-Integrado (\textit{Inter-Integrated Circuit})
+    \item[IDE] -- Ambiente de Desenvolvimento Integrado (\textit{Integrated Development Environment})
+    \item[INMET] -- Instituto Nacional de Meteorologia 
+    \item[IoT] -- Internet das Coisas (\textit{Internet of Things})
+    \item[IP] -- Protocolo de Internet (\textit{Internet Protocol})
+    \item[ISP] -- Princípio de Segregação de Interface (\textit{Interface Segregation Principle})
+    \item[JSON] -- Notação de Objetos JavaScript (\textit{JavaScript Object Notation})
+    \item[Kc] -- Coeficiente de cultura
+    \item[LAI] -- Índice de Área Foliar (\textit{Leaf Area Index})
+    \item[LSP] -- Princípio de Substituição de Liskov (\textit{Liskov Substitution Principle})
+    \item[MQTT] -- Protocolo de Telemetria de Fila de Mensagens (\textit{Message Queuing Telemetry Transport})
+    \item[MVC] -- Modelo-Visão-Controle (\textit{Model-View-Controller})
+    \item[OGC] -- Consórcio Geoespacial Aberto (\textit{Open Geospatial Consortium})
+    \item[OCP] -- Princípio de Aberto/Fechado (\textit{Open/Closed Principle})
+    \item[OPeNDAP] -- Projeto de código aberto para um protocolo de acesso a dados de rede (\textit{Open-source Project for a Network Data Access Protocol})
+    \item[ORM] -- Mapeador Objeto-Relacional (\textit{Object-Relational Mapping}) 
+    \item[PCB] -- Placa de Circuito Impresso (\textit{Printed Circuit Board})
+    \item[QoS] -- Qualidade de Serviço (\textit{Quality of Service})
+    \item[RAM] -- Memória de Acesso Aleatório (\textit{Random Access Memory})
+    \item[ROM] -- Memória Somente de Leitura (\textit{Read-Only Memory})
+    \item[SCPS] -- Sistemas Socio-Ciberfísicos (\textit{Social-Cyber-Physical Systems})
+    \item[SI] -- Sistema Internacional de Unidades
+    \item[SPI] -- Interface Periférica Serial (\textit{Serial Peripheral Interface})
+    \item[SRP] -- Princípio de Responsabilidade Única (\textit{Single Responsibility Principle})
+    \item[TCP] -- Protocolo de Controle de Transmissão (\textit{Transmission Control Protocol})
+    \item[TLS] -- Segurança de Transporte de Camada (\textit{Transport Layer Security})
+    \item[UART] -- Transmissor/Receptor Assíncrono Universal (\textit{Universal Asynchronous Receiver-Transmitter})
+    \item[URI] -- Identificador Uniforme de Recurso (\textit{Uniform Resource Identifier})
+    \item[USGS] -- Serviço Geológico dos Estados Unidos (\textit{United States Geological Survey})
+    \item[WWW] -- Rede Mundial de Computadores (\textit{World Wide Web})
+    \item[XML] -- Linguagem de Marcação Extensível (\textit{eXtensible Markup Language})
+ \end{description}
+}
+
+\listasimbolos{%
+  \begin{description}[leftmargin=3cm, labelindent=0cm]
+    \item[$\Delta$] -- Déficit de pressão de vapor
+    \item[$d_r$] -- Distância relativa inversa Terra-Sol
+    \item[$e_a$] -- Pressão de vapor real
+    \item[$e_s$] -- Pressão de vapor saturado
+    \item[$E$] -- Irradiância solar
+    \item[$ET_c$] -- Evapotranspiração da Cultura
+    \item[$ET_o$] -- Evapotranspiração de Referência
+    \item[$G$] -- Fluxo de calor no solo
+    \item[$G_{sc}$] -- Constante solar (\(0.0820 \, MJ \, m^{-2} \, min^{-1}\))
+    \item[$h$] -- Umidade do solo
+    \item[$J$] -- Dia do ano 
+    \item[$K_c$] -- Coeficiente de cultura
+    \item[$lx$] -- Lux 
+    \item[$P$] -- Pressão atmosféria 
+    \item[$R^2$] -- Coeficiente de determinação
+    \item[$R_a$] -- Radiação extraterrestre
+    \item[$R_n$] -- Radiação líquida
+    \item[$R_s$] -- Radiação solar
+    \item[$R_{ns}$] -- Radiação solar líquida
+    \item[$R_{nl}$] -- Radiação líquida de ondas longas
+    \item[$R_{so}$] -- Radiação solar com céu limpo
+    \item[$RH$] -- Umidade relativa do ar
+    \item[$T$] -- Temperatura
+    \item[$T_{max,K}$] -- Temperatura máxima em Kelvin
+    \item[$T_{min,K}$] -- Temperatura mínima em Kelvin
+    \item[$u_2$] -- Velocidade do vento a 2 metros de altura
+    \item[$z$] -- Elevação em metros do nível do mar
+    \item[$\delta$] -- Declinação solar 
+    \item[$\gamma$] -- Constante psicrométrica
+    \item[$\phi$] -- Latitude
+    \item[$\omega_1$] -- Ângulo da hora solar no início do período 
+    \item[$\omega_2$] -- Ângulo da hora solar no final do período 
+    \item[$\sigma$] -- Constante de Stefan-Boltzmann (\(4.903 \cdot 10^{-9} \, MJ \, K^{-4} \, m^{-2} \, dia^{-1}\))
+  \end{description}
+}

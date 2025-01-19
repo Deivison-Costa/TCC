@@ -1,0 +1,136 @@
+\documentclass[oneside,monografia]{iftex2020}
+
+\input{config}
+
+\addbibresource{referencias.bib}
+% Na prática pode ser usado apenas \addbibresource{referencias.bib}
+% O comando \addbibresource{referencias.bib} foi usado para mostrar as referências do capítulo de exemplo
+% \addbibresource[label=bib:exemplo]{referencias_exemplos.bib}
+
+% --------------------------------------------------
+% Configurações do Documento
+% --------------------------------------------------
+\titulo{Desenvolvimento de um sistema de monitoramento em tempo real para a irrigação}
+\autor{Deivison Oliveira Costa}
+\local{Bambuí - MG}
+\data{07}{novembro}{2024}
+
+% Instituição
+\instituicao{IFMG}{Instituto Federal Minas Gerais}{Instituto Federal de Educação, Ciência e Tecnologia de Minas Gerais}
+\unidade{\textit{Campus} Bambuí}
+\curso{Bacharel}{Bacharelado}{Engenharia de Computação}
+
+% Orientação
+\orientador{Prof. Dr. Mateus Clemente de Sousa}
+
+% Membros da banca examinadora (além do orientador e coorientador)
+\membrobanca{Prof. Dr. Marcos Roberto Ribeiro}{IFMG -- \textit{Campus} Bambuí}
+\membrobanca{Prof. Dr. Geraldo Henrique Alves Pereira}{IFMG -- \textit{Campus} Bambuí}
+
+% -------------------------------------------------------
+% Elementos Pré-textuais
+% -------------------------------------------------------
+
+\input{capitulos/pretextual}
+
+% Ficha catalográfica (obrigatória)
+%\ficha{ficha_catalografica}
+
+% --------------------------------------------------
+% Folha de aprovação (obrigatória)
+% --------------------------------------------------
+% Assinaturas e QRCode recortados do documento SEI
+\assinaturas{assinaturas}
+
+% -------------------------------------------------------
+% Elementos opcionais
+% -------------------------------------------------------
+
+% Lista de figuras (opcional)
+\listafiguras
+% Lista de quadros (opcional)
+%\listaquadros
+% Lista de tabelas (opcional)
+\listatabelas
+% Lista de algoritmos (opcional)
+%\listaalgoritmos
+% Lista de códigos (opcional)
+%\listacodigos
+
+\begin{document}
+
+% -------------------------------------------------------
+% Gera elementos pré-textuais
+% -------------------------------------------------------
+\maketitle
+
+% -------------------------------------------------------
+% Capítulo: Introdução
+% -------------------------------------------------------
+\chapter{Introdução}
+
+\input{capitulos/introducao}
+
+\chapter{Fundamentação teórica}
+
+\input{capitulos/fundamentacao_teorica}
+
+%  \chapter{Revisão bibliográfica}
+
+%  \input{capitulos/cap_corpos_flutuantes}
+
+\chapter{Materiais e métodos}
+
+\input{capitulos/materiais_metodos}
+
+\chapter{Resultados}
+
+\input{capitulos/resultados}
+
+\chapter{Conclusão}
+
+\input{capitulos/conclusao}
+
+\chapter{Trabalhos futuros}
+
+\input{capitulos/trabalhos_futuros}
+
+%\chapter{Modelos de referências}
+
+%\input{capitulos/cap_modelos_referencias}
+
+% -------------------------------------------------------
+% Elementos pós-textuais
+% -------------------------------------------------------
+\postextual
+
+% -------------------------------------------------------
+% Referências bibliográficas
+% -------------------------------------------------------
+
+\printbibliography
+% Na prática pode ser usado apenas \printbibliography
+% O comando \printbibliography[notkeyword=exemplo] foi usado para não mostrar as referências do capítulo de exemplo
+% -------------------------------------------------------
+% Apêndices
+% -------------------------------------------------------
+%\apendices
+
+%\partapendices
+
+%\chapter{Documento básico usando a classe {IF\TeX}}
+
+%\input{capitulos/apendice_doc_basico_if}
+
+% -------------------------------------------------------
+% Anexos
+% -------------------------------------------------------
+%\anexos
+
+%\partanexos
+
+%\chapter{Páginas interessantes na internet} \label{capitulo:paginas_interessantes}
+
+%\input{capitulos/anexo_paginas_interessantes}
+
+\end{document}
