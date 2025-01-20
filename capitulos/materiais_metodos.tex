@@ -225,6 +225,29 @@ O módulo conversor RS485 para TTL (Figura \ref{figura:ttl_rs485}) é utilizado 
   \fonte{Retirado de \textcite{RS485TTL}.}
 \end{table}
 
+\subsection{Custos dos Componentes}
+
+Os custos dos componentes utilizados no desenvolvimento desse sistema podem variar de acordo com o fornecedor, região de compra e período de aquisição. A Tabela \ref{tab:custos} apresenta os custos dos componentes utilizados, já com os impostos e taxas de importação inclusos. Os componentes foram comprados através da loja virtual \textit{AliExpress} no dia 17/06/2024.
+
+\begin{table}[!htb]
+  \caption{Custos dos componentes utilizados no sistema}
+  \begin{tabularx}{\textwidth}{|X|X|} \hline
+      \textbf{Componente} & \textbf{Custo (R\$)} \\ \hline
+      ESP32 & 20,19 \\ \hline
+      DHT22 & 7,66 \\ \hline
+      BMP280 & 4,65 \\ \hline
+      BH1750 & 6,04 \\ \hline
+      Anemômetro RS-FSJT-N01 & 100,43 \\ \hline
+      LM393 & 4,64 \\ \hline
+      NEO-6M & 22,89 \\ \hline
+      Conversor RS485 para TTL & 10,86 \\ \hline
+      \textbf{Total} & \textbf{177,36} \\ \hline
+  \end{tabularx}
+  \label{tab:custos}
+  \fonte{Elaborado pelo autor, 2024.}
+\end{table}
+
+
 \section{Integração dos sensores ao ESP32}
 
 Como foram utilizados sensores para capturar os dados, é importante destacar que todo instrumento de medição possui erros inerentes \parencite{Vuolo_erro1996}, que podem ser classificados em dois tipos:
