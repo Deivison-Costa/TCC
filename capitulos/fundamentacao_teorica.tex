@@ -3,7 +3,7 @@ trabalho.
 \section{Sensoriamento remoto}
 O sensoriamento remoto é uma área fundamental em vários campos científicos e tecnológicos. Ele pode ser definido  como:
 \begin{quote}
-"A arte ou ciência de dizer algo sobre um objeto sem tocá-lo." \parencite[{p. 34}]{fischer1976}
+"A arte ou ciência de dizer algo sobre um objeto sem tocá-lo". \parencite[{p. 34}]{fischer1976}
 \end{quote}
 
 Ao longo dos anos, o sensoriamento remoto tem evoluído, proporcionando uma variedade de aplicações em diversas áreas. Uma visão geral da evolução do sensoriamento remoto pode ser observada na Tabela \ref{tab:evolucao_sr}
@@ -46,10 +46,10 @@ Além disso, estudos evidenciam seu papel na obtenção de estatísticas agríco
 \subsection{Telemetria}
 A telemetria é um campo complementar ao sensoriamento remoto e é definida como:
 \begin{quote}
-"A indicação, registro ou integração de uma quantidade em um ponto remoto por meios eleitorais e de tradução métrica.  Grandezas de estados elétricos ou mecânicos estão normalmente envolvidas, embora existam outras aplicações diversas para telemedição." \parencite[{p. 3}]{telemetering1941}
+"A indicação, registro ou integração de uma quantidade em um ponto remoto por meios eleitorais e de tradução métrica.  Grandezas de estados elétricos ou mecânicos estão normalmente envolvidas, embora existam outras aplicações diversas para telemedição". \parencite[{p. 3}]{telemetering1941}
 \end{quote}
 
-De acordo com \textcite{telemetry_systems2002}, ao longo das décadas, os sistemas de telemetria evoluiram gradativamente, impulsionada por avanços tecnológicos em eletrônica, comunicações e processamento de dados. Inicialmente, a telemetria era predominantemente utilizada em aplicações aeroespaciais e militares para monitorar o \textit{status} e o desempenho de aeronaves e foguetes. 
+De acordo com \textcite{telemetry_systems2002}, ao longo das décadas, os sistemas de telemetria evoluíram gradativamente, impulsionados por avanços tecnológicos em eletrônica, comunicações e processamento de dados. Inicialmente, a telemetria era predominantemente utilizada em aplicações aeroespaciais e militares para monitorar o \textit{status} e o desempenho de aeronaves e foguetes. 
 
 Com o passar do tempo, sua aplicabilidade se expandiu para uma variedade de setores, incluindo medicina, indústria automotiva, energia e telecomunicações \parencite{Lizhuang_telemetry2021, Hassanien2020, Ding_telemetry2017}.
 
@@ -57,13 +57,13 @@ Para \textcite{Lizhuang_telemetry2021}, os avanços na miniaturização de senso
 
 \textcite{Ding_telemetry2017} afirmam que o desenvolvimento de algoritmos de análise de dados e inteligência artificial (IA) tem permitido uma compreensão mais profunda dos padrões e tendências nos dados telemétricos. Isso tem levado a aprimoramentos em diversos processos e sistemas.
 
-Neste trabalho, a telemetria é empregada para monitorar variáveis ambientais, tais como umidade do solo, temperatura e umidade relativa do ar, em uma área de cultivo.  Os dados são coletados por sensores remotos e transmitidos através de protocolos de comunicação. Os protocolos de comunicação usadas neste projeto foram o Transporte de Telemetria de Enfileiramento de Mensagens - MQTT (sigla do inglês, \textit{Message Queuing Telemetry Transport}) e o Protocolo de Transferência de Hipertexto - HTTP (sigla do inglês, \textit{Hypertext Transfer Protocol}) para um servidor remoto (\textit{broker}).
+Neste trabalho, a telemetria é empregada para monitorar variáveis ambientais, tais como umidade do solo, temperatura e umidade relativa do ar, em uma área de cultivo.  Os dados são coletados por sensores remotos e transmitidos através de protocolos de comunicação. Os protocolos de comunicação usados neste projeto foram o Transporte de Telemetria de Enfileiramento de Mensagens - MQTT (sigla do inglês \textit{Message Queuing Telemetry Transport}) e o Protocolo de Transferência de Hipertexto - HTTP (sigla do inglês \textit{Hypertext Transfer Protocol}) para um servidor remoto (\textit{broker}).
 
 \section{Sistemas embarcados}
 Há várias concepções propostas para sistemas embarcados; um conceito geral pode ser definido como:
 
 \begin{quote}
-"Aquele que possui \textit{hardware} de computador com \textit{software} embutido como um de seus componentes mais importantes. É um sistema baseado em computador dedicado para uma ou várias aplicações. Pode ser um sistema independente ou parte de um sistema maior." \parencite[{p. 39}]{dutta2014comprehensive}
+"Aquele que possui \textit{hardware} de computador com \textit{software} embutido como um de seus componentes mais importantes. É um sistema baseado em computador dedicado para uma ou várias aplicações. Pode ser um sistema independente ou parte de um sistema maior". \parencite[{p. 39}]{dutta2014comprehensive}
 \end{quote}
 
 Sua utilização abrange desde dispositivos simples, como controles remotos e eletrodomésticos, até sistemas complexos, como veículos autônomos e equipamentos médicos \parencite{lee2008cyber, kato2018autoware}. Eles desempenham um papel fundamental na automação de processos industriais, na monitoração e controle de dispositivos, na coleta e processamento de dados em tempo real, entre outras funções \parencite{dutta2014comprehensive}.
@@ -75,23 +75,23 @@ Na seção seguinte, serão abordados os microcontroladores e sua importância n
 
 \section{Microcontroladores}
 
-Segundo \textcite{lee2008cyber}, os microcontroladores são componentes essenciais dos sistemas embarcados. Estes desempenham um papel central na execução de tarefas específicas e no controle de dispositivos em uma variedade de aplicações. Ele é composto por:
+Segundo \textcite{lee2008cyber}, os microcontroladores são componentes essenciais dos sistemas embarcados. Estes desempenham um papel central na execução de tarefas específicas e no controle de dispositivos em uma variedade de aplicações. São compostos por:
 
 \begin{quote}
-  "Um microprocessador (CPU), além de uma quantidade fixa de memória principal (RAM), memória de programa (ROM/Flash),  interfaces de entrada/saída (I/O), temporizadores e conversores analógico-digitais (ADC), todos em um único chip." \parencite[{p. 40}]{Mazid_microcontrolador2011}
+  "Um microprocessador (CPU), além de uma quantidade fixa de memória principal (RAM), memória de programa (ROM/Flash),  interfaces de entrada/saída (I/O), temporizadores e conversores analógico-digitais (ADC), todos em um único chip". \parencite[{p. 40}]{Mazid_microcontrolador2011}
 \end{quote}
 
-A Tabela \ref{tab:evolucao_microcontroladores} mostra alguns modelos de microcontroladores e suas finalidades, desde modelos antigos até os mais recentes. Neste trabalho, o principal motivo da escolha do microcontrolador ESP32 se deu em razão de sua capacidade de comunicação \textit{wireless} embutida. Esse recurso também é nativo em outros microcontroladores como Raspberry Pi 4, porém, o ESP32 se destaca por um menor custo e consumo de energia \parencite{ESP32_usage}.
+A Tabela \ref{tab:evolucao_microcontroladores} mostra alguns modelos de microcontroladores e suas finalidades, desde modelos antigos até os mais recentes. Neste trabalho, o principal motivo da escolha do microcontrolador ESP32 se deu em razão de sua capacidade de comunicação \textit{wireless} embutida. Esse recurso também é nativo em outros microcontroladores, como Raspberry Pi 4, porém, o ESP32 se destaca por um menor custo e consumo de energia \parencite{ESP32_usage}.
 
 \begin{table}[!htb]
 \caption{Evolução dos microcontroladores.} \label{tab:evolucao_microcontroladores}
 \begin{tabularx}{\textwidth}{|c|c|c|X|} \hline
 \textbf{Modelo} & \textbf{Ano de Lançamento} & \textbf{Preço (USD)} & \textbf{Componentes Embutidos} \\ \hline
-Intel 8051 & 1977 & \$1 - \$2 & CPU de 8 bits, memória RAM e ROM integradas, temporizador, portas de I/O \parencite{8051_usage}. \\ \hline
-PIC16F84A & 1993 & \$2 - \$4 & CPU de 8 bits, memória flash e RAM integradas, temporizador, portas I/O \parencite{PIC16F84A_usage}. \\ \hline
-Arduino Uno & 2010 & \$3 - \$4 & CPU de 8 bits, memória flash e RAM integradas, temporizador, portas I/O digitais, USB \parencite{Arduino_usage}. \\ \hline
-STM32F4 & 2011 & \$20 - \$25 & CPU de 32 bits, memória flash e RAM integradas, temporizador, interfaces SPI, UART, I2C \parencite{STM32F4_usage}. \\ \hline
-ESP32 & 2016 & \$3 - \$4 & CPU de 32 bits, \textit{Wi-Fi} e \textit{Bluetooth} integrados, memória flash e RAM integradas, temporizador, portas GPIO, SPI, UART, I2C \parencite{ESP32_usage}. \\ \hline
+Intel 8051 & 1977 & \$1 - \$2 & CPU de 8 bits, memórias RAM e ROM integradas, temporizador, portas de I/O \parencite{8051_usage}. \\ \hline
+PIC16F84A & 1993 & \$2 - \$4 & CPU de 8 bits, memórias flash e RAM integradas, temporizador, portas I/O \parencite{PIC16F84A_usage}. \\ \hline
+Arduino Uno & 2010 & \$3 - \$4 & CPU de 8 bits, memórias flash e RAM integradas, temporizador, portas I/O digitais, USB \parencite{Arduino_usage}. \\ \hline
+STM32F4 & 2011 & \$20 - \$25 & CPU de 32 bits, memórias flash e RAM integradas, temporizador, interfaces SPI, UART, I2C \parencite{STM32F4_usage}. \\ \hline
+ESP32 & 2016 & \$3 - \$4 & CPU de 32 bits, \textit{Wi-Fi} e \textit{Bluetooth} integrados, memórias flash e RAM integradas, temporizador, portas GPIO, SPI, UART, I2C \parencite{ESP32_usage}. \\ \hline
 Raspberry Pi 4 & 2019 & \$55 - \$60 & CPU de 64 bits, memória RAM integrada, Ethernet, Wi-Fi, portas USB, HDMI, GPIO \parencite{RaspberryPi4_usage}. \\ \hline
 \end{tabularx}
 \fonte{Elaborado pelo autor, 2024.}
@@ -101,15 +101,15 @@ A seguir, serão discutidas as características do ESP32 e sua relevância  na i
 
 \subsection{ESP32}
 
-O ESP32 é um microcontrolador de baixo custo desenvolvido pela Espressif Systems. De acordo com \textcite{ESP32_usage}, este componente é amplamente utilizado em projetos de Internet das Coisas - IoT (sigla do inglês, \textit{Internet of Things}) devido às suas capacidades de conexão integradas e poder de processamento.
+O ESP32 é um microcontrolador de baixo custo desenvolvido pela Espressif Systems. De acordo com \textcite{ESP32_usage}, este componente é amplamente utilizado em projetos de Internet das Coisas - IoT (sigla do inglês \textit{Internet of Things}) -devido à sua capacidade de conexão integrada e poder de processamento.
 
-Baseado em um microprocessador \textit{dual-core} Tensilica Xtensa LX6, o ESP32 opera em frequências de até 240 MHz, apresentando uma arquitetura de 32 bits. Além disso, possui uma variedade de periféricos (Tabela \ref{tab:esp32_perifericos}) o que o torna versátil para uma variedade de aplicações \parencite{EspressifESP32}.
+Baseado em um microprocessador \textit{dual-core} Tensilica Xtensa LX6, o ESP32 opera em frequências de até 240 MHz, apresentando uma arquitetura de 32 bits. Além disso, possui uma variedade de periféricos (Tabela \ref{tab:esp32_perifericos}), o que o torna versátil para uma variedade de aplicações \parencite{EspressifESP32}.
 
 Uma das principais vantagens do ESP32, como destacado por \textcite{ESP32_usage}, é sua capacidade de conexão Wi-Fi e Bluetooth embutida, suportando os padrões 802.11 b/g/n Wi-Fi, Bluetooth 4.2 e Bluetooth Low Energy (BLE). Isso possibilita a comunicação sem fio em ambientes de IoT.
 
-O ESP32 pode ser programado usando o Arduino IDE e o ESP-IDF (Espressif IoT Development Framework), ambos baseados em C/C++. Através dessas plataformas (IDEs), os desenvolvedores podem acessar os recursos do ESP32 e criar aplicações. Esses projetos vão desde simples automações residenciais até dispositivos complexos de monitoramento \parencite{ferrandez2018precision, junior2022data, hsu2020creative}.
+O ESP32 pode ser programado usando-se o Arduino IDE e o ESP-IDF (Espressif IoT Development Framework), ambos baseados em C/C++. Por meio dessas plataformas (IDEs), os desenvolvedores podem acessar os recursos do ESP32 e criar aplicações. Esses projetos vão desde simples automações residenciais até dispositivos complexos de monitoramento \parencite{ferrandez2018precision, junior2022data, hsu2020creative}.
 
-Neste trabalho, o ESP32 atua como um ponto de controle, permitindo a comunicação bidirecional entre o mundo físico (representado pelas variáveis ambientais) e o mundo digital (representado pelo \textit{broker}). Essa capacidade de interação direta entre \textit{hardware}, \textit{software} e o ambiente físico exemplifica a definição de um Sistema Cyberfísico - CPS (sigla do inglês, \textit{Cyber-Physical System}), como será abordado na próxima subseção.
+Neste trabalho, o ESP32 atua como um ponto de controle, permitindo a comunicação bidirecional entre o mundo físico (representado pelas variáveis ambientais) e o mundo digital (representado pelo \textit{broker}). Essa capacidade de interação direta entre \textit{hardware}, \textit{software} e o ambiente físico exemplifica a definição de um Sistema Cyberfísico - CPS (sigla do inglês \textit{Cyber-Physical System}), como será abordado na próxima subseção.
 
 \begin{table}[!htb]
   \caption{Periféricos do microcontrolador ESP32} \label{tab:esp32_perifericos}
@@ -128,17 +128,17 @@ Neste trabalho, o ESP32 atua como um ponto de controle, permitindo a comunicaç�
 Os sistemas CPSs representam uma evolução dos sistemas embarcados. Eles podem ser definidos como:
 
 \begin{quote}
-"Integrações de computação com processos físicos. Computadores embarcados e redes que monitoram e controlam os processos físicos, geralmente com \textit{loops} de \textit{feedback} onde os processos físicos afetam as computações e vice-versa." \parencite[{p. 363}]{lee2008cyber}
+"Integrações de computação com processos físicos. Computadores embarcados e redes que monitoram e controlam os processos físicos, geralmente com \textit{loops} de \textit{feedback} onde os processos físicos afetam as computações e vice-versa". \parencite[{p. 363}]{lee2008cyber}
 \end{quote}
 
-Recentemente, tem havido uma tendência crescente no uso de CPSs em aplicações práticas na agricultura. Por exemplo, \textcite{ahmad2020smart} demonstraram um sistema de monitoramento inteligente que utiliza abordagens para rastrear o comportamento e as atividades de roedores no campo. O sistema auxilia especialistas em controle de pragas e agricultores na aplicação mais eficiente de métodos de controle tradicionais.
+Recentemente, tem havido uma tendência crescente no uso de CPSs em aplicações práticas na agricultura. Por exemplo, \textcite{ahmad2020smart} demonstraram um sistema de monitoramento inteligente que utiliza abordagens para rastrear o comportamento e as atividades de roedores no campo. O sistema auxilia especialistas e agricultores em controle de pragas na aplicação mais eficiente de métodos de controle tradicionais.
 
-Da mesma forma, \textcite{rad2015smart} propuseram um modelo de arquitetura de CPS para o monitoramento de culturas de batata, resultando na melhoria da produtividade. \textcite{rijswijk2021digital} discutiram o papel dos sistemas socio-cyberfísicos (SCPSs) na transformação digital da agricultura e das áreas rurais. Eles destacaram a necessidade de compreender as relações entre os aspectos sociais e tecnológicos para uma aplicação bem-sucedida.
+Da mesma forma, \textcite{rad2015smart} propuseram um modelo de arquitetura de CPS para o monitoramento de culturas de batata, resultando na melhoria da produtividade. \textcite{rijswijk2021digital} discutiram o papel dos sistemas sociocyberfísicos (SCPSs) na transformação digital da agricultura e das áreas rurais. Eles destacaram a necessidade de compreender as relações entre os aspectos sociais e tecnológicos para uma aplicação bem-sucedida.
 
 O presente trabalho se enquadra na categoria de CPS, pois integra componentes físicos, computacionais e de comunicação. Seu papel é monitorar um processo físico (a irrigação) de maneira automatizada e em tempo real. A infraestrutura necessária para conectar dispositivos físicos à internet e entre si é definida como IoT, como será abordado na próxima subseção. 
 
 \section{Internet das coisas}
-A IoT é um campo multidisciplinar que se desenvolveu ao longo do tempo, com contribuições de diversas áreas. \textcite{datta2017} representa esse campo como um \textit{"tsunami"}, que começa com a exploração marítima, seguida pelo desenvolvimento da engenharia, passando pela automação, eletricidade, sensoriamento, e culminando na IoT (Figura \ref{figura:evolucao_iot}). 
+A IoT é um campo multidisciplinar que se desenvolveu ao longo do tempo, com contribuições de diversas áreas. \textcite{datta2017} representa esse campo como um \textit{"tsunami"}, que começa com a exploração marítima, seguida pelo desenvolvimento da engenharia, passando pela automação, eletricidade, sensoriamento e culminando na IoT (Figura \ref{figura:evolucao_iot}). 
 
 Cada uma dessas etapas representa um avanço na integração de tecnologia e comunicação, resultando em um sistema interconectado e inteligente. A exploração marítima marcou o início do uso de tecnologias para navegação e comunicação a longas distâncias. Com a engenharia, foram estabelecidas as bases para a construção de infraestruturas complexas e sistemas mecânicos. 
 
@@ -147,20 +147,20 @@ A automação trouxe a capacidade de controlar processos e máquinas de forma ef
 A IoT pode ser definida como:
 
 \begin{quote}
-"Um paradigma emergente de objetos cotidianos que, através da interação com o ambiente e com outros dispositivos, coletam e compartilham dados, geralmente utilizando protocolos de comunicação padronizados e interoperáveis, e, em alguns casos, interagindo com usuários ou outros dispositivos." \parencite[{p. 44}]{kortuem2009things}
+"Um paradigma emergente de objetos cotidianos que, através da interação com o ambiente e com outros dispositivos, coletam e compartilham dados, geralmente utilizando protocolos de comunicação padronizados e interoperáveis, e, em alguns casos, interagindo com usuários ou outros dispositivos". \parencite[{p. 44}]{kortuem2009things}
 \end{quote}
 
-Segundo \textcite{minerva2015towards}, a ideia de IoT foi proposta pela primeira vez por \textcite{ashton1999things}. Ele argumentou que poderia revolucionar a maneira como interage-se com o mundo físico, permitindo que artefatos se comuniquem entre si e com sistemas de computador.
+Segundo \textcite{minerva2015towards}, a ideia de IoT foi proposta pela primeira vez por \textcite{ashton1999things}. Ele argumentou que poderia revolucionar a maneira como se interage com o mundo físico, permitindo que artefatos se comuniquem entre si e com sistemas de computador.
 
 Ao longo dos anos 2000, avanços em tecnologias de comunicação sem fio, sensores e sistemas embarcados possibilitaram o desenvolvimento prático da IoT, como destacado por \textcite{kortuem2009things}. Na década de 2010, a IoT começou a ganhar notoriedade em uma variedade de setores, incluindo saúde, manufatura, transporte e agricultura. Vários autores discutiram como essas tecnologias abriram caminho para a criação de redes de dispositivos interconectados em diversos campos \parencite{kortuem2009things, tan2010things, minerva2015towards}.
 
-Atualmente, a IoT continua a evoluir, com o surgimento de novas tecnologias como a computação em névoa, termo conhecido em inglês como \textit{fog computing}, e integrações com inteligências artificiais (IAs) \parencite{junior2022data}. Na agricultura, a IoT é empregada para melhorar a eficiência e produtividade.
+Atualmente, a IoT continua a evoluir, com o surgimento de novas tecnologias, como a computação em névoa, termo conhecido, em inglês, como \textit{fog computing}, e integrações com inteligências artificiais (IAs) \parencite{junior2022data}. Na agricultura, a IoT é empregada para melhorar a eficiência e produtividade.
 
-O estudo conduzido por \textcite{ferrandez2018precision} exemplifica o uso da IoT para otimizar os processos agrícolas. Através de sensores interconectados, demonstrou-se ser possível monitorar uma série de variáveis físicas, como a umidade do solo, a temperatura e a umidade relativa do ar. Essa abordagem mostrou-se promissora, capacitando os agricultores a tomarem decisões mais embasadas em relação ao momento ideal para o plantio, à irrigação e à aplicação de fertilizantes.
+O estudo conduzido por \textcite{ferrandez2018precision} exemplifica o uso da IoT para otimizar os processos agrícolas. Por meio de sensores interconectados, demonstrou-se ser possível monitorar uma série de variáveis físicas, como a umidade do solo, a temperatura e a umidade relativa do ar. Essa abordagem mostrou-se promissora, capacitando os agricultores a tomarem decisões mais embasadas em relação ao momento ideal para o plantio, à irrigação e à aplicação de fertilizantes.
 
 Combinada à computação em névoa, a IoT possibilita o processamento local dos dados coletados pelos sensores, o que reduz o tempo de resposta e os custos associados ao envio e recebimento de dados \parencite{hsu2020creative}. Além disso, a integração com a IA permite a análise preditiva e a otimização desses sistemas, fornecendo informações que aumentam a produtividade e diminuem o desperdício.
 
-Para facilitar a comunicação entre dispositivos, servidores e outros sistemas, o presente trabalho utilizou os protocolos HTTP e MQTT. Esses protocolos permitem o acesso remoto e o controle dos dispositivos conectados à IoT, como será abordado nas próximas subseções.
+Para facilitar a comunicação entre dispositivos, servidores e outros sistemas, o presente trabalho utilizou os protocolos HTTP e MQTT, os quais permitem o acesso remoto e o controle dos dispositivos conectados à IoT, como será abordado nas próximas subseções.
 
 \begin{figure}[!htb] \centering
   \caption{\textit{"Tsunami"} da IoT} \label{figura:evolucao_iot}
@@ -171,17 +171,17 @@ Para facilitar a comunicação entre dispositivos, servidores e outros sistemas,
 \end{figure}
 
 \section{Protocolo HTTP}
-De acordo com \textcite{RFC2616}, o HTTP é um protocolo de comunicação utilizado para sistemas de informação distribuídos e colaborativos. Ele foi concebido para possibilitar a comunicação entre clientes e servidores na Rede Mundial de Computadores - WWW (sigla do inglês, \textit{World Wide Web}).
+De acordo com \textcite{RFC2616}, o HTTP é um protocolo de comunicação utilizado para sistemas de informação distribuídos e colaborativos. Ele foi concebido para possibilitar a comunicação entre clientes e servidores na Rede Mundial de Computadores - WWW (sigla do inglês \textit{World Wide Web}).
 
-O HTTP foi introduzido em 1989 por Tim Berners-Lee enquanto ele trabalhava na Organização Europeia para a Pesquisa Nuclear - CERN (sigla do francês, \textit{Conseil Européen pour la Recherche Nucléaire}). A necessidade premente de compartilhar e distribuir informações de forma eficiente em uma rede de computadores motivou o desenvolvimento desse protocolo, que se tornou fundamental para a \textit{web} moderna \parencite{Berners_web}. Ele pode ser definido como:
+O HTTP foi introduzido em 1989 por Tim Berners-Lee enquanto ele trabalhava na Organização Europeia para a Pesquisa Nuclear - CERN (sigla do francês \textit{Conseil Européen pour la Recherche Nucléaire}). A necessidade premente de compartilhar e distribuir informações de forma eficiente em uma rede de computadores motivou o desenvolvimento desse protocolo, que se tornou fundamental para a \textit{web} moderna \parencite{Berners_web}. Ele pode ser definido como:
 
 \begin{quote}
-"Um protocolo de camada de aplicação que define a estrutura de mensagens trocadas entre clientes e servidores. Ele opera sobre o Protocolo de Controle de Transmissão/Protocolo de Internet (TCP/IP), permitindo, nesta instância, a solicitação e transferência de recursos, como documentos HTML, imagens e vídeos, pela web." \parencite[{p. 7}]{RFC2616}
+"Um protocolo de camada de aplicação que define a estrutura de mensagens trocadas entre clientes e servidores. Ele opera sobre o Protocolo de Controle de Transmissão/Protocolo de Internet (TCP/IP), permitindo, nesta instância, a solicitação e transferência de recursos, como documentos HTML, imagens e vídeos, pela web". \parencite[{p. 7}]{RFC2616}
 \end{quote}
 
-No âmbito do desenvolvimento de sistemas, o HTTP desempenha um papel importante na criação de Interfaces de Programação de Aplicativos - APIs (sigla do inglês, \textit{Application Programming Interfaces}), possibilitando a comunicação entre diferentes componentes. Os desenvolvedores têm a capacidade de criar pontos de acesso HTTP que aceitam solicitações e respondem com dados formatados, como JSON ou XML \parencite{Newmann_web}.
+No âmbito do desenvolvimento de sistemas, o HTTP desempenha um papel importante na criação de Interfaces de Programação de Aplicativos - APIs (sigla do inglês \textit{Application Programming Interfaces}), possibilitando a comunicação entre diferentes componentes. Os desenvolvedores têm a capacidade de criar pontos de acesso HTTP que aceitam solicitações e respondem com dados formatados, como JSON ou XML \parencite{Newmann_web}.
 
-Na Tabela \ref{tab:metodos_http} são destacados os principais métodos de solicitação do HTTP, utilizados para a interação entre clientes e servidores. No cotidiano, esses métodos são usados para a obtenção de informações, o envio de dados e a execução de operações em sistemas distribuídos, como aplicações \textit{web} e APIs.
+Na Tabela \ref{tab:metodos_http}, são destacados os principais métodos de solicitação do HTTP, utilizados para a interação entre clientes e servidores. No cotidiano, eles são usados para a obtenção de informações, o envio de dados e a execução de operações em sistemas distribuídos, como aplicações \textit{web} e APIs.
 
 Contudo, por si só, o HTTP não é adequado para aplicações da IoT, devido à sua natureza orientada a texto e ao alto consumo de largura de banda \parencite{Yassein_mqtt2017}. Para esses casos, o protocolo MQTT é mais adequado, como será abordado na próxima subseção.
 
@@ -203,16 +203,16 @@ Contudo, por si só, o HTTP não é adequado para aplicações da IoT, devido à
 O MQTT foi introduzido pela primeira vez em 1999 por Dr. Andy Stanford-Clark, da IBM, e Arlen Nipper, da Arcom (agora Eurotech) \parencite{Yassein_mqtt2017}. Segundo \textcite{Andy_mqtt2004}, o MQTT foi inicialmente desenvolvido para o monitoramento de oleodutos e gasodutos através de comunicações de telemetria. Ele é definido como:
 
 \begin{quote}
-"Um método de transporte de dados leve para publicação e assinatura sobre TCP/IP com várias garantias de entrega. Otimizado para uso mínimo de largura de banda de rede e facilidade de implementação em sistemas embarcados, ele serve como um mecanismo de transporte onde é possível decidir o que enviar e quais ações tomar ao receber os dados." \parencite[{p. 4}]{Andy_mqtt2004}
+"Um método de transporte de dados leve para publicação e assinatura sobre TCP/IP com várias garantias de entrega. Otimizado para uso mínimo de largura de banda de rede e facilidade de implementação em sistemas embarcados, ele serve como um mecanismo de transporte onde é possível decidir o que enviar e quais ações tomar ao receber os dados". \parencite[{p. 4}]{Andy_mqtt2004}
 \end{quote}
 
 Nos sistemas embarcados, o MQTT é implementado nos dispositivos para permitir a troca de dados \parencite{Andy_mqtt2004}. Os dispositivos podem publicar dados de sensores e \textit{status} usando tópicos MQTT, enquanto as aplicações podem se inscrever nesses tópicos para receber e processar os dados em tempo real \parencite{Yassein_mqtt2017}.
 
 Do lado do servidor, os \textit{brokers} MQTT são implantados para gerenciar a troca de mensagens entre os dispositivos e as aplicações. Segundo \textcite{Yassein_mqtt2017}, esses \textit{brokers} são responsáveis por rotear as mensagens entre os clientes MQTT, garantindo a entrega dos dados. Além disso, os desenvolvedores podem usar bibliotecas MQTT em suas aplicações para se conectar aos \textit{brokers}, facilitando a implementação de funcionalidades de comunicação em seus sistemas \parencite{MQTT_org}.
 
-Em sistemas IoT, o MQTT é utilizado para conectar dispositivos a plataformas de nuvem, permitindo o monitoramento e controle remoto dos dispositivos \parencite{junior2022data}. As aplicações podem processar os dados recebidos dos dispositivos IoT, realizar análises em tempo real e realizar ações com base nos eventos detectados \parencite{ferrandez2018precision,hsu2020creative}. Suas principais características são definidas na Tabela \ref{tab:caract_mqtt}.
+Em sistemas IoT, o MQTT é utilizado para conectar dispositivos a plataformas de nuvem, permitindo o monitoramento e controle remoto dos dispositivos \parencite{junior2022data}. As aplicações podem processar os dados recebidos dos dispositivos IoT, realizar análises em tempo real e ações com base nos eventos detectados \parencite{ferrandez2018precision,hsu2020creative}. Suas principais características são definidas na Tabela \ref{tab:caract_mqtt}.
 
-A implementação de sistemas de IoT na zona rural enfrenta desafios devido à baixa disponibilidade de internet e eletricidade na maioria dos casos \parencite{rijswijk2021digital}. No entanto, o MQTT se destaca como uma solução para esses cenários. Ele oferece uma comunicação assíncrona entre dispositivos, reduzindo a dependência de conexões de alta velocidade e garantindo a entrega de mensagens \parencite{Andy_mqtt2004, Yassein_mqtt2017}. Essa característica o torna uma opção para superar limitações de infraestrutura em áreas remotas. 
+A implementação de sistemas de IoT na zona rural enfrenta desafios devido à baixa disponibilidade de internet e eletricidade, na maioria dos casos \parencite{rijswijk2021digital}. No entanto, o MQTT se destaca como uma solução para esses cenários. Ele oferece uma comunicação assíncrona entre dispositivos, reduzindo a dependência de conexões de alta velocidade e garantindo a entrega de mensagens \parencite{Andy_mqtt2004, Yassein_mqtt2017}. Essa característica o torna uma opção para superar limitações de infraestrutura em áreas remotas. 
 
 Sua eficiência o posiciona como uma ferramenta para a agricultura inteligente \parencite{Gurjeet_smart2022}, tema que será discutido na próxima subseção.
 
@@ -236,23 +236,23 @@ Sua eficiência o posiciona como uma ferramenta para a agricultura inteligente \
 A agricultura passou por uma transformação impulsionada pelo advento das tecnologias digitais, marcando a era da agricultura inteligente. 
 
 \begin{quote}
-  "Também conhecida como agricultura 4.0 ou agricultura digital, é a próxima fase da agricultura industrial, impulsionada pela integração de tecnologias na agricultura." \parencite[{p. 424}]{Gurjeet_smart2022}
+  "Também conhecida como agricultura 4.0 ou agricultura digital, é a próxima fase da agricultura industrial, impulsionada pela integração de tecnologias na agricultura". \parencite[{p. 424}]{Gurjeet_smart2022}
 \end{quote}
 
-Essa mudança de práticas agrícolas tradicionais para agricultura inteligente tornou-se imperativa. Ela é caracterizada pela integração de tecnologias emergentes, como a IoT, Análise de Dados em Grande Escala - BDA (siga do inglês, \textit{Big Data Analysis}), computação em nuvem e IA. Seu objetivo é atender às crescentes demandas por segurança alimentar em uma população global em rápido crescimento \parencite{Gurjeet_smart2022, Garg_smart2023}.
+Essa mudança de práticas agrícolas tradicionais para agricultura inteligente tornou-se imperativa. Ela é caracterizada pela integração de tecnologias emergentes, como a IoT, Análise de Dados em Grande Escala - BDA (siga do inglês \textit{Big Data Analysis}), computação em nuvem e IA. Seu objetivo é atender às crescentes demandas por segurança alimentar em uma população global em rápido crescimento \parencite{Gurjeet_smart2022, Garg_smart2023}.
 
 Segundo \textcite{Garg_smart2023}, a convergência dessas tecnologias possibilitou o paradigma da agricultura orientada por dados, onde a coleta, análise e tomada de decisões em tempo real são centrais para otimizar práticas agrícolas.
 
 \textcite{Gurjeet_smart2022} complementa que, ao elucidar o estado atual da adoção de tecnologia digital na agricultura e identificar perspectivas futuras, são abertos caminhos para práticas agrícolas sustentáveis e eficientes.
 
-A agricultura inteligente, ao incorporar IA e análise avançada de dados, busca orientar decisões mais adaptativas e holísticas \parencite{Garg_smart2023}. Para isso, é necessário a coleta e aplicação precisa de dados para otimizar a produção \parencite{Lamine_precision2024}, a qual será abordada na próxima subseção.
+A agricultura inteligente, ao incorporar IA e análise avançada de dados, busca orientar decisões mais adaptativas e holísticas \parencite{Garg_smart2023}. Para isso, são necessárias a coleta e a aplicação precisa de dados para otimizar a produção \parencite{Lamine_precision2024}, o que será abordado na próxima subseção.
 
 \section{Agricultura de precisão}
 
 A agricultura de precisão pode ser definida como: 
 
 \begin{quote}
-  "A aplicação de tecnologias e princípios para gerenciar a variabilidade espacial e temporal associada a todos os aspectos da produção agrícola com o propósito de melhorar o desempenho das culturas e a qualidade ambiental." \parencite[{p. 1}]{Pierce_precision1999}
+  "A aplicação de tecnologias e princípios para gerenciar a variabilidade espacial e temporal associada a todos os aspectos da produção agrícola com o propósito de melhorar o desempenho das culturas e a qualidade ambiental". \parencite[{p. 1}]{Pierce_precision1999}
 \end{quote}
 
 Segundo \textcite{Pierce_precision1999}, o sucesso da agricultura de precisão está relacionado à sua capacidade de avaliar e gerenciar o continuum espaço-tempo na produção de culturas. Ela é habilitada pela tecnologia e integrada por tecnologias específicas que permitem avaliar e gerenciar a variabilidade em níveis de detalhe nunca antes alcançados \parencite{Zhang_precision2002}. No entanto, o sucesso agronômico da agricultura de precisão tem sido limitado e inconsistente, embora bastante convincente em alguns casos, complementa \textcite{Zhang_precision2002}.
@@ -274,11 +274,11 @@ Considerando a complexidade das demandas e ofertas de recursos hídricos em per�
 
 O estudo conduzido por \textcite{Burton_irrigation2010} complementa essas discussões. Ele destaca a importância das tecnologias, tais como o sensoriamento e a telemetria das condições ambientais, na agricultura irrigada. Além disso, ressalta a necessidade de desenvolver metodologias capazes de avaliar os benefícios sociais, econômicos e ambientais resultantes da otimização desse processo.
 
-A integração dessas estratégias e tecnologias possibilita uma gestão mais eficiente da irrigação em áreas específicas, onde o consumo hídrico é variável \parencite{carmody_fao2023}. Essa integração, aliada a espacialização dos dados, apresenta melhorias efetivas do uso da água em escalas, como a de um perímetro irrigado \parencite{Burton_irrigation2010, Ramos_irrigacao2022}. Na próxima subseção, será discutida uma das perspectivas da gestão hídrica na agricultura relevante para este trabalho.
+A integração dessas estratégias e tecnologias possibilita uma gestão mais eficiente da irrigação em áreas específicas, onde o consumo hídrico é variável \parencite{carmody_fao2023}. Essa integração, aliada à espacialização dos dados, apresentam melhorias efetivas no uso da água em escalas, como a de um perímetro irrigado \parencite{Burton_irrigation2010, Ramos_irrigacao2022}. Na próxima subseção, será discutida uma das perspectivas da gestão hídrica na agricultura, relevante para este trabalho.
 
 \subsection{Gestão baseada no consumo de água}
 
-Segundo \textcite{carmody_fao2023}, a gestão baseada no consumo de água traz uma perspectiva inovadora. Ela considera não apenas a entrega de água, mas também o uso real da mesma na agricultura. Isso contribui para a eficiência do uso dos recursos hídricos e para a sustentabilidade dos sistemas agrícolas. 
+Segundo \textcite{carmody_fao2023}, a gestão baseada no consumo de água traz uma perspectiva inovadora. Ela considera não apenas a entrega de água, mas também o uso real desta na agricultura. Isso contribui para a eficiência do uso dos recursos hídricos e para a sustentabilidade dos sistemas agrícolas. 
 
 Na Figura \ref{figura:ciclo_agua}, é apresentado o ciclo da água. Ele é definido como um processo contínuo que envolve a precipitação, infiltração, evaporação, evapotranspiração (ET) e condensação \parencite{carmody_fao2023}. A água precipitada em forma de chuva ou neve alimenta os reservatórios superficiais e subterrâneos. Parte dela infiltra-se no solo, recarregando os lençóis freáticos, enquanto outra parte escoa superficialmente, mantendo o fluxo de rios e riachos. A evaporação dos corpos d'água e a ET das plantas retornam a umidade à atmosfera, onde se condensa formando nuvens, completando o ciclo.
 
@@ -293,7 +293,7 @@ De acordo com \textcite{carmody_fao2023}, para alcançar economias reais de águ
 \item A comparação da ET alvo com a ET real para garantir um balanço hídrico adequado.
 \end{enumerate}
 
-Para compreender a ET e sua importância na gestão da água, é necessário analisar o cenário em que a mesma surge, como será abordado na próxima subseção.
+Para compreender a ET e sua importância na gestão da água, é necessário analisar o cenário em que ela surge, como será abordado na próxima subseção.
 
 \begin{figure}[!htb] \centering
   \caption{Ciclo Hidrológico} \label{figura:ciclo_agua}
@@ -305,13 +305,13 @@ Para compreender a ET e sua importância na gestão da água, é necessário ana
 
 \section{Evapotranspiração}
 
-A ET descreve o processo fundamental de transferência de água da superfície da Terra para a atmosfera \parencite{carmody_fao2023}. A ET desempenha um papel importante na dinâmica hídrica. Foi observado que:
+A ET descreve o processo fundamental de transferência de água da superfície da Terra para a atmosfera \parencite{carmody_fao2023}. Ela desempenha um papel importante na dinâmica hídrica. Foi observado que:
 
 \begin{quote}
-  "Três tipos de superfície são importantes no retorno da chuva à atmosfera. Para extensas áreas de terra, são eles, em ordem de importância: vegetação, na qual as folhas das plantas atuam como superfícies transpirantes; solo nu ou pousio, de onde a água evapora na interface solo-ar ou logo abaixo dela e em águas abertas, a partir das quais a evaporação ocorre diretamente." \parencite[{p. 121}]{Penman_evapotranspiration1948}
+  "Três tipos de superfície são importantes no retorno da chuva à atmosfera. Para extensas áreas de terra, são eles, em ordem de importância: vegetação, na qual as folhas das plantas atuam como superfícies transpirantes; solo nu ou pousio, de onde a água evapora na interface solo-ar ou logo abaixo dela e em águas abertas, a partir das quais a evaporação ocorre diretamente". \parencite[{p. 121}]{Penman_evapotranspiration1948}
 \end{quote}
 
-\textcite{Penman_evapotranspiration1948} explica que a irrigação exerce uma influência direta na evaporação ao fornecer água ao solo. Esse processo não apenas afeta a disponibilidade de água para a evaporação, mas também influencia a temperatura e a umidade do solo, fatores determinantes para a taxa de ET. As interações entre a atividade humana e os ciclos naturais da água são particularmente relevantes no contexto das mudanças climáticas globais. 
+\textcite{Penman_evapotranspiration1948} explica que a irrigação exerce influência direta na evaporação ao fornecer água ao solo. Esse processo não apenas afeta a disponibilidade de água para a evaporação, mas também influencia a temperatura e a umidade do solo, fatores determinantes para a taxa de ET. As interações entre a atividade humana e os ciclos naturais da água são particularmente relevantes no contexto das mudanças climáticas globais. 
 
 Conforme destacado por \textcite{yang_nature2023}, tem-se observado uma tendência de aceleração no aumento da ET desde a década de 1980. Essa tendência está intimamente ligada à expansão da vegetação e ao aumento da área plantada, o que é evidenciado pelo crescimento do índice de área foliar (LAI).
 
@@ -327,19 +327,19 @@ O coeficiente de determinação (\(R^2\)) é uma medida estatística que indica 
 R^2 = 1 - \frac{\sum_{i=1}^n (y_i - \hat{y}_i)^2}{\sum_{i=1}^n (y_i - \bar{y})^2}
 \]
 
-\noindent em que: \(y_i\) são os valores observados, \(\hat{y}_i\) são os valores previstos pelo modelo e \(\bar{y}\) é a média dos valores observados. O valor de \(R^2\) varia de 0 a 1, onde um valor próximo de 1 indica que o modelo explica a maior parte da variação nos dados. \textcite{Yang_evapotranspiration_med2022} apresenta um método de telemedição de ET com coeficiente de determinação de 0,88. Neste estudo, a fusão de dados de diferentes satélites (Landsat 8 e Sentinel-2) com resoluções espaciais e temporais variáveis proporciona uma estimativa contínua e precisa da ET diária em escala de campo.
+\noindent em que: \(y_i\) são os valores observados, \(\hat{y}_i\) são os valores previstos pelo modelo, e \(\bar{y}\) é a média dos valores observados. O valor de \(R^2\) varia de 0 a 1, onde um valor próximo de 1 indica que o modelo explica a maior parte da variação nos dados. \textcite{Yang_evapotranspiration_med2022} apresenta um método de telemedição de ET com coeficiente de determinação de 0,88. Neste estudo, a fusão de dados de diferentes satélites (Landsat 8 e Sentinel-2), com resoluções espaciais e temporais variáveis, proporcionou uma estimativa contínua e precisa da ET diária em escala de campo.
 
 
-Plataformas como o \textit{USGS EarthExplorer} e o \textit{Copernicus Open Access Hub} possuem acesso aberto as imagens dos satélities citados com alta resolução. Essas imagens serão utilizadas para a obtenção de dados no presente trabalho.
+Plataformas como o \textit{USGS EarthExplorer} e o \textit{Copernicus Open Access Hub} possuem acesso aberto às imagens dos satélites citados com alta resolução. Essas imagens serão utilizadas para a obtenção de dados no presente trabalho.
 
-Nas duas próximas subseções, serão abordados conceitos e técnicas complementares as definições apresentadas acima, que serão de utilidade para o desenvolvimento do sistema proposto.
+Nas duas próximas subseções, serão abordados conceitos e técnicas complementares às definições apresentadas acima, que foram de utilidade para o desenvolvimento do sistema proposto.
 
 \subsection{Evapotranspiração de referência}
 
 A ET de referência (ETo) é definida como:
 
 \begin{quote}
-  "A taxa de evapotranspiração de uma superfície de referência, sem falta de água." \parencite[{p. 7}]{Allen_evapotranspiration1998}
+  "A taxa de evapotranspiração de uma superfície de referência, sem falta de água". \parencite[{p. 7}]{Allen_evapotranspiration1998}
 \end{quote}
 
 Para calcular a ETo, pode-se empregar o método da FAO-56 apresentado por \textcite{Allen_evapotranspiration1998}, uma abordagem recomendada pela Organização das Nações Unidas para Alimentação e Agricultura, que é definida pela equação:
@@ -355,7 +355,7 @@ ETo = \frac{0.408 \cdot \Delta (R_n - G) + \gamma \cdot \frac{900}{T + 273} \cdo
 A ET de cultura (ETc), por sua vez, é definida como:
 
 \begin{quote}
-  "A evapotranspiração de culturas livres de doenças, bem fertilizadas, cultivadas em grandes campos, sob condições ótimas de água no solo e atingindo plena produção nas condições climáticas dadas." \parencite[{p. 7}]{Allen_evapotranspiration1998}
+  "A evapotranspiração de culturas livres de doenças, bem fertilizadas, cultivadas em grandes campos, sob condições ótimas de água no solo e atingindo plena produção nas condições climáticas dadas". \parencite[{p. 7}]{Allen_evapotranspiration1998}
 \end{quote}
 
 A ETc pode ser calculada como o produto da ETo e um determinado coeficiente de cultura (Kc), como proposto por \textcite{Allen_evapotranspiration1998}:
@@ -366,13 +366,13 @@ ETc = Kc \cdot ETo
 
 O Kc é um fator que leva em consideração as características específicas da cultura, como a fase de desenvolvimento, a densidade de plantio e a cobertura do solo. Ele é determinado experimentalmente e varia ao longo do ciclo de cultivo \parencite{bernardo_irrigacao2008}.
 
-A determinação da ETc em tempo real é um dos principais objetos de estudo dessa pesquisa. Na próxima seção, serão apresentados trabalhos similares e como a proposta deste trabalho se diferencia deles.
+A determinação da ETc em tempo real é um dos principais objetos de estudo desta pesquisa. Na próxima seção, serão apresentados trabalhos similares e como a proposta deste trabalho se diferencia deles.
 
 \section{Revisão bibliográfica}
 
-O monitoramento da ETc é uma prática que possui diversas abordagens e métodos, dependendo do ambiente e do nível de precisão desejado. A ETc pode ser estimada por meio de métodos diretos, como a pesagem de lisímetros, ou indiretos, como a equação de \textcite{Allen_evapotranspiration1998} apresentada na seção anterior. Entre essas abordagens, esta pesquisa propõe uma aplicação \textit{web} para o monitoramento da ETc em tempo real, combinando métodos indiretos para esse fim.
+O monitoramento da ETc é uma prática que possui diversas abordagens e métodos, dependendo do ambiente e do nível de precisão desejado. A ETc pode ser estimada por meio de métodos diretos, como a pesagem de lisímetros, ou indiretos, como a equação de \textcite{Allen_evapotranspiration1998}, apresentada na seção anterior. Entre essas abordagens, esta pesquisa propõe uma aplicação \textit{web} para o monitoramento da ETc em tempo real, combinando métodos indiretos para esse fim.
 
-A seguir serão apresentados outros trabalhos com abordagens semelhantes.
+A seguir, serão apresentados outros trabalhos com abordagens semelhantes.
 
 \subsection{Integração de dados e padrões \textit{web} para modelos de ETo}
 
@@ -380,7 +380,7 @@ A seguir serão apresentados outros trabalhos com abordagens semelhantes.
 
 Os autores desenvolveram um sistema que utiliza padrões da \textit{Open Geospatial Consortium} (OGC) e o protocolo \textit{Network Data Access Protocol} (OPeNDAP) para publicar dados de estações meteorológicas. A arquitetura desse sistema incorpora diversas fontes de dados distribuídas e heterogêneas, como registros diários e horários de estações geoestacionárias. Além disso, imagens de satélite e resultados de modelos meteorológicos são utilizados para uma análise espacial. 
 
-Através de serviços construídos sobre essas fontes, o sistema prova a eficácia de uma abordagem distribuída. Isso permite tanto a utilização quanto o desenvolvimento de novos serviços e aplicações sem interferir nos já existentes.
+Por meio de serviços construídos sobre essas fontes, o sistema prova a eficácia de uma abordagem distribuída. Isso permite tanto a utilização quanto o desenvolvimento de novos serviços e aplicações sem interferir nos já existentes.
 
 O trabalho de \textcite{Jianting_webeva2009} promove várias vantagens em relação à interoperabilidade e padronização de dados. No entanto, esse método não considera medições realizadas diretamente no local de interesse (\textit{in situ}). Isso, em cenários menores, como o de uma propriedade rural, pode ser uma limitação em questão de precisão e custo. Além disso, o sistema proposto não oferece uma interface para a visualização e análise dos dados, o que pode dificultar a interpretação dos resultados por usuários finais.
 
@@ -397,15 +397,15 @@ Uma abordagem semelhante foi realizada por \textcite{Jose_webeva2011} com o dese
 Porém, a aplicação \textit{CropWaterUse} não oferece uma interface de acesso distribuído para a visualização dos dados, seja por meio de APIs ou nuvens de dados. Isso limita sua utilização em cenários remotos ou até mesmo restritos, como propriedades rurais.
 
 \subsection{Desenvolvimento e aplicação de ferramentas para ETo}
-No estudo de \textcite{Taison_webeva2019}, foi desenvolvido um sistema que automatiza o cálculo da ETo, integrando dados de estações meteorológicas e métodos matemáticos. Diferente das pesquisas apresentadas, esse sistema adota o padrão de arquitetura \textit{Model-View-Controller} (\textit{MVC}) para o projeto. Esse \textit{design} separa a lógica de negócio, definida como \textit{Model}, da interface gráfica, chamada de \textit{View}. O \textit{Controller} é responsável por intermediar a comunicação entre o \textit{Model} e a \textit{View}. Dessa forma, é possível desacoplar as camadas do sistema, facilitando a manutenção e a evolução do mesmo.
+No estudo de \textcite{Taison_webeva2019}, foi desenvolvido um sistema que automatiza o cálculo da ETo, integrando dados de estações meteorológicas e métodos matemáticos. Diferentemente das pesquisas apresentadas, esse sistema adota o padrão de arquitetura \textit{Model-View-Controller} (\textit{MVC}) para o projeto. Esse \textit{design} separa a lógica de negócio, definida como \textit{Model}, da interface gráfica, chamada de \textit{View}. O \textit{Controller} é responsável por intermediar a comunicação entre o \textit{Model} e a \textit{View}. Dessa forma, é possível desacoplar as camadas do sistema, facilitando sua manutenção e evolução.
 
-A aplicação de \textcite{Taison_webeva2019} é eficiente quanto a interface e a arquitetura. No entanto, o sistema não considera medições \textit{in situ} para o cálculo da ETo, o que pode limitar a precisão dos resultados para pequenas áreas como já mencionado. 
+A aplicação de \textcite{Taison_webeva2019} é eficiente quanto à interface e à arquitetura. No entanto, o sistema não considera medições \textit{in situ} para o cálculo da ETo, o que pode limitar a precisão dos resultados para pequenas áreas, como já mencionado. 
 
 Uma abordagem que contorna esse problema é apresentada por \textcite{Serban_webeva2022}. Ele destaca a criação e funcionalidade do \textit{ETCalc}, uma ferramenta gratuita para estimativa de ETo. Seu diferencial está na possibilidade de fornecer dados meteorológicos de múltiplas fontes. Ele permite que os usuários calculem a ETo em suas propriedades, com base em dados fornecidos de estações e medições locais. O \textit{ETCalc}, dentre as pesquisas encontradas, é a aplicação que possui o processamento matemático mais robusto, considerando diferentes métodos e parâmetros. Também fornece uma interface para a inserção e visualização dos dados, facilitando o acesso e o uso da ferramenta.
 
 Apesar das vantagens, o \textit{ETCalc} falha como processo automatizado e em tempo real. O usuário precisa inserir manualmente os dados de entrada, o que pode ser um processo demorado e propenso a erros. Além disso, a ferramenta não oferece APIs para a integração com outros sistemas, o que limita sua utilização em cenários mais complexos.
 
-Com base nas pesquisas apresentadas, na tabela \ref{tab:comparacao}, é possível observar as tecnologias e métodos utilizados em cada uma delas. Também é possível identificar as limitações de cada abordagem, que servirão de base para o desenvolvimento da aplicação proposta nesta pesquisa.
+Com base nas pesquisas apresentadas, na Tabela \ref{tab:comparacao}, é possível observar as tecnologias e métodos utilizados em cada uma delas. Também é possível identificar as limitações de cada abordagem, que servirão de base para o desenvolvimento da aplicação proposta nesta pesquisa.
 
 \begin{table}[!htb]
     \caption{Comparação das tecnologias} \label{tab:comparacao}

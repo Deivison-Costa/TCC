@@ -786,7 +786,7 @@ Trabalho de conclusão de curso apresentado ao Curso de {\TipoCurso} em {\Curso}
 }% fim da \ImprimirFolhaAprovacao
 
 \newcommand{\GeraFolhaAprovacao}{%
-    %\ImprimirFolhaAprovacao%
+    \ImprimirFolhaAprovacao
 }%
 
 
